@@ -1,0 +1,14 @@
+{
+  "name": "jlpt-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "check": "python3 tools/validate.py",
+    "migrate": "wrangler d1 migrations apply jlpt --remote",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.40.0"
+  }
+}

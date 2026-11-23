@@ -1,0 +1,42 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jlpt-test",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "preview_urls": false,
+
+  // Static SPA + đề JSON. Chỉ /api/* và /audio/* đi qua Worker.
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/audio/*"]
+  },
+
+  "d1_databases": [
+    { "binding": "DB", "database_name": "jlpt", "database_id": "dedc3db2-6c5a-4cae-b781-c4e251b21cc9", "migrations_dir": "migrations" }
+  ],
+  "r2_buckets": [
+    { "binding": "AUDIO", "bucket_name": "jlpt-audio" }
+  ],
+
+  // TTS: 4 lần/ngày, mỗi lần tối đa MAX_JOBS_PER_RUN đoạn. Credit hết thì tự dừng.
+  "triggers": { "crons": ["17 */4 * * *"] },
+
+  "vars": {
+    "TTS_MODEL": "eleven_flash_v2_5",
+    "TTS_FORMAT": "mp3_44100_128",
+    "CREDIT_PER_CHAR": "0.5",
+    "CREDIT_RESERVE": "200",
+    "MAX_JOBS_PER_RUN": "15",
+    // Voice ID (gói Free: chỉ voice mặc định hoặc voice tự tạo bằng Voice Design, KHÔNG dùng Voice Library qua API).
+    // Chưa điền → cron bỏ qua, không gọi API.
+    "VOICES": "{\"N\":\"\",\"M\":\"\",\"F\":\"\",\"M2\":\"\",\"F2\":\"\"}",
+    // Cloudflare Access: team domain (vd: viego.cloudflareaccess.com) + Application Audience (AUD) tag.
+    "ACCESS_TEAM_DOMAIN": "",
+    "ACCESS_AUD": ""
+  },
+
+  "observability": { "enabled": true }
+  // Secret: ELEVENLABS_API_KEY  (Dashboard → Worker → Settings → Variables and Secrets)
+}
