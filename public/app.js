@@ -68,12 +68,16 @@ async function loadExam(id) {
 
 // ---------- Router ----------
 async function route() {
-  stopAudio(); clearInterval(timerId); closeSheet();
+  stopAudio(); clearInterval(timerId); closeSheet(); document.querySelectorAll(".tip").forEach(t => t.remove());
   const id = location.hash.slice(1);
+  const parts = id.split("/");
+  if (parts[0] === "quest") { S = null; EXAM = null; await routeQuest(parts); scrollTo(0, 0); return; }
+  if (parts[0] === "stats") { S = null; EXAM = null; await renderStats(parts[1] || "N2"); scrollTo(0, 0); return; }
+  if (parts[0] === "exams") { S = null; EXAM = null; await renderHome(); scrollTo(0, 0); return; }
   if (id && INDEX.some(e => e.id === id)) {
     if (!EXAM || EXAM.id !== id) { EXAM = await loadExam(id); EXAM._audio = hasL(EXAM) ? await api("listening/" + id) : null; }
     await openExam();
-  } else { EXAM = null; await renderHome(); }
+  } else { S = null; EXAM = null; await renderDashboard(); }
   scrollTo(0, 0);
 }
 
@@ -103,7 +107,7 @@ async function renderHome() {
     </button>`;
   };
   const levels = [...new Set(INDEX.map(e => e.level))];
-  $("#app").innerHTML = `<div class="topbar"><div class="in">${LOGO}<div style="flex:1"></div>${remote ? `<span class="chip">● đồng bộ D1</span>` : `<span class="chip warn">offline — lưu trên máy</span>`}</div></div>
+  $("#app").innerHTML = `${appBar("exams", remote)}
   <div class="page">
     <div class="hero gridpaper">
       <div class="eyebrow">模擬試験 · ${INDEX.length} đề</div>
@@ -188,7 +192,7 @@ async function renderIntro() {
     ? "Bấm giờ ngược, đáp án và lời giải hiện sau khi nộp bài."
     : "Không giới hạn giờ, chọn xong là thấy đáp án và lời giải ngay.";
   hint();
-  $("#home").onclick = () => { location.hash = ""; };
+  $("#home").onclick = () => { location.hash = "exams"; };
   $$("#mode button").forEach(b => b.onclick = () => { S.mode = b.dataset.v; $$("#mode button").forEach(x => x.classList.toggle("on", x === b)); hint(); });
   $$("#scope button").forEach(b => b.onclick = () => { S.scope = b.dataset.v; $$("#scope button").forEach(x => x.classList.toggle("on", x === b)); });
   $("#start").onclick = () => {
@@ -426,7 +430,7 @@ function confirmSubmit() {
 }
 function confirmExit() {
   modal("Tạm dừng?", "Bài làm được lưu lại, lần sau mở đề sẽ làm tiếp.",
-    [{ label: "Ở lại" }, { label: "Thoát", pri: true, fn: () => { persist(true); location.hash = ""; } }]);
+    [{ label: "Ở lại" }, { label: "Thoát", pri: true, fn: () => { persist(true); location.hash = "exams"; } }]);
 }
 
 // ---------- Chấm điểm ----------
@@ -500,7 +504,7 @@ function renderResult() {
       </div>
       ${FOOTER}
     </div>`;
-  $("#home").onclick = $("#home2").onclick = () => { location.hash = ""; };
+  $("#home").onclick = $("#home2").onclick = () => { location.hash = "exams"; };
   const review = f => { S.phase = "review"; S.filter = f; const v = visiblePages(); S.cur = v.length ? v[0] : 0; persist(); render(); scrollTo(0, 0); };
   $("#revNg").onclick = () => review("ng");
   $("#revAll").onclick = () => review("all");
@@ -564,7 +568,7 @@ function playUnit(u) {
 
 // ---------- Phím tắt (desktop) ----------
 document.addEventListener("keydown", e => {
-  if (!S || !(S.phase === "test" || S.phase === "review") || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (!S || !EXAM || !(S.phase === "test" || S.phase === "review") || e.metaKey || e.ctrlKey || e.altKey) return;
   if ($(".modal") || /input|textarea/i.test(e.target.tagName)) return;
   const p = PAGES[S.cur]; const vis = visiblePages(), vp = vis.indexOf(S.cur);
   if (/^[1-4]$/.test(e.key) && S.phase === "test" && +e.key <= nChoices(p.it)) choose(p, +e.key);

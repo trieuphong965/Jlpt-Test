@@ -132,6 +132,32 @@ async function api(req, env, url) {
     }
   }
 
+  // ---------- Quest ôn tập ----------
+  // POST /api/quest/attempt  {id, level, quest_id, started_at, answers:[{item_id, correct, ms, at}]}
+  if (p[1] === "quest" && p[2] === "attempt" && m === "POST") {
+    const b = await req.json();
+    if (!b.id || !b.level || !Array.isArray(b.answers) || !b.answers.length) return json({ error: "bad request" }, 400);
+    const now = Date.now();
+    const correct = b.answers.filter(a => a.correct).length;
+    const stmts = [DB.prepare(
+      "INSERT OR REPLACE INTO quest_attempt(id,level,quest_id,correct,total,started_at,finished_at) VALUES(?,?,?,?,?,?,?)"
+    ).bind(b.id, b.level, b.quest_id, correct, b.answers.length, b.started_at || now, now)];
+    for (const a of b.answers.slice(0, 200)) stmts.push(DB.prepare(
+      "INSERT OR REPLACE INTO quest_answer(attempt_id,item_id,level,correct,ms,at) VALUES(?,?,?,?,?,?)"
+    ).bind(b.id, String(a.item_id), b.level, a.correct ? 1 : 0, a.ms ?? null, a.at || now));
+    await DB.batch(stmts);
+    return json({ ok: true });
+  }
+  // GET /api/quest/log?level=N2 → toàn bộ nhật ký (nhỏ, dùng cho thống kê phía client)
+  if (p[1] === "quest" && p[2] === "log" && m === "GET") {
+    const lv = url.searchParams.get("level") || "N2";
+    const { results: attempts } = await DB.prepare(
+      "SELECT id, quest_id, correct, total, started_at, finished_at FROM quest_attempt WHERE level=? ORDER BY finished_at").bind(lv).all();
+    const { results: answers } = await DB.prepare(
+      "SELECT attempt_id, item_id, correct, ms, at FROM quest_answer WHERE level=? ORDER BY at").bind(lv).all();
+    return json({ attempts, answers: answers.map(a => [a.attempt_id, a.item_id, a.correct, a.ms, a.at]) });
+  }
+
   // Lịch sử 1 đề
   if (p[1] === "history" && p[2] && m === "GET") {
     const { results } = await DB.prepare(
