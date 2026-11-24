@@ -86,13 +86,18 @@ function analyze(level) {
   const active = new Set(log.answers.map(a => dayKey(a[4])));
   let streak = 0; for (let t = today.getTime(); active.has(dayKey(t)); t -= DAY) streak++;
   if (!streak && active.has(dayKey(today.getTime() - DAY))) for (let t = today.getTime() - DAY; active.has(dayKey(t)); t -= DAY) streak++;
+  const dayAll = {};
+  log.answers.forEach(([, iid, c, , at]) => { if (!data.itemMap[iid]) return; const k = dayKey(at); const d = dayAll[k] = dayAll[k] || { n: 0, ok: 0 }; d.n++; d.ok += c; });
+  let longest = 0, run = 0, prev = null;
+  Object.keys(dayAll).map(k => { const [y, m, d] = k.split("-").map(Number); return new Date(y, m - 1, d).getTime(); }).sort((a, b) => a - b)
+    .forEach(t => { run = prev != null && Math.round((t - prev) / DAY) === 1 ? run + 1 : 1; longest = Math.max(longest, run); prev = t; });
   const total = log.answers.filter(a => data.itemMap[a[1]]).length;
   const totalOk = log.answers.filter(a => data.itemMap[a[1]] && a[2]).length;
   const nItems = Object.keys(data.itemMap).length;
   const mastered = Object.keys(data.itemMap).filter(i => status(i) === "mastered").length;
   const stars = data.quests.reduce((a, q) => a + (quests[q.id] ? starsOf(quests[q.id].best) : 0), 0);
   const ms = log.answers.filter(a => a[3]).map(a => a[3]);
-  return { items, quests, status, weak, byQuest, days, streak, total, totalOk, nItems, mastered, stars,
+  return { items, quests, status, weak, byQuest, days, streak, longest, dayAll, activeDays: Object.keys(dayAll).length, total, totalOk, nItems, mastered, stars,
     passed: data.quests.filter(q => (quests[q.id]?.best || 0) >= 70).length,
     avgSec: ms.length ? Math.round(ms.reduce((a, b) => a + b, 0) / ms.length / 100) / 10 : null,
     attempts: log.attempts.filter(a => data.questMap[a.quest_id] || a.quest_id === "review") };
@@ -356,6 +361,7 @@ async function renderStats(level) {
       ${kpi("Chuỗi ngày", A.streak, "ngày")}${kpi("Tốc độ TB", A.avgSec == null ? "—" : A.avgSec < 1 ? "<1" : A.avgSec, A.avgSec == null ? "" : "giây/câu")}
     </div>
     ${A.total ? "" : `<div class="card gridpaper empty" style="margin-bottom:14px"><b>Chưa có dữ liệu.</b> <span class="muted small">Làm một quest để bắt đầu thống kê.</span> <a class="btn pri sm" href="#quest/${level}">Mở quest</a></div>`}
+    <section class="card chart-card" style="margin-bottom:14px" id="hm-card">${heatmapCard(A, HM_METRIC)}</section>
     <div class="stat-grid">
       <section class="card chart-card">
         <div class="chart-h"><div><div class="eyebrow">Hoạt động</div><h3>Số câu mỗi ngày · 14 ngày</h3></div><button class="btn sm" data-table="t-days">Bảng</button></div>
@@ -380,8 +386,68 @@ async function renderStats(level) {
     ${FOOTER}
   </div>`;
   bindLevelSeg("stats");
+  bindHeatmap(A);
   $$("[data-table]").forEach(b => b.onclick = () => $("#" + b.dataset.table).classList.toggle("hide"));
   bindTips();
+}
+// ---------- Heatmap lịch (GitHub-style) ----------
+let HM_METRIC = (() => { try { return localStorage.getItem("jlpt-hm") || "n"; } catch { return "n"; } })();
+const hmWeeks = () => innerWidth >= 900 ? 52 : 26;
+// Thang tuần tự 1 tông (--chart), nhạt → đậm, 5 mức; ô trống = nền.
+const HM_SCALE = {
+  n: { label: "Số câu", steps: [1, 10, 20, 40], fmt: ["1–9", "10–19", "20–39", "40+"], unit: "câu" },
+  p: { label: "Tỉ lệ đúng", steps: [0, 50, 70, 85, 95], fmt: ["<50%", "50–69%", "70–84%", "85–94%", "95%+"], unit: "%" },
+};
+function hmLevel(metric, d) {
+  if (!d || !d.n) return 0;
+  if (metric === "n") return d.n >= 40 ? 4 : d.n >= 20 ? 3 : d.n >= 10 ? 2 : 1;
+  const p = d.ok / d.n * 100;
+  return p >= 95 ? 5 : p >= 85 ? 4 : p >= 70 ? 3 : p >= 50 ? 2 : 1;
+}
+function heatmapCard(A, metric) {
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const dow = (today.getDay() + 6) % 7;                    // 0 = Thứ Hai
+  const start = today.getTime() - (dow + (hmWeeks() - 1) * 7) * DAY;
+  const levels = metric === "n" ? 4 : 5;
+  let cols = "", months = "", lastM = -1;
+  for (let w = 0; w < hmWeeks(); w++) {
+    let cells = "";
+    for (let r = 0; r < 7; r++) {
+      const t = start + (w * 7 + r) * DAY;
+      if (t > today.getTime()) { cells += `<i class="hm-c out"></i>`; continue; }
+      const d = A.dayAll[dayKey(t)], lv = hmLevel(metric, d);
+      const tip = `${new Date(t).toLocaleDateString("vi-VN", { weekday: "short", day: "numeric", month: "numeric" })}: ${d && d.n ? `${d.n} câu · đúng ${Math.round(d.ok / d.n * 100)}%` : "không học"}`;
+      cells += `<i class="hm-c hit l${lv}${metric === "p" ? " p" : ""}${t === today.getTime() ? " today" : ""}" data-tip="${tip}"></i>`;
+    }
+    const m = new Date(start + w * 7 * DAY).getMonth();
+    months += `<span>${m !== lastM ? `T${m + 1}` : ""}</span>`; lastM = m;
+    cols += `<div class="hm-w">${cells}</div>`;
+  }
+  const sc = HM_SCALE[metric];
+  const legend = `<span class="small muted">Ít</span><i class="hm-c l0"></i>${Array.from({ length: levels }, (_, i) => `<i class="hm-c l${i + 1}${metric === "p" ? " p" : ""}" title="${sc.fmt[i]}"></i>`).join("")}<span class="small muted">Nhiều</span>`;
+  const legendP = `<i class="hm-c l0"></i><span class="small muted">không học</span>${sc.fmt.map((f, i) => `<i class="hm-c l${i + 1} p"></i><span class="small muted">${f}</span>`).join("")}`;
+  const withData = Object.values(A.dayAll);
+  const best = withData.length ? Math.max(...withData.map(d => d.n)) : 0;
+  return `<div class="chart-h"><div><div class="eyebrow">Lịch học · ${hmWeeks()} tuần</div><h3>${metric === "n" ? "Số câu mỗi ngày" : "Tỉ lệ đúng mỗi ngày"}</h3></div>
+      <div class="seg" id="hm-seg" style="width:190px"><button data-m="n" class="${metric === "n" ? "on" : ""}">Số câu</button><button data-m="p" class="${metric === "p" ? "on" : ""}">Tỉ lệ đúng</button></div></div>
+    <div class="streaks">
+      <div><span class="eyebrow">Chuỗi hiện tại</span><b>${A.streak}<small> ngày</small></b></div>
+      <div><span class="eyebrow">Chuỗi dài nhất</span><b>${A.longest}<small> ngày</small></b></div>
+      <div><span class="eyebrow">Ngày đã học</span><b>${A.activeDays}<small> ngày</small></b></div>
+      <div><span class="eyebrow">Ngày nhiều nhất</span><b>${best}<small> câu</small></b></div>
+    </div>
+    <div class="hm-scroll" id="hm-scroll"><div class="hm">
+      <div class="hm-days"><span></span><span>T2</span><span></span><span>T4</span><span></span><span>T6</span><span></span></div>
+      <div><div class="hm-months">${months}</div><div class="hm-grid">${cols}</div></div>
+    </div></div>
+    <div class="hm-legend">${metric === "n" ? legend : legendP}</div>`;
+}
+function bindHeatmap(A) {
+  const sc = $("#hm-scroll"); if (sc) sc.scrollLeft = sc.scrollWidth;
+  $$("#hm-seg button").forEach(b => b.onclick = () => {
+    HM_METRIC = b.dataset.m; try { localStorage.setItem("jlpt-hm", HM_METRIC); } catch {}
+    $("#hm-card").innerHTML = heatmapCard(A, HM_METRIC); bindHeatmap(A); bindTips($("#hm-card"));
+  });
 }
 const fmtDay = t => { const d = new Date(t); return `${d.getDate()}/${d.getMonth() + 1}`; };
 
@@ -420,8 +486,8 @@ function masteryBar(A, data) {
   return `<div class="mbar">${seg("mastered", "Đã thuộc", "m-ok")}${seg("learning", "Đang học", "m-learn")}${seg("weak", "Yếu", "m-weak")}${seg("new", "Chưa làm", "m-new")}</div>
     <div class="mlegend">${row("m-ok", "Đã thuộc (2 lần đúng liên tiếp)", "mastered")}${row("m-learn", "Đang học", "learning")}${row("m-weak", "Yếu (sai gần nhất)", "weak")}${row("m-new", "Chưa làm", "new")}</div>`;
 }
-function bindTips() {
-  let tip = null;
+function bindTips(root = document) {
+  let tip = document.querySelector(".tip");
   const show = (el, x, y) => {
     if (!tip) { tip = document.createElement("div"); tip.className = "tip"; document.body.appendChild(tip); }
     tip.textContent = el.dataset.tip; tip.style.display = "block";
@@ -429,7 +495,7 @@ function bindTips() {
     tip.style.left = Math.min(innerWidth - r.width - 8, Math.max(8, x - r.width / 2)) + "px";
     tip.style.top = Math.max(8, y - r.height - 12) + "px";
   };
-  $$(".hit").forEach(el => {
+  $$(".hit", root).forEach(el => {
     el.addEventListener("mousemove", e => show(el, e.clientX, e.clientY));
     el.addEventListener("mouseleave", () => tip && (tip.style.display = "none"));
     el.addEventListener("click", e => { const r = el.getBoundingClientRect(); show(el, e.clientX || r.left + r.width / 2, e.clientY || r.top); });
