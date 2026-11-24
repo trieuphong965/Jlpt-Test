@@ -130,7 +130,8 @@ a{color:var(--accent)}
 .instr{cursor:pointer}
 .canvas{border:1px solid var(--line);border-radius:var(--r);padding:14px}
 @media (min-width:700px){.canvas{padding:20px}}
-.split{display:grid;gap:14px}
+.split{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+.split>*,.passage-col{min-width:0}
 @media (min-width:900px){
   .split.has-passage{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:start}
   .split.has-passage .passage-col{position:sticky;top:72px;max-height:calc(100vh - 72px - var(--bar) - 32px);overflow:auto;border-radius:var(--r)}
