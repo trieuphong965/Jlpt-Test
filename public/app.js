@@ -40,6 +40,7 @@ const uid = () => (crypto.randomUUID ? crypto.randomUUID() : Date.now().toString
 // ---------- Dữ liệu đề ----------
 const SEC = { "文字・語彙": "moji", "文法": "bunpou", "読解": "dokkai", "聴解": "choukai" };
 const SP_LABEL = { N: "", M: "男", F: "女", M2: "男2", F2: "女2" };
+const LOGO = `<div class="logo"><i>試</i>JLPT <b>模試</b></div>`;
 const FOOTER = `<footer>Voice by <a href="https://elevenlabs.io/text-to-speech" target="_blank" rel="noopener">ElevenLabs</a></footer>`;
 let INDEX = [], EXAM = null, S = null, PAGES = [], timerId = null, saveT = null, AUDIO = null;
 
@@ -102,10 +103,15 @@ async function renderHome() {
     </button>`;
   };
   const levels = [...new Set(INDEX.map(e => e.level))];
-  $("#app").innerHTML = `<div class="page">
-    <div class="brand"><h1>JLPT 模擬試験</h1></div>
-    <p class="lead">Đề thi thử cá nhân N2・N1 ${remote ? "" : "· <span class='chip warn'>offline — lưu trên máy</span>"}</p>
-    ${levels.map(lv => `<div class="sect-title">${lv}</div><div class="exam-list">${INDEX.filter(e => e.level === lv).map(card).join("")}</div>`).join("")}
+  $("#app").innerHTML = `<div class="topbar"><div class="in">${LOGO}<div style="flex:1"></div>${remote ? `<span class="chip">● đồng bộ D1</span>` : `<span class="chip warn">offline — lưu trên máy</span>`}</div></div>
+  <div class="page">
+    <div class="hero gridpaper">
+      <div class="eyebrow">模擬試験 · ${INDEX.length} đề</div>
+      <h1>Đề thi thử JLPT</h1>
+      <p>Cấu trúc theo đề thật N2・N1. Thi thử có bấm giờ, hoặc luyện tập xem đáp án ngay.</p>
+      <div class="blocks" aria-hidden="true"><span class="hatch" style="height:14px"></span><span class="hatch" style="height:24px"></span><span style="height:34px;background:var(--dark)"></span><span class="hatch" style="height:46px"></span></div>
+    </div>
+    ${levels.map(lv => `<div class="sect-title eyebrow">${lv} · ${INDEX.filter(e => e.level === lv).length} đề</div><div class="exam-list">${INDEX.filter(e => e.level === lv).map(card).join("")}</div>`).join("")}
     ${FOOTER}
   </div>`;
   $$(".exam-card").forEach(b => b.onclick = () => { location.hash = b.dataset.id; });
@@ -160,22 +166,22 @@ async function renderIntro() {
       <div class="ttl"><b>${esc(EXAM.title)}</b><span>${EXAM.level}</span></div>
     </div></div>
     <div class="page">
-      <div class="card">
-        <div class="chip">${EXAM.level} · ${esc(EXAM.ref || "")}</div>
+      <div class="card gridpaper">
+        <div class="eyebrow">${EXAM.level} · ${esc(EXAM.ref || "")}</div>
         <h2 class="intro-h">${esc(EXAM.title)}</h2>
         <table class="struct">${rows.map(r => `<tr><td>${r.key}<div class="small muted">問題${r.m[0]}${r.m.length > 1 ? "–" + r.m[r.m.length - 1] : ""}</div></td><td>${r.n} câu</td></tr>`).join("")}
           </table><div class="timebox"><span class="chip">⏱ 言語知識・読解 ${EXAM.time} phút</span>${L ? `<span class="chip">⏱ 聴解 ${EXAM.listenTime || 50} phút</span>` : ""}</div>
-        <div class="field"><label>Chế độ</label>
+        <div class="field"><span class="eyebrow">Chế độ</span>
           <div class="seg" id="mode"><button data-v="exam" class="${S.mode === "exam" ? "on" : ""}">Thi thử</button><button data-v="practice" class="${S.mode === "practice" ? "on" : ""}">Luyện tập</button></div>
           <div class="hint" id="modehint"></div></div>
-        ${L ? `<div class="field"><label>Phần thi</label>
+        ${L ? `<div class="field"><span class="eyebrow">Phần thi</span>
           <div class="seg" id="scope"><button data-v="all" class="${S.scope === "all" ? "on" : ""}">Toàn bộ</button><button data-v="A" class="${S.scope === "A" ? "on" : ""}">言語・読解</button><button data-v="L" class="${S.scope === "L" ? "on" : ""}">聴解</button></div>
           ${EXAM._audio ? `<div class="hint">Audio đã có ${EXAM._audio.done}/${EXAM._audio.total} đoạn${EXAM._audio.done < EXAM._audio.total ? " — câu chưa có audio sẽ hiện script" : ""}.</div>` : ""}</div>` : ""}
         <div class="actions">
           <button class="btn pri block" id="start">${inProg ? "Tiếp tục làm" : "Bắt đầu"}</button>
         </div>
       </div>
-      ${hist.length ? `<div class="sect-title">LỊCH SỬ</div><div class="card hist">${hist.slice(0, 8).map(h => `<div><span>${new Date(h.finished_at).toLocaleString("vi-VN", { dateStyle: "short", timeStyle: "short" })}</span><b>${h.correct}/${h.total}</b></div>`).join("")}</div>` : ""}
+      ${hist.length ? `<div class="sect-title eyebrow">Lịch sử làm bài</div><div class="card hist">${hist.slice(0, 8).map(h => `<div><span>${new Date(h.finished_at).toLocaleString("vi-VN", { dateStyle: "short", timeStyle: "short" })}</span><b>${h.correct}/${h.total}</b></div>`).join("")}</div>` : ""}
       ${FOOTER}
     </div>`;
   const hint = () => $("#modehint").textContent = S.mode === "exam"
@@ -216,33 +222,38 @@ function renderTest() {
       <button class="count-btn" id="pal">${ICON.grid.replace("<svg", '<svg width="16" height="16" style="stroke:currentColor;fill:none;stroke-width:2"')}<span>${reviewing() ? `${vpos + 1}/${vis.length}` : `${done}/${PAGES.length}`}</span></button>
     </div></div>
     <div class="shell">
+      <aside class="side"><div class="scroll">${paletteHtml(false)}</div><div class="foot">${progLine()}</div></aside>
       <main class="stage">
         ${reviewing() ? `<div class="review-bar"><span class="small muted">Hiển thị:</span>
           <div class="seg" style="flex:1;max-width:320px"><button data-f="all" class="${S.filter === "all" ? "on" : ""}">Tất cả</button><button data-f="ng" class="${S.filter === "ng" ? "on" : ""}">Câu sai</button></div>
           <button class="btn sm" id="toResult">Kết quả</button></div>` : ""}
-        <div class="instr ${p.firstOfMondai ? "" : "clamp"}" id="instr"><b>問題${p.m.no}</b>　${p.m.instr}</div>
+        <div class="qhead-row">
+          <div><div class="eyebrow">${p.m.section} · 問題 ${p.m.no}</div><h2>${reviewing() ? "Xem lại" : S.mode === "practice" ? "Luyện tập" : "Thi thử"}</h2></div>
+          <div style="text-align:right"><span class="tag">${p.m.section}</span><div class="eyebrow" style="margin-top:6px">Câu ${p.ii + 1 + p.m.groups.slice(0, p.gi).reduce((a, g) => a + g.items.length, 0)} / ${p.m.groups.reduce((a, g) => a + g.items.length, 0)}</div></div>
+        </div>
+        <div class="instr ${p.firstOfMondai ? "" : "clamp"}" id="instr"><span class="ic">!</span><span class="tx"><span class="eyebrow" style="color:var(--accent)">Hướng dẫn</span><br>${p.m.instr}</span></div>
         ${p.m.script && p.firstOfMondai ? unitHtml("m" + p.mi, p.m.script, "Lời dẫn 問題" + p.m.no) : ""}
-        <div class="split ${hasPass ? "has-passage" : ""}">
+        <div class="canvas gridpaper"><div class="split ${hasPass ? "has-passage" : ""}">
           ${hasPass ? `<div class="passage-col">
-              <button class="pass-toggle" id="ptog"><span>Bài đọc (cuộn trong khung · bấm để mở rộng)</span>${ICON.chev.replace("<svg", '<svg width="18" height="18" style="stroke:currentColor;fill:none;stroke-width:2"')}</button>
+              <button class="pass-toggle eyebrow" id="ptog"><span>Bài đọc · cuộn trong khung · bấm để mở rộng</span>${ICON.chev.replace("<svg", '<svg width="18" height="18" style="stroke:currentColor;fill:none;stroke-width:2"')}</button>
               <div class="passage" id="pbody">${p.g.label ? `<p class="lbl">${p.g.label}</p>` : ""}${p.g.passage.includes("<table") ? `<div class="tblwrap">${p.g.passage}</div>` : p.g.passage}</div>
             </div>` : ""}
           <div>
             ${p.g.script ? unitHtml("g" + p.g.items[0].q, p.g.script, "Bài nghe chung") : ""}
             ${questionHtml(p)}
-            <div class="kbd-hint">Phím tắt: 1–4 chọn đáp án · ← → chuyển câu · F đánh dấu</div>
           </div>
-        </div>
+        </div></div>
+        ${stepperHtml(p)}
+        <div class="kbd-hint"><kbd>1</kbd>–<kbd>4</kbd> chọn đáp án · <kbd>←</kbd> <kbd>→</kbd> chuyển câu · <kbd>F</kbd> đánh dấu</div>
         ${FOOTER}
       </main>
-      <aside class="side"><div class="card">${paletteHtml()}</div></aside>
     </div>
     <div class="bottombar"><div class="in">
-      <button class="btn" id="prev" ${vpos <= 0 ? "disabled style='opacity:.4'" : ""}>${ICON.back}Trước</button>
+      <button class="btn" id="prev" ${vpos <= 0 ? "disabled" : ""}>${ICON.back}Trước</button>
       <div class="pos">${reviewing() ? `${vpos + 1} / ${vis.length}` : `Câu ${S.cur + 1} / ${PAGES.length}`}</div>
       ${!reviewing() && S.cur === PAGES.length - 1
         ? `<button class="btn pri" id="submit">Nộp bài</button>`
-        : `<button class="btn pri" id="next" ${vpos >= vis.length - 1 ? "disabled style='opacity:.4'" : ""}>Tiếp${ICON.next}</button>`}
+        : `<button class="btn pri" id="next" ${vpos >= vis.length - 1 ? "disabled" : ""}>Tiếp<span class="lbl-long">(${esc(PAGES[vis[vpos + 1]]?.it.no || PAGES[vis[vpos + 1]]?.it.q || "")})</span>${ICON.next}</button>`}
     </div></div>`;
 
   // Thoát / palette / điều hướng
@@ -257,10 +268,11 @@ function renderTest() {
     if (!v.includes(S.cur)) S.cur = v.length ? v[0] : 0;
     persist(); render();
   });
-  const pt = $("#ptog"); if (pt) pt.onclick = () => { const pb = $("#pbody"); pb.classList.toggle("open"); pt.firstElementChild.textContent = pb.classList.contains("open") ? "Thu gọn bài đọc" : "Bài đọc (cuộn trong khung · bấm để mở rộng)"; };
+  const pt = $("#ptog"); if (pt) pt.onclick = () => { const pb = $("#pbody"); pb.classList.toggle("open"); pt.firstElementChild.textContent = pb.classList.contains("open") ? "Thu gọn bài đọc" : "Bài đọc · cuộn trong khung · bấm để mở rộng"; };
   $("#instr").onclick = e => e.currentTarget.classList.toggle("clamp");
   bindQuestion(p);
   bindPalette($(".side"));
+  bindStepper();
   bindPlayers();
 
   // Đồng hồ
@@ -300,7 +312,7 @@ function answersHtml(p) {
   if (rev) {
     const ok = a === it.ans;
     fb = `<div class="verdict ${a == null ? "na" : ok ? "ok" : "ng"}">${a == null ? "Bỏ trống" : ok ? "✓ Chính xác" : `✗ Sai — bạn chọn ${a}`} · Đáp án ${it.ans}</div>
-          ${it.exp ? `<div class="exp ${ok ? "" : "ng"}">${it.exp}</div>` : ""}`;
+          ${it.exp ? `<div class="exp ${ok ? "" : "ng"}"><span class="eyebrow">Lời giải</span>${it.exp}</div>` : ""}`;
   }
   return `<div class="opts ${numOnly ? "numonly" + (labels.length === 3 ? " c3" : "") : compact ? "compact" : ""}">${opts}</div>${fb}`;
 }
@@ -322,7 +334,8 @@ function toggleFlag(p) {
 function updateCounts() {
   const done = PAGES.filter(answered).length;
   const c = $("#pal span"); if (c && !reviewing()) c.textContent = `${done}/${PAGES.length}`;
-  const side = $(".side .card"); if (side) { side.innerHTML = paletteHtml(); bindPalette($(".side")); }
+  const side = $(".side"); if (side) { $(".scroll", side).innerHTML = paletteHtml(false); $(".foot", side).innerHTML = progLine(); bindPalette(side); }
+  const st = $(".stepper"); if (st) { st.outerHTML = stepperHtml(PAGES[S.cur]); bindStepper(); }
 }
 function renderKeepScroll() { const y = scrollY; const pc = $(".passage-col"), py = pc ? pc.scrollTop : 0; renderTest(); scrollTo(0, y); const pc2 = $(".passage-col"); if (pc2) pc2.scrollTop = py; }
 function go(i) {
@@ -334,40 +347,62 @@ function go(i) {
 }
 
 // ---------- Palette ----------
-function paletteHtml() {
+const OPEN = new Set();
+function stepState(p, i) {
+  const a = S.answers[p.it.q]; const c = [];
+  if (i === S.cur) c.push("cur");
+  if (reviewing()) c.push(a == null ? "blank" : a === p.it.ans ? "ok" : "ng");
+  else { if (S.mode === "practice" && a != null) c.push(a === p.it.ans ? "ok" : "ng"); else if (a != null) c.push("ans"); if (S.flags[p.it.q]) c.push("flag"); }
+  return c;
+}
+function stepperHtml(p) {
+  const idx = PAGES.map((x, i) => i).filter(i => PAGES[i].mi === p.mi);
+  return `<div class="stepper"><div class="row"><span class="eyebrow">Trong 問題${p.m.no}</span><span class="eyebrow">${idx.filter(i => answered(PAGES[i])).length}/${idx.length} đã làm</span></div>
+    <div class="steps">${idx.map(i => `<button class="step ${stepState(PAGES[i], i).join(" ")}" data-i="${i}"><span class="c">${esc(String(PAGES[i].it.no || PAGES[i].it.q).replace("番", "").replace(" 質問", "-"))}</span></button>`).join("")}</div></div>`;
+}
+function bindStepper() {
+  $$(".stepper .step").forEach(b => b.onclick = () => go(+b.dataset.i));
+  const c = $(".stepper .step.cur"); if (c) c.scrollIntoView({ block: "nearest", inline: "center" });
+}
+function progLine() {
+  const n = PAGES.filter(answered).length;
+  if (reviewing()) { const ok = PAGES.filter(p => S.answers[p.it.q] === p.it.ans).length; return `<div class="prog-line"><span>Đúng</span><div class="bar"><i class="hatch" style="width:${ok / PAGES.length * 100}%"></i></div><span>${ok}/${PAGES.length}</span></div>`; }
+  return `<div class="prog-line"><span>Tiến độ</span><div class="bar"><i style="width:${n / PAGES.length * 100}%"></i></div><span>${n}/${PAGES.length}</span></div>
+    <button class="btn pri block" data-submit style="margin-top:10px">Nộp bài</button>`;
+}
+function paletteHtml(sheet = true) {
   const by = [];
   PAGES.forEach((p, i) => { let s = by[by.length - 1]; if (!s || s.mi !== p.mi) by.push(s = { mi: p.mi, m: p.m, idx: [] }); s.idx.push(i); });
   const rev = reviewing();
   const vis = new Set(visiblePages());
-  const cls = (p, i) => {
-    const a = S.answers[p.it.q]; const c = [];
-    if (i === S.cur) c.push("cur");
-    if (rev) c.push(a == null ? "blank" : a === p.it.ans ? "ok" : "ng");
-    else { if (S.mode === "practice" && a != null) c.push(a === p.it.ans ? "ok" : "ng"); else if (a != null) c.push("ans"); if (S.flags[p.it.q]) c.push("flag"); }
-    return c.join(" ");
-  };
+  const cls = (p, i) => stepState(p, i).join(" ");
+  const curMi = PAGES[S.cur]?.mi;
   const nAns = PAGES.filter(answered).length, nFlag = PAGES.filter(p => S.flags[p.it.q]).length;
   return `<div class="palette">
+    ${sheet ? "" : `<div class="tree-h"><span class="eyebrow">${esc(EXAM.title)}</span><span class="eyebrow">${PAGES.length} câu</span></div>`}
     <div class="legend">${rev ? `<span><i class="o"></i>Đúng</span><span><i class="x"></i>Sai</span><span><i style="border-style:dashed"></i>Bỏ trống</span>`
       : `<span><i class="a"></i>Đã làm ${nAns}</span><span><i></i>Chưa làm ${PAGES.length - nAns}</span><span><i class="f"></i>Đánh dấu ${nFlag}</span>`}</div>
     ${by.map(s => {
       const okN = s.idx.filter(i => S.answers[PAGES[i].it.q] === PAGES[i].it.ans).length;
-      return `<div class="pal-sec"><h4><span>問題${s.m.no} · ${s.m.section}</span>${rev ? `<span>${okN}/${s.idx.length}</span>` : ""}</h4>
+      const ansN = s.idx.filter(i => answered(PAGES[i])).length;
+      const open = sheet || s.mi === curMi || OPEN.has(s.mi);
+      return `<div class="pal-sec ${open ? "open" : ""} ${s.mi === curMi ? "cur" : ""}" data-mi="${s.mi}"><button class="tog"><span class="ar">▶</span><span class="nm">問題${s.m.no}<small>${s.m.section}</small></span><span class="ct">${rev ? okN : ansN}/${s.idx.length}</span></button>
         <div class="pal-grid">${s.idx.map(i => `<button data-i="${i}" class="${cls(PAGES[i], i)}" ${rev && !vis.has(i) ? "style='opacity:.35'" : ""}>${esc(String(PAGES[i].it.no || PAGES[i].it.q).replace("番", "").replace(" 質問", "-"))}</button>`).join("")}</div></div>`;
     }).join("")}
-    ${rev ? "" : `<button class="btn pri block" data-submit style="margin-top:6px">Nộp bài</button>`}
+    ${rev || !sheet ? "" : `<button class="btn pri block" data-submit style="margin-top:10px">Nộp bài</button>`}
   </div>`;
 }
 function bindPalette(root) {
   if (!root) return;
   $$(".pal-grid button", root).forEach(b => b.onclick = () => go(+b.dataset.i));
+  $$(".pal-sec .tog", root).forEach(b => b.onclick = () => { const sec = b.parentElement, mi = +sec.dataset.mi; sec.classList.toggle("open"); if (sec.classList.contains("open")) OPEN.add(mi); else OPEN.delete(mi); });
   const s = $("[data-submit]", root); if (s) s.onclick = () => { closeSheet(); confirmSubmit(); };
 }
 function openSheet() {
   closeSheet();
   const bg = document.createElement("div"); bg.className = "sheet-bg"; bg.id = "sheet";
   bg.innerHTML = `<div class="sheet" role="dialog" aria-label="Danh sách câu"><div class="grab"></div>
-    <div class="sheet-h"><b>Danh sách câu</b><button class="icon-btn" id="sclose" aria-label="Đóng">${ICON.close}</button></div>${paletteHtml()}</div>`;
+    <div class="sheet-h"><span class="eyebrow">Danh sách câu · ${PAGES.length}</span><button class="icon-btn" id="sclose" aria-label="Đóng">${ICON.close}</button></div>${paletteHtml()}</div>`;
   document.body.appendChild(bg);
   bg.onclick = e => { if (e.target === bg) closeSheet(); };
   $("#sclose", bg).onclick = closeSheet;
@@ -442,22 +477,23 @@ function renderResult() {
     <div class="page">
       <div class="card">
         <div class="score-hero">
-          <div class="ring" style="--p:${pct};--c:${col(pct)}"><div><b>${r.correct}</b><span>/ ${r.total} câu</span></div></div>
+          <div class="big-score"><div class="fill hatch" style="height:${pct}%"></div><b>${r.correct}</b><span>/ ${r.total} câu · ${pct}%</span></div>
           <div>
+            <div class="eyebrow">Kết quả ước tính</div>
             <div class="verdict-big ${pass ? "ok" : "ng"}">${full ? (pass ? "合格ライン達成" : "不合格ライン") : (pass ? "Đạt mức an toàn" : "Chưa đạt")}</div>
             <div class="small muted">${full ? `Tổng ước tính <b>${tot}</b>/180 · cần ≥ ${passLine} và mỗi phần ≥ 19` : `Mỗi phần cần ≥ 19/60 (an toàn ≥ 30)`}</div>
             <div class="small muted">Thời gian làm: ${fmt(S.elapsed)}</div>
           </div>
         </div>
-        <div class="scores">${parts.map(x => `<div class="sc ${x.v < 19 ? "low" : ""}"><div class="k">${x.k}${x.sub ? ` <span class="small">${x.sub}</span>` : ""}</div><div class="v">${x.v}<small> /60</small></div>${x.v < 19 ? `<div class="s">Dưới 基準点 19</div>` : ""}</div>`).join("")}</div>
+        <div class="scores">${parts.map(x => `<div class="sc ${x.v < 19 ? "low" : ""}"><div class="eyebrow">${x.k}${x.sub ? ` · ${x.sub}` : ""}</div><div class="v">${x.v}<small> /60</small></div>${x.v < 19 ? `<div class="s">Dưới 基準点 19</div>` : ""}</div>`).join("")}</div>
         <p class="small muted" style="margin:12px 0 0">Điểm quy đổi tuyến tính theo tỉ lệ đúng; JLPT thật dùng thang cân bằng nên chỉ để tham khảo.</p>
         <div class="actions" style="grid-template-columns:1fr 1fr">
           <button class="btn pri" id="revNg" ${wrong ? "" : "disabled style='opacity:.5'"}>Xem câu sai (${wrong})</button>
           <button class="btn" id="revAll">Xem toàn bộ</button>
         </div>
       </div>
-      <div class="sect-title">THEO TỪNG 問題</div>
-      <div class="card">${r.byM.map(m => { const v = Math.round(m.c / m.t * 100); return `<div class="mrow"><span>問題${m.no}<div class="small muted">${m.sec}</div></span><div class="bar"><i style="width:${v}%;background:${col(v)}"></i></div><span>${m.c}/${m.t}</span></div>`; }).join("")}</div>
+      <div class="sect-title eyebrow">Theo từng 問題</div>
+      <div class="card gridpaper">${r.byM.map(m => { const v = Math.round(m.c / m.t * 100); return `<div class="mrow"><span>問題${m.no}<div class="small muted">${m.sec}</div></span><div class="bar"><i style="width:${v}%;background:repeating-linear-gradient(-45deg,${col(v)} 0 3px,color-mix(in srgb,${col(v)} 45%,transparent) 3px 6px)"></i></div><span>${m.c}/${m.t}</span></div>`; }).join("")}</div>
       <div class="actions" style="grid-template-columns:1fr 1fr">
         <button class="btn" id="retry">Làm lại đề</button>
         <button class="btn" id="home2">Trang chủ</button>
