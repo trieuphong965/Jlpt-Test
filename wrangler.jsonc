@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "jlpt-test",
+  "account_id": "d196818685e77a5352febc5902670056",
   "main": "src/index.js",
   "compatibility_date": "2026-11-01",
   "workers_dev": true,
