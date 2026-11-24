@@ -34,8 +34,8 @@
     // Chưa điền → cron bỏ qua, không gọi API.
     "VOICES": "{\"N\":\"\",\"M\":\"\",\"F\":\"\",\"M2\":\"\",\"F2\":\"\"}",
     // Cloudflare Access: team domain (vd: viego.cloudflareaccess.com) + Application Audience (AUD) tag.
-    "ACCESS_TEAM_DOMAIN": "",
-    "ACCESS_AUD": ""
+    "ACCESS_TEAM_DOMAIN": "phonglab.cloudflareaccess.com",
+    "ACCESS_AUD": "fd0dc6bf4b60912941475139753656adda8b78f2efcdc7640f5c459d89a7385c"
   },
 
   "observability": { "enabled": true }
