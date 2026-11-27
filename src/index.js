@@ -158,6 +158,26 @@ async function api(req, env, url) {
     return json({ attempts, answers: answers.map(a => [a.attempt_id, a.item_id, a.correct, a.ms, a.at]) });
   }
 
+  // ---------- SRS (ôn tập hằng ngày) ----------
+  if (p[1] === "srs" && m === "GET") {
+    const lv = url.searchParams.get("level") || "N2";
+    const { results } = await DB.prepare(
+      "SELECT card_id, state, due, ivl, ease, reps, lapses, added, updated_at FROM srs WHERE level=?").bind(lv).all();
+    return json(results);
+  }
+  if (p[1] === "srs" && m === "POST") {
+    const b = await req.json();
+    if (!b.level || !Array.isArray(b.cards)) return json({ error: "bad request" }, 400);
+    const stmts = b.cards.slice(0, 200).map(c => DB.prepare(
+      `INSERT INTO srs(level,card_id,state,due,ivl,ease,reps,lapses,added,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?)
+       ON CONFLICT(level,card_id) DO UPDATE SET state=excluded.state, due=excluded.due, ivl=excluded.ivl, ease=excluded.ease,
+         reps=excluded.reps, lapses=excluded.lapses, updated_at=excluded.updated_at
+       WHERE excluded.updated_at >= srs.updated_at`
+    ).bind(b.level, String(c.id), c.state, c.due, c.ivl, c.ease, c.reps, c.lapses, c.added, c.updated_at || Date.now()));
+    if (stmts.length) await DB.batch(stmts);
+    return json({ ok: true });
+  }
+
   // Lịch sử 1 đề
   if (p[1] === "history" && p[2] && m === "GET") {
     const { results } = await DB.prepare(

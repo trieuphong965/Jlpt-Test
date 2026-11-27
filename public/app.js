@@ -71,7 +71,8 @@ async function route() {
   stopAudio(); clearInterval(timerId); closeSheet(); document.querySelectorAll(".tip").forEach(t => t.remove());
   const id = location.hash.slice(1);
   const parts = id.split("/");
-  if (parts[0] === "quest") { S = null; EXAM = null; await routeQuest(parts); scrollTo(0, 0); return; }
+  if (parts[0] === "quest") { location.replace("#review/" + (parts[1] || "N2")); return; }
+  if (parts[0] === "review") { S = null; EXAM = null; await routeReview(parts); scrollTo(0, 0); return; }
   if (parts[0] === "stats") { S = null; EXAM = null; await renderStats(parts[1] || "N2"); scrollTo(0, 0); return; }
   if (parts[0] === "exams") { S = null; EXAM = null; await renderHome(); scrollTo(0, 0); return; }
   if (id && INDEX.some(e => e.id === id)) {
