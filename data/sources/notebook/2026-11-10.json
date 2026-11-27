@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-10",
+ "grammar": [
+  {
+   "ex": "電気が消えているから、彼はもう寝たに違いない。",
+   "exVi": "Đèn tắt rồi, chắc chắn anh ấy đã ngủ.",
+   "form": "V/Aい thể thường, Na/N (である) + に違いない",
+   "level": "N2",
+   "meaning": "chắc chắn là… (phán đoán có căn cứ)",
+   "note": "Dùng được cả nói và viết; に相違ない cứng hơn.",
+   "pattern": "～に違いない",
+   "reg": "chung",
+   "regTip": "thân mật: きっと〜だ",
+   "review": false
+  },
+  {
+   "ex": "調査結果から見て、事故の原因は整備不良に相違ない。",
+   "exVi": "Xét kết quả điều tra, nguyên nhân chắc chắn là do bảo dưỡng kém.",
+   "form": "V/Aい thể thường, Na/N (である) + に相違ない",
+   "level": "N2",
+   "meaning": "chắc chắn là… (văn viết, trang trọng)",
+   "note": "Dùng trong văn bản, báo cáo; hội thoại ít dùng.",
+   "pattern": "～に相違ない",
+   "reg": "viet",
+   "regTip": "きっと〜だ",
+   "review": false
+  },
+  {
+   "ex": "そんなに夜更かししたら、明日寝坊するに決まっている。",
+   "exVi": "Thức khuya thế thì mai chắc chắn ngủ quên.",
+   "form": "Thể thường (Na/N bỏ だ) + に決まっている",
+   "level": "N2",
+   "meaning": "nhất định là…, chắc chắn… (khẳng định mạnh, cảm tính)",
+   "note": "Khẩu ngữ, tự tin chủ quan; に違いない dựa vào căn cứ hơn.",
+   "pattern": "～に決まっている",
+   "reg": "noi",
+   "regTip": "khẩu ngữ: 〜に決まってる",
+   "review": false
+  },
+  {
+   "ex": "一日で百ページも読めっこないよ。",
+   "exVi": "Một ngày làm sao đọc nổi 100 trang.",
+   "form": "Vます + っこない",
+   "level": "N2",
+   "meaning": "không đời nào, không thể nào (khẩu ngữ)",
+   "note": "Hay đi với thể khả năng; わけがない trung tính, dùng được trong văn viết.",
+   "pattern": "～っこない",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "住所がわからないので、連絡しようがない。",
+   "exVi": "Không biết địa chỉ nên không có cách nào liên lạc.",
+   "form": "Vます + ようがない",
+   "level": "N2",
+   "meaning": "không có cách nào để…",
+   "note": "Nhấn mạnh thiếu phương tiện/cách thức; khác っこない (phủ định khả năng theo cảm nhận).",
+   "pattern": "～ようがない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "地震はいつどこでも起こり得る災害だ。",
+   "exVi": "Động đất là thảm họa có thể xảy ra bất cứ lúc nào, ở đâu.",
+   "form": "Vます + 得る（える／うる）",
+   "level": "N2",
+   "meaning": "có thể (xảy ra) – khả năng khách quan",
+   "note": "Không dùng cho năng lực cá nhân (×泳ぎ得る); かねない = khả năng xấu.",
+   "pattern": "～得る",
+   "reg": "viet",
+   "regTip": "〜かもしれない",
+   "review": false
+  },
+  {
+   "ex": "専門家でも予測し得ない事態が起きた。",
+   "exVi": "Đã xảy ra tình huống mà cả chuyên gia cũng không thể dự đoán.",
+   "form": "Vます + 得ない（えない）",
+   "level": "N2",
+   "meaning": "không thể (khách quan)",
+   "note": "Đừng nhầm ざるを得ない (buộc phải làm).",
+   "pattern": "～得ない",
+   "reg": "viet",
+   "regTip": "〜はずがない",
+   "review": false
+  },
+  {
+   "ex": "彼女がどれほど悲しんだかは想像に難くない。",
+   "exVi": "Không khó tưởng tượng cô ấy đã đau buồn đến mức nào.",
+   "form": "V辞書形 / N + に難くない",
+   "level": "N1",
+   "meaning": "không khó để (tưởng tượng, suy đoán)",
+   "note": "Hầu như đi với 想像・察する・理解; văn viết.",
+   "pattern": "～に難くない",
+   "reg": "viet",
+   "regTip": "簡単に想像できる",
+   "review": false
+  },
+  {
+   "ex": "素人の私の料理など、プロの味とは比べるべくもない。",
+   "exVi": "Món ăn của dân nghiệp dư như tôi sao so được với vị của dân chuyên.",
+   "form": "V辞書形 + べくもない（する→すべくもない）",
+   "level": "N1",
+   "meaning": "không thể nào (mong đợi / so sánh)",
+   "note": "Hay đi với 望む・比べる・知る; mạnh và cứng hơn 得ない.",
+   "pattern": "～べくもない",
+   "reg": "viet",
+   "regTip": "〜なんて無理",
+   "review": false
+  },
+  {
+   "ex": "会社に損害を与えたのだから、謝罪せずにはすまないだろう。",
+   "exVi": "Đã gây thiệt hại cho công ty thì không thể không xin lỗi.",
+   "form": "Vない + ずにはすまない（する→せずには）",
+   "level": "N1",
+   "meaning": "không thể không làm (vì trách nhiệm, chuẩn mực xã hội)",
+   "note": "ずにはいられない = cảm xúc tự phát; ざるを得ない = bất đắc dĩ.",
+   "pattern": "～ずにはすまない",
+   "reg": "viet",
+   "regTip": "〜しないといけない",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Phán đoán chắc chắn & khả năng: に違いない／に相違ない／に決まっている／っこない／ようがない／得る／得ない",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Phán đoán có căn cứ (trời tối). っこない cần Vます; ようがない/べくもない sai nghĩa.",
+   "options": [
+    "っこない",
+    "に違いない",
+    "ようがない",
+    "べくもない"
+   ],
+   "q": "空が暗くなってきた。もうすぐ雨が降る（　）。"
+  },
+  {
+   "answer": 1,
+   "explain": "Không có phương tiện liên lạc → しようがない.",
+   "options": [
+    "するに違いない",
+    "しようがない",
+    "し得る",
+    "せずにはすまない"
+   ],
+   "q": "彼の電話番号もメールアドレスも知らないので、連絡（　）。"
+  },
+  {
+   "answer": 2,
+   "explain": "Văn báo cáo, phán đoán chắc chắn → に相違ない. に難くない đi với 想像/察する.",
+   "options": [
+    "っこない",
+    "に難くない",
+    "に相違ない",
+    "べくもない"
+   ],
+   "q": "この報告書の内容から判断して、事故の原因は機械の故障（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "でさえ + không thể → 得ない. 得る trái nghĩa; かねない = nguy cơ xấu; ざるを得ない = buộc phải.",
+   "options": [
+    "かねない",
+    "ざるを得ない",
+    "得る",
+    "得ない"
+   ],
+   "q": "専門家でさえ予測し（　）ような事態が起きてしまった。"
+  },
+  {
+   "answer": 2,
+   "explain": "想像に難くない: không khó tưởng tượng.",
+   "options": [
+    "べくもない",
+    "ずにはすまない",
+    "に難くない",
+    "に決まっている"
+   ],
+   "q": "彼女が一人で外国に渡ったとき、どれほど不安だったかは想像（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "～に挑む: thử sức với, dấn thân vào.",
+   "options": [
+    "偽る",
+    "補強する",
+    "規制する",
+    "挑む"
+   ],
+   "q": "社長は来年度、新しい市場の開拓に（　）と宣言した。"
+  },
+  {
+   "answer": 1,
+   "explain": "歴然としている: rõ rành rành. 必至 đi với だ, không dùng としている.",
+   "options": [
+    "着実",
+    "歴然",
+    "粗末",
+    "必至"
+   ],
+   "q": "二つのチームの実力の差は（　）としていて、試合は一方的な展開になった。"
+  },
+  {
+   "answer": 1,
+   "explain": "(ôn 27/10) ～ようものなら: lỡ mà… thì (hậu quả xấu).",
+   "options": [
+    "ものの",
+    "ものなら",
+    "もので",
+    "ものか"
+   ],
+   "q": "(ôn) 先生の前でそんな失礼なことを言おう（　）、ひどく叱られるだろう。"
+  },
+  {
+   "answer": 2,
+   "explain": "(ôn 2/11) AはおろかBさえ…ない: A thì khỏi nói, đến B cũng không.",
+   "options": [
+    "に限って",
+    "にかけては",
+    "はおろか",
+    "をめぐって"
+   ],
+   "q": "(ôn) 彼は漢字（　）、ひらがなさえ読めない。"
+  },
+  {
+   "answer": 3,
+   "explain": "(ôn 28/10) 蓄える（たくわえる・SÚC）: tích trữ, để dành.",
+   "options": [
+    "譲って",
+    "補って",
+    "妨げて",
+    "蓄えて"
+   ],
+   "q": "(ôn) 老後に備えて、若いうちから少しずつお金を（　）おくべきだ。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Tác giả nói tin đồn phần lớn là phỏng đoán vô căn cứ, nên thừa nhận điều mình không biết và hỏi trực tiếp. Phương án 1 ngược ý; 2 trái với 知りようがない; 4 quá mức.",
+  "options": [
+   "職場の噂はたいてい事実に基づいているので信じてよい。",
+   "上司の気持ちは外から見ればすぐに分かるものだ。",
+   "根拠のない推測を事実のように扱わず、必要なら直接確認すべきだ。",
+   "昇進の噂は本人を傷つけるので、決して話してはいけない。"
+  ],
+  "q": "筆者が最も言いたいことは何か。",
+  "text": "最近、職場で「あの人は昇進するに違いない」「部長はきっと怒っているに決まっている」といった会話をよく耳にする。しかし、こうした話の多くは確かな根拠のない憶測にすぎない。人の気持ちや会社の決定は、外から見ただけでは知りようがないものだ。それなのに、噂が広がるうちに、いつの間にか事実のように扱われてしまうこともあり得る。誤った情報によって誰かが傷つく可能性も十分ある。大切なのは、分からないことは分からないと認め、必要なら本人に直接確かめることだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "彼は着実に成果を上げている。",
+   "exVi": "Anh ấy đang đạt thành quả một cách vững chắc.",
+   "hanviet": "TRƯỚC THỰC",
+   "level": "N2",
+   "meaning": "vững chắc, chắc chắn từng bước",
+   "reading": "ちゃくじつ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "着実"
+  },
+  {
+   "ex": "政府は外国からの輸入を規制した。",
+   "exVi": "Chính phủ đã hạn chế nhập khẩu từ nước ngoài.",
+   "hanviet": "QUY CHẾ",
+   "level": "N2",
+   "meaning": "quy định hạn chế, kiểm soát (bằng luật)",
+   "reading": "きせい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "規制"
+  },
+  {
+   "ex": "年齢を偽って応募した。",
+   "exVi": "Khai man tuổi để ứng tuyển.",
+   "hanviet": "NGỤY",
+   "level": "N2",
+   "meaning": "giả mạo, khai man, dối trá",
+   "reading": "いつわる",
+   "reg": "viet",
+   "regTip": "うそをつく・ごまかす",
+   "review": false,
+   "word": "偽る"
+  },
+  {
+   "ex": "地震に備えて壁を補強した。",
+   "exVi": "Gia cố tường để phòng động đất.",
+   "hanviet": "BỔ CƯỜNG",
+   "level": "N2",
+   "meaning": "gia cố, tăng cường",
+   "reading": "ほきょう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "補強"
+  },
+  {
+   "ex": "食べ物を粗末にしてはいけない。",
+   "exVi": "Không được phung phí đồ ăn.",
+   "hanviet": "THÔ MẠT",
+   "level": "N2",
+   "meaning": "sơ sài, tồi tàn; 粗末にする: phung phí, coi thường",
+   "reading": "そまつ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "粗末"
+  },
+  {
+   "ex": "彼は世界記録に挑んだ。",
+   "exVi": "Anh ấy đã thử sức với kỷ lục thế giới.",
+   "hanviet": "KHIÊU",
+   "level": "N2",
+   "meaning": "thử thách, thách đấu, dấn thân",
+   "reading": "いどむ",
+   "reg": "viet",
+   "regTip": "挑戦する",
+   "review": false,
+   "word": "挑む"
+  },
+  {
+   "ex": "この問題について専門家の見解が分かれている。",
+   "exVi": "Quan điểm của chuyên gia về vấn đề này còn chia rẽ.",
+   "hanviet": "KIẾN GIẢI",
+   "level": "N2",
+   "meaning": "quan điểm, kiến giải",
+   "reading": "けんかい",
+   "reg": "viet",
+   "regTip": "考え・意見",
+   "review": false,
+   "word": "見解"
+  },
+  {
+   "ex": "憶測で物を言うのはやめてください。",
+   "exVi": "Xin đừng nói dựa trên phỏng đoán.",
+   "hanviet": "ỨC TRẮC",
+   "level": "N1",
+   "meaning": "phỏng đoán (không căn cứ)",
+   "reading": "おくそく",
+   "reg": "viet",
+   "regTip": "勝手な想像",
+   "review": false,
+   "word": "憶測"
+  },
+  {
+   "ex": "このままでは赤字は必至だ。",
+   "exVi": "Cứ thế này thì lỗ là điều không tránh khỏi.",
+   "hanviet": "TẤT CHÍ",
+   "level": "N1",
+   "meaning": "chắc chắn xảy ra, không tránh khỏi",
+   "reading": "ひっし",
+   "reg": "viet",
+   "regTip": "絶対〜になる・避けられない",
+   "review": false,
+   "word": "必至"
+  },
+  {
+   "ex": "両者の実力の差は歴然としている。",
+   "exVi": "Chênh lệch thực lực giữa hai bên là rõ ràng.",
+   "hanviet": "LỊCH NHIÊN",
+   "level": "N1",
+   "meaning": "rõ rành rành, hiển nhiên",
+   "reading": "れきぜん",
+   "reg": "viet",
+   "regTip": "はっきり・一目瞭然",
+   "review": false,
+   "word": "歴然"
+  }
+ ]
+}

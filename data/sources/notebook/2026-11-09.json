@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-09",
+ "grammar": [
+  {
+   "ex": "何度も話し合った末に、計画を中止することにした。",
+   "exVi": "Sau nhiều lần bàn bạc, cuối cùng đã quyết định hủy kế hoạch.",
+   "form": "Vた / Nの + 末（に）",
+   "level": "N2",
+   "meaning": "sau một quá trình dài (suy nghĩ, nỗ lực…), cuối cùng thì…",
+   "note": "末に: kết quả trung tính/tích cực sau quá trình; あげく: kết quả xấu, mang sắc thái bực bội.",
+   "pattern": "～末に",
+   "reg": "viet",
+   "regTip": "いろいろ〜て、結局",
+   "review": false
+  },
+  {
+   "ex": "さんざん迷ったあげく、何も買わずに帰ってきた。",
+   "exVi": "Phân vân mãi, rốt cuộc chẳng mua gì mà về.",
+   "form": "Vた / Nの + あげく（に）",
+   "level": "N2",
+   "meaning": "rốt cuộc, sau cùng (kết quả không mong muốn)",
+   "note": "Khác 末に: あげく gần như luôn dẫn tới kết quả tiêu cực.",
+   "pattern": "～あげく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "先生に相談したところ、快く引き受けてくださった。",
+   "exVi": "Khi thử hỏi ý thầy thì thầy vui vẻ nhận lời.",
+   "form": "Vた + ところ",
+   "level": "N2",
+   "meaning": "khi thử làm… thì (phát hiện/kết quả)",
+   "note": "Vế sau là kết quả/phát hiện ngoài ý mình, không dùng mệnh lệnh/ý chí. Khác たとたん (ngay lúc đó, bất ngờ).",
+   "pattern": "～たところ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼は朝出かけたきり、まだ帰ってこない。",
+   "exVi": "Anh ấy ra ngoài từ sáng rồi đến giờ vẫn chưa về.",
+   "form": "Vた + きり",
+   "level": "N2",
+   "meaning": "từ khi… thì không (thấy tiếp diễn điều mong đợi)",
+   "note": "きり: sau hành động thì trạng thái dừng hẳn; っぱなし: để nguyên, bỏ mặc trạng thái.",
+   "pattern": "～きり",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜っきり",
+   "review": false
+  },
+  {
+   "ex": "窓を開けっぱなしで寝てしまった。",
+   "exVi": "Lỡ ngủ quên mà để cửa sổ mở toang.",
+   "form": "Vます + っぱなし",
+   "level": "N2",
+   "meaning": "để nguyên, bỏ mặc (không làm tiếp việc lẽ ra phải làm); suốt, liên tục",
+   "note": "Nối Vます (開けっぱなし), khác きり nối Vた.",
+   "pattern": "～っぱなし",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "家族とよく相談した上で、お返事します。",
+   "exVi": "Tôi sẽ trả lời sau khi bàn kỹ với gia đình.",
+   "form": "Vた / Nの + 上で",
+   "level": "N2",
+   "meaning": "sau khi làm A (làm cơ sở) rồi mới B",
+   "note": "Vた上で = thứ tự có chủ ý; khác Vる上で (trong quá trình/khi làm), 上に (hơn nữa), 上は (một khi đã).",
+   "pattern": "～上で",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "実物を見てからでないと、買うかどうか決められない。",
+   "exVi": "Chưa xem hàng thật thì không thể quyết định có mua hay không.",
+   "form": "Vて + からでないと / からでなければ",
+   "level": "N2",
+   "meaning": "nếu chưa… thì không thể…",
+   "note": "Vế sau mang nghĩa phủ định/khó khăn; gần ないことには nhưng nhấn mạnh thứ tự trước–sau.",
+   "pattern": "～てからでないと",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼の実力は今さら言うまでもない。",
+   "exVi": "Thực lực của anh ấy thì giờ khỏi phải nói.",
+   "form": "Vる + までもない",
+   "level": "N1",
+   "meaning": "không cần phải (đến mức)…, khỏi cần…",
+   "note": "Khác ～ことはない (khuyên không cần làm): までもない nhấn mạnh việc đó quá hiển nhiên.",
+   "pattern": "～までもない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "店員は早く帰れとばかりに、片付けを始めた。",
+   "exVi": "Nhân viên bắt đầu dọn dẹp như thể muốn nói “về nhanh đi”.",
+   "form": "普通形 / 命令形 + とばかりに",
+   "level": "N1",
+   "meaning": "như thể muốn nói…, ra vẻ như…",
+   "note": "Mô tả thái độ người khác, không dùng cho bản thân. Gần ～んばかりに (gần như sắp…).",
+   "pattern": "～とばかりに",
+   "reg": "viet",
+   "regTip": "〜みたいに",
+   "review": false
+  },
+  {
+   "ex": "子どもが生まれてからというもの、生活が一変した。",
+   "exVi": "Kể từ khi có con, cuộc sống thay đổi hoàn toàn.",
+   "form": "Vて + からというもの",
+   "level": "N1",
+   "meaning": "kể từ khi… thì (thay đổi hẳn và kéo dài)",
+   "note": "Mạnh hơn てから; vế sau là trạng thái thay đổi kéo dài, không dùng cho sự việc một lần.",
+   "pattern": "～てからというもの",
+   "reg": "viet",
+   "regTip": "〜てから",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Kết quả & trình tự hành động: 末に／あげく／たところ／きり／っぱなし／上で／てからでないと",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Kết quả tích cực sau quá trình dài → 末に. あげく dùng cho kết quả xấu.",
+   "options": [
+    "あげく",
+    "末に",
+    "きり",
+    "っぱなし"
+   ],
+   "q": "何度も話し合いを重ねた＿＿、ようやく双方が合意に達した。"
+  },
+  {
+   "answer": 2,
+   "explain": "Sau một hồi (phàn nàn) rốt cuộc kết quả tiêu cực → あげく. 上で là thứ tự có chủ ý; ところ đi với phát hiện.",
+   "options": [
+    "上で",
+    "たところ",
+    "あげく",
+    "てからでないと"
+   ],
+   "q": "さんざん文句を言った＿＿、彼は何も買わずに店を出て行った。"
+  },
+  {
+   "answer": 0,
+   "explain": "Vた + きり: từ khi đi thì không liên lạc. っぱなし nối Vます.",
+   "options": [
+    "きり",
+    "っぱなし",
+    "末に",
+    "上で"
+   ],
+   "q": "息子は「行ってきます」と家を出た＿＿、もう三日も連絡がない。"
+  },
+  {
+   "answer": 1,
+   "explain": "出し (Vます) + っぱなし: để nước chảy nguyên. きり phải nối Vた (出したきり).",
+   "options": [
+    "きり",
+    "っぱなし",
+    "あげく",
+    "ところ"
+   ],
+   "q": "水を出し＿＿にしないでください。"
+  },
+  {
+   "answer": 3,
+   "explain": "Vた上で: làm A xong rồi mới B (vế sau là yêu cầu). たところ không đi với mệnh lệnh.",
+   "options": [
+    "あげく",
+    "きり",
+    "ところ",
+    "上で"
+   ],
+   "q": "契約内容をよく確認した＿＿、サインしてください。"
+  },
+  {
+   "answer": 0,
+   "explain": "支障が出る: phát sinh trở ngại.",
+   "options": [
+    "支障",
+    "謝罪",
+    "収容",
+    "怠慢"
+   ],
+   "q": "大雨の影響で、電車の運行に＿＿が出ている。"
+  },
+  {
+   "answer": 2,
+   "explain": "不安を煽る: kích động sự lo lắng. 掲げる = nêu (mục tiêu), 甘やかす = nuông chiều, 焦る là tự động từ.",
+   "options": [
+    "掲げる",
+    "甘やかす",
+    "煽る",
+    "焦る"
+   ],
+   "q": "消費者の不安を＿＿ような広告は問題だ。"
+  },
+  {
+   "answer": 1,
+   "explain": "Vれる + ものなら: nếu mà có thể… thì (ước muốn khó thành). Bài 27/10.",
+   "options": [
+    "もので",
+    "ものなら",
+    "ものか",
+    "ものだ"
+   ],
+   "q": "(ôn) 一度でいいから、あの人と話せる＿＿話してみたい。"
+  },
+  {
+   "answer": 2,
+   "explain": "把握（はあく）: nắm bắt toàn cảnh. Bài 28/10.",
+   "options": [
+    "矛盾",
+    "均衡",
+    "把握",
+    "逸脱"
+   ],
+   "q": "(ôn) 新しい部署に来たばかりで、まだ仕事の全体像を＿＿できていない。"
+  },
+  {
+   "answer": 1,
+   "explain": "をめぐって: xoay quanh (vấn đề gây tranh cãi). Bài 30/10.",
+   "options": [
+    "にとって",
+    "をめぐって",
+    "にかけては",
+    "として"
+   ],
+   "q": "(ôn) 父の遺産＿＿、兄弟の間で争いが起きた。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 1,
+  "explain": "Câu cuối: 量より質を選んだその姿勢が、客の信頼につながっている. Hàng dài là kết quả chứ không phải lý do; bánh không phải 'giống khách sạn'; tiệm đóng cửa khi bán hết.",
+  "options": [
+   "開店前から長い列ができていること",
+   "店主が量より質にこだわる姿勢",
+   "ホテルと同じパンが買えること",
+   "一日中営業していること"
+  ],
+  "q": "筆者によると、この店が人気の理由として考えられるのはどれか。",
+  "text": "先日、駅前に新しくできたパン屋に行ってみた。開店前から長い列ができていると聞いていたので、半信半疑で並んでみたところ、確かに味は評判どおりだった。ただ、店員に話を聞いたところ、人気の理由は味だけではないらしい。店主は十年以上ホテルで修業した末に、地元の小麦だけを使う店を開いたという。毎朝四時から生地をこね、売り切れたらその日は閉店する。量より質を選んだその姿勢が、客の信頼につながっているのだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "大雪の影響で、交通に支障が出ている。",
+   "exVi": "Do tuyết lớn, giao thông đang bị trở ngại.",
+   "hanviet": "CHI CHƯỚNG",
+   "level": "N2",
+   "meaning": "trở ngại, sự cản trở (công việc, vận hành)",
+   "reading": "ししょう",
+   "reg": "chung",
+   "regTip": "thân mật: 問題ない",
+   "review": false,
+   "word": "支障"
+  },
+  {
+   "ex": "彼は記者の取材を拒否した。",
+   "exVi": "Anh ấy đã từ chối cuộc phỏng vấn của phóng viên.",
+   "hanviet": "CỰ PHỦ",
+   "level": "N2",
+   "meaning": "từ chối, cự tuyệt, bác bỏ",
+   "reading": "きょひ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "拒否"
+  },
+  {
+   "ex": "このホールは約千人を収容できる。",
+   "exVi": "Hội trường này chứa được khoảng 1000 người.",
+   "hanviet": "THU DUNG",
+   "level": "N2",
+   "meaning": "chứa, tiếp nhận (người, vật)",
+   "reading": "しゅうよう",
+   "reg": "viet",
+   "regTip": "入る・入れる",
+   "review": false,
+   "word": "収容"
+  },
+  {
+   "ex": "時間がなくても、焦らずに一つずつ確認しよう。",
+   "exVi": "Dù không còn thời gian, hãy bình tĩnh kiểm tra từng cái một.",
+   "hanviet": "TIÊU",
+   "level": "N2",
+   "meaning": "sốt ruột, cuống, vội vàng",
+   "reading": "あせる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "焦る"
+  },
+  {
+   "ex": "子どもを甘やかしすぎるのはよくない。",
+   "exVi": "Nuông chiều con cái quá mức là không tốt.",
+   "hanviet": "CAM",
+   "level": "N2",
+   "meaning": "nuông chiều, chiều chuộng",
+   "reading": "あまやかす",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "甘やかす"
+  },
+  {
+   "ex": "新しい市長は「子育てしやすい町」を目標に掲げた。",
+   "exVi": "Tân thị trưởng nêu mục tiêu “thành phố dễ nuôi dạy con”.",
+   "hanviet": "YẾT",
+   "level": "N2",
+   "meaning": "giương lên, treo; nêu ra (mục tiêu, khẩu hiệu)",
+   "reading": "かかげる",
+   "reg": "viet",
+   "regTip": "(目標を)立てる",
+   "review": false,
+   "word": "掲げる"
+  },
+  {
+   "ex": "会社は記者会見を開いて謝罪した。",
+   "exVi": "Công ty đã mở họp báo để xin lỗi.",
+   "hanviet": "TẠ TỘI",
+   "level": "N2",
+   "meaning": "xin lỗi chính thức, tạ lỗi",
+   "reading": "しゃざい",
+   "reg": "viet",
+   "regTip": "謝る",
+   "review": false,
+   "word": "謝罪"
+  },
+  {
+   "ex": "少子化には抜本的な対策が必要だ。",
+   "exVi": "Vấn đề giảm sinh cần biện pháp triệt để.",
+   "hanviet": "BẠT BẢN ĐÍCH",
+   "level": "N1",
+   "meaning": "triệt để, tận gốc",
+   "reading": "ばっぽんてき",
+   "reg": "viet",
+   "regTip": "根本から",
+   "review": false,
+   "word": "抜本的"
+  },
+  {
+   "ex": "事故の原因は管理者の怠慢にあった。",
+   "exVi": "Nguyên nhân tai nạn nằm ở sự chểnh mảng của người quản lý.",
+   "hanviet": "ĐÃI MẠN",
+   "level": "N1",
+   "meaning": "chểnh mảng, lơ là trách nhiệm",
+   "reading": "たいまん",
+   "reg": "viet",
+   "regTip": "サボり・手抜き",
+   "review": false,
+   "word": "怠慢"
+  },
+  {
+   "ex": "不安を煽るような報道は控えるべきだ。",
+   "exVi": "Nên tránh những bản tin kích động sự lo lắng.",
+   "hanviet": "PHIẾN",
+   "level": "N1",
+   "meaning": "kích động, thổi bùng (cảm xúc, dư luận)",
+   "reading": "あおる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "煽る"
+  }
+ ]
+}

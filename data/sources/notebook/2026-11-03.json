@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-03",
+ "grammar": [
+  {
+   "ex": "体が丈夫な限り、働き続けたい。",
+   "exVi": "Chừng nào cơ thể còn khỏe, tôi muốn tiếp tục làm việc.",
+   "form": "Vる／Vている／Aい／Aな・Nである + 限り（は）",
+   "level": "N2",
+   "meaning": "chừng nào còn…, trong phạm vi…",
+   "note": "うちに (đã học) nhấn “làm trước khi trạng thái thay đổi”; 限り nhấn “điều kiện còn duy trì thì kết quả còn đúng”.",
+   "pattern": "～限り",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "本人が反省しないかぎり、同じ失敗を繰り返すだろう。",
+   "exVi": "Chừng nào bản thân chưa tự kiểm điểm, sẽ còn lặp lại thất bại tương tự.",
+   "form": "Vない + かぎり",
+   "level": "N2",
+   "meaning": "chừng nào chưa…/ nếu không… thì (sẽ không/ vẫn cứ…)",
+   "note": "ないことには (đã học): vế sau luôn phủ định, nhấn “điều kiện tiên quyết”; ないかぎり vế sau có thể khẳng định (～繰り返す).",
+   "pattern": "～ないかぎり",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "私が調べたかぎりでは、この製品に大きな問題はない。",
+   "exVi": "Theo những gì tôi đã tìm hiểu, sản phẩm này không có vấn đề lớn.",
+   "form": "V(知る・聞く・調べる・見る)る／た + かぎりでは",
+   "level": "N2",
+   "meaning": "theo phạm vi (tôi biết/ đã tìm hiểu) thì…",
+   "note": "Khác によると (chỉ nguồn tin): かぎりでは giới hạn phạm vi hiểu biết, hàm ý ngoài phạm vi đó có thể khác.",
+   "pattern": "～かぎりでは",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "急いでいる時に限って、電車が遅れる。",
+   "exVi": "Cứ đúng lúc đang vội là tàu lại trễ.",
+   "form": "N + に限って",
+   "level": "N2",
+   "meaning": "đúng lúc… thì lại (bất mãn); riêng… thì chắc chắn không",
+   "note": "に限り là giới hạn khách quan (thông báo); に限って mang cảm xúc, dùng cho chuyện không may hoặc niềm tin mạnh (うちの子に限って…).",
+   "pattern": "～に限って",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "先着50名に限り、入場料が無料になります。",
+   "exVi": "Chỉ 50 người đến sớm nhất được miễn phí vào cửa.",
+   "form": "N + に限り",
+   "level": "N2",
+   "meaning": "chỉ riêng…, giới hạn trong…",
+   "note": "Văn phong trang trọng, hay dùng trong thông báo; không mang sắc thái bất mãn như に限って.",
+   "pattern": "～に限り",
+   "reg": "viet",
+   "regTip": "〜だけ",
+   "review": false
+  },
+  {
+   "ex": "疲れた日は早く寝るに限る。",
+   "exVi": "Ngày mệt thì đi ngủ sớm là nhất.",
+   "form": "N／Vる／Vない + に限る",
+   "level": "N2",
+   "meaning": "… là tốt nhất",
+   "note": "Đánh giá chủ quan của người nói; không dùng cho nhận định khách quan.",
+   "pattern": "～に限る",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "値段が高いからといって、品質がいいとは限らない。",
+   "exVi": "Không phải cứ giá đắt là chất lượng tốt.",
+   "form": "普通形 + とは限らない",
+   "level": "N2",
+   "meaning": "không hẳn là…, chưa chắc đã…",
+   "note": "Hay đi với 必ずしも・いつも; gần わけではない (đã học) nhưng nhấn “có khả năng ngoại lệ”.",
+   "pattern": "～とは限らない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "今日を限りに、たばこをやめることにした。",
+   "exVi": "Tôi quyết định bỏ thuốc lá kể từ hôm nay.",
+   "form": "N(今日・今回・声…) + を限りに",
+   "level": "N1",
+   "meaning": "lấy… làm mốc cuối cùng; (声を限りに) hết sức",
+   "note": "をもって (đã học) trang trọng, dùng trong thông báo chính thức; を限りに mang sắc thái quyết tâm cá nhân.",
+   "pattern": "～を限りに",
+   "reg": "viet",
+   "regTip": "〜で最後に",
+   "review": false
+  },
+  {
+   "ex": "子どもならいざ知らず、大人がそんなことも知らないとは驚いた。",
+   "exVi": "Trẻ con thì đành, chứ người lớn mà không biết cả chuyện đó thì thật ngạc nhiên.",
+   "form": "N + ならいざ知らず",
+   "level": "N1",
+   "meaning": "nếu là… thì không nói làm gì, chứ…",
+   "note": "はおろか (đã học) = “đến A còn không, nói gì B”; ならいざ知らず đối lập trường hợp chấp nhận được với trường hợp không chấp nhận được.",
+   "pattern": "～ならいざ知らず",
+   "reg": "viet",
+   "regTip": "〜ならともかく",
+   "review": false
+  },
+  {
+   "ex": "連休初日とあって、空港は大変な人出だった。",
+   "exVi": "Vì là ngày đầu kỳ nghỉ dài nên sân bay đông nghịt người.",
+   "form": "普通形／N + とあって",
+   "level": "N1",
+   "meaning": "vì là (hoàn cảnh đặc biệt) nên…",
+   "note": "とあれば (đã học) là giả định “nếu là vì… thì sẵn sàng”; とあって nói sự thật đã xảy ra và tình trạng quan sát được.",
+   "pattern": "～とあって",
+   "reg": "viet",
+   "regTip": "〜だから",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm 限り/限る – giới hạn & điều kiện: 限り／ないかぎり／かぎりでは／に限って／に限り／に限る／とは限らない",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "Bất mãn “cứ đúng hôm định đi là…” → に限って. に限り dùng cho giới hạn khách quan.",
+   "options": [
+    "に限り",
+    "に限る",
+    "に限って",
+    "に限らず"
+   ],
+   "q": "行こうと思った日（　）、あの店は休みなんだから、いやになる。"
+  },
+  {
+   "answer": 3,
+   "explain": "Thông báo trang trọng, giới hạn “chỉ hôm nay” → に限り. に限る (…là nhất) không đứng giữa câu như vậy; とあって/ならいざ知らず không hợp nghĩa.",
+   "options": [
+    "に限る",
+    "ならいざ知らず",
+    "とあって",
+    "に限り"
+   ],
+   "q": "本日（　）、全商品を2割引きで販売いたします。"
+  },
+  {
+   "answer": 1,
+   "explain": "からといって… đi với とは限らない: “chưa chắc đã…”.",
+   "options": [
+    "に限る",
+    "とは限らない",
+    "かぎりでは",
+    "ないかぎり"
+   ],
+   "q": "有名な大学を出たからといって、仕事ができる（　）。"
+  },
+  {
+   "answer": 1,
+   "explain": "知っている + かぎりでは = “theo phạm vi tôi biết”.",
+   "options": [
+    "に限って",
+    "かぎりでは",
+    "に限り",
+    "とは限らない"
+   ],
+   "q": "私が知っている（　）、彼は約束を破るような人ではない。"
+  },
+  {
+   "answer": 0,
+   "explain": "Sự thật đã xảy ra do hoàn cảnh đặc biệt → とあって. とあれば là giả định, không đi với vế quá khứ quan sát.",
+   "options": [
+    "とあって",
+    "とあれば",
+    "ならいざ知らず",
+    "を限りに"
+   ],
+   "q": "ゴールデンウィーク（　）、観光地はどこも混雑していた。"
+  },
+  {
+   "answer": 1,
+   "explain": "連携が円滑になる = phối hợp suôn sẻ. 杜撰 nghĩa xấu, 頑丈 dùng cho vật chắc chắn, 漠然 dùng dạng 漠然とした.",
+   "options": [
+    "杜撰",
+    "円滑",
+    "頑丈",
+    "漠然"
+   ],
+   "q": "新しいシステムを導入したことで、部署間の連携が（　）になった。"
+  },
+  {
+   "answer": 3,
+   "explain": "Cụm cố định 拍車をかける (はくしゃ) = đẩy nhanh thêm.",
+   "options": [
+    "手がかり",
+    "偏見",
+    "犠牲",
+    "拍車"
+   ],
+   "q": "急激な人口減少が、地方の過疎化に（　）をかけている。"
+  },
+  {
+   "answer": 2,
+   "explain": "Vよう + ものなら = “nếu lỡ… thì (hậu quả xấu)”. ものの (tuy… nhưng) không đi với thể ý chí.",
+   "options": [
+    "ものの",
+    "もので",
+    "ものなら",
+    "ものか"
+   ],
+   "q": "(ôn) 一度言い出したら聞かない彼のことだ。止めよう（　）、かえって意地になるだろう。"
+  },
+  {
+   "answer": 1,
+   "explain": "頓挫（とんざ）= bị đình trệ giữa chừng. 踏襲 = kế thừa, 緩和 = nới lỏng.",
+   "options": [
+    "緩和",
+    "頓挫",
+    "踏襲",
+    "依存"
+   ],
+   "q": "(ôn) 資金不足のため、新工場の建設計画は途中で（　）した。"
+  },
+  {
+   "answer": 3,
+   "explain": "Vì lý do hoàn cảnh nên “không thể” → わけにはいかない. わけがない là phủ định khả năng khách quan.",
+   "options": [
+    "わけだ",
+    "わけがない",
+    "わけではない",
+    "わけにはいかない"
+   ],
+   "q": "(ôn) 明日は大事な試験があるので、今夜は遊びに行く（　）。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 1,
+  "explain": "「むしろ、働きすぎてしまう人のほうが問題だ」「境界があいまいになり…」→ b. Phương án a bị phủ định bởi 「怠けるとは限らない」; c ngược với đoạn văn (通勤の負担が減り); d không được nhắc.",
+  "options": [
+   "上司が部下を管理できず、怠ける人が増えること",
+   "仕事と私生活の区別がつきにくく、働きすぎてしまうこと",
+   "通勤の負担が増え、自分のペースで働けないこと",
+   "企業が制度を整えず、在宅勤務が広がらないこと"
+  ],
+  "q": "筆者が在宅勤務の問題点として特に指摘していることは何か。",
+  "text": "最近、在宅勤務を導入する企業が増えている。通勤の負担が減り、自分のペースで働けるという利点がある一方で、同僚と顔を合わせる機会が減り、孤独を感じる人も少なくない。また、上司の目が届かないからといって、誰もが怠けるとは限らない。むしろ、働きすぎてしまう人のほうが問題だという指摘もある。仕事と私生活の境界があいまいになり、夜遅くまでパソコンに向かってしまうのだ。在宅勤務を円滑に続けるためには、制度を整えるだけでなく、一人一人が時間の使い方を意識する必要があるだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "睡眠不足は健康に悪影響を及ぼす。",
+   "exVi": "Thiếu ngủ gây ảnh hưởng xấu đến sức khỏe.",
+   "level": "N2",
+   "meaning": "gây ra, tác động (ảnh hưởng) đến",
+   "reading": "およぼす",
+   "reg": "viet",
+   "regTip": "影響が出る",
+   "review": false,
+   "word": "及ぼす"
+  },
+  {
+   "ex": "小さなミスも見逃さないように確認してください。",
+   "exVi": "Hãy kiểm tra để không bỏ sót cả những lỗi nhỏ.",
+   "level": "N2",
+   "meaning": "bỏ sót, bỏ qua, làm ngơ",
+   "reading": "みのがす",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "見逃す"
+  },
+  {
+   "ex": "警察は事件の手がかりをつかんだ。",
+   "exVi": "Cảnh sát đã nắm được manh mối của vụ án.",
+   "level": "N2",
+   "meaning": "manh mối, đầu mối",
+   "reading": "てがかり",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "手がかり"
+  },
+  {
+   "ex": "会議を円滑に進めるため、資料を事前に配った。",
+   "exVi": "Để cuộc họp diễn ra suôn sẻ, tôi đã phát tài liệu trước.",
+   "level": "N2",
+   "meaning": "trôi chảy, suôn sẻ",
+   "reading": "えんかつ",
+   "reg": "viet",
+   "regTip": "スムーズに",
+   "review": false,
+   "word": "円滑"
+  },
+  {
+   "ex": "外見だけで人を判断するのは偏見だ。",
+   "exVi": "Đánh giá người khác chỉ qua vẻ ngoài là định kiến.",
+   "level": "N2",
+   "meaning": "định kiến, thành kiến",
+   "reading": "へんけん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "偏見"
+  },
+  {
+   "ex": "彼は悩みを親友に打ち明けた。",
+   "exVi": "Anh ấy đã thổ lộ nỗi phiền muộn với bạn thân.",
+   "level": "N2",
+   "meaning": "thổ lộ, tâm sự (điều thầm kín)",
+   "reading": "うちあける",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "打ち明ける"
+  },
+  {
+   "ex": "彼女は最後まで自分の信念を貫いた。",
+   "exVi": "Cô ấy đã giữ vững niềm tin của mình đến cuối cùng.",
+   "level": "N2",
+   "meaning": "xuyên qua; giữ vững đến cùng (lập trường, niềm tin)",
+   "reading": "つらぬく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "貫く"
+  },
+  {
+   "ex": "円安が物価上昇に拍車をかけている。",
+   "exVi": "Đồng yên yếu đang đẩy nhanh đà tăng giá.",
+   "level": "N1",
+   "meaning": "cựa thúc ngựa → 拍車をかける: đẩy nhanh, làm trầm trọng thêm",
+   "reading": "はくしゃ",
+   "reg": "viet",
+   "regTip": "もっと進める・ひどくする",
+   "review": false,
+   "word": "拍車"
+  },
+  {
+   "ex": "その会社は海外市場への進出を目論んでいる。",
+   "exVi": "Công ty đó đang nhắm tới việc thâm nhập thị trường nước ngoài.",
+   "level": "N1",
+   "meaning": "mưu tính, nhắm tới (kế hoạch)",
+   "reading": "もくろむ",
+   "reg": "viet",
+   "regTip": "企む・狙ってる",
+   "review": false,
+   "word": "目論む"
+  },
+  {
+   "ex": "杜撰な管理が事故の原因となった。",
+   "exVi": "Việc quản lý cẩu thả đã trở thành nguyên nhân của tai nạn.",
+   "level": "N1",
+   "meaning": "cẩu thả, tắc trách",
+   "reading": "ずさん",
+   "reg": "viet",
+   "regTip": "いい加減・雑",
+   "review": false,
+   "word": "杜撰"
+  }
+ ]
+}

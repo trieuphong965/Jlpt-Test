@@ -1,0 +1,329 @@
+{
+ "date": "2026-10-23",
+ "grammar": [
+  {
+   "ex": "親の心配をよそに、彼は一人で海外へ旅立った。",
+   "exVi": "Mặc kệ bố mẹ lo lắng, anh ấy một mình ra nước ngoài.",
+   "form": "N + をよそに",
+   "level": "N1",
+   "meaning": "mặc kệ, bất chấp (sự lo lắng, phản đối của người khác)",
+   "note": "～をものともせずに: vượt qua khó khăn/nguy hiểm, mang sắc thái khen ngợi.",
+   "pattern": "～をよそに",
+   "reg": "viet",
+   "regTip": "〜なんて気にしないで"
+  },
+  {
+   "ex": "彼の演説は聴衆を感動させずにはおかない。",
+   "exVi": "Bài diễn thuyết của anh ấy chắc chắn sẽ làm khán giả xúc động.",
+   "form": "Vない (bỏ ない) + ずにはおかない (する → せずにはおかない)",
+   "level": "N1",
+   "meaning": "chắc chắn sẽ khiến…, nhất định gây ra…",
+   "note": "～ずにはいられない (N2): “không thể không…”, cảm xúc/hành động tự phát của chính người nói.",
+   "pattern": "～ずにはおかない",
+   "reg": "viet",
+   "regTip": "必ず〜させる"
+  },
+  {
+   "ex": "出張にかこつけて、観光を楽しんだ。",
+   "exVi": "Lấy cớ đi công tác để đi du lịch.",
+   "form": "N + にかこつけて",
+   "level": "N1",
+   "meaning": "lấy cớ…, viện cớ…",
+   "note": "Gần nghĩa ～を口実に; にかこつけて hay dùng khi lý do bề ngoài là chuyện có thật.",
+   "pattern": "～にかこつけて",
+   "reg": "viet",
+   "regTip": "〜を口実に・言い訳に"
+  },
+  {
+   "ex": "子どものためとあれば、どんな苦労もいとわない。",
+   "exVi": "Nếu là vì con thì vất vả mấy cũng không ngại.",
+   "form": "N / 普通形 + とあれば",
+   "level": "N1",
+   "meaning": "nếu là… thì (sẵn sàng làm)",
+   "note": "～とあって: “vì là…” (nói về sự việc thực tế, không phải giả định).",
+   "pattern": "～とあれば",
+   "reg": "viet",
+   "regTip": "〜なら"
+  },
+  {
+   "ex": "毎日とは言わないまでも、週に一度は運動したい。",
+   "exVi": "Không nói là mỗi ngày, nhưng ít nhất mỗi tuần muốn vận động một lần.",
+   "form": "Vない + までも",
+   "level": "N1",
+   "meaning": "dù không đến mức… thì ít nhất cũng…",
+   "note": "Vế sau thường là mức độ thấp hơn: せめて／少なくとも…",
+   "pattern": "～ないまでも",
+   "reg": "viet",
+   "regTip": "〜とまではいかないけど"
+  },
+  {
+   "ex": "開会に先立って、市長が挨拶した。",
+   "exVi": "Trước khi khai mạc, thị trưởng đã phát biểu.",
+   "form": "N / V辞書形 + に先立って",
+   "level": "N2",
+   "meaning": "trước khi… (sự kiện quan trọng, trang trọng)",
+   "note": "～前に: dùng chung chung, không trang trọng.",
+   "pattern": "～に先立って",
+   "reg": "viet",
+   "regTip": "〜の前に"
+  },
+  {
+   "ex": "免許は取ったものの、まだ運転に自信がない。",
+   "exVi": "Tuy đã có bằng lái nhưng vẫn chưa tự tin lái xe.",
+   "form": "普通形 (Naな／Naである, Nである) + ものの",
+   "level": "N2",
+   "meaning": "tuy… nhưng…",
+   "note": "～ものだから: “vì…” (nêu lý do, biện hộ).",
+   "pattern": "～ものの",
+   "reg": "viet",
+   "regTip": "〜けど"
+  },
+  {
+   "ex": "不注意な発言は誤解を招きかねない。",
+   "exVi": "Phát ngôn bất cẩn có thể gây hiểu lầm.",
+   "form": "Vます + かねない",
+   "level": "N2",
+   "meaning": "có thể sẽ… (kết quả xấu)",
+   "note": "～かねる: “khó mà…, không thể…” (từ chối lịch sự) — nghĩa gần như ngược lại.",
+   "pattern": "～かねない",
+   "reg": "chung",
+   "regTip": ""
+  },
+  {
+   "ex": "収入に応じて税金の額が変わる。",
+   "exVi": "Số tiền thuế thay đổi tùy theo thu nhập.",
+   "form": "N + に応じて",
+   "level": "N2",
+   "meaning": "tùy theo, đáp ứng theo",
+   "note": "～に伴って: “cùng với (sự thay đổi)…”, hai việc cùng biến đổi.",
+   "pattern": "～に応じて",
+   "reg": "chung",
+   "regTip": ""
+  },
+  {
+   "ex": "彼は遅刻したばかりか、宿題も忘れた。",
+   "exVi": "Anh ta không những đi muộn mà còn quên bài tập.",
+   "form": "普通形 (Naな／である, N) + ばかりか",
+   "level": "N2",
+   "meaning": "không những… mà còn…",
+   "note": "～ばかりに: “chỉ vì… (mà dẫn tới hậu quả xấu)”.",
+   "pattern": "～ばかりか",
+   "reg": "viet",
+   "regTip": "〜だけじゃなくて"
+  }
+ ],
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "携わる – たずさわる: tham gia, làm việc trong một lĩnh vực.",
+   "options": [
+    "たずわる",
+    "たずさわる",
+    "かかわる",
+    "たずさる"
+   ],
+   "q": "「携わる」の読み方は？"
+  },
+  {
+   "answer": 0,
+   "explain": "をよそに: mặc kệ sự phản đối/lo lắng của người khác.",
+   "options": [
+    "をよそに",
+    "にかこつけて",
+    "に先立って",
+    "とあれば"
+   ],
+   "q": "親の反対＿＿、彼女は留学を決めた。"
+  },
+  {
+   "answer": 1,
+   "explain": "かねない: có thể dẫn đến kết quả xấu. かねる lại là “khó mà làm”.",
+   "options": [
+    "かねる",
+    "かねない",
+    "ずにはおかない",
+    "ものの"
+   ],
+   "q": "このまま放置すれば、大事故につながり＿＿。"
+  },
+  {
+   "answer": 1,
+   "explain": "とあれば: nếu là (lời nhờ của bạn thân) thì sẵn sàng làm. とあって dùng cho sự việc thực tế “vì là…”.",
+   "options": [
+    "とあって",
+    "とあれば",
+    "ばかりか",
+    "ものの"
+   ],
+   "q": "大切な友人の頼み＿＿、断るわけにはいかない。"
+  },
+  {
+   "answer": 2,
+   "explain": "ものの: tuy… nhưng. ものだから là nêu lý do.",
+   "options": [
+    "ものだから",
+    "ばかりに",
+    "ものの",
+    "とあれば"
+   ],
+   "q": "頭では分かっている＿＿、なかなか実行できない。"
+  },
+  {
+   "answer": 0,
+   "explain": "に応じて: tùy theo, đáp ứng theo số người tham gia.",
+   "options": [
+    "応じて",
+    "先立って",
+    "かこつけて",
+    "よそに"
+   ],
+   "q": "参加者の人数に＿＿、会場を選ぶ。"
+  },
+  {
+   "answer": 1,
+   "explain": "潔く: đường hoàng, dứt khoát nhận trách nhiệm.",
+   "options": [
+    "曖昧に",
+    "潔く",
+    "頻繁に",
+    "衰えて"
+   ],
+   "q": "彼は言い訳をせず、＿＿責任を取った。"
+  },
+  {
+   "answer": 0,
+   "explain": "ないまでも: không đến mức (mỗi ngày) thì ít nhất cũng (3 lần/tuần).",
+   "options": [
+    "とは言わないまでも",
+    "とあれば",
+    "をよそに",
+    "ずにはおかない"
+   ],
+   "q": "毎日＿＿、せめて週に3回は日本語を勉強したい。"
+  },
+  {
+   "answer": 1,
+   "explain": "Chủ ngữ là bộ phim (tác nhân bên ngoài) gây ra cảm xúc → ずにはおかない. ずにはいられない nói về cảm xúc tự phát của chính người nói.",
+   "options": [
+    "ずにはいられない",
+    "ずにはおかない",
+    "かねない",
+    "ものの"
+   ],
+   "q": "この映画は見る人の心を動かさ＿＿。"
+  },
+  {
+   "answer": 1,
+   "explain": "是正 – ぜせい: chấn chỉnh sự sai lệch, bất công (格差を是正する).",
+   "options": [
+    "mơ hồ, không rõ ràng",
+    "chấn chỉnh, sửa cho đúng",
+    "thỏa hiệp",
+    "biện pháp"
+   ],
+   "q": "「是正」の意味として正しいものはどれ？"
+  }
+ ],
+ "vocab": [
+  {
+   "ex": "新製品の安全性に懸念が残る。",
+   "exVi": "Vẫn còn lo ngại về độ an toàn của sản phẩm mới.",
+   "level": "N1",
+   "meaning": "lo ngại, mối lo",
+   "reading": "けねん",
+   "reg": "viet",
+   "regTip": "心配・気になる",
+   "word": "懸念"
+  },
+  {
+   "ex": "品質については一切妥協しない。",
+   "exVi": "Về chất lượng thì tuyệt đối không thỏa hiệp.",
+   "level": "N2",
+   "meaning": "thỏa hiệp",
+   "reading": "だきょう",
+   "reg": "chung",
+   "regTip": "",
+   "word": "妥協"
+  },
+  {
+   "ex": "政府は緊急措置を講じた。",
+   "exVi": "Chính phủ đã đưa ra biện pháp khẩn cấp.",
+   "level": "N1",
+   "meaning": "biện pháp (thường đi với 講じる/とる)",
+   "reading": "そち",
+   "reg": "viet",
+   "regTip": "対策・対応",
+   "word": "措置"
+  },
+  {
+   "ex": "この交差点では事故が頻繁に起こる。",
+   "exVi": "Ở ngã tư này tai nạn xảy ra thường xuyên.",
+   "level": "N2",
+   "meaning": "thường xuyên, liên tục",
+   "reading": "ひんぱん",
+   "reg": "chung",
+   "regTip": "thân mật: しょっちゅう・よく",
+   "word": "頻繁"
+  },
+  {
+   "ex": "彼は長年教育に携わってきた。",
+   "exVi": "Anh ấy đã làm trong ngành giáo dục nhiều năm.",
+   "level": "N1",
+   "meaning": "tham gia, làm việc trong (một lĩnh vực)",
+   "reading": "たずさわる",
+   "reg": "viet",
+   "regTip": "〜の仕事をしている・関わる",
+   "word": "携わる"
+  },
+  {
+   "ex": "確認を怠ると、大きなミスにつながる。",
+   "exVi": "Nếu lơ là việc kiểm tra sẽ dẫn đến sai sót lớn.",
+   "level": "N2",
+   "meaning": "lơ là, sao nhãng",
+   "reading": "おこたる",
+   "reg": "viet",
+   "regTip": "ちゃんとやらない・サボる",
+   "word": "怠る"
+  },
+  {
+   "ex": "地域間の格差を是正する必要がある。",
+   "exVi": "Cần phải chấn chỉnh sự chênh lệch giữa các vùng.",
+   "level": "N1",
+   "meaning": "chấn chỉnh, sửa cho đúng (sự sai lệch, bất công)",
+   "reading": "ぜせい",
+   "reg": "viet",
+   "regTip": "直す",
+   "word": "是正"
+  },
+  {
+   "ex": "彼の返事はいつも曖昧だ。",
+   "exVi": "Câu trả lời của anh ta lúc nào cũng mập mờ.",
+   "level": "N2",
+   "meaning": "mơ hồ, không rõ ràng",
+   "reading": "あいまい",
+   "reg": "chung",
+   "regTip": "",
+   "word": "曖昧"
+  },
+  {
+   "ex": "年とともに体力が衰えてきた。",
+   "exVi": "Thể lực đã suy giảm theo tuổi tác.",
+   "level": "N2",
+   "meaning": "suy yếu, sa sút",
+   "reading": "おとろえる",
+   "reg": "chung",
+   "regTip": "",
+   "word": "衰える"
+  },
+  {
+   "ex": "彼は潔く負けを認めた。",
+   "exVi": "Anh ấy đường hoàng thừa nhận thất bại.",
+   "level": "N1",
+   "meaning": "dứt khoát, đường hoàng, quân tử",
+   "reading": "いさぎよい",
+   "reg": "chung",
+   "regTip": "",
+   "word": "潔い"
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-12",
+ "grammar": [
+  {
+   "ex": "留学をきっかけに、日本の歴史に興味を持つようになった。",
+   "exVi": "Nhân dịp đi du học, tôi bắt đầu quan tâm đến lịch sử Nhật Bản.",
+   "form": "N／Vた + の + をきっかけに（して）",
+   "level": "N2",
+   "meaning": "nhân (sự việc) ~ mà bắt đầu / thay đổi",
+   "note": "をきっかけに: dùng cả khi nói, sự kiện nhỏ/cá nhân cũng được. を契機に: trang trọng, thường là sự kiện lớn mang tính xã hội.",
+   "pattern": "～をきっかけに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "震災を契機に、防災への意識が全国的に高まった。",
+   "exVi": "Nhân trận động đất, ý thức phòng chống thiên tai đã tăng lên trên toàn quốc.",
+   "form": "N + を契機に（して／として）",
+   "level": "N2",
+   "meaning": "nhân cơ hội / bước ngoặt ~",
+   "note": "Khác を皮切りに (N1): を皮切りに = mở màn cho một chuỗi sự việc liên tiếp.",
+   "pattern": "～を契機に",
+   "reg": "viet",
+   "regTip": "〜をきっかけに",
+   "review": false
+  },
+  {
+   "ex": "社長をはじめ、多くの社員が式典に参加した。",
+   "exVi": "Đứng đầu là giám đốc, rất nhiều nhân viên đã tham dự buổi lễ.",
+   "form": "N + をはじめ（として）／をはじめとする + N",
+   "level": "N2",
+   "meaning": "tiêu biểu là ~, cùng với ~ (nêu ví dụ đầu tiên rồi còn nhiều cái khác)",
+   "note": "Khác を中心に: をはじめ = nêu đại diện tiêu biểu trong một nhóm; を中心に = lấy làm tâm điểm/trục chính.",
+   "pattern": "～をはじめ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この地域を中心に、大雨が降る見込みです。",
+   "exVi": "Dự báo mưa lớn tập trung chủ yếu ở khu vực này.",
+   "form": "N + を中心に（して／として）",
+   "level": "N2",
+   "meaning": "lấy ~ làm trung tâm, chủ yếu ở ~",
+   "note": "Xem lưu ý ở をはじめ.",
+   "pattern": "～を中心に",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "SNSを通じて、世界中の人と交流できる。",
+   "exVi": "Thông qua mạng xã hội, ta có thể giao lưu với mọi người trên thế giới.",
+   "form": "N + を通じて",
+   "level": "N2",
+   "meaning": "(1) thông qua (phương tiện, người trung gian) (2) suốt (khoảng thời gian)",
+   "note": "Gần nghĩa を通して: を通して nhấn mạnh chủ ý dùng ~ làm trung gian, dùng nhiều khi nói; を通じて hơi trang trọng hơn.",
+   "pattern": "～を通じて",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "感謝の気持ちをこめて、手紙を書いた。",
+   "exVi": "Tôi viết thư gửi gắm lòng biết ơn.",
+   "form": "N + をこめて／をこめた + N",
+   "level": "N2",
+   "meaning": "gửi gắm, chứa chan (tình cảm, tâm huyết)",
+   "note": "",
+   "pattern": "～をこめて",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "実際の事件をもとに、この映画は作られた。",
+   "exVi": "Bộ phim này được làm dựa trên một vụ án có thật.",
+   "form": "N + をもとに（して）",
+   "level": "N2",
+   "meaning": "dựa trên ~ làm chất liệu/nguồn để tạo ra cái mới",
+   "note": "Khác に基づいて: に基づいて = căn cứ vào (quy định, dữ liệu) để hành động, trang trọng; をもとに = lấy làm chất liệu để sáng tác/tạo ra.",
+   "pattern": "～をもとに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "好天と相まって、会場は大勢の人でにぎわった。",
+   "exVi": "Cộng thêm thời tiết đẹp, hội trường đông nghịt người.",
+   "form": "N + と相まって",
+   "level": "N1",
+   "meaning": "kết hợp với ~ (cộng hưởng tạo ra kết quả)",
+   "note": "",
+   "pattern": "～と相まって",
+   "reg": "viet",
+   "regTip": "〜も重なって・〜も加わって",
+   "review": false
+  },
+  {
+   "ex": "今年は例年にもまして暑い夏になった。",
+   "exVi": "Năm nay là một mùa hè nóng hơn cả mọi năm.",
+   "form": "N／từ để hỏi + にもまして",
+   "level": "N1",
+   "meaning": "hơn cả ~ (何にもまして = hơn hết thảy)",
+   "note": "Khác より: にもまして hàm ý vốn ~ đã ở mức cao rồi, nay còn hơn nữa.",
+   "pattern": "～にもまして",
+   "reg": "viet",
+   "regTip": "〜よりもっと・いつも以上に",
+   "review": false
+  },
+  {
+   "ex": "見るともなくテレビを眺めていたら、懐かしい曲が流れてきた。",
+   "exVi": "Đang lơ đãng nhìn TV thì một bài hát quen thuộc vang lên.",
+   "form": "V辞書形 + ともなく／ともなしに",
+   "level": "N1",
+   "meaning": "vô tình, không chủ ý làm ~",
+   "note": "Từ để hỏi + ともなく (どこからともなく) = không rõ từ đâu.",
+   "pattern": "～ともなく",
+   "reg": "viet",
+   "regTip": "なんとなく〜・ぼーっと〜",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm を～ (khởi điểm / trung tâm / căn cứ / phương tiện): をきっかけに／を契機に／をはじめ／を中心に／を通じて／をこめて／をもとに",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "Sự kiện cá nhân dẫn đến thay đổi → をきっかけに.",
+   "options": [
+    "をこめて",
+    "をもとに",
+    "をきっかけに",
+    "を中心に"
+   ],
+   "q": "大学入学＿＿、一人暮らしを始めた。"
+  },
+  {
+   "answer": 0,
+   "explain": "Sự kiện lớn tạo bước ngoặt, văn phong tin tức → を契機に.",
+   "options": [
+    "を契機に",
+    "をこめて",
+    "をもとに",
+    "をはじめ"
+   ],
+   "q": "今回の首脳会談＿＿、両国の関係は大きく改善した。"
+  },
+  {
+   "answer": 3,
+   "explain": "Lấy người làm trục để gắn kết → を中心に (không phải nêu ví dụ tiêu biểu như をはじめ).",
+   "options": [
+    "を通じて",
+    "をこめて",
+    "を契機に",
+    "を中心に"
+   ],
+   "q": "このチームは、キャプテンの田中さん＿＿よくまとまっている。"
+  },
+  {
+   "answer": 1,
+   "explain": "Lấy trải nghiệm làm chất liệu sáng tác → をもとに.",
+   "options": [
+    "をこめて",
+    "をもとに",
+    "を契機に",
+    "をはじめ"
+   ],
+   "q": "このドラマは、作者自身の体験＿＿書かれたそうだ。"
+  },
+  {
+   "answer": 1,
+   "explain": "操作を誤る = thao tác sai.",
+   "options": [
+    "慰めた",
+    "誤った",
+    "仕上げた",
+    "免れた"
+   ],
+   "q": "前の担当者が操作を＿＿せいで、システムが停止した。"
+  },
+  {
+   "answer": 3,
+   "explain": "根回し = vận động ngầm trước cuộc họp.",
+   "options": [
+    "妨害",
+    "獲得",
+    "一律",
+    "根回し"
+   ],
+   "q": "会議で反対されないよう、事前に関係者への＿＿を済ませておいた。"
+  },
+  {
+   "answer": 2,
+   "explain": "Nói với bạn dùng まだ thay cho 依然, thể thường + んだって; các câu khác là văn viết/kính ngữ trang trọng.",
+   "options": [
+    "事故の原因は依然として不明であります。",
+    "同問題は依然未解決である。",
+    "あの問題、まだ解決してないんだって。",
+    "金メダルを獲得なさったそうでございます。"
+   ],
+   "q": "友達との会話で最も自然なのはどれか。"
+  },
+  {
+   "answer": 0,
+   "explain": "憂慮（ゆうりょ）する = lo ngại sâu sắc (văn viết).",
+   "options": [
+    "憂慮",
+    "浸透",
+    "打開",
+    "漠然"
+   ],
+   "q": "（ôn）政府は物価の急激な上昇を＿＿している。"
+  },
+  {
+   "answer": 3,
+   "explain": "A はおろか B も (phủ định) = A thì khỏi nói, đến B cũng không.",
+   "options": [
+    "に限って",
+    "にとって",
+    "をめぐって",
+    "はおろか"
+   ],
+   "q": "（ôn）彼は漢字＿＿、ひらがなもまだ十分に書けない。"
+  },
+  {
+   "answer": 1,
+   "explain": "浸透（しんとう）する = thấm sâu, lan rộng (thói quen, tư tưởng).",
+   "options": [
+    "逼迫",
+    "浸透",
+    "停滞",
+    "頓挫"
+   ],
+   "q": "（ôn）キャッシュレス決済が若い世代の間に＿＿しつつある。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 1,
+  "explain": "Câu cuối: 大切なのは、社員一人一人が自分に合った形を選べること. Phương án 3 sai vì người phụ trách nói 働き方に正解はない (không có đáp án đúng duy nhất); 1 và 4 không được nhắc.",
+  "options": [
+   "在宅勤務より出社のほうが生産性が高い。",
+   "社員が自分に合った働き方を選べることが重要だ。",
+   "チームごとに出社日を決めるのが唯一の正解だ。",
+   "孤独を防ぐために毎日出社すべきだ。"
+  ],
+  "q": "担当者が最も言いたいことは何か。",
+  "text": "コロナ禍をきっかけに、在宅勤務を導入する企業が増えた。通勤時間がなくなり、家族と過ごす時間が増えたと喜ぶ声がある一方で、同僚との雑談が減り、孤独を感じる人も少なくない。そこで最近では、週に二、三日だけ出社する「ハイブリッド型」を採用する会社が目立つ。ある企業では、社員へのアンケートをもとに、チームごとに出社日を決める制度を作った。担当者は「働き方に正解はない。大切なのは、社員一人一人が自分に合った形を選べることだ」と話している。"
+ },
+ "vocab": [
+  {
+   "ex": "一部の観客が試合を妨害した。",
+   "exVi": "Một số khán giả đã phá rối trận đấu.",
+   "hanviet": "PHƯƠNG HẠI",
+   "level": "N2",
+   "meaning": "sự cản trở, phá rối",
+   "reading": "ぼうがい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "妨害"
+  },
+  {
+   "ex": "日本代表が金メダルを獲得した。",
+   "exVi": "Đội tuyển Nhật Bản đã giành huy chương vàng.",
+   "hanviet": "HOẠCH ĐẮC",
+   "level": "N2",
+   "meaning": "giành được, đạt được (huy chương, quyền, khách hàng…)",
+   "reading": "かくとく",
+   "reg": "viet",
+   "regTip": "取る・手に入れる",
+   "review": false,
+   "word": "獲得"
+  },
+  {
+   "ex": "試験に落ちた友達を慰めた。",
+   "exVi": "Tôi đã an ủi người bạn bị trượt kỳ thi.",
+   "hanviet": "ÚY",
+   "level": "N2",
+   "meaning": "an ủi",
+   "reading": "なぐさめる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "慰める"
+  },
+  {
+   "ex": "操作を誤ると、データが消えるおそれがある。",
+   "exVi": "Nếu thao tác sai, dữ liệu có thể bị mất.",
+   "hanviet": "NGỘ",
+   "level": "N2",
+   "meaning": "làm sai, nhầm (thao tác, phán đoán)",
+   "reading": "あやまる",
+   "reg": "viet",
+   "regTip": "間違える",
+   "review": false,
+   "word": "誤る"
+  },
+  {
+   "ex": "新人なのに、彼は本当に頼もしい。",
+   "exVi": "Dù là người mới nhưng cậu ấy thật đáng tin cậy.",
+   "hanviet": "LẠI",
+   "level": "N2",
+   "meaning": "đáng tin cậy, vững vàng",
+   "reading": "たのもしい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "頼もしい"
+  },
+  {
+   "ex": "事故の原因は依然として分かっていない。",
+   "exVi": "Nguyên nhân vụ tai nạn vẫn chưa được làm rõ.",
+   "hanviet": "Y NHIÊN",
+   "level": "N2",
+   "meaning": "vẫn như cũ, vẫn còn (thường: 依然として)",
+   "reading": "いぜん",
+   "reg": "viet",
+   "regTip": "相変わらず・まだ",
+   "review": false,
+   "word": "依然"
+  },
+  {
+   "ex": "週末までに報告書を仕上げなければならない。",
+   "exVi": "Tôi phải hoàn thành báo cáo trước cuối tuần.",
+   "hanviet": "SĨ THƯỢNG",
+   "level": "N2",
+   "meaning": "hoàn thành, hoàn thiện (công việc, sản phẩm)",
+   "reading": "しあげる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "仕上げる"
+  },
+  {
+   "ex": "送料は全国一律500円です。",
+   "exVi": "Phí ship đồng giá 500 yên toàn quốc.",
+   "hanviet": "NHẤT LUẬT",
+   "level": "N1",
+   "meaning": "đồng loạt, đồng đều như nhau",
+   "reading": "いちりつ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "一律"
+  },
+  {
+   "ex": "早めに避難したおかげで、被害を免れた。",
+   "exVi": "Nhờ sơ tán sớm nên đã thoát được thiệt hại.",
+   "hanviet": "MIỄN",
+   "level": "N1",
+   "meaning": "thoát khỏi, tránh được (tai họa, trách nhiệm)",
+   "reading": "まぬかれる・まぬがれる",
+   "reg": "viet",
+   "regTip": "避けられる・助かる",
+   "review": false,
+   "word": "免れる"
+  },
+  {
+   "ex": "会議の前に、部長に根回ししておいた。",
+   "exVi": "Trước cuộc họp, tôi đã thăm dò, thuyết phục trưởng phòng trước rồi.",
+   "hanviet": "CĂN HỒI",
+   "level": "N1",
+   "meaning": "vận động, thương lượng ngầm trước (để việc suôn sẻ)",
+   "reading": "ねまわし",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "根回し"
+  }
+ ]
+}

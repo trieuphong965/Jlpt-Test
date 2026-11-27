@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-24",
+ "grammar": [
+  {
+   "ex": "毎日残業させられる社員にしたら、たまったものではないだろう。",
+   "exVi": "Với nhân viên bị bắt tăng ca mỗi ngày thì chắc là không chịu nổi.",
+   "form": "N（người/tổ chức） + にしたら／にすれば",
+   "level": "N2",
+   "meaning": "nếu đứng ở lập trường của ~ thì (người nói suy đoán cảm nghĩ của họ)",
+   "note": "にとって: đánh giá giá trị khách quan (〜にとって大切だ); にしたら: đoán cảm xúc/ý nghĩ của người đó, thường kèm だろう. からすると dùng cả cho căn cứ phán đoán không phải người.",
+   "pattern": "～にしたら／にすれば",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "親にしてみれば、子どもがいくつになっても心配なものだ。",
+   "exVi": "Với cha mẹ thì con bao nhiêu tuổi vẫn lo.",
+   "form": "N（người） + にしてみれば",
+   "level": "N2",
+   "meaning": "đối với ~ mà nói thì (đặt mình vào vị trí họ, thường đối lập với người khác)",
+   "note": "Mạnh hơn にしたら, ngầm ý \"người khác thấy khác, nhưng với họ thì…\"; không dùng cho đồ vật.",
+   "pattern": "～にしてみれば",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "法律上は問題がなくても、倫理的には許されない。",
+   "exVi": "Dù về mặt pháp luật không có vấn đề, về đạo đức thì không thể chấp nhận.",
+   "form": "N + 上（は）／上も／上の N",
+   "level": "N2",
+   "meaning": "về mặt ~, xét trên phương diện ~ (法律上, 計算上, 書類上…)",
+   "note": "Khác ～上は (V辞書形 + 上は = 以上は, \"đã… thì phải\"): N + 上は là \"về mặt\".",
+   "pattern": "～上（は）",
+   "reg": "viet",
+   "regTip": "〜では・〜の面では",
+   "review": false
+  },
+  {
+   "ex": "外国人から見ると、日本の電車の正確さは驚きだ。",
+   "exVi": "Nhìn từ người nước ngoài thì độ đúng giờ của tàu Nhật thật đáng kinh ngạc.",
+   "form": "N + から見ると／から見れば／から見て",
+   "level": "N2",
+   "meaning": "nhìn từ góc độ của ~ thì",
+   "note": "Gần với からすると, nhưng から見ると nhấn \"góc nhìn\"; đi được với người. Khác からいうと (không đi với người).",
+   "pattern": "～から見ると／から見れば",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜から見たら",
+   "review": false
+  },
+  {
+   "ex": "私の経験からいうと、この方法が一番確実だ。",
+   "exVi": "Xét theo kinh nghiệm của tôi, cách này chắc chắn nhất.",
+   "form": "N（tiêu chí, lập trường: 経験・結論・立場…） + からいうと／からいえば",
+   "level": "N2",
+   "meaning": "xét về ~ thì, nói từ ~ thì",
+   "note": "Không gắn trực tiếp với người: ×私からいうと → 私から見ると／私の立場からいうと.",
+   "pattern": "～からいうと／からいえば",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜から言ったら",
+   "review": false
+  },
+  {
+   "ex": "新人がミスをするのは当然で、責めるには当たらない。",
+   "exVi": "Người mới mắc lỗi là chuyện đương nhiên, không đáng để trách.",
+   "form": "V辞書形／N + には当たらない",
+   "level": "N1",
+   "meaning": "không đáng để ~, không cần phải ~ (驚く・非難する・心配する…)",
+   "note": "Gần ～ことはない nhưng mang sắc thái đánh giá khách quan, trang trọng; khác ～までもない (đã rõ nên khỏi làm).",
+   "pattern": "～には当たらない",
+   "reg": "viet",
+   "regTip": "〜ことはない・〜なくてもいい",
+   "review": false
+  },
+  {
+   "ex": "言わずとも、彼の気持ちはよく分かる。",
+   "exVi": "Dù không nói ra, tôi cũng hiểu rõ cảm xúc của anh ấy.",
+   "form": "Vない（bỏ ない）+ ずとも（する→せずとも）",
+   "level": "N1",
+   "meaning": "dù không ~ thì cũng",
+   "note": "= なくても nhưng cổ/văn viết; hay gặp trong cụm cố định 言わずとも・見ずとも.",
+   "pattern": "～ずとも",
+   "reg": "viet",
+   "regTip": "〜なくても",
+   "review": false
+  },
+  {
+   "ex": "忙しくて、昼ご飯を食べる時間すらなかった。",
+   "exVi": "Bận đến mức ngay cả thời gian ăn trưa cũng không có.",
+   "form": "N（＋助詞）+ すら／ですら",
+   "level": "N1",
+   "meaning": "ngay cả ~ (cũng/còn)",
+   "note": "Gần さえ nhưng cứng hơn; không có dạng ～すら～ば như さえ～ば.",
+   "pattern": "～すら",
+   "reg": "viet",
+   "regTip": "〜さえ・〜も",
+   "review": false
+  },
+  {
+   "ex": "彼は高熱をおして、大事な会議に出席した。",
+   "exVi": "Anh ấy bất chấp sốt cao vẫn dự cuộc họp quan trọng.",
+   "form": "N（病気・反対・悪天候…） + をおして",
+   "level": "N1",
+   "meaning": "bất chấp (khó khăn, bệnh tật, phản đối) vẫn cố làm",
+   "note": "Khác をものともせず (không coi khó khăn ra gì, khen ngợi) và を顧みず (không đoái hoài, liều lĩnh): をおして = biết khó khăn nhưng vẫn gắng gượng.",
+   "pattern": "～をおして",
+   "reg": "viet",
+   "regTip": "〜なのに無理して",
+   "review": false
+  },
+  {
+   "ex": "子どもは子どもなりに、親のことを心配している。",
+   "exVi": "Trẻ con theo cách của trẻ con cũng lo cho bố mẹ.",
+   "form": "N／Aい／Aな + なりに；N + なりの + N",
+   "level": "N1",
+   "meaning": "theo cách/mức độ phù hợp với ~ (dù có giới hạn)",
+   "note": "Khác ～なり (ngay khi) và ～なり～なり (hoặc… hoặc) đã học.",
+   "pattern": "～なりに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Lập trường – góc nhìn: にしたら／にしてみれば／上（は）／から見ると／からいうと",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Đoán cảm xúc của người khác + だろう → にしたら. にとって không đi với 納得できないだろう kiểu suy đoán tâm trạng; からいうと không gắn với người.",
+   "options": [
+    "にとって",
+    "にしたら",
+    "からいうと",
+    "上は"
+   ],
+   "q": "毎日遅くまで働かされる社員（　）、この決定は納得できないだろう。"
+  },
+  {
+   "answer": 0,
+   "explain": "N + 上は = về mặt quy định. 上に = hơn nữa; にしてみれば dùng cho người.",
+   "options": [
+    "上は",
+    "上に",
+    "にしてみれば",
+    "なりに"
+   ],
+   "q": "規則（　）認められているが、実際にはほとんど使われていない制度だ。"
+  },
+  {
+   "answer": 2,
+   "explain": "結論からいうと = nói kết luận trước. にしたら/にしてみれば chỉ đi với người.",
+   "options": [
+    "にしてみれば",
+    "にしたら",
+    "からいうと",
+    "をおして"
+   ],
+   "q": "結論（　）、この案には反対です。"
+  },
+  {
+   "answer": 1,
+   "explain": "Đặt mình vào vị trí khách (người) + のだ → にしてみれば. からいうと không gắn với người.",
+   "options": [
+    "からいうと",
+    "にしてみれば",
+    "上は",
+    "すら"
+   ],
+   "q": "ずっと待たされた客（　）、謝罪の言葉だけでは足りないのだ。"
+  },
+  {
+   "answer": 0,
+   "explain": "には当たらない = không đáng phải lo. Các mẫu còn lại nghĩa ngược (không thể không, chỉ còn cách, tốt nhất là).",
+   "options": [
+    "には当たらない",
+    "ずにはいられない",
+    "ほかない",
+    "に越したことはない"
+   ],
+   "q": "この程度の誤差は許容範囲内で、心配する（　）。"
+  },
+  {
+   "answer": 1,
+   "explain": "素早く = nhanh chóng phản ứng. 渋々 = miễn cưỡng, không hợp tình huống khẩn.",
+   "options": [
+    "渋々",
+    "素早く",
+    "根強く",
+    "かけ離れて"
+   ],
+   "q": "ブレーカーが落ちた瞬間、彼は（　）原因を確認しに行った。"
+  },
+  {
+   "answer": 2,
+   "explain": "Nói chuyện với đồng nghiệp: 行ってくる tự nhiên. 赴く là văn viết; 相違ない và 遵守 sai nghĩa/văn phong.",
+   "options": [
+    "赴く",
+    "向かう予定に相違ない",
+    "行ってくる",
+    "遵守する"
+   ],
+   "q": "同僚との雑談で自然な言い方はどれか。「明日、客先に（　）よ。」"
+  },
+  {
+   "answer": 0,
+   "explain": "齟齬（そご）= sai lệch, không khớp (bài 17/11). Các từ khác: yên tâm, dàn xếp trước, đồng loạt.",
+   "options": [
+    "齟齬",
+    "安堵",
+    "根回し",
+    "一律"
+   ],
+   "q": "(ôn) 二つの資料の数値に（　）があり、再確認が必要だ。"
+  },
+  {
+   "answer": 0,
+   "explain": "～ばこそ = chính vì (bài 17/11), thường kết bằng のだ.",
+   "options": [
+    "ばこそ",
+    "ばそれまでだ",
+    "ども",
+    "ずとも"
+   ],
+   "q": "(ôn) 君の将来を思え（　）、あえて厳しいことを言うのだ。"
+  },
+  {
+   "answer": 0,
+   "explain": "精査（せいさ）= rà soát kỹ (bài 15/11). Các từ khác: rút lui, nhượng bộ, vận hành.",
+   "options": [
+    "精査",
+    "撤退",
+    "譲歩",
+    "稼働"
+   ],
+   "q": "(ôn) 提出前に、見積もりの内容をもう一度（　）してください。"
+  }
+ ],
+ "ratio": "N2 50% · N1 50%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: 若手が気軽に相談できる仕組みを用意する必要がある → đáp án 3. Câu 1 sai (bài nói công ty có lợi), 2 không nhắc, 4 chỉ là một lợi ích.",
+  "options": [
+   "テレワークは会社にとって利点がないので、やめるべきだ。",
+   "新入社員はテレワークを強く望んでいる。",
+   "制度を整えるだけでなく、若手が相談しやすい環境づくりが必要だ。",
+   "オフィスの費用を減らすことが最も重要だ。"
+  ],
+  "q": "筆者の考えに最も近いものはどれか。",
+  "text": "最近、多くの会社がテレワークを取り入れている。会社から見ると、オフィスの費用を減らせるうえ、遠くに住む優秀な人材も採用できるので、利点が大きい。一方、新入社員にしてみれば、先輩の仕事ぶりを近くで見る機会が減り、ちょっとしたことも質問しづらいという不安があるだろう。制度上は自由に働けるようになっても、それだけで全員が働きやすくなるわけではない。立場によって見え方が違うことを踏まえ、若手が気軽に相談できる仕組みを用意する必要がある。"
+ },
+ "vocab": [
+  {
+   "ex": "年末になると、注文が一気に押し寄せる。",
+   "exVi": "Cứ đến cuối năm là đơn hàng ùa tới một lượt.",
+   "hanviet": "ÁP KÝ",
+   "level": "N2",
+   "meaning": "ùa tới, tràn đến (đám đông, sóng, công việc)",
+   "reading": "おしよせる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "押し寄せる"
+  },
+  {
+   "ex": "異常に気づいた彼は、素早く非常停止ボタンを押した。",
+   "exVi": "Nhận ra bất thường, anh ấy nhanh chóng nhấn nút dừng khẩn cấp.",
+   "hanviet": "TỐ TẢO",
+   "level": "N2",
+   "meaning": "nhanh nhẹn, mau lẹ",
+   "reading": "すばやい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "素早い"
+  },
+  {
+   "ex": "この商品は発売から三十年たった今も根強い人気がある。",
+   "exVi": "Sản phẩm này đến nay sau 30 năm vẫn được ưa chuộng bền bỉ.",
+   "hanviet": "CĂN CƯỜNG",
+   "level": "N2",
+   "meaning": "ăn sâu, bám rễ (niềm tin, sự ủng hộ, định kiến)",
+   "reading": "ねづよい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "根強い"
+  },
+  {
+   "ex": "予算不足で、そのプロジェクトは途中で打ち切られた。",
+   "exVi": "Vì thiếu ngân sách, dự án đó bị dừng giữa chừng.",
+   "hanviet": "ĐẢ THIẾT",
+   "level": "N2",
+   "meaning": "cắt ngang, chấm dứt (giữa chừng)",
+   "reading": "うちきる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "打ち切る"
+  },
+  {
+   "ex": "田中課長は面倒見がよく、部下から慕われている。",
+   "exVi": "Trưởng phòng Tanaka chu đáo nên được cấp dưới quý mến.",
+   "hanviet": "MỘ",
+   "level": "N2",
+   "meaning": "quý mến, kính mến, ngưỡng mộ (người trên/người thân)",
+   "reading": "したう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "慕う"
+  },
+  {
+   "ex": "作業時は安全規則の遵守を徹底すること。",
+   "exVi": "Khi làm việc phải triệt để tuân thủ quy tắc an toàn.",
+   "hanviet": "TUÂN THỦ",
+   "level": "N1",
+   "meaning": "tuân thủ (luật, quy định)",
+   "reading": "じゅんしゅ",
+   "reg": "viet",
+   "regTip": "守る・ちゃんと守る",
+   "review": false,
+   "word": "遵守"
+  },
+  {
+   "ex": "トラブル対応のため、技術者が現地に赴いた。",
+   "exVi": "Kỹ sư đã đến hiện trường để xử lý sự cố.",
+   "hanviet": "PHÓ",
+   "level": "N1",
+   "meaning": "đi đến, tới (nơi làm nhiệm vụ…)",
+   "reading": "おもむく",
+   "reg": "viet",
+   "regTip": "行く・向かう",
+   "review": false,
+   "word": "赴く"
+  },
+  {
+   "ex": "見積もりと実際の費用がかけ離れていた。",
+   "exVi": "Báo giá và chi phí thực tế khác xa nhau.",
+   "hanviet": "LY",
+   "level": "N1",
+   "meaning": "cách xa, khác xa (thực tế, lý tưởng…)",
+   "reading": "かけはなれる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "かけ離れる"
+  },
+  {
+   "ex": "部長に頼まれて、渋々休日出勤を引き受けた。",
+   "exVi": "Bị trưởng ban nhờ, tôi miễn cưỡng nhận đi làm ngày nghỉ.",
+   "hanviet": "SÁP SÁP",
+   "level": "N1",
+   "meaning": "miễn cưỡng, bất đắc dĩ",
+   "reading": "しぶしぶ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "渋々"
+  },
+  {
+   "ex": "説明は聞いたが、どうも腑に落ちない点がある。",
+   "exVi": "Đã nghe giải thích nhưng vẫn có điểm thấy không thông.",
+   "hanviet": "PHỦ LẠC",
+   "level": "N1",
+   "meaning": "không thông, khó chấp nhận, thấy không hợp lý",
+   "reading": "ふにおちない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "腑に落ちない"
+  }
+ ]
+}

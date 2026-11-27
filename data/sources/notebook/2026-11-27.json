@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-27",
+ "grammar": [
+  {
+   "ex": "出かけようとしているところに、電話がかかってきた。",
+   "exVi": "Đúng lúc định ra ngoài thì có điện thoại.",
+   "form": "V-る／V-ている／V-た + ところに・ところへ",
+   "level": "N2",
+   "meaning": "đúng lúc đang… thì (có người/việc xen vào)",
+   "note": "Vế sau là sự việc xen vào/đến (来る・電話・訪ねる). Khác ところを: vế sau là hành động tác động lên người đang ở tình huống đó (見つかる・助ける).",
+   "pattern": "～ところに／ところへ",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜とこに・〜とこへ",
+   "review": false
+  },
+  {
+   "ex": "お忙しいところを、お集まりいただきありがとうございます。",
+   "exVi": "Xin cảm ơn mọi người đã tới dù đang bận.",
+   "form": "V／Aい／Nの + ところを",
+   "level": "N2",
+   "meaning": "đang lúc… (thì bị/được…); lời xin lỗi/cảm ơn khi làm phiền",
+   "note": "Hay đi với 見る・見つかる・見られる・助ける・邪魔する và cụm lịch sự お忙しいところを／お休みのところを.",
+   "pattern": "～ところを",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜とこを",
+   "review": false
+  },
+  {
+   "ex": "気づくのが遅かったら、大事故になるところだった。",
+   "exVi": "Nếu phát hiện muộn thì suýt nữa đã thành tai nạn lớn.",
+   "form": "V辞書形 + ところだった",
+   "level": "N2",
+   "meaning": "suýt nữa thì… (nhưng không xảy ra)",
+   "note": "Hay đi với 危うく・もう少しで. Khác ～ところだ (sắp làm) và ～かける (đã bắt đầu dở dang).",
+   "pattern": "～ところだった",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜とこだった",
+   "review": false
+  },
+  {
+   "ex": "富士山がよく見えるところから、この町は「富士見町」と呼ばれている。",
+   "exVi": "Vì nhìn rõ núi Phú Sĩ nên thị trấn này được gọi là “Fujimi”.",
+   "form": "普通形（Naな／Nである）+ ところから",
+   "level": "N2",
+   "meaning": "từ chỗ…, do… (căn cứ, nguồn gốc tên gọi)",
+   "note": "Gần ～ことから (nguồn gốc tên gọi, căn cứ phán đoán); văn viết, giải thích.",
+   "pattern": "～ところから",
+   "reg": "viet",
+   "regTip": "〜から・〜ので",
+   "review": false
+  },
+  {
+   "ex": "聞くところによると、あの店は来月閉店するらしい。",
+   "exVi": "Nghe nói tiệm đó tháng sau đóng cửa.",
+   "form": "V（聞く・見る・調べる…）+ ところによると・ところでは",
+   "level": "N2",
+   "meaning": "theo những gì (nghe/biết/điều tra) được thì…",
+   "note": "Cuối câu thường là らしい／そうだ／とのことだ. Đừng nhầm ところでは với ところで (dù có… đi nữa).",
+   "pattern": "～ところによると／ところでは",
+   "reg": "viet",
+   "regTip": "〜って聞いたけど・〜らしいよ",
+   "review": false
+  },
+  {
+   "ex": "弟は遊んでばかりで、ついには大学を辞めると言い出す始末だ。",
+   "exVi": "Em trai chỉ toàn chơi, rốt cuộc còn đòi bỏ đại học.",
+   "form": "V辞書形／この・あの + 始末だ",
+   "level": "N1",
+   "meaning": "rốt cuộc đến mức… (kết cục tệ, phàn nàn)",
+   "note": "Gần ～あげく nhưng 始末だ đứng cuối câu, nhấn kết cục tồi tệ đáng trách.",
+   "pattern": "～始末だ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "「任せてください」と言った手前、今さら無理だとは言えない。",
+   "exVi": "Đã lỡ nói “cứ để tôi”, giờ không thể bảo là không làm được.",
+   "form": "V普通形／Nの + 手前",
+   "level": "N1",
+   "meaning": "vì đã… (trước mặt người khác) nên phải giữ thể diện",
+   "note": "Gần ～以上（は） nhưng 手前 nhấn thể diện, sĩ diện trước người khác.",
+   "pattern": "～手前",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "今から勉強しても、平均点を取るのが関の山だ。",
+   "exVi": "Giờ mới học thì cùng lắm cũng chỉ được điểm trung bình.",
+   "form": "V辞書形 + のが関の山だ",
+   "level": "N1",
+   "meaning": "cùng lắm chỉ được…, giới hạn tối đa là…",
+   "note": "Khác ～にすぎない (chỉ là): 関の山 = mức tối đa có thể đạt, sắc thái chê/khiêm tốn.",
+   "pattern": "～が関の山",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "参加者は多くても30人といったところだ。",
+   "exVi": "Người tham gia nhiều lắm cũng cỡ 30 người.",
+   "form": "N（数量）／V辞書形 + といったところだ",
+   "level": "N1",
+   "meaning": "tầm, cỡ khoảng… (mức không nhiều)",
+   "note": "Nhấn mức độ thấp/vừa phải; khác ～くらいのものだ (chỉ có … mới).",
+   "pattern": "～といったところだ",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ってとこかな",
+   "review": false
+  },
+  {
+   "ex": "期待とは裏腹に、新製品の売れ行きは伸びなかった。",
+   "exVi": "Trái với kỳ vọng, doanh số sản phẩm mới không tăng.",
+   "form": "N + とは裏腹に／と裏腹に",
+   "level": "N1",
+   "meaning": "trái ngược với… (kỳ vọng, lời nói, vẻ ngoài)",
+   "note": "Gần ～に反して; 裏腹 nhấn sự đối lập giữa bề ngoài/lời nói và thực tế.",
+   "pattern": "～とは裏腹に",
+   "reg": "viet",
+   "regTip": "〜のに・〜と逆に・思ったより",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm ところ: ところに／ところへ／ところを／ところだった／ところから／ところによると",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Sự việc xen vào đúng lúc đang định đi → ところに. ところを cần vế sau tác động lên người đó.",
+   "options": [
+    "ところを",
+    "ところに",
+    "ところだった",
+    "ところから"
+   ],
+   "q": "家を出ようとしている（　）、友達が訪ねてきた。"
+  },
+  {
+   "answer": 3,
+   "explain": "危うく～ところだった = suýt nữa thì (nhưng không bị).",
+   "options": [
+    "ところを",
+    "ところから",
+    "ところに",
+    "ところだった"
+   ],
+   "q": "寝坊して、危うく飛行機に乗り遅れる（　）。"
+  },
+  {
+   "answer": 0,
+   "explain": "見つかる đi với ところを (bị bắt gặp đúng lúc đang…).",
+   "options": [
+    "ところを",
+    "ところに",
+    "ところへ",
+    "ところから"
+   ],
+   "q": "授業中に居眠りしている（　）、先生に見つかってしまった。"
+  },
+  {
+   "answer": 1,
+   "explain": "手前 = vì đã tuyên bố trước mặt mọi người, phải giữ thể diện.",
+   "options": [
+    "始末で",
+    "手前",
+    "ところを",
+    "とは裏腹に"
+   ],
+   "q": "「必ず合格する」とみんなの前で宣言した（　）、今さら諦めるわけにはいかない。"
+  },
+  {
+   "answer": 3,
+   "explain": "反映させる = đưa ý kiến vào chế độ. 便宜 đi với 図る, 浪費 = lãng phí.",
+   "options": [
+    "浪費",
+    "折衷",
+    "便宜",
+    "反映"
+   ],
+   "q": "社員の声を新しい制度に（　）させる。"
+  },
+  {
+   "answer": 0,
+   "explain": "ひたむきに = một lòng chuyên tâm. 逐一 = từng cái một, không hợp ngữ cảnh.",
+   "options": [
+    "ひたむき",
+    "逐一",
+    "便宜",
+    "浪費"
+   ],
+   "q": "彼は何度失敗しても、（　）に練習を続けている。"
+  },
+  {
+   "answer": 2,
+   "explain": "Hội thoại bạn bè dùng 〜って聞いたよ; các câu còn lại là văn viết/kính ngữ.",
+   "options": [
+    "聞くところによりますと、駅前のカフェは閉店するとのことでございます。",
+    "駅前のカフェの閉店が報じられているところである。",
+    "駅前のカフェ、閉店するって聞いたよ。",
+    "当該カフェは閉店する見込みである。"
+   ],
+   "q": "友達との会話で最も自然な言い方はどれか。"
+  },
+  {
+   "answer": 2,
+   "explain": "かたわら = song song làm việc chính lâu dài. がてら／かたがた đi với V-ます／N và một dịp; なり = vừa… liền.",
+   "options": [
+    "がてら",
+    "なり",
+    "かたわら",
+    "かたがた"
+   ],
+   "q": "(ôn) 彼は会社員として働く（　）、週末は小説を書いている。"
+  },
+  {
+   "answer": 0,
+   "explain": "精査（せいさ）= kiểm tra kỹ lưỡng.",
+   "options": [
+    "精査",
+    "稼働",
+    "頻発",
+    "一律"
+   ],
+   "q": "(ôn) 提出前にデータを（　）した結果、計算ミスが見つかった。"
+  },
+  {
+   "answer": 2,
+   "explain": "単なる～にすぎない = chỉ là… mà thôi. にほかならない = chính là (khẳng định mạnh), không đi với 単なる.",
+   "options": [
+    "にほかならない",
+    "に越したことはない",
+    "にすぎない",
+    "というものではない"
+   ],
+   "q": "(ôn) 彼の言っていることは、単なる噂（　）。"
+  }
+ ],
+ "ratio": "N2 50% · N1 50%",
+ "reading": {
+  "answer": 2,
+  "explain": "「そういう姿勢」= 相手の都合を考え、事前に一言断る姿勢. Phương án 2 chỉ là chuyện nghe nói (聞くところによると), không phải điều tác giả muốn học theo.",
+  "options": [
+   "打ち合わせの日程を早めて、仕事を効率化すること",
+   "社員の意見を経営に反映させること",
+   "相手の忙しさを考えて、前もって断りを入れること",
+   "資料をまとめている最中に電話をかけること"
+  ],
+  "q": "筆者が部長について見習いたいと思っていることは何か。",
+  "text": "先日、取引先の部長から「お忙しいところを申し訳ないが、来週の打ち合わせを一日早めてもらえないか」と電話があった。ちょうど資料をまとめているところに連絡が来たので、正直焦った。しかし、予定を調整してみると、かえって準備の無駄が省け、作業がはかどった。聞くところによると、この部長は社員の意見を経営に反映させることで知られている人だそうだ。忙しい中でも相手の都合を考え、事前にきちんと一言断る。そういう姿勢こそ見習いたいものだ。"
+ },
+ "vocab": [
+  {
+   "ex": "利用者の意見をサービスに反映させる。",
+   "exVi": "Đưa ý kiến người dùng vào dịch vụ.",
+   "hanviet": "PHẢN ÁNH",
+   "level": "N2",
+   "meaning": "phản ánh, đưa (ý kiến…) vào",
+   "reading": "はんえい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "反映"
+  },
+  {
+   "ex": "給料は少し下がるけど、待遇はこっちの会社のほうがいいよ。",
+   "exVi": "Lương thấp hơn chút, nhưng đãi ngộ thì công ty này tốt hơn.",
+   "hanviet": "ĐÃI NGỘ",
+   "level": "N2",
+   "meaning": "đãi ngộ, chế độ (lương, phúc lợi)",
+   "reading": "たいぐう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "待遇"
+  },
+  {
+   "ex": "会議が長すぎて、時間を浪費している。",
+   "exVi": "Họp quá dài, đang lãng phí thời gian.",
+   "hanviet": "LÃNG PHÍ",
+   "level": "N2",
+   "meaning": "lãng phí, phung phí",
+   "reading": "ろうひ",
+   "reg": "viet",
+   "regTip": "無駄遣い・無駄にする",
+   "review": false,
+   "word": "浪費"
+  },
+  {
+   "ex": "古新聞をひもで束ねて出す。",
+   "exVi": "Buộc báo cũ bằng dây rồi đem bỏ.",
+   "hanviet": "THÚC",
+   "level": "N2",
+   "meaning": "bó lại; quản lý, dẫn dắt (nhóm)",
+   "reading": "たばねる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "束ねる"
+  },
+  {
+   "ex": "祖母は朗らかな人柄で、誰からも好かれている。",
+   "exVi": "Bà tôi tính tình vui vẻ, ai cũng quý.",
+   "hanviet": "LÃNG",
+   "level": "N2",
+   "meaning": "vui vẻ, cởi mở, tươi tắn",
+   "reading": "ほがらか",
+   "reg": "viet",
+   "regTip": "明るい・にこにこしてる",
+   "review": false,
+   "word": "朗らか"
+  },
+  {
+   "ex": "取引先の便宜を図って、納期を調整した。",
+   "exVi": "Điều chỉnh hạn giao hàng để tạo thuận lợi cho đối tác.",
+   "hanviet": "TIỆN NGHI",
+   "level": "N1",
+   "meaning": "sự thuận tiện, tạo điều kiện (便宜を図る)",
+   "reading": "べんぎ",
+   "reg": "viet",
+   "regTip": "都合をつける・融通をきかせる",
+   "review": false,
+   "word": "便宜"
+  },
+  {
+   "ex": "両社の案を折衷して、新しいプランをまとめた。",
+   "exVi": "Dung hòa phương án của hai công ty để ra kế hoạch mới.",
+   "hanviet": "CHIẾT TRUNG",
+   "level": "N1",
+   "meaning": "dung hòa, kết hợp (hai phương án/phong cách)",
+   "reading": "せっちゅう",
+   "reg": "viet",
+   "regTip": "間をとる・いいとこ取りする",
+   "review": false,
+   "word": "折衷"
+  },
+  {
+   "ex": "作業の進み具合を逐一報告してください。",
+   "exVi": "Hãy báo cáo chi tiết từng bước tiến độ công việc.",
+   "hanviet": "TRỤC NHẤT",
+   "level": "N1",
+   "meaning": "từng cái một, chi tiết từng việc",
+   "reading": "ちくいち",
+   "reg": "viet",
+   "regTip": "こまめに・全部・いちいち",
+   "review": false,
+   "word": "逐一"
+  },
+  {
+   "ex": "彼女は人目を憚らずに泣いた。",
+   "exVi": "Cô ấy khóc mà chẳng ngại ánh mắt mọi người.",
+   "hanviet": "ĐẠN",
+   "level": "N1",
+   "meaning": "ngại, e dè (ánh mắt người khác)",
+   "reading": "はばかる",
+   "reg": "viet",
+   "regTip": "気にする・遠慮する",
+   "review": false,
+   "word": "憚る"
+  },
+  {
+   "ex": "彼女のひたむきな姿勢に心を打たれた。",
+   "exVi": "Tôi xúc động trước thái độ hết lòng của cô ấy.",
+   "hanviet": "",
+   "level": "N1",
+   "meaning": "một lòng một dạ, chuyên tâm",
+   "reading": "ひたむき",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "ひたむき"
+  }
+ ]
+}

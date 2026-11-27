@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-30",
+ "grammar": [
+  {
+   "ex": "客に対して失礼な言い方をしてはいけない。",
+   "exVi": "Không được nói năng thất lễ với khách.",
+   "form": "N + に対して(は/も)／に対する N",
+   "level": "N2",
+   "meaning": "đối với, hướng tới (đối tượng của hành động, thái độ)",
+   "note": "Vế sau là hành động/thái độ nhắm vào đối tượng (反対する・失礼だ・質問する). Khác にとって: にとって là đánh giá từ lập trường của ai.",
+   "pattern": "～に対して",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "留学生にとって、住まい探しは大きな問題だ。",
+   "exVi": "Đối với du học sinh, tìm chỗ ở là một vấn đề lớn.",
+   "form": "N + にとって(は/も)／にとっての N",
+   "level": "N2",
+   "meaning": "đối với (xét từ lập trường, góc nhìn của ai)",
+   "note": "Vế sau là đánh giá (大切だ・難しい・ありがたい), không phải hành động hướng tới (×親にとって反抗する → 親に対して).",
+   "pattern": "～にとって",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "新しい制度について説明を受けた。",
+   "exVi": "Tôi đã được giải thích về chế độ mới.",
+   "form": "N + について／についての N",
+   "level": "N2",
+   "meaning": "về (nội dung nói, nghĩ, viết, điều tra)",
+   "note": "Trung tính, dùng được trong hội thoại; に関して trang trọng hơn; をめぐって hàm ý tranh luận nhiều bên.",
+   "pattern": "～について",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "個人情報の取り扱いに関して、ご質問はありますか。",
+   "exVi": "Về việc xử lý thông tin cá nhân, quý vị có câu hỏi nào không?",
+   "form": "N + に関して(は/も)／に関する N",
+   "level": "N2",
+   "meaning": "liên quan đến, về (trang trọng)",
+   "note": "Gần について nhưng trang trọng, văn viết; dạng bổ nghĩa danh từ に関する資料 rất hay gặp.",
+   "pattern": "～に関して",
+   "reg": "viet",
+   "regTip": "〜について",
+   "review": false
+  },
+  {
+   "ex": "新駅の建設をめぐって、住民の意見が分かれている。",
+   "exVi": "Xoay quanh việc xây ga mới, ý kiến người dân đang chia rẽ.",
+   "form": "N + をめぐって／をめぐる N",
+   "level": "N2",
+   "meaning": "xoay quanh (vấn đề gây tranh cãi, đối lập)",
+   "note": "Vế sau thường là 議論・対立・争う・意見が分かれる; không dùng cho việc chỉ nói/giải thích đơn thuần (→ について).",
+   "pattern": "～をめぐって",
+   "reg": "viet",
+   "regTip": "〜のことで",
+   "review": false
+  },
+  {
+   "ex": "計算の速さにかけては、彼の右に出る者はいない。",
+   "exVi": "Riêng về tốc độ tính toán thì không ai qua được anh ấy.",
+   "form": "N + にかけては",
+   "level": "N2",
+   "meaning": "riêng về mặt… thì (sở trường, năng lực)",
+   "note": "Chỉ dùng cho kỹ năng, kèm đánh giá tích cực (誰にも負けない・自信がある); khác に関して (trung tính, về chủ đề).",
+   "pattern": "～にかけては",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼女は通訳としてその会議に参加した。",
+   "exVi": "Cô ấy tham gia hội nghị với tư cách phiên dịch.",
+   "form": "N + として(は/も)／としての N",
+   "level": "N2",
+   "meaning": "với tư cách, với vai trò là",
+   "note": "としては = 'về phía/lập trường của ...' (私としては賛成だ), theo sau là ý kiến; にとって theo sau là đánh giá.",
+   "pattern": "～として",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "うちの息子ときたら、休みの日は一日中ゲームばかりしている。",
+   "exVi": "Nói đến thằng con nhà tôi thì ngày nghỉ cứ chơi game suốt cả ngày.",
+   "form": "N + ときたら",
+   "level": "N1",
+   "meaning": "nói đến … thì (phàn nàn, bực bội về người/vật gần gũi)",
+   "note": "Mang sắc thái chê trách, bất mãn; といえば/について thì trung tính.",
+   "pattern": "～ときたら",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この仕事を任せられるのは、彼をおいてほかにいない。",
+   "exVi": "Người có thể giao việc này, ngoài anh ấy ra thì không còn ai.",
+   "form": "N + をおいて(ほかに)～ない",
+   "level": "N1",
+   "meaning": "ngoài … ra thì không có (đánh giá cao, duy nhất)",
+   "note": "Luôn đi với phủ định, ca ngợi; を除いて chỉ loại trừ trung tính.",
+   "pattern": "～をおいて",
+   "reg": "viet",
+   "regTip": "〜以外に",
+   "review": false
+  },
+  {
+   "ex": "参加者は年々減っており、今年に至ってはわずか5人だった。",
+   "exVi": "Số người tham gia giảm dần mỗi năm, riêng năm nay thì chỉ có vỏn vẹn 5 người.",
+   "form": "N + に至っては",
+   "level": "N1",
+   "meaning": "đến cả / riêng … thì (nêu trường hợp cực đoan nhất)",
+   "note": "Thường mang ý tiêu cực; khác に至るまで ('cho đến tận', chỉ phạm vi).",
+   "pattern": "～に至っては",
+   "reg": "viet",
+   "regTip": "〜なんて",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm đối tượng / chủ đề: に対して／にとって／について／に関して／をめぐって／にかけては／として",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Vế sau là đánh giá (大切だ) từ lập trường của 私たち → にとって.",
+   "options": [
+    "に対して",
+    "にとって",
+    "をめぐって",
+    "にかけては"
+   ],
+   "q": "健康は私たち＿＿何よりも大切なものだ。"
+  },
+  {
+   "answer": 2,
+   "explain": "Phản đối hướng vào đối tượng (quyết định) → に対して; にとって cần vế đánh giá.",
+   "options": [
+    "にとって",
+    "にかけては",
+    "に対して",
+    "として"
+   ],
+   "q": "社長の決定＿＿、社員から反対の声が上がった。"
+  },
+  {
+   "answer": 0,
+   "explain": "Vấn đề gây tranh chấp nhiều bên (争っている) → をめぐって.",
+   "options": [
+    "をめぐって",
+    "にとって",
+    "として",
+    "にかけては"
+   ],
+   "q": "遺産の相続＿＿、兄弟が激しく争っている。"
+  },
+  {
+   "answer": 2,
+   "explain": "Sở trường + 誰にも負けない → にかけては.",
+   "options": [
+    "に対して",
+    "をめぐって",
+    "にかけては",
+    "にとって"
+   ],
+   "q": "料理の腕＿＿、母は誰にも負けない。"
+  },
+  {
+   "answer": 0,
+   "explain": "〜をおいてほかに〜ない: ngoài … ra không còn ai (đánh giá cao).",
+   "options": [
+    "をおいて",
+    "に至っては",
+    "ときたら",
+    "として"
+   ],
+   "q": "このプロジェクトを任せられるのは、山田さん＿＿ほかにいない。"
+  },
+  {
+   "answer": 1,
+   "explain": "〜に貢献する: đóng góp cho …; các từ còn lại không đi với に theo nghĩa này.",
+   "options": [
+    "推測",
+    "貢献",
+    "抑制",
+    "示唆"
+   ],
+   "q": "地域社会に＿＿した人に賞が贈られた。"
+  },
+  {
+   "answer": 3,
+   "explain": "戸惑う (とまどう): bối rối khi gặp tình huống bất ngờ.",
+   "options": [
+    "担って",
+    "拮抗して",
+    "抑制して",
+    "戸惑って"
+   ],
+   "q": "急に英語で話しかけられて、＿＿しまった。"
+  },
+  {
+   "answer": 1,
+   "explain": "〜をよそに: phớt lờ (sự phản đối) mà vẫn làm (bài 23/10).",
+   "options": [
+    "に先立って",
+    "をよそに",
+    "に応じて",
+    "にかこつけて"
+   ],
+   "q": "(ôn) 住民の反対＿＿、工事は強行された。"
+  },
+  {
+   "answer": 2,
+   "explain": "Vます + かねない: có thể dẫn đến điều xấu; かねる = khó mà làm (bài 23/10).",
+   "options": [
+    "ずにはおかない",
+    "ないまでも",
+    "かねない",
+    "かねる"
+   ],
+   "q": "(ôn) このまま放っておくと、大きな事故になり＿＿。"
+  },
+  {
+   "answer": 3,
+   "explain": "怠る (おこたる): lơ là, sao nhãng việc phải làm; 携わる đi với に, 衰える là tự động từ (bài 23/10).",
+   "options": [
+    "携わる",
+    "衰える",
+    "是正する",
+    "怠る"
+   ],
+   "q": "(ôn) 毎日の確認を＿＿と、思わぬミスにつながる。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Nhờ cơ chế nộp đề xuất ẩn danh trước (匿名で事前に提出), nhân viên không phải phát biểu trước mặt cấp trên. Chủ đề vẫn tự do; bài không nói cấp trên vắng mặt hay có tiền thưởng.",
+  "options": [
+   "会議のテーマを業務の改善に限定したから",
+   "上司が会議に参加しなくなったから",
+   "人前で発言しなくても提案できるようになったから",
+   "採用された提案に賞金が出るようになったから"
+  ],
+  "q": "提案の数が増えたのはなぜか。",
+  "text": "ある会社では、若手社員の意見を経営に生かすため、毎月「提案会議」を開いている。テーマは業務の改善から新商品のアイデアまで自由で、役職に関係なく誰でも発言できる。しかし始めた当初は、上司の前で意見を言うことに戸惑う社員が多く、発言はほとんどなかった。そこで会社は、提案を匿名で事前に提出できる仕組みを取り入れた。すると提案の数は三倍に増え、そのうちのいくつかは実際に採用された。担当者は「大切なのは制度そのものより、意見を言っても大丈夫だと社員が感じられることだ」と話している。"
+ },
+ "vocab": [
+  {
+   "ex": "彼は地域の発展に大きく貢献した。",
+   "exVi": "Anh ấy đã đóng góp lớn cho sự phát triển của địa phương.",
+   "level": "N2",
+   "meaning": "đóng góp, cống hiến",
+   "reading": "こうけん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "貢献"
+  },
+  {
+   "ex": "現場の状況から事故の原因を推測する。",
+   "exVi": "Suy đoán nguyên nhân tai nạn từ tình trạng hiện trường.",
+   "level": "N2",
+   "meaning": "suy đoán, phỏng đoán",
+   "reading": "すいそく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "推測"
+  },
+  {
+   "ex": "若い世代が次の時代を担う。",
+   "exVi": "Thế hệ trẻ sẽ gánh vác thời đại tiếp theo.",
+   "level": "N2",
+   "meaning": "gánh vác, đảm nhận (trách nhiệm, vai trò)",
+   "reading": "になう",
+   "reg": "viet",
+   "regTip": "担当する・任される",
+   "review": false,
+   "word": "担う"
+  },
+  {
+   "ex": "成功しても謙虚な態度を忘れない。",
+   "exVi": "Dù thành công vẫn không quên thái độ khiêm tốn.",
+   "level": "N2",
+   "meaning": "khiêm tốn",
+   "reading": "けんきょ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "謙虚"
+  },
+  {
+   "ex": "物価の上昇を抑制する政策が発表された。",
+   "exVi": "Chính sách kiềm chế đà tăng giá đã được công bố.",
+   "level": "N2",
+   "meaning": "kiềm chế, hạn chế",
+   "reading": "よくせい",
+   "reg": "viet",
+   "regTip": "抑える",
+   "review": false,
+   "word": "抑制"
+  },
+  {
+   "ex": "苦情には迅速に対応することが大切だ。",
+   "exVi": "Điều quan trọng là xử lý khiếu nại nhanh chóng.",
+   "level": "N2",
+   "meaning": "nhanh chóng, mau lẹ",
+   "reading": "じんそく",
+   "reg": "viet",
+   "regTip": "すぐに・早く",
+   "review": false,
+   "word": "迅速"
+  },
+  {
+   "ex": "急な予定変更に戸惑った。",
+   "exVi": "Tôi bối rối vì kế hoạch thay đổi đột ngột.",
+   "level": "N2",
+   "meaning": "bối rối, lúng túng",
+   "reading": "とまどう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "戸惑う"
+  },
+  {
+   "ex": "調査結果は制度の見直しが必要であることを示唆している。",
+   "exVi": "Kết quả điều tra gợi ý rằng cần xem xét lại chế độ.",
+   "level": "N1",
+   "meaning": "gợi ý, ám chỉ",
+   "reading": "しさ",
+   "reg": "viet",
+   "regTip": "ほのめかす・ヒントになる",
+   "review": false,
+   "word": "示唆"
+  },
+  {
+   "ex": "両チームの実力は拮抗している。",
+   "exVi": "Thực lực của hai đội ngang ngửa nhau.",
+   "level": "N1",
+   "meaning": "ngang sức, giằng co",
+   "reading": "きっこう",
+   "reg": "viet",
+   "regTip": "互角・いい勝負",
+   "review": false,
+   "word": "拮抗"
+  },
+  {
+   "ex": "仕事に追われて、健康管理が疎かになっていた。",
+   "exVi": "Bị công việc cuốn đi nên tôi đã lơ là việc chăm sóc sức khỏe.",
+   "level": "N1",
+   "meaning": "lơ là, sao nhãng",
+   "reading": "おろそか",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "疎か"
+  }
+ ]
+}

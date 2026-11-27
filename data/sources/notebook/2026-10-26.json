@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-26",
+ "grammar": [
+  {
+   "ex": "彼は10年もアメリカに住んでいたのか。英語が上手なわけだ。",
+   "exVi": "Anh ấy đã sống ở Mỹ tận 10 năm à. Hèn chi tiếng Anh giỏi thế.",
+   "form": "Thể thường (Naな／Nの・である) + わけだ",
+   "level": "N2",
+   "meaning": "thì ra là / hèn chi / tức là (kết luận tất yếu từ lý do đã biết)",
+   "note": "Khác わけがない (phủ định khả năng). わけだ = “thảo nào/vậy là”, thường đi với から/のだから hoặc thông tin vừa biết.",
+   "pattern": "～わけだ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "料理が嫌いなわけではないが、毎日作るのは大変だ。",
+   "exVi": "Không phải tôi ghét nấu ăn, nhưng ngày nào cũng nấu thì vất vả.",
+   "form": "Thể thường (Naな／Nの) + わけではない",
+   "level": "N2",
+   "meaning": "không hẳn là / không phải là (phủ định một phần)",
+   "note": "Phủ định MỘT PHẦN, nhẹ nhàng; còn わけがない là phủ định HOÀN TOÀN (“làm gì có chuyện”).",
+   "pattern": "～わけではない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "一度も練習していないのだから、試合に勝てるわけがない。",
+   "exVi": "Một lần cũng chưa tập thì làm sao thắng trận được.",
+   "form": "Thể thường (Naな／Nの) + わけがない",
+   "level": "N2",
+   "meaning": "không thể nào / làm gì có chuyện (phủ định mạnh khả năng)",
+   "note": "Gần nghĩa はずがない (わけがない thiên về văn nói hơn). Khác わけにはいかない (có thể nhưng không được phép làm).",
+   "pattern": "～わけがない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜わけない",
+   "review": false
+  },
+  {
+   "ex": "明日は大事な会議があるので、休むわけにはいかない。",
+   "exVi": "Mai có cuộc họp quan trọng nên tôi không thể nghỉ được.",
+   "form": "V辞書形 + わけにはいかない",
+   "level": "N2",
+   "meaning": "không thể (làm) được — vì lý do đạo đức, xã hội, hoàn cảnh",
+   "note": "Về khả năng thì làm được, nhưng hoàn cảnh không cho phép. Không dùng cho việc bất khả thi về vật lý (→ できない).",
+   "pattern": "～わけにはいかない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "恩師に頼まれたら、引き受けないわけにはいかない。",
+   "exVi": "Được thầy cũ nhờ thì không thể không nhận lời.",
+   "form": "Vない + わけにはいかない",
+   "level": "N2",
+   "meaning": "không thể không, buộc phải (vì nghĩa vụ, lễ nghĩa)",
+   "note": "Gần ざるを得ない, nhưng nhấn mạnh trách nhiệm/quan hệ xã hội; ざるを得ない nhấn mạnh “không còn lựa chọn nào khác”.",
+   "pattern": "～ないわけにはいかない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "台風が近づいているので、旅行は中止せざるを得ない。",
+   "exVi": "Bão đang đến gần nên đành phải hủy chuyến đi.",
+   "form": "Vない (bỏ ない) + ざるを得ない (する→せざるを得ない)",
+   "level": "N2",
+   "meaning": "đành phải, buộc phải (dù không muốn)",
+   "note": "Chú ý する→せざる. Khác ずにはいられない (không kìm được cảm xúc, tự phát).",
+   "pattern": "～ざるを得ない",
+   "reg": "viet",
+   "regTip": "〜しかない・〜なきゃ",
+   "review": false
+  },
+  {
+   "ex": "彼の話を聞くと、笑わずにはいられない。",
+   "exVi": "Nghe anh ấy kể chuyện thì không nhịn cười được.",
+   "form": "Vない (bỏ ない) + ずにはいられない (する→せずには)",
+   "level": "N2",
+   "meaning": "không thể kìm được, không thể không (cảm xúc/hành động tự phát)",
+   "note": "Chủ thể thường là người nói, xuất phát từ cảm xúc. Khác ずにはおかない (N1): “chắc chắn sẽ khiến…”, chủ thể là sự vật/người khác.",
+   "pattern": "～ずにはいられない",
+   "reg": "viet",
+   "regTip": "つい〜しちゃう",
+   "review": false
+  },
+  {
+   "ex": "これは京都ならではの景色だ。",
+   "exVi": "Đây là cảnh sắc chỉ Kyoto mới có.",
+   "form": "N + ならでは(の)",
+   "level": "N1",
+   "meaning": "chỉ có ở…, đặc trưng riêng của…",
+   "note": "Mạnh hơn らしい: nhấn mạnh “ngoài N ra không đâu có”. Thường dùng để khen ngợi.",
+   "pattern": "～ならでは",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼は足のけがをものともせずに、最後まで走り抜いた。",
+   "exVi": "Bất chấp chấn thương ở chân, anh ấy đã chạy đến cùng.",
+   "form": "N + をものともせずに",
+   "level": "N1",
+   "meaning": "bất chấp, không hề nao núng trước (khó khăn)",
+   "note": "Khác をよそに: をよそに = phớt lờ sự lo lắng của người khác (thường hàm ý chê); をものともせず = vượt qua khó khăn (khen). Không dùng cho bản thân người nói.",
+   "pattern": "～をものともせずに",
+   "reg": "viet",
+   "regTip": "〜に負けずに",
+   "review": false
+  },
+  {
+   "ex": "子どもといえども、ルールは守らなければならない。",
+   "exVi": "Dù là trẻ con đi nữa thì cũng phải tuân thủ quy tắc.",
+   "form": "N／Thể thường + といえども",
+   "level": "N1",
+   "meaning": "dù là… đi nữa (thì cũng…)",
+   "note": "Trang trọng hơn ～でも／～としても; vế sau thường là nhận định, nghĩa vụ. Hay đi với いかに／たとえ.",
+   "pattern": "～といえども",
+   "reg": "viet",
+   "regTip": "〜でも",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm わけ & “buộc phải / không thể không”: わけだ／わけではない／わけがない／わけにはいかない／ないわけにはいかない／ざるを得ない／ずにはいられない",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Muốn đi nhưng hoàn cảnh (thi) không cho phép → わけにはいかない. わけがない mâu thuẫn với “rất muốn đi”.",
+   "options": [
+    "わけがない",
+    "わけにはいかない",
+    "わけではない",
+    "わけだ"
+   ],
+   "q": "友達のパーティーに行きたいのはやまやまだが、明日は試験なので、行く＿＿。"
+  },
+  {
+   "answer": 2,
+   "explain": "Rẻ và ngon → hèn chi lúc nào cũng xếp hàng: わけだ (kết luận tự nhiên).",
+   "options": [
+    "わけがない",
+    "ざるを得ない",
+    "わけだ",
+    "わけにはいかない"
+   ],
+   "q": "この店、安くておいしいね。いつも行列ができている＿＿。"
+  },
+  {
+   "answer": 3,
+   "explain": "Cảm xúc tự phát, không kìm được → ずにはいられない. ざるを得ない/ないわけにはいかない là bị hoàn cảnh/nghĩa vụ ép.",
+   "options": [
+    "ざるを得ない",
+    "ないわけにはいかない",
+    "わけがない",
+    "ずにはいられない"
+   ],
+   "q": "ダイエット中だが、こんなにおいしそうなケーキを見たら、食べ＿＿。"
+  },
+  {
+   "answer": 0,
+   "explain": "Không muốn nhưng không còn lựa chọn → 引き受けざるを得ない. ずにはいられない trái với “気が進まない”; hai mẫu わけ không nối với dạng 引き受け.",
+   "options": [
+    "ざるを得ない",
+    "ずにはいられない",
+    "わけではない",
+    "わけがない"
+   ],
+   "q": "部長に直接頼まれた仕事なので、気が進まないが、引き受け＿＿。"
+  },
+  {
+   "answer": 1,
+   "explain": "“Dù là tuyển thủ chuyên nghiệp đi nữa cũng không phải lúc nào…” → といえども.",
+   "options": [
+    "ならでは",
+    "といえども",
+    "とあれば",
+    "をものともせず"
+   ],
+   "q": "プロの選手＿＿、毎回完璧なプレーができるわけではない。"
+  },
+  {
+   "answer": 3,
+   "explain": "Tên giống nhau → dễ nhầm lẫn: 紛らわしい.",
+   "options": [
+    "乏しい",
+    "鈍い",
+    "潔い",
+    "紛らわしい"
+   ],
+   "q": "この二つの薬は名前が似ていて＿＿ので、注意が必要だ。"
+  },
+  {
+   "answer": 1,
+   "explain": "Thăm dò ý kiến trước khi chính thức đề nghị → 打診する.",
+   "options": [
+    "克服",
+    "打診",
+    "該当",
+    "維持"
+   ],
+   "q": "正式に依頼する前に、先方に引き受けてもらえるかどうか＿＿してみた。"
+  },
+  {
+   "answer": 2,
+   "explain": "“Không chỉ tiếng Anh mà còn…” → ばかりか (bài 23/10).",
+   "options": [
+    "ものの",
+    "に応じて",
+    "ばかりか",
+    "に先立って"
+   ],
+   "q": "(ôn) 彼女は英語＿＿、フランス語も中国語も話せる。"
+  },
+  {
+   "answer": 1,
+   "explain": "Cụm cố định 措置を講じる = áp dụng biện pháp (bài 23/10).",
+   "options": [
+    "懸念",
+    "措置",
+    "妥協",
+    "是正"
+   ],
+   "q": "(ôn) 被害の拡大を防ぐため、市は直ちに必要な＿＿を講じた。"
+  },
+  {
+   "answer": 2,
+   "explain": "Trước khi bắt đầu thi công → に先立って (bài 23/10).",
+   "options": [
+    "に応じて",
+    "ばかりか",
+    "に先立って",
+    "ものの"
+   ],
+   "q": "(ôn) 工事の開始＿＿、近所の住民向けに説明会が開かれた。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "「この違いを知らずに…捨ててしまう人も多い」→ c đúng. a sai (khoảng một nửa từ hộ gia đình); b sai (賞味期限 là hạn ăn ngon, quá hạn không có nghĩa là không ăn được — 食べられなくなるわけではない); d ngược với “必要な分だけ買い”.",
+  "options": [
+   "食品ロスのほとんどは、飲食店や工場から出ている。",
+   "賞味期限が過ぎた食品は、安全に食べられない。",
+   "賞味期限と消費期限の違いを知らないことが、食品ロスの原因の一つになっている。",
+   "食品ロスを減らすには、まとめてたくさん買うのがよい。"
+  ],
+  "q": "本文の内容と合っているものはどれか。",
+  "text": "日本では、まだ食べられるのに捨てられてしまう食品、いわゆる「食品ロス」が、年間四百万トン以上にのぼるといわれている。その約半分は家庭から出ている。賞味期限が過ぎたからといって、すぐに食べられなくなるわけではない。賞味期限は「おいしく食べられる期限」であり、安全に食べられる期限を示す「消費期限」とは異なる。しかし、この違いを知らずに、期限が過ぎた食品をすぐに捨ててしまう人も多い。必要な分だけ買い、表示の意味を正しく理解することが、食品ロスを減らす第一歩となるだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "健康を維持するために、毎朝散歩している。",
+   "exVi": "Để duy trì sức khỏe, sáng nào tôi cũng đi dạo.",
+   "level": "N2",
+   "meaning": "duy trì",
+   "reading": "いじ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "維持"
+  },
+  {
+   "ex": "電車でお年寄りに席を譲った。",
+   "exVi": "Tôi đã nhường ghế cho người già trên tàu.",
+   "level": "N2",
+   "meaning": "nhường; chuyển nhượng",
+   "reading": "ゆずる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "譲る"
+  },
+  {
+   "ex": "彼はまだ経験に乏しい。",
+   "exVi": "Anh ấy vẫn còn thiếu kinh nghiệm.",
+   "level": "N2",
+   "meaning": "thiếu, nghèo nàn (kinh nghiệm, tài nguyên…)",
+   "reading": "とぼしい",
+   "reg": "viet",
+   "regTip": "少ない・あまりない",
+   "review": false,
+   "word": "乏しい"
+  },
+  {
+   "ex": "該当する項目に丸をつけてください。",
+   "exVi": "Hãy khoanh tròn vào mục tương ứng.",
+   "level": "N2",
+   "meaning": "thuộc diện, tương ứng (với điều kiện)",
+   "reading": "がいとう",
+   "reg": "viet",
+   "regTip": "当てはまる",
+   "review": false,
+   "word": "該当"
+  },
+  {
+   "ex": "この二つの漢字は形が似ていて紛らわしい。",
+   "exVi": "Hai chữ kanji này hình dạng giống nhau nên dễ nhầm.",
+   "level": "N2",
+   "meaning": "dễ gây nhầm lẫn",
+   "reading": "まぎらわしい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "紛らわしい"
+  },
+  {
+   "ex": "寒さで指の動きが鈍くなった。",
+   "exVi": "Vì lạnh mà cử động ngón tay trở nên chậm chạp.",
+   "level": "N2",
+   "meaning": "chậm chạp, cùn, kém nhạy",
+   "reading": "にぶい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "鈍い"
+  },
+  {
+   "ex": "彼女は苦手な英語を克服した。",
+   "exVi": "Cô ấy đã vượt qua được môn tiếng Anh vốn là điểm yếu.",
+   "level": "N2",
+   "meaning": "khắc phục, vượt qua",
+   "reading": "こくふく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "克服"
+  },
+  {
+   "ex": "取引先に値下げの可能性を打診した。",
+   "exVi": "Đã thăm dò đối tác về khả năng giảm giá.",
+   "level": "N1",
+   "meaning": "thăm dò ý kiến (trước khi chính thức đề nghị)",
+   "reading": "だしん",
+   "reg": "viet",
+   "regTip": "聞いてみる",
+   "review": false,
+   "word": "打診"
+  },
+  {
+   "ex": "市民は政府の対応に憤っている。",
+   "exVi": "Người dân phẫn nộ trước cách xử lý của chính phủ.",
+   "level": "N1",
+   "meaning": "phẫn nộ, căm phẫn",
+   "reading": "いきどおる",
+   "reg": "viet",
+   "regTip": "怒る・腹が立つ",
+   "review": false,
+   "word": "憤る"
+  },
+  {
+   "ex": "彼女の斬新なデザインは注目を集めた。",
+   "exVi": "Thiết kế mới lạ của cô ấy đã thu hút sự chú ý.",
+   "level": "N1",
+   "meaning": "mới lạ, táo bạo, độc đáo",
+   "reading": "ざんしん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "斬新"
+  }
+ ]
+}

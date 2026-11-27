@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-17",
+ "grammar": [
+  {
+   "ex": "もし一日だけ休めるとしたら、何をしたいですか。",
+   "exVi": "Giả sử được nghỉ đúng một ngày, anh muốn làm gì?",
+   "form": "普通形 + としたら",
+   "level": "N2",
+   "meaning": "giả sử, nếu như (giả định; vế sau là suy đoán, ý muốn, câu hỏi)",
+   "note": "Tự nhiên nhất khi nói, dùng được với ý muốn/câu hỏi. とすれば/とすると thiên về suy luận logic.",
+   "pattern": "～としたら",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この見積もりが正しいとすれば、予算を2割超えることになる。",
+   "exVi": "Nếu bảng báo giá này đúng thì sẽ vượt ngân sách 20%.",
+   "form": "普通形 + とすれば",
+   "level": "N2",
+   "meaning": "nếu giả định là… thì (suy ra kết luận)",
+   "note": "Hơi cứng, hợp văn bản/báo cáo; vế sau là kết luận khách quan, ít dùng với ý chí, nhờ vả.",
+   "pattern": "～とすれば",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "会議が3時に終わるとすると、5時の新幹線に間に合う。",
+   "exVi": "Nếu họp xong lúc 3 giờ thì kịp chuyến Shinkansen 5 giờ.",
+   "form": "普通形 + とすると",
+   "level": "N2",
+   "meaning": "nếu vậy thì / giả sử… thì (suy ra từ thông tin vừa có)",
+   "note": "Hay dùng ở đầu câu dạng だとすると khi suy ra từ lời người khác; vế sau không dùng ý chí/mệnh lệnh.",
+   "pattern": "～とすると",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: (だと)すると→ってことは",
+   "review": false
+  },
+  {
+   "ex": "このボタンさえ押せば、機械は自動で止まる。",
+   "exVi": "Chỉ cần ấn nút này là máy tự dừng.",
+   "form": "N + さえ + Vば／Aければ；Vます + さえすれば",
+   "level": "N2",
+   "meaning": "chỉ cần… là (đủ, kết quả xảy ra)",
+   "note": "さえ đứng một mình = “ngay cả”; さえ～ば = điều kiện đủ duy nhất. Khác ないことには (điều kiện cần).",
+   "pattern": "～さえ～ば",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "現場で実際に配線してこそ、図面の意味がわかる。",
+   "exVi": "Phải tự tay đi dây ở hiện trường thì mới hiểu được ý nghĩa của bản vẽ.",
+   "form": "Vて + こそ",
+   "level": "N2",
+   "meaning": "chính nhờ/chỉ khi làm… thì mới (có giá trị, mới đúng nghĩa)",
+   "note": "てこそ nhấn giá trị/đánh giá (〜と言える, 意味がある); てはじめて nhấn thời điểm lần đầu nhận ra (thường quá khứ).",
+   "pattern": "～てこそ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "自分で設計してはじめて、先輩の苦労がわかった。",
+   "exVi": "Đến khi tự mình thiết kế, tôi mới hiểu nỗi vất vả của đàn anh.",
+   "form": "Vて + はじめて",
+   "level": "N2",
+   "meaning": "phải đến khi… mới (lần đầu nhận ra, làm được)",
+   "note": "Vế sau thường là わかる・気づく・できる; không dùng với ý chí/mệnh lệnh.",
+   "pattern": "～てはじめて",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "こんな簡単なミスを繰り返すようでは、現場は任せられない。",
+   "exVi": "Cứ lặp lại lỗi đơn giản thế này thì không thể giao hiện trường được.",
+   "form": "V普通形／Naな／Nの + ようでは",
+   "level": "N2",
+   "meaning": "nếu cứ (như thế) thì… (vế sau là kết quả xấu, phê phán)",
+   "note": "Vế sau luôn tiêu cực; ば/たら thì trung tính.",
+   "pattern": "～ようでは",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ようじゃ",
+   "review": false
+  },
+  {
+   "ex": "現場の協力なくしては、この工事は進められない。",
+   "exVi": "Không có sự hợp tác của hiện trường thì công trình này không thể tiến hành.",
+   "form": "N + なくして（は）",
+   "level": "N1",
+   "meaning": "nếu không có N thì (không thể…)",
+   "note": "Chỉ đi với danh từ, vế sau phủ định; ないことには (N2) đi với V/A, mềm hơn.",
+   "pattern": "～なくして（は）",
+   "reg": "viet",
+   "regTip": "〜がなければ・〜なしでは",
+   "review": false
+  },
+  {
+   "ex": "部下の将来を思えばこそ、厳しく指導しているのだ。",
+   "exVi": "Chính vì nghĩ cho tương lai cấp dưới nên tôi mới chỉ bảo nghiêm khắc.",
+   "form": "Vば／Aければ／Na・Nであれば + こそ",
+   "level": "N1",
+   "meaning": "chính vì… (nhấn mạnh lý do, thường là thiện ý)",
+   "note": "Nghĩa như からこそ nhưng cứng, văn viết; thường kết bằng のだ.",
+   "pattern": "～ばこそ",
+   "reg": "viet",
+   "regTip": "〜からこそ",
+   "review": false
+  },
+  {
+   "ex": "一度ならまだしも、同じミスを三回も繰り返すとは。",
+   "exVi": "Một lần thì còn được, đằng này lặp lại cùng một lỗi tới ba lần.",
+   "form": "N／普通形 + ならまだしも",
+   "level": "N1",
+   "meaning": "nếu là… thì còn chấp nhận được, đằng này…",
+   "note": "Khác はおろか (A đã không, nói gì B). ならまだしも: A chấp nhận được, B thì không.",
+   "pattern": "～ならまだしも",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ならまだわかるけど",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Điều kiện – giả định: としたら／とすれば／とすると／さえ～ば／てこそ／てはじめて／ようでは",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Vます + さえすれば = chỉ cần… là. こそ/まで/すら không tạo cấu trúc điều kiện này.",
+   "options": [
+    "こそ",
+    "さえ",
+    "まで",
+    "すら"
+   ],
+   "q": "薬を飲み（　）すれば、すぐ治りますよ。"
+  },
+  {
+   "answer": 2,
+   "explain": "Lần đầu nhận ra (quá khứ わかった) → てはじめて. てこそ dùng cho đánh giá giá trị, không hợp với việc “nhận ra lúc đó”.",
+   "options": [
+    "ようでは",
+    "からには",
+    "はじめて",
+    "こそ"
+   ],
+   "q": "病気になって（　）、健康のありがたさがわかった。"
+  },
+  {
+   "answer": 0,
+   "explain": "てこそ ～と言える: chỉ khi… mới xứng đáng. ようでは cần vế sau tiêu cực; さえ/としたら không nối với て như vậy.",
+   "options": [
+    "こそ",
+    "さえ",
+    "ようでは",
+    "としたら"
+   ],
+   "q": "厳しい練習に耐えて（　）、一流の選手と言えるのだ。"
+  },
+  {
+   "answer": 3,
+   "explain": "ようでは + kết quả tiêu cực (phê phán). ものの = tuy… nhưng; からには = một khi đã; ばかりに = chỉ vì (gây hậu quả) – không hợp.",
+   "options": [
+    "ものの",
+    "からには",
+    "ばかりに",
+    "ようでは"
+   ],
+   "q": "こんな基本的なミスを何度もする（　）、プロとは言えない。"
+  },
+  {
+   "answer": 1,
+   "explain": "Nói chuyện thân mật → 食い違い. 齟齬 đúng nghĩa nhưng là văn viết, cứng; 懸案・遂行 sai nghĩa.",
+   "options": [
+    "齟齬",
+    "食い違い",
+    "懸案",
+    "遂行"
+   ],
+   "q": "友達との会話で最も自然なのはどれか。「仕様と図面、ちょっと（　）があるみたいだよ。」"
+  },
+  {
+   "answer": 2,
+   "explain": "Hai tài liệu không khớp → 食い違う. 見落とす = bỏ sót; 果たす = làm tròn; 保留 = tạm treo.",
+   "options": [
+    "見落として",
+    "果たして",
+    "食い違って",
+    "保留して"
+   ],
+   "q": "部品表と図面で型番が（　）いるので、メーカーに確認してください。"
+  },
+  {
+   "answer": 0,
+   "explain": "保留にする = tạm gác lại. 指摘 = chỉ ra; 緊急 = khẩn cấp; 余裕 = dư dả.",
+   "options": [
+    "保留",
+    "指摘",
+    "緊急",
+    "余裕"
+   ],
+   "q": "先方からの回答がまだなので、この件はいったん（　）にしておきましょう。"
+  },
+  {
+   "answer": 3,
+   "explain": "を問わず = không kể (tuổi, kinh nghiệm). に限って = riêng lúc đó lại; をめぐって = xoay quanh; にしては = so với… thì.",
+   "options": [
+    "に限って",
+    "をめぐって",
+    "にしては",
+    "を問わず"
+   ],
+   "q": "（ôn）年齢や経験（　）、意欲のある人を募集しています。"
+  },
+  {
+   "answer": 1,
+   "explain": "末に = sau một quá trình dài (thường đi với ようやく). 上で = sau khi làm A rồi mới B (có chủ ý); きり/っぱなし = để nguyên.",
+   "options": [
+    "上で",
+    "末に",
+    "きり",
+    "っぱなし"
+   ],
+   "q": "（ôn）三日間も議論した（　）、ようやく結論が出た。"
+  },
+  {
+   "answer": 2,
+   "explain": "停滞（ていたい）= đình trệ. 浸透 = thấm sâu; 衝突 = va chạm; 蔓延（まんえん）= lan tràn.",
+   "options": [
+    "浸透",
+    "衝突",
+    "停滞",
+    "蔓延"
+   ],
+   "q": "（ôn）部品の入荷が遅れ、工事が（　）している。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 1,
+  "explain": "「後から不具合が見つかるとしたら、その手間はもっと大きくなる」→ kiểm tra hiện trường rốt cuộc đỡ tốn công hơn. A là suy nghĩ cũ của tác giả; C ngược ý; D không được nói tới.",
+  "options": [
+   "図面は机の上で正確に描けば十分である。",
+   "現場で確認する手間を惜しまないほうが、結果的に手間が少なくて済む。",
+   "現場での確認は時間がかかるので、必要な場合だけにすべきだ。",
+   "後輩には図面の描き方を丁寧に教えるべきだ。"
+  ],
+  "q": "筆者が最も言いたいことは何か。",
+  "text": "新人のころ、先輩に「図面は現場で見てこそ意味がある」と言われた。当時は机の上できれいに描けば十分だと思っていたが、実際に試運転に立ち会ってはじめて、その言葉の重みがわかった。図面と実際の配線が食い違っていても、机の上ではまず気づかない。一つ一つ現場で確認していては時間がかかりすぎる、と感じる人もいるだろう。しかし、確認を省いて後から不具合が見つかるとしたら、その手間はもっと大きくなる。今では私も後輩に、時間を作ってでも現場に足を運ぶよう勧めている。"
+ },
+ "vocab": [
+  {
+   "ex": "回答は来週まで保留にさせてください。",
+   "exVi": "Cho phép tôi treo câu trả lời đến tuần sau.",
+   "hanviet": "BẢO LƯU",
+   "level": "N2",
+   "meaning": "tạm gác lại, treo (quyết định, câu trả lời)",
+   "reading": "ほりゅう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "保留"
+  },
+  {
+   "ex": "図面の修正箇所を一つ見落としていた。",
+   "exVi": "Tôi đã bỏ sót một chỗ sửa trên bản vẽ.",
+   "hanviet": "KIẾN LẠC",
+   "level": "N2",
+   "meaning": "bỏ sót, nhìn sót",
+   "reading": "みおとす",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "見落とす"
+  },
+  {
+   "ex": "部品表と図面で型番が食い違っている。",
+   "exVi": "Mã hàng trên bảng linh kiện và bản vẽ không khớp nhau.",
+   "hanviet": "THỰC VI",
+   "level": "N2",
+   "meaning": "không khớp, vênh nhau, mâu thuẫn",
+   "reading": "くいちがう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "食い違う"
+  },
+  {
+   "ex": "客先からケーブルサイズの誤りを指摘された。",
+   "exVi": "Bị khách hàng chỉ ra lỗi cỡ cáp.",
+   "hanviet": "CHỈ TRÍCH",
+   "level": "N2",
+   "meaning": "chỉ ra, nêu ra (lỗi, vấn đề) – KHÔNG mang nghĩa “phê phán” như chỉ trích tiếng Việt",
+   "reading": "してき",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "指摘"
+  },
+  {
+   "ex": "緊急停止ボタンは操作盤の正面に付ける。",
+   "exVi": "Nút dừng khẩn cấp gắn ở mặt trước bảng thao tác.",
+   "hanviet": "KHẨN CẤP",
+   "level": "N2",
+   "meaning": "khẩn cấp",
+   "reading": "きんきゅう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "緊急"
+  },
+  {
+   "ex": "納期に余裕がないので、今週中に図面を出したい。",
+   "exVi": "Hạn giao không còn dư, nên muốn xuất bản vẽ trong tuần này.",
+   "hanviet": "DƯ DỤ",
+   "level": "N2",
+   "meaning": "dư dả, thời gian/sức lực còn thừa; thong thả",
+   "reading": "よゆう",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 余裕で〜（dễ ợt）・余裕！",
+   "review": false,
+   "word": "余裕"
+  },
+  {
+   "ex": "このリレーはインターロックとして重要な役割を果たしている。",
+   "exVi": "Rơ-le này giữ vai trò quan trọng như một khóa liên động.",
+   "hanviet": "QUẢ",
+   "level": "N2",
+   "meaning": "hoàn thành, làm tròn (vai trò, trách nhiệm, lời hứa)",
+   "reading": "はたす",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "果たす"
+  },
+  {
+   "ex": "担当者は責任を持って業務を遂行すること。",
+   "exVi": "Người phụ trách phải có trách nhiệm thực hiện công việc đến cùng.",
+   "hanviet": "TOẠI HÀNH",
+   "level": "N1",
+   "meaning": "thực hiện đến cùng, thi hành (nhiệm vụ, công việc)",
+   "reading": "すいこう",
+   "reg": "viet",
+   "regTip": "やり遂げる・最後までやる",
+   "review": false,
+   "word": "遂行"
+  },
+  {
+   "ex": "仕様書と図面の間に齟齬が生じている。",
+   "exVi": "Giữa bản tiêu chuẩn kỹ thuật và bản vẽ đang có sự sai lệch.",
+   "hanviet": "TRỞ NGỮ",
+   "level": "N1",
+   "meaning": "sự sai lệch, không ăn khớp (giữa hai bên/hai tài liệu)",
+   "reading": "そご",
+   "reg": "viet",
+   "regTip": "食い違い・ずれ",
+   "review": false,
+   "word": "齟齬"
+  },
+  {
+   "ex": "長年の懸案だった制御盤の更新が、ようやく決まった。",
+   "exVi": "Việc thay tủ điều khiển – vấn đề treo bao năm – cuối cùng đã được quyết.",
+   "hanviet": "HUYỀN ÁN",
+   "level": "N1",
+   "meaning": "vấn đề tồn đọng, việc còn treo chưa giải quyết",
+   "reading": "けんあん",
+   "reg": "viet",
+   "regTip": "前からの課題・ずっと気になってた件",
+   "review": false,
+   "word": "懸案"
+  }
+ ]
+}

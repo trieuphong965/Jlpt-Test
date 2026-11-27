@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-08",
+ "grammar": [
+  {
+   "ex": "さすがプロの料理人だけあって、味が全然違う。",
+   "exVi": "Quả là đầu bếp chuyên nghiệp, vị khác hẳn.",
+   "form": "普通形 (Nだ/Aなだ → N/Aな) + だけあって",
+   "level": "N2",
+   "meaning": "quả đúng là vì… nên (kết quả xứng đáng, tích cực)",
+   "note": "Luôn mang đánh giá tích cực, kết quả “tương xứng”.",
+   "pattern": "～だけあって",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "期待していただけに、落選の知らせはショックだった。",
+   "exVi": "Chính vì đã kỳ vọng nên tin trượt càng sốc.",
+   "form": "普通形 (N/Aな như trên) + だけに",
+   "level": "N2",
+   "meaning": "chính vì… nên càng… (cả tích cực lẫn tiêu cực)",
+   "note": "Khác だけあって: だけに có thể dùng cho kết quả trái mong đợi, đáng tiếc.",
+   "pattern": "～だけに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "10年使っても壊れない。高かっただけのことはある。",
+   "exVi": "Dùng 10 năm vẫn không hỏng. Đắt quả không uổng.",
+   "form": "普通形 + だけのことはある (cuối câu)",
+   "level": "N2",
+   "meaning": "quả không uổng, xứng đáng với…",
+   "note": "Cùng nghĩa だけあって nhưng đứng cuối câu, nói kết quả trước rồi mới nhận xét.",
+   "pattern": "～だけのことはある",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "初めて作ったにしては、このケーキはよくできている。",
+   "exVi": "Làm lần đầu mà bánh này khá ngon.",
+   "form": "N／V普通形 + にしては",
+   "level": "N2",
+   "meaning": "so với (tiêu chuẩn của X) thì… (trái kỳ vọng)",
+   "note": "Dựa trên một sự việc/đối tượng cụ thể (小学生にしては); khác わりに.",
+   "pattern": "～にしては",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この店は値段のわりには量が多い。",
+   "exVi": "Quán này so với giá thì lượng khá nhiều.",
+   "form": "Nの／Aい／Aなな／V普通形 + わりに（は）",
+   "level": "N2",
+   "meaning": "tương đối so với… thì (không tương xứng)",
+   "note": "Đi tự nhiên với danh từ chỉ mức độ (値段・年齢・身長) + の; にしては không dùng như vậy.",
+   "pattern": "～わりに（は）",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "確認しなかったばかりに、大事な会議に遅れてしまった。",
+   "exVi": "Chỉ vì không kiểm tra mà trễ cuộc họp quan trọng.",
+   "form": "Vた／Aい／Aなである／Nである + ばかりに",
+   "level": "N2",
+   "meaning": "chỉ vì… mà (dẫn đến kết quả xấu); ～たいばかりに: chỉ vì muốn",
+   "note": "Kết quả luôn đáng tiếc; ngược với おかげで.",
+   "pattern": "～ばかりに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "寝不足のせいか、朝から頭が痛い。",
+   "exVi": "Có lẽ do thiếu ngủ mà đau đầu từ sáng.",
+   "form": "普通形 (Nの／Aなな) + せいか",
+   "level": "N2",
+   "meaning": "có lẽ vì… (nguyên nhân không chắc chắn)",
+   "note": "せいで = chắc chắn, đổ lỗi; せいか = phỏng đoán.",
+   "pattern": "～せいか",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼は信頼に足る人物だ。",
+   "exVi": "Anh ấy là người đáng tin cậy.",
+   "form": "Vる／N + に足る",
+   "level": "N1",
+   "meaning": "đáng để, đủ để",
+   "note": "Phủ định cố định: 取るに足らない (không đáng kể).",
+   "pattern": "～に足る",
+   "reg": "viet",
+   "regTip": "〜できる・十分〜",
+   "review": false
+  },
+  {
+   "ex": "ネット上の中傷は読むに堪えないものばかりだ。",
+   "exVi": "Những lời phỉ báng trên mạng toàn là thứ không thể đọc nổi.",
+   "form": "Vる／N + に堪えない",
+   "level": "N1",
+   "meaning": "(1) không chịu nổi để (見る・聞く・読む); (2) vô cùng (感謝の念に堪えない)",
+   "note": "Ngược nghĩa với に足る (đáng để).",
+   "pattern": "～に堪えない",
+   "reg": "viet",
+   "regTip": "見ていられない・本当に感謝してます",
+   "review": false
+  },
+  {
+   "ex": "運転中にスマホを見るのは危険極まりない。",
+   "exVi": "Nhìn điện thoại khi lái xe là cực kỳ nguy hiểm.",
+   "form": "Aな語幹／N + 極まりない (＝極まる)",
+   "level": "N1",
+   "meaning": "vô cùng, cực kỳ (đánh giá tiêu cực mạnh, văn viết)",
+   "note": "極まりない và 極まる cùng nghĩa, dù một bên có ない.",
+   "pattern": "～極まりない",
+   "reg": "viet",
+   "regTip": "すごく・ほんとに",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Đánh giá & nguyên nhân: だけあって／だけに／だけのことはある／にしては／わりに（は）／ばかりに／せいか",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "Là cựu VĐV Olympic → chạy nhanh là xứng đáng. にしては/せいか không hợp; ばかりに cần kết quả xấu.",
+   "options": [
+    "にしては",
+    "ばかりに",
+    "だけあって",
+    "せいか"
+   ],
+   "q": "彼は元オリンピック選手（　）、今でも走るのがとても速い。"
+  },
+  {
+   "answer": 1,
+   "explain": "Viết trong một đêm mà tốt → trái kỳ vọng. だけに/だけあって cần kết quả tương xứng.",
+   "options": [
+    "だけに",
+    "にしては",
+    "だけあって",
+    "ばかりに"
+   ],
+   "q": "このレポートは、一晩で書いた（　）よくまとまっている。"
+  },
+  {
+   "answer": 2,
+   "explain": "Chỉ vì tin lời mà mất hết → ばかりに (kết quả xấu). だけあって/だけのことはある tích cực.",
+   "options": [
+    "だけあって",
+    "わりに",
+    "ばかりに",
+    "だけのことはある"
+   ],
+   "q": "彼の一言を信じた（　）、全財産を失ってしまった。"
+  },
+  {
+   "answer": 1,
+   "explain": "Chính vì đã luyện tập chăm chỉ nên thua càng tiếc → だけに. だけのことはある là khen, đứng cuối câu.",
+   "options": [
+    "にしては",
+    "だけに",
+    "わりに",
+    "だけのことはある"
+   ],
+   "q": "一生懸命練習してきた（　）、初戦で負けたのは本当に悔しい。"
+  },
+  {
+   "answer": 0,
+   "explain": "信じるに足る＝đáng tin. に堪えない + ではない vô nghĩa; 極まりない không nối với Vる.",
+   "options": [
+    "に足る",
+    "極まりない",
+    "に堪えない",
+    "だけあって"
+   ],
+   "q": "彼の話は根拠がなく、信じる（　）ものではない。"
+  },
+  {
+   "answer": 0,
+   "explain": "効果を誇張する＝phóng đại hiệu quả. 拡充: mở rộng chế độ; 勧誘: mời chào; 斡旋: làm trung gian.",
+   "options": [
+    "誇張",
+    "拡充",
+    "勧誘",
+    "斡旋"
+   ],
+   "q": "広告は効果を（　）して書かれていることが多いので、注意が必要だ。"
+  },
+  {
+   "answer": 1,
+   "explain": "雰囲気を醸し出す là cụm cố định. 潤す/緩める/斡旋する không đi với 雰囲気.",
+   "options": [
+    "潤して",
+    "醸し出して",
+    "緩めて",
+    "斡旋して"
+   ],
+   "q": "照明と音楽が、店に高級な雰囲気を（　）いる。"
+  },
+  {
+   "answer": 1,
+   "explain": "Vì hoàn cảnh nên không thể từ chối → わけにはいかない. わけがない = “không thể nào có chuyện” (phán đoán).",
+   "options": [
+    "わけがない",
+    "わけにはいかない",
+    "わけではない",
+    "わけだ"
+   ],
+   "q": "(ôn) 部長に直接頼まれた仕事だから、断る（　）。"
+  },
+  {
+   "answer": 0,
+   "explain": "Lời nói trước sau không khớp → 矛盾. 均衡: cân bằng; 把握: nắm bắt; 辛抱: nhẫn nại.",
+   "options": [
+    "矛盾",
+    "均衡",
+    "把握",
+    "辛抱"
+   ],
+   "q": "(ôn) 彼の説明は前に言っていたことと食い違い、（　）している。"
+  },
+  {
+   "answer": 1,
+   "explain": "～ないことには＝nếu không… thì không (vế sau phủ định). ことに: thật là…; ことから: từ việc…; ことなく: mà không…",
+   "options": [
+    "ことに",
+    "ことには",
+    "ことから",
+    "ことなく"
+   ],
+   "q": "(ôn) 実際に使ってみない（　）、この機械の良さはわからない。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: 人気が出たのは…おしゃれだからではなく、こうしたこだわりが客に伝わっているから. Phương án 1 bị phủ định trực tiếp; 2 sai (値段のわりに量が少ない); 4 không được nhắc tới.",
+  "options": [
+   "店主が若く、店の雰囲気がおしゃれだから。",
+   "値段が安く、量も多いから。",
+   "店主の食材へのこだわりが客に伝わっているから。",
+   "駅前にあり、行列が宣伝になっているから。"
+  ],
+  "q": "筆者は、このカフェが人気になった理由をどう考えているか。",
+  "text": "最近、駅前の商店街に新しいカフェができた。開店してまだ一か月だというのに、平日でも行列ができている。店主は二十代の若者だが、若いにしては、客への気配りが行き届いている。古い倉庫を改装した店内は、木の家具が温かい雰囲気を醸し出し、つい長居してしまう。一方で、値段のわりに量が少ないという声もある。しかし、店主によると、地元の農家から仕入れた野菜しか使わないため、価格を下げるのは難しいのだそうだ。人気が出たのは、単に店がおしゃれだからではなく、こうしたこだわりが客に伝わっているからだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "鏡のおかげで、部屋が広くなったような錯覚を覚える。",
+   "exVi": "Nhờ tấm gương mà có cảm giác như căn phòng rộng ra.",
+   "hanviet": "THÁC GIÁC",
+   "level": "N2",
+   "meaning": "ảo giác, ngộ nhận",
+   "reading": "さっかく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "錯覚"
+  },
+  {
+   "ex": "試験が終わって、すっかり気が緩んでしまった。",
+   "exVi": "Thi xong là tinh thần chùng hẳn xuống.",
+   "hanviet": "HOÃN",
+   "level": "N2",
+   "meaning": "lỏng ra; lơ là, chùng xuống",
+   "reading": "ゆるむ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "緩む"
+  },
+  {
+   "ex": "社会の秩序を保つために法律がある。",
+   "exVi": "Pháp luật tồn tại để giữ trật tự xã hội.",
+   "hanviet": "TRẬT TỰ",
+   "level": "N2",
+   "meaning": "trật tự",
+   "reading": "ちつじょ",
+   "reg": "viet",
+   "regTip": "ルール・決まり",
+   "review": false,
+   "word": "秩序"
+  },
+  {
+   "ex": "市は子育て支援制度の拡充を決めた。",
+   "exVi": "Thành phố quyết định mở rộng chế độ hỗ trợ nuôi con.",
+   "hanviet": "KHUẾCH SUNG",
+   "level": "N2",
+   "meaning": "mở rộng, tăng cường (chế độ, cơ sở)",
+   "reading": "かくじゅう",
+   "reg": "viet",
+   "regTip": "増やす・充実させる",
+   "review": false,
+   "word": "拡充"
+  },
+  {
+   "ex": "駅前でしつこい勧誘を受けた。",
+   "exVi": "Bị mời chào dai dẳng trước nhà ga.",
+   "hanviet": "KHUYẾN DỤ",
+   "level": "N2",
+   "meaning": "mời chào, lôi kéo",
+   "reading": "かんゆう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "勧誘"
+  },
+  {
+   "ex": "その記事は事実をかなり誇張している。",
+   "exVi": "Bài báo đó phóng đại sự thật khá nhiều.",
+   "hanviet": "KHOA TRƯƠNG",
+   "level": "N2",
+   "meaning": "phóng đại, cường điệu",
+   "reading": "こちょう",
+   "reg": "viet",
+   "regTip": "大げさに言う・盛る(slang)",
+   "review": false,
+   "word": "誇張"
+  },
+  {
+   "ex": "観光客が増えて、町の経済が潤った。",
+   "exVi": "Khách du lịch tăng, kinh tế thị trấn khấm khá lên.",
+   "hanviet": "NHUẬN",
+   "level": "N2",
+   "meaning": "được thấm ẩm; trở nên khấm khá",
+   "reading": "うるおう",
+   "reg": "viet",
+   "regTip": "儲かる",
+   "review": false,
+   "word": "潤う"
+  },
+  {
+   "ex": "大学が学生にアルバイトを斡旋している。",
+   "exVi": "Trường đại học giới thiệu việc làm thêm cho sinh viên.",
+   "hanviet": "OÁT TOÀN",
+   "level": "N1",
+   "meaning": "làm trung gian, giới thiệu (việc làm…)",
+   "reading": "あっせん",
+   "reg": "viet",
+   "regTip": "紹介する",
+   "review": false,
+   "word": "斡旋"
+  },
+  {
+   "ex": "古い家具が落ち着いた雰囲気を醸し出している。",
+   "exVi": "Đồ nội thất cũ toát lên bầu không khí trầm lắng.",
+   "hanviet": "NHƯỠNG XUẤT",
+   "level": "N1",
+   "meaning": "tạo ra, toát lên (bầu không khí)",
+   "reading": "かもしだす",
+   "reg": "viet",
+   "regTip": "〜な雰囲気がある",
+   "review": false,
+   "word": "醸し出す"
+  },
+  {
+   "ex": "この国産ワインは輸入品と比べても遜色がない。",
+   "exVi": "Rượu vang nội địa này không thua kém hàng nhập khẩu.",
+   "hanviet": "TỐN SẮC",
+   "level": "N1",
+   "meaning": "sự thua kém (thường: 遜色ない)",
+   "reading": "そんしょく",
+   "reg": "viet",
+   "regTip": "負けない・劣らない",
+   "review": false,
+   "word": "遜色"
+  }
+ ]
+}

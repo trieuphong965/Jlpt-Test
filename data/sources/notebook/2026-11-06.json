@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-06",
+ "grammar": [
+  {
+   "ex": "経験の有無にかかわらず、誰でも応募できます。",
+   "exVi": "Bất kể có kinh nghiệm hay không, ai cũng có thể ứng tuyển.",
+   "form": "N／Vる＋Vない／Aい＋Aくない + にかかわらず",
+   "level": "N2",
+   "meaning": "bất kể, không phân biệt (đi với từ chứa các khả năng đối lập: 天候・年齢・有無・行く行かない)",
+   "note": "Rất dễ nhầm với にもかかわらず (đã học) = “mặc dù… vậy mà”. Chỉ khác chữ も nhưng nghĩa khác hẳn.",
+   "pattern": "～にかかわらず",
+   "reg": "viet",
+   "regTip": "〜に関係なく",
+   "review": false
+  },
+  {
+   "ex": "このイベントは年齢を問わず、誰でも参加できる。",
+   "exVi": "Sự kiện này ai cũng tham gia được, không kể tuổi tác.",
+   "form": "N + を問わず",
+   "level": "N2",
+   "meaning": "không kể, bất luận (年齢・性別・国籍・昼夜・経験)",
+   "note": "Gần nghĩa にかかわらず nhưng chỉ nối với N; hay đi với danh từ ghép đối lập (男女・昼夜・内外).",
+   "pattern": "～を問わず",
+   "reg": "viet",
+   "regTip": "〜に関係なく",
+   "review": false
+  },
+  {
+   "ex": "彼女は人目もかまわず、大声で泣き出した。",
+   "exVi": "Cô ấy chẳng màng ánh mắt người xung quanh, òa khóc thật to.",
+   "form": "N(の) + もかまわず",
+   "level": "N2",
+   "meaning": "chẳng màng, không để ý đến (điều lẽ ra phải để ý)",
+   "note": "をよそに (đã học): phớt lờ sự lo lắng/phản đối của người khác; もかまわず: không bận tâm đến 人目・服が汚れる…, thường mang ý phê phán.",
+   "pattern": "～もかまわず",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "味はともかく、この店は値段が安い。",
+   "exVi": "Vị thì khoan bàn, chứ quán này giá rẻ.",
+   "form": "N + はともかく(として)",
+   "level": "N2",
+   "meaning": "… thì chưa bàn tới / khoan nói, (còn) … thì",
+   "note": "はもとより (đã học) = “A đương nhiên, B cũng”; はともかく = tạm không đánh giá A, nhấn mạnh B.",
+   "pattern": "～はともかく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "冗談はさておき、そろそろ本題に入りましょう。",
+   "exVi": "Đùa thì gác lại, giờ vào vấn đề chính thôi.",
+   "form": "N + はさておき",
+   "level": "N2",
+   "meaning": "tạm gác … sang một bên (để chuyển sang việc chính)",
+   "note": "Gần はともかく; はさておき thiên về chuyển chủ đề (冗談・それ), はともかく thiên về so sánh hai mặt.",
+   "pattern": "～はさておき",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "堅苦しい挨拶を抜きにして、さっそく始めましょう。",
+   "exVi": "Bỏ qua chào hỏi khách sáo, bắt đầu ngay thôi.",
+   "form": "N + を抜きにして(は)／抜きで／抜きの N",
+   "level": "N2",
+   "meaning": "bỏ qua, không tính đến; (～を抜きにしては + phủ định) thiếu … thì không thể",
+   "note": "Dạng を抜きにしては…ない gần ないことには (đã học): “nếu thiếu … thì không …”.",
+   "pattern": "～を抜きにして",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "考え方次第で、苦労も楽しみに変わる。",
+   "exVi": "Tùy cách nghĩ mà vất vả cũng có thể thành niềm vui.",
+   "form": "N + 次第で／次第だ",
+   "level": "N2",
+   "meaning": "tùy vào … (mà kết quả thay đổi)",
+   "note": "Vます + 次第 (đã học) = “ngay sau khi”; N + 次第で = “tùy vào”. に応じて (đã học) = điều chỉnh tương ứng theo (số lượng, yêu cầu).",
+   "pattern": "～次第で",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "理由のいかんによらず、無断欠勤は認められない。",
+   "exVi": "Bất kể lý do gì, nghỉ làm không phép đều không được chấp nhận.",
+   "form": "N(の) + いかんによらず（いかんにかかわらず／いかんを問わず）",
+   "level": "N1",
+   "meaning": "bất kể … như thế nào",
+   "note": "いかんでは (đã học) = “tùy vào … mà (có thể)”, nghĩa ngược lại.",
+   "pattern": "～いかんによらず",
+   "reg": "viet",
+   "regTip": "〜に関係なく",
+   "review": false
+  },
+  {
+   "ex": "理由が何であれ、暴力は許されない。",
+   "exVi": "Dù lý do là gì, bạo lực cũng không thể tha thứ.",
+   "form": "N／疑問詞 + であれ（Aであれ Bであれ）",
+   "level": "N1",
+   "meaning": "dù là … (cũng); dù A hay B",
+   "note": "Văn viết của でも／にしても; hay đi với 何であれ・誰であれ. といえども (đã học) nhấn “dù là (người có vị thế) thì cũng”.",
+   "pattern": "～であれ",
+   "reg": "viet",
+   "regTip": "〜でも",
+   "review": false
+  },
+  {
+   "ex": "彼は危険を顧みず、川に飛び込んで子どもを助けた。",
+   "exVi": "Anh ấy bất chấp nguy hiểm, nhảy xuống sông cứu đứa trẻ.",
+   "form": "N + を顧みず（を顧みることなく）",
+   "level": "N1",
+   "meaning": "không màng đến, bất chấp (nguy hiểm, bản thân, gia đình)",
+   "note": "もかまわず (N2) thường mang ý chê; を顧みず dùng được để khen sự hy sinh (危険・身の安全) hoặc chê (家庭を顧みず). をものともせずに (đã học) = vượt qua khó khăn.",
+   "pattern": "～を顧みず",
+   "reg": "viet",
+   "regTip": "〜を気にせず",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm “bất kể / gác lại / tùy vào”: にかかわらず／を問わず／もかまわず／はともかく／はさておき／を抜きにして／次第で",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "有無 (có/không) + にかかわらず = bất kể. にもかかわらず = “mặc dù”, sai nghĩa.",
+   "options": [
+    "にもかかわらず",
+    "にかかわらず",
+    "をよそに",
+    "に際して"
+   ],
+   "q": "この仕事は経験の有無（　）、やる気があれば誰でも応募できる。"
+  },
+  {
+   "answer": 0,
+   "explain": "Không màng đến phiền hà cho người khác (ý chê) → もかまわず. を問わず dùng cho phạm vi đối tượng (年齢・性別).",
+   "options": [
+    "もかまわず",
+    "を問わず",
+    "次第で",
+    "を抜きにして"
+   ],
+   "q": "彼は周りの迷惑（　）、電車の中で大声で電話をしていた。"
+  },
+  {
+   "answer": 2,
+   "explain": "Gác chuyện đùa sang một bên để vào việc chính → はさておき.",
+   "options": [
+    "次第で",
+    "もかまわず",
+    "はさておき",
+    "を問わず"
+   ],
+   "q": "冗談（　）、そろそろ本題に入りましょう。"
+  },
+  {
+   "answer": 3,
+   "explain": "N + 次第だ = tùy vào. Các mẫu còn lại không đứng trước だ để kết câu.",
+   "options": [
+    "を問わず",
+    "はともかく",
+    "にかかわらず",
+    "次第"
+   ],
+   "q": "この試合に勝てるかどうかは、選手たちの調子（　）だ。"
+  },
+  {
+   "answer": 2,
+   "explain": "例外なく → “bất kể lý do” = いかんによらず. いかんでは (tùy vào…) mâu thuẫn với 例外なく.",
+   "options": [
+    "いかんでは",
+    "とあれば",
+    "いかんによらず",
+    "ならいざ知らず"
+   ],
+   "q": "理由の（　）、無断欠勤は例外なく処分の対象となる。"
+  },
+  {
+   "answer": 1,
+   "explain": "技術を培う (つちかう) = vun đắp kỹ thuật. 滞る = đình trệ; 衰退 = suy tàn.",
+   "options": [
+    "滞った",
+    "培った",
+    "臨んだ",
+    "衰退した"
+   ],
+   "q": "長年の練習で（　）技術が、本番で生かされた。"
+  },
+  {
+   "answer": 2,
+   "explain": "配送が滞る (とどこおる) = giao hàng bị ứ đọng, chậm trễ.",
+   "options": [
+    "培って",
+    "臨んで",
+    "滞って",
+    "促進して"
+   ],
+   "q": "工事の遅れで、商品の配送が（　）いる。"
+  },
+  {
+   "answer": 1,
+   "explain": "煩わしい (わずらわしい) = phiền toái, rườm rà (bài 28/10).",
+   "options": [
+    "潔い",
+    "煩わしい",
+    "頑丈だ",
+    "斬新だ"
+   ],
+   "q": "(ôn) 引っ越しの後は、役所での手続きが多くて（　）。"
+  },
+  {
+   "answer": 2,
+   "explain": "Vて + やまない = luôn mong mỏi từ đáy lòng (bài 27/10).",
+   "options": [
+    "いられません",
+    "おきません",
+    "やみません",
+    "かねません"
+   ],
+   "q": "(ôn) 私は皆さんのご活躍を心から願って（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "Vる + そばから = vừa… xong là lại (lặp lại, công cốc) (bài 29/10). 次第 cần Vます; 最中に cần Vている／Nの.",
+   "options": [
+    "次第",
+    "最中に",
+    "うちに",
+    "そばから"
+   ],
+   "q": "(ôn) 母親が部屋を片付ける（　）、子どもたちがおもちゃを散らかしていく。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 3,
+  "explain": "Câu cuối: 「読む目的次第で変わる…使い分けることが大切」→ đáp án 4. Câu 1 ngược với 「高齢者にも好評」; câu 2 chỉ là một kết quả điều tra, tác giả không kết luận như vậy (もっとも…); câu 3 không được nhắc.",
+  "options": [
+   "電子書籍は高齢者には使いにくいので、紙の本を選ぶべきだ。",
+   "紙の本のほうが内容を覚えやすいので、電子書籍は使わないほうがいい。",
+   "電子書籍は便利なので、今後紙の本は必要なくなる。",
+   "読む目的に合わせて、紙の本と電子書籍を使い分けるのがよい。"
+  ],
+  "q": "筆者の考えに合うものはどれか。",
+  "text": "最近、紙の本ではなく電子書籍で読書をする人が増えている。重い本を持ち歩く必要がなく、夜中でもすぐに購入できるのが魅力だ。年齢を問わず利用者は広がっており、文字の大きさを変えられる点は高齢者にも好評だという。一方で、「紙の本でないと内容が頭に入らない」と感じる人も少なくない。ある調査では、画面で読んだ人は紙で読んだ人に比べて、細かい内容を覚えている割合が低かったという結果も出ている。もっとも、どちらが優れているかは、読む目的次第で変わるだろう。気軽に楽しむなら電子書籍、じっくり考えながら読むなら紙の本と、使い分けることが大切なのではないだろうか。"
+ },
+ "vocab": [
+  {
+   "ex": "若者の流出で、町の商業が衰退した。",
+   "exVi": "Do người trẻ bỏ đi, thương mại của thị trấn đã suy tàn.",
+   "level": "N2",
+   "meaning": "suy thoái, suy tàn (ngành nghề, khu vực, văn hóa)",
+   "reading": "すいたい",
+   "reg": "viet",
+   "regTip": "廃れる・ダメになる",
+   "review": false,
+   "word": "衰退"
+  },
+  {
+   "ex": "政府は観光の促進に力を入れている。",
+   "exVi": "Chính phủ đang dồn sức thúc đẩy du lịch.",
+   "level": "N2",
+   "meaning": "thúc đẩy, xúc tiến",
+   "reading": "そくしん",
+   "reg": "viet",
+   "regTip": "進める",
+   "review": false,
+   "word": "促進"
+  },
+  {
+   "ex": "事故の被害者に補償金が支払われた。",
+   "exVi": "Tiền bồi thường đã được trả cho nạn nhân vụ tai nạn.",
+   "level": "N2",
+   "meaning": "bồi thường (thiệt hại)",
+   "reading": "ほしょう",
+   "reg": "viet",
+   "regTip": "弁償(đồ cá nhân)・お金を払う",
+   "review": false,
+   "word": "補償"
+  },
+  {
+   "ex": "彼は仕事に対する意欲が高い。",
+   "exVi": "Anh ấy có nhiệt huyết cao với công việc.",
+   "level": "N2",
+   "meaning": "ý chí, nhiệt huyết, động lực (muốn làm)",
+   "reading": "いよく",
+   "reg": "chung",
+   "regTip": "thân mật: やる気",
+   "review": false,
+   "word": "意欲"
+  },
+  {
+   "ex": "子どもの素朴な疑問に答えるのは意外と難しい。",
+   "exVi": "Trả lời câu hỏi ngây thơ của trẻ con lại khó bất ngờ.",
+   "level": "N2",
+   "meaning": "mộc mạc, chân chất; (câu hỏi) đơn giản, ngây thơ",
+   "reading": "そぼく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "素朴"
+  },
+  {
+   "ex": "万全の準備をして試験に臨んだ。",
+   "exVi": "Tôi bước vào kỳ thi với sự chuẩn bị chu đáo.",
+   "level": "N2",
+   "meaning": "đối mặt, bước vào (kỳ thi, trận đấu, cuộc họp); nhìn ra (biển)",
+   "reading": "のぞむ",
+   "reg": "viet",
+   "regTip": "〜に向けて・(試合に)出る",
+   "review": false,
+   "word": "臨む"
+  },
+  {
+   "ex": "彼女は流行に敏感だ。",
+   "exVi": "Cô ấy rất nhạy bén với xu hướng thời trang.",
+   "level": "N2",
+   "meaning": "nhạy cảm, nhạy bén",
+   "reading": "びんかん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "敏感"
+  },
+  {
+   "ex": "留学で培った語学力を仕事に生かしたい。",
+   "exVi": "Tôi muốn tận dụng năng lực ngoại ngữ vun đắp khi du học vào công việc.",
+   "level": "N1",
+   "meaning": "vun đắp, bồi dưỡng (năng lực, quan hệ, tinh thần)",
+   "reading": "つちかう",
+   "reg": "viet",
+   "regTip": "身につける・育てる",
+   "review": false,
+   "word": "培う"
+  },
+  {
+   "ex": "家賃の支払いが二か月滞っている。",
+   "exVi": "Tiền thuê nhà đã bị chậm trả hai tháng.",
+   "level": "N1",
+   "meaning": "bị đình trệ, ứ đọng, chậm trễ (thanh toán, công việc)",
+   "reading": "とどこおる",
+   "reg": "viet",
+   "regTip": "遅れる・たまる",
+   "review": false,
+   "word": "滞る"
+  },
+  {
+   "ex": "この町には江戸時代の名残が今も見られる。",
+   "exVi": "Ở thị trấn này vẫn còn thấy dấu vết thời Edo.",
+   "level": "N1",
+   "meaning": "dấu vết còn sót lại; sự luyến tiếc (名残惜しい)",
+   "reading": "なごり",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "名残"
+  }
+ ]
+}

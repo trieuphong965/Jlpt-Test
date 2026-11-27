@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-29",
+ "grammar": [
+  {
+   "ex": "窓を開けたとたん、強い風が入ってきた。",
+   "exVi": "Vừa mở cửa sổ thì gió mạnh ùa vào.",
+   "form": "Vた + とたん（に）",
+   "level": "N2",
+   "meaning": "Vừa… thì ngay lập tức (xảy ra điều bất ngờ)",
+   "note": "Vế sau là sự việc bất ngờ, ngoài ý muốn; không dùng ý chí/mệnh lệnh của người nói (×着いたとたん、電話してください → dùng 次第).",
+   "pattern": "～たとたん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "結果が分かり次第、ご連絡いたします。",
+   "exVi": "Ngay khi biết kết quả, tôi sẽ liên lạc.",
+   "form": "Vます(bỏ ます) + 次第",
+   "level": "N2",
+   "meaning": "Ngay sau khi… (sẽ làm)",
+   "note": "Ngược với たとたん: vế sau là hành động có ý chí, yêu cầu, dự định trong tương lai; không dùng kể chuyện quá khứ.",
+   "pattern": "～次第",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "晴れたかと思うと、急に雨が降り出した。",
+   "exVi": "Trời vừa hửng nắng thì lại đột nhiên đổ mưa.",
+   "form": "Vた + かと思うと／かと思ったら",
+   "level": "N2",
+   "meaning": "Vừa mới… thì đã (thay đổi nhanh, trái ngược)",
+   "note": "Dùng cho người/sự vật khác, không dùng cho hành động của bản thân người nói; nhấn mạnh sự thay đổi liên tiếp.",
+   "pattern": "～かと思うと",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "会議の最中に、電話が鳴った。",
+   "exVi": "Đúng lúc đang họp thì điện thoại reo.",
+   "form": "Vている／Nの + 最中に",
+   "level": "N2",
+   "meaning": "Đúng lúc đang… (thì bị chen ngang)",
+   "note": "Nhấn mạnh thời điểm cao trào của hành động; khác うちに/間に (khoảng thời gian nói chung).",
+   "pattern": "～最中に",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "若いうちに、いろいろな国を旅しておきたい。",
+   "exVi": "Tôi muốn đi du lịch nhiều nước khi còn trẻ.",
+   "form": "Vる／Vている／Vない／Aい／Naな／Nの + うちに",
+   "level": "N2",
+   "meaning": "(1) Trong lúc còn… thì tranh thủ; (2) trong lúc… thì lúc nào không hay",
+   "note": "うちに = trước khi trạng thái thay đổi (tranh thủ); 間に = trong một khoảng thời gian xác định.",
+   "pattern": "～うちに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "お降りの際に、お忘れ物のないようご注意ください。",
+   "exVi": "Khi xuống xe, xin chú ý đừng để quên đồ.",
+   "form": "Vる／Vた／Nの + 際（に）",
+   "level": "N2",
+   "meaning": "Khi, lúc (trang trọng)",
+   "note": "Trang trọng hơn とき, hay dùng trong thông báo; に際して chỉ dùng cho dịp đặc biệt.",
+   "pattern": "～際に",
+   "reg": "viet",
+   "regTip": "〜とき",
+   "review": false
+  },
+  {
+   "ex": "新しい事業を始めるに際して、専門家の意見を聞いた。",
+   "exVi": "Khi bắt đầu dự án kinh doanh mới, tôi đã hỏi ý kiến chuyên gia.",
+   "form": "N／Vる + に際して",
+   "level": "N2",
+   "meaning": "Nhân dịp, khi bắt đầu (một việc quan trọng)",
+   "note": "Chỉ dùng cho sự kiện đặc biệt, không thường ngày (×食事に際して); 際に phạm vi rộng hơn.",
+   "pattern": "～に際して",
+   "reg": "viet",
+   "regTip": "〜とき・〜にあたって",
+   "review": false
+  },
+  {
+   "ex": "彼は家に着くやいなや、ベッドに倒れ込んだ。",
+   "exVi": "Anh ấy vừa về đến nhà là đổ ập xuống giường.",
+   "form": "Vる + やいなや",
+   "level": "N1",
+   "meaning": "Vừa… thì ngay lập tức",
+   "note": "Văn viết, gần nghĩa が早いか; vế sau không dùng ý chí/mệnh lệnh của người nói.",
+   "pattern": "～やいなや",
+   "reg": "viet",
+   "regTip": "〜とすぐ",
+   "review": false
+  },
+  {
+   "ex": "彼女は電話を切るなり、泣き出した。",
+   "exVi": "Cô ấy vừa cúp máy là bật khóc.",
+   "form": "Vる + なり",
+   "level": "N1",
+   "meaning": "Vừa… liền (hành động bất ngờ)",
+   "note": "Hai vế cùng chủ ngữ, thường là ngôi thứ ba; たとたん thì chủ ngữ hai vế có thể khác nhau.",
+   "pattern": "～なり",
+   "reg": "viet",
+   "regTip": "〜とすぐ・〜たとたん",
+   "review": false
+  },
+  {
+   "ex": "片付けるそばから、子どもが散らかす。",
+   "exVi": "Vừa dọn xong là bọn trẻ lại bày bừa.",
+   "form": "Vる／Vた + そばから",
+   "level": "N1",
+   "meaning": "Vừa… thì lại (lặp đi lặp lại, công cốc)",
+   "note": "Dùng cho việc lặp lại nhiều lần; なり／やいなや chỉ một lần.",
+   "pattern": "～そばから",
+   "reg": "viet",
+   "regTip": "〜してもすぐ",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm thời điểm “ngay khi / trong lúc”: たとたん／次第／かと思うと／最中に／うちに／際に／に際して",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "Vた + とたん: vừa ra khỏi nhà thì mưa (bất ngờ). 次第 cần Vます, うちに không đi với thể た.",
+   "options": [
+    "次第",
+    "うちに",
+    "とたん",
+    "に際して"
+   ],
+   "q": "家を出た＿＿、雨が降り出した。"
+  },
+  {
+   "answer": 3,
+   "explain": "Vます + 次第 + hành động có ý chí (お送りします). とたん không dùng cho ý chí người nói.",
+   "options": [
+    "とたん",
+    "かと思うと",
+    "最中に",
+    "次第"
+   ],
+   "q": "資料が届き＿＿、すぐに皆さんにお送りします。"
+  },
+  {
+   "answer": 1,
+   "explain": "Vた + かと思うと: vừa về đã lại đi ngay – thay đổi nhanh của người khác.",
+   "options": [
+    "次第",
+    "かと思うと",
+    "うちに",
+    "に際して"
+   ],
+   "q": "弟は帰ってきた＿＿、また遊びに出かけていった。"
+  },
+  {
+   "answer": 3,
+   "explain": "Nの + 最中に: đúng lúc đang thuyết trình thì bị sự cố chen ngang.",
+   "options": [
+    "うちに",
+    "次第",
+    "とたん",
+    "最中に"
+   ],
+   "q": "大事なプレゼンの＿＿、パソコンが動かなくなった。"
+  },
+  {
+   "answer": 2,
+   "explain": "Vる + に際して: nhân dịp đi du học (sự kiện đặc biệt).",
+   "options": [
+    "次第",
+    "かと思うと",
+    "に際して",
+    "最中に"
+   ],
+   "q": "留学する＿＿、両親に感謝の手紙を書いた。"
+  },
+  {
+   "answer": 2,
+   "explain": "復興を遂げる: đạt được sự phục hưng – kết hợp cố định.",
+   "options": [
+    "確保した",
+    "補足した",
+    "遂げた",
+    "継続した"
+   ],
+   "q": "震災のあと、町は見事な復興を＿＿。"
+  },
+  {
+   "answer": 0,
+   "explain": "頑丈な作り: kết cấu chắc chắn, không hỏng.",
+   "options": [
+    "頑丈な",
+    "漠然とした",
+    "慌ただしい",
+    "妥当な"
+   ],
+   "q": "この机は＿＿作りなので、子どもが乗っても壊れない。"
+  },
+  {
+   "answer": 1,
+   "explain": "Nとあれば: nếu là vì… thì (sẵn sàng làm). をよそに = mặc kệ, không phù hợp.",
+   "options": [
+    "をよそに",
+    "とあれば",
+    "ないまでも",
+    "にかこつけて"
+   ],
+   "q": "(ôn) 子どものため＿＿、どんな苦労もいとわない。"
+  },
+  {
+   "answer": 2,
+   "explain": "Nに携わる: tham gia, làm công việc gì. 怠る đi với を.",
+   "options": [
+    "怠って",
+    "是正して",
+    "携わって",
+    "衰えて"
+   ],
+   "q": "(ôn) 彼は長年、医療の研究に＿＿きた。"
+  },
+  {
+   "answer": 3,
+   "explain": "Vないまでも: dù không đến mức… thì ít nhất cũng…",
+   "options": [
+    "ずにはおかない",
+    "かねない",
+    "ものの",
+    "ないまでも"
+   ],
+   "q": "(ôn) 毎日とは言わ＿＿、週に一度は運動したほうがいい。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Tác giả nói điều quan trọng là tìm cách phù hợp nhịp sống của mình (自分の生活リズムに合ったやり方) và duy trì từ thay đổi nhỏ. A quá tuyệt đối; B, D trái ý (tác giả khuyên người cú đêm thử dậy sớm 15 phút).",
+  "options": [
+   "朝活は誰にとっても効果的なので、すぐに始めるべきだ。",
+   "早起きは睡眠不足の原因になるので、避けたほうがいい。",
+   "自分の生活に合った方法で、無理なく続けることが大切だ。",
+   "夜型の人は朝活に向いていないので、夜に勉強したほうがいい。"
+  ],
+  "q": "筆者の考えに最も合うものはどれか。",
+  "text": "最近、朝の時間を有効に使う「朝活」が注目されている。出勤前に勉強や運動をすることで、一日を前向きな気持ちで始められるというのだ。しかし、無理に早起きを続けると、かえって睡眠不足になり、仕事の効率が下がってしまうこともある。大切なのは、何時に起きるかではなく、自分の生活リズムに合ったやり方を見つけることだ。夜型の人が朝活を始めるなら、まずは十五分早く起きることから試してみるといい。小さな変化でも、続けることで確かな自信につながるはずだ。"
+ },
+ "vocab": [
+  {
+   "ex": "彼の判断は妥当だと思う。",
+   "exVi": "Tôi nghĩ phán đoán của anh ấy là hợp lý.",
+   "level": "N2",
+   "meaning": "thỏa đáng, hợp lý",
+   "reading": "だとう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "妥当"
+  },
+  {
+   "ex": "この町は急速な発展を遂げた。",
+   "exVi": "Thị trấn này đã phát triển nhanh chóng.",
+   "level": "N2",
+   "meaning": "đạt được, hoàn thành (mục tiêu, sự phát triển)",
+   "reading": "とげる",
+   "reg": "viet",
+   "regTip": "やり遂げる・達成する",
+   "review": false,
+   "word": "遂げる"
+  },
+  {
+   "ex": "早めに会場を確保しておいた。",
+   "exVi": "Tôi đã giữ chỗ hội trường từ sớm.",
+   "level": "N2",
+   "meaning": "đảm bảo, giữ (chỗ, nguồn lực)",
+   "reading": "かくほ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "確保"
+  },
+  {
+   "ex": "この棚は頑丈なので、重い本を載せても大丈夫だ。",
+   "exVi": "Cái kệ này chắc chắn nên đặt sách nặng lên cũng không sao.",
+   "level": "N2",
+   "meaning": "chắc chắn, bền chắc",
+   "reading": "がんじょう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "頑丈"
+  },
+  {
+   "ex": "年末は何かと慌ただしい。",
+   "exVi": "Cuối năm việc gì cũng tất bật.",
+   "level": "N2",
+   "meaning": "tất bật, vội vã",
+   "reading": "あわただしい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "慌ただしい"
+  },
+  {
+   "ex": "少しずつでも継続することが大切だ。",
+   "exVi": "Dù chỉ một chút, duy trì liên tục là điều quan trọng.",
+   "level": "N2",
+   "meaning": "tiếp tục, duy trì",
+   "reading": "けいぞく",
+   "reg": "viet",
+   "regTip": "続ける",
+   "review": false,
+   "word": "継続"
+  },
+  {
+   "ex": "先ほどの説明に一点補足します。",
+   "exVi": "Tôi xin bổ sung một điểm cho phần giải thích lúc nãy.",
+   "level": "N2",
+   "meaning": "bổ sung (thông tin, giải thích)",
+   "reading": "ほそく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "補足"
+  },
+  {
+   "ex": "政府は物価の高騰を憂慮している。",
+   "exVi": "Chính phủ lo ngại về việc vật giá tăng vọt.",
+   "level": "N1",
+   "meaning": "lo ngại, lo âu sâu sắc",
+   "reading": "ゆうりょ",
+   "reg": "viet",
+   "regTip": "心配",
+   "review": false,
+   "word": "憂慮"
+  },
+  {
+   "ex": "交渉の行き詰まりを打開する策が必要だ。",
+   "exVi": "Cần có biện pháp phá vỡ thế bế tắc trong đàm phán.",
+   "level": "N1",
+   "meaning": "khai thông, phá vỡ bế tắc",
+   "reading": "だかい",
+   "reg": "viet",
+   "regTip": "なんとかする",
+   "review": false,
+   "word": "打開"
+  },
+  {
+   "ex": "将来に漠然とした不安を感じている。",
+   "exVi": "Tôi cảm thấy bất an mơ hồ về tương lai.",
+   "level": "N1",
+   "meaning": "mơ hồ, không rõ ràng",
+   "reading": "ばくぜん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "漠然"
+  }
+ ]
+}

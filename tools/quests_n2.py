@@ -238,7 +238,7 @@ def build():
                 items.append({"id": iid, "type": q["kind"], "stem": raw["stem"], "opts": opts, "ans": t,
                               "exp": raw["exp"], "tag": tag})
         out["quests"].append({k: q[k] for k in ("id", "group", "kind", "title", "desc")} | {"items": items})
-    path = os.path.join(ROOT, "public/quests/N2.json")
+    path = os.path.join(ROOT, "data/base_N2.json")  # thẻ nền; tools/build_cards.py gộp với sổ tay → public/quests/
     os.makedirs(os.path.dirname(path), exist_ok=True)
     json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     n = sum(len(q["items"]) for q in out["quests"])

@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-18",
+ "grammar": [
+  {
+   "ex": "今回の不具合は、氷山の一角にすぎない。",
+   "exVi": "Lỗi lần này chẳng qua chỉ là phần nổi của tảng băng.",
+   "form": "N／普通形 + にすぎない",
+   "level": "N2",
+   "meaning": "chỉ là, chẳng qua là (đánh giá thấp, nhấn mạnh 'không hơn')",
+   "note": "Ngược sắc thái với にほかならない (chính là – nhấn mạnh, đề cao).",
+   "pattern": "～にすぎない",
+   "reg": "viet",
+   "regTip": "ただの〜だ・〜だけだ",
+   "review": false
+  },
+  {
+   "ex": "今回の成功は、現場の皆さんの努力の結果にほかならない。",
+   "exVi": "Thành công lần này chính là kết quả nỗ lực của anh chị em ở hiện trường.",
+   "form": "N／〜から + にほかならない",
+   "level": "N2",
+   "meaning": "chính là, không gì khác ngoài (khẳng định mạnh nguyên nhân/bản chất)",
+   "note": "Hay đi với 〜から／〜ため: 〜からにほかならない. にすぎない = 'chỉ là', hạ thấp.",
+   "pattern": "～にほかならない",
+   "reg": "viet",
+   "regTip": "まさに〜だ・〜からこそだ",
+   "review": false
+  },
+  {
+   "ex": "部品が届かない以上、納期を延ばしてもらうほかない。",
+   "exVi": "Linh kiện không về thì đành nhờ lùi hạn giao thôi.",
+   "form": "V辞書形 + ほかない（よりほかない）",
+   "level": "N2",
+   "meaning": "chỉ còn cách, đành phải",
+   "note": "Cùng nghĩa しかない nhưng cứng hơn. ざるを得ない nhấn mạnh 'bị ép, trái ý muốn'.",
+   "pattern": "～ほかない",
+   "reg": "viet",
+   "regTip": "〜しかない",
+   "review": false
+  },
+  {
+   "ex": "終電を逃したから、タクシーで帰るしかないね。",
+   "exVi": "Lỡ chuyến tàu cuối rồi, đành đi taxi về thôi.",
+   "form": "V辞書形 + しかない",
+   "level": "N2",
+   "meaning": "chỉ còn cách, đành (không có lựa chọn khác)",
+   "note": "Phân biệt N + しか + phủ định (chỉ có). Dạng V辞書形 + しかない = chỉ còn cách.",
+   "pattern": "～しかない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ (thân mật): 〜っきゃない",
+   "review": false
+  },
+  {
+   "ex": "小さなミスだから、そんなに落ち込むことはないよ。",
+   "exVi": "Lỗi nhỏ thôi mà, không cần phải buồn đến thế đâu.",
+   "form": "V辞書形 + ことはない",
+   "level": "N2",
+   "meaning": "không cần phải (khuyên, trấn an)",
+   "note": "Khác V-た + ことはない (chưa từng) và ないことはない (không phải là không).",
+   "pattern": "～ことはない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ことないよ",
+   "review": false
+  },
+  {
+   "ex": "急げば間に合わないことはないけど、ちょっと厳しいかな。",
+   "exVi": "Gấp lên thì không phải là không kịp, nhưng hơi căng đấy.",
+   "form": "Vない／いAくない + ことはない",
+   "level": "N2",
+   "meaning": "không phải là không (có thể, nhưng miễn cưỡng / có điều kiện)",
+   "note": "Khẳng định yếu, thường kèm けど. ことはない = 'không cần'.",
+   "pattern": "～ないことはない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ないことない・〜なくはない",
+   "review": false
+  },
+  {
+   "ex": "残業すればいいというものではない。大事なのは成果だ。",
+   "exVi": "Không phải cứ làm thêm giờ là được. Quan trọng là kết quả.",
+   "form": "普通形 + というものではない",
+   "level": "N2",
+   "meaning": "không hẳn là cứ… là được (phủ định một quan niệm chung)",
+   "note": "わけではない phủ định một phần sự thật; というものではない bác bỏ quan niệm 'cứ A là B'.",
+   "pattern": "～というものではない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ってもんじゃない",
+   "review": false
+  },
+  {
+   "ex": "先日のお礼かたがた、ご挨拶に伺いました。",
+   "exVi": "Tôi đến chào anh, nhân tiện cảm ơn chuyện hôm trước.",
+   "form": "N（する動詞の名詞）+ かたがた",
+   "level": "N1",
+   "meaning": "nhân tiện, kết hợp (mục đích chính + phụ; hay dùng trong thư từ, chào hỏi)",
+   "note": "がてら: thân mật hơn, thường đi với hành động di chuyển. かたわら (đã học): vừa làm A vừa làm B lâu dài.",
+   "pattern": "～かたがた",
+   "reg": "viet",
+   "regTip": "〜のついでに・〜も兼ねて",
+   "review": false
+  },
+  {
+   "ex": "上司が出張中なのをいいことに、彼は毎日定時で帰っている。",
+   "exVi": "Lợi dụng sếp đi công tác, ngày nào cậu ta cũng về đúng giờ.",
+   "form": "N／普通形＋の + をいいことに",
+   "level": "N1",
+   "meaning": "lợi dụng việc…, nhân cơ hội… (để làm điều không hay)",
+   "note": "Luôn mang sắc thái phê phán; khác をきっかけに (trung tính).",
+   "pattern": "～をいいことに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "部長ともあろう人が、こんな初歩的なミスをするとは。",
+   "exVi": "Đường đường là trưởng phòng mà lại mắc lỗi sơ đẳng thế này.",
+   "form": "N + ともあろう + N（人・組織）",
+   "level": "N1",
+   "meaning": "đường đường là… (mà lại…) – chê trách người có địa vị",
+   "note": "Vế sau là hành động không xứng địa vị. ～たる者 (N1) cũng 'là… thì phải…' nhưng nói về nghĩa vụ.",
+   "pattern": "～ともあろう",
+   "reg": "viet",
+   "regTip": "〜なのに・〜のくせに",
+   "review": false
+  }
+ ],
+ "grammarGroup": "“Chỉ là / chính là / chỉ còn cách / không cần”: にすぎない／にほかならない／ほかない／しかない／ことはない／ないことはない／というものではない",
+ "quiz": [
+  {
+   "answer": 0,
+   "explain": "N + にすぎない = chỉ là ý kiến cá nhân → không cần bận tâm. ほかない cần V辞書形; というものではない/ないことはない không hợp nghĩa.",
+   "options": [
+    "にすぎない",
+    "というものではない",
+    "ないことはない",
+    "ほかない"
+   ],
+   "q": "彼の発言は個人的な意見（　）から、あまり気にしなくていいよ。"
+  },
+  {
+   "answer": 1,
+   "explain": "〜からにほかならない = chính là vì… (khẳng định nguyên nhân). Các mẫu khác không nối sau から.",
+   "options": [
+    "ないことはない",
+    "にほかならない",
+    "ほかない",
+    "というものではない"
+   ],
+   "q": "彼が合格できたのは、毎日こつこつ努力を続けたから（　）。"
+  },
+  {
+   "answer": 2,
+   "explain": "V辞書形 + ことはない = không cần phải. しかない ngược nghĩa (đành phải lo); ないことはない cần thể ない.",
+   "options": [
+    "しかない",
+    "にほかならない",
+    "ことはない",
+    "ないことはない"
+   ],
+   "q": "ただの定期検査だから、そんなに心配する（　）よ。"
+  },
+  {
+   "answer": 3,
+   "explain": "〜ないことはない = không phải là không (được), kèm けど do dự. ざるを得ない = buộc phải; ずにはおかない/ないではいられない = nhất định/không kìm được.",
+   "options": [
+    "ずにはおかない",
+    "ざるを得ない",
+    "ないではいられない",
+    "ないことはない"
+   ],
+   "q": "A「この量、今日中に終わる？」　B「まあ、頑張れば終わら（　）けど…」"
+  },
+  {
+   "answer": 2,
+   "explain": "紛失（ふんしつ）= đánh mất. 解消 = giải tỏa; 摩擦 = xích mích; 刷新 = cải tổ.",
+   "options": [
+    "解消",
+    "摩擦",
+    "紛失",
+    "刷新"
+   ],
+   "q": "会社の鍵を（　）した場合は、すぐに総務課に連絡してください。"
+  },
+  {
+   "answer": 1,
+   "explain": "解消（かいしょう）された = được xóa bỏ (vấn đề chờ đợi). 刷新 dùng cho tổ chức/thiết kế, không dùng cho 待ち時間; 緩慢 là tính từ.",
+   "options": [
+    "刷新",
+    "解消",
+    "紛失",
+    "緩慢"
+   ],
+   "q": "新しい設備を入れたことで、作業の待ち時間がほぼ（　）された。"
+  },
+  {
+   "answer": 2,
+   "explain": "Hội thoại thân mật → しかない. ほかない/よりほかない/ざるを得ない đúng ngữ pháp nhưng cứng, kiểu văn viết.",
+   "options": [
+    "ほかあるまい",
+    "よりほかない",
+    "しかない",
+    "ざるを得ない"
+   ],
+   "q": "(Nói với bạn thân) 「終電なくなっちゃったし、タクシーで帰る（　）ね。」— cách nói tự nhiên nhất?"
+  },
+  {
+   "answer": 1,
+   "explain": "V辞書形 + 一方だ = ngày càng (theo một chiều). 気味/がち/っぽい nối với ます-stem hoặc danh từ, không nối V辞書形.",
+   "options": [
+    "気味",
+    "一方",
+    "がち",
+    "っぽい"
+   ],
+   "q": "(ôn) 円安の影響で、輸入部品の値段は上がる（　）だ。"
+  },
+  {
+   "answer": 2,
+   "explain": "費やす（ついやす）= tiêu tốn (thời gian, tiền). 励む = nỗ lực (に励む); 和らげる = làm dịu; 賄う = trang trải.",
+   "options": [
+    "励んだ",
+    "和らげた",
+    "費やした",
+    "賄った"
+   ],
+   "q": "(ôn) この報告書をまとめるのに、丸一週間を（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "さすが〜だけあって = đúng là xứng với… (đánh giá tích cực). にしては/わりに = trái với kỳ vọng; ばかりに = chỉ vì (kết quả xấu).",
+   "options": [
+    "にしては",
+    "ばかりに",
+    "わりに",
+    "だけあって"
+   ],
+   "q": "(ôn) さすが10年も現場にいた（　）、彼の判断は的確だ。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "「大切なのは、その場で結論を出し、誰が何をするかをはっきりさせることだ」. A, B là suy nghĩ cũ của tác giả; D chỉ là kết quả, không phải mục tiêu.",
+  "options": [
+   "資料をできるだけ多く用意すること",
+   "全員の意見を最後まで聞くこと",
+   "その場で結論を出し、役割分担を明確にすること",
+   "会議の時間を半分にすること"
+  ],
+  "q": "筆者が会議で最も大切だと考えていることは何か。",
+  "text": "「会議は長ければいいというものではない。」入社したころ、上司によくそう言われた。当時の私は、資料をたくさん用意し、全員の意見を聞くことこそ丁寧な仕事だと思っていた。しかし、話が広がるばかりで何も決まらない会議も多かった。今は、事前に議題を三つに絞り、決めるべきことを先に共有している。資料は判断の材料にすぎない。大切なのは、その場で結論を出し、誰が何をするかをはっきりさせることだ。おかげで会議の時間は半分になり、現場からの不満も解消された。"
+ },
+ "vocab": [
+  {
+   "ex": "新しいシステムで、残業の問題がだいぶ解消された。",
+   "exVi": "Nhờ hệ thống mới, vấn đề làm thêm giờ đã được giải quyết đáng kể.",
+   "hanviet": "GIẢI TIÊU",
+   "level": "N2",
+   "meaning": "giải tỏa, xóa bỏ (vấn đề, stress, hợp đồng)",
+   "reading": "かいしょう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "解消"
+  },
+  {
+   "ex": "部署間の摩擦を避けるため、事前に話し合っておいた。",
+   "exVi": "Để tránh xích mích giữa các phòng ban, chúng tôi đã bàn trước.",
+   "hanviet": "MA SÁT",
+   "level": "N2",
+   "meaning": "ma sát; va chạm, xích mích (giữa người/tổ chức)",
+   "reading": "まさつ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "摩擦"
+  },
+  {
+   "ex": "取引先が値下げを渋っている。",
+   "exVi": "Đối tác đang chần chừ không chịu giảm giá.",
+   "hanviet": "SÁP",
+   "level": "N2",
+   "meaning": "chần chừ, không muốn làm, ngần ngại",
+   "reading": "しぶる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "渋る"
+  },
+  {
+   "ex": "社員証を紛失した場合は、直ちに総務課へ届け出ること。",
+   "exVi": "Trường hợp làm mất thẻ nhân viên, phải báo ngay cho phòng tổng vụ.",
+   "hanviet": "PHÂN THẤT",
+   "level": "N2",
+   "meaning": "đánh mất, thất lạc (giấy tờ, đồ vật)",
+   "reading": "ふんしつ",
+   "reg": "viet",
+   "regTip": "なくす・なくしちゃう",
+   "review": false,
+   "word": "紛失"
+  },
+  {
+   "ex": "みんなで手分けして配線をチェックしよう。",
+   "exVi": "Cả nhóm chia nhau ra kiểm tra dây nhé.",
+   "hanviet": "THỦ PHÂN",
+   "level": "N2",
+   "meaning": "chia nhau làm, phân công",
+   "reading": "てわけ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "手分け"
+  },
+  {
+   "ex": "この製品は安いが、性能は他社製品に劣らない。",
+   "exVi": "Sản phẩm này rẻ nhưng tính năng không thua hàng hãng khác.",
+   "hanviet": "LIỆT",
+   "level": "N2",
+   "meaning": "kém hơn, thua kém",
+   "reading": "おとる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "劣る"
+  },
+  {
+   "ex": "彼は若手の育成に協力を惜しまない。",
+   "exVi": "Anh ấy không tiếc công giúp đỡ việc đào tạo lớp trẻ.",
+   "hanviet": "TÍCH",
+   "level": "N2",
+   "meaning": "tiếc, tiếc rẻ; (〜を惜しまない) không tiếc công sức",
+   "reading": "おしむ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "惜しむ"
+  },
+  {
+   "ex": "新社長のもとで、経営体制が刷新された。",
+   "exVi": "Dưới thời tân giám đốc, bộ máy điều hành đã được cải tổ.",
+   "hanviet": "LOÁT TÂN",
+   "level": "N1",
+   "meaning": "đổi mới toàn diện, cải tổ",
+   "reading": "さっしん",
+   "reg": "viet",
+   "regTip": "一新する・ガラッと変える",
+   "review": false,
+   "word": "刷新"
+  },
+  {
+   "ex": "僕、パソコンには疎くてさ。",
+   "exVi": "Tôi mù tịt về máy tính ấy mà.",
+   "hanviet": "SƠ",
+   "level": "N1",
+   "meaning": "mù mờ, không rành (về lĩnh vực nào đó)",
+   "reading": "うとい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "疎い"
+  },
+  {
+   "ex": "景気の回復は緩慢なペースにとどまっている。",
+   "exVi": "Sự phục hồi kinh tế vẫn chỉ ở nhịp độ chậm chạp.",
+   "hanviet": "HOÃN MẠN",
+   "level": "N1",
+   "meaning": "chậm chạp, uể oải (nhịp độ, động tác)",
+   "reading": "かんまん",
+   "reg": "viet",
+   "regTip": "遅い・のろい・ゆっくり",
+   "review": false,
+   "word": "緩慢"
+  }
+ ]
+}

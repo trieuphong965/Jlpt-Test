@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-26",
+ "grammar": [
+  {
+   "ex": "読みかけの本が、机の上に置いたままになっている。",
+   "exVi": "Cuốn sách đọc dở vẫn để nguyên trên bàn.",
+   "form": "V-ます(bỏ ます) + かける／かけの + N",
+   "level": "N2",
+   "meaning": "làm dở dang, đang làm giữa chừng; suýt nữa thì…",
+   "note": "かける = mới làm được một phần, chưa xong. Ngược nghĩa với きる (làm đến hết). 死にかける = suýt chết.",
+   "pattern": "～かけ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "初めてのマラソンだったが、42キロを最後まで走りきることができた。",
+   "exVi": "Dù là marathon đầu tiên, tôi đã chạy hết được 42 km đến đích.",
+   "form": "V-ます(bỏ ます) + きる／きれる／きれない",
+   "level": "N2",
+   "meaning": "làm đến hết, trọn vẹn; hoàn toàn (mệt hết sức, tin tuyệt đối…)",
+   "note": "きる nhấn mạnh 'hết sạch / trọn vẹn' (食べきる, 疲れきる). ぬく nhấn mạnh 'vượt khó đến cùng'; つくす nhấn mạnh 'dùng cạn mọi thứ'.",
+   "pattern": "～きる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "どんなに苦しくても、この仕事は最後までやりぬくつもりだ。",
+   "exVi": "Dù vất vả đến đâu, tôi định làm việc này đến cùng.",
+   "form": "V-ます(bỏ ます) + ぬく（抜く）",
+   "level": "N2",
+   "meaning": "làm đến cùng dù gian khổ; làm triệt để",
+   "note": "ぬく mang sắc thái nỗ lực vượt khó (考えぬく, 生きぬく). とおす thiên về 'giữ nguyên một trạng thái/hành động liên tục đến cuối'.",
+   "pattern": "～ぬく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼は何を聞かれても、知らないと言いとおすつもりらしい。",
+   "exVi": "Có vẻ hỏi gì anh ta cũng định một mực nói không biết đến cùng.",
+   "form": "V-ます(bỏ ます) + とおす（通す）",
+   "level": "N2",
+   "meaning": "làm liên tục, giữ nguyên đến cuối (không đổi, không dừng)",
+   "note": "とおす = duy trì xuyên suốt (歩きとおす, 隠しとおす). Khác ぬく ở chỗ không nhất thiết có khó khăn, mà nhấn vào tính liên tục.",
+   "pattern": "～とおす",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "冷蔵庫の残り物を使いつくすレシピを考えた。",
+   "exVi": "Tôi nghĩ ra món dùng hết sạch đồ thừa trong tủ lạnh.",
+   "form": "V-ます(bỏ ます) + つくす（尽くす）",
+   "level": "N2",
+   "meaning": "làm cạn kiệt, làm hết mọi thứ có thể",
+   "note": "つくす nhấn 'không sót cái nào' (食べつくす, 言いつくす, 知りつくす). きる chỉ 'làm xong phần đó', không hàm ý cạn sạch tất cả.",
+   "pattern": "～つくす",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "芝生に入るべからず。",
+   "exVi": "Cấm đi vào bãi cỏ.",
+   "form": "V辞書形 + べからず（する → すべからず／するべからず）",
+   "level": "N1",
+   "meaning": "cấm, không được (biển báo, khẩu hiệu)",
+   "note": "Dạng định ngữ là べからざる + N (欠くべからざる存在 = sự tồn tại không thể thiếu).",
+   "pattern": "～べからず",
+   "reg": "viet",
+   "regTip": "〜ちゃだめ・〜禁止",
+   "review": false
+  },
+  {
+   "ex": "月日は矢のごとく過ぎていった。",
+   "exVi": "Ngày tháng trôi qua nhanh như tên bay.",
+   "form": "N + の + ごとく／ごとき + N；V普通形 + (が)ごとく",
+   "level": "N1",
+   "meaning": "như, giống như (văn cổ, trang trọng)",
+   "note": "ごとく = ように (trạng từ), ごとき + N = ような + N. 私ごとき = 'người như tôi' (khiêm tốn/khinh miệt).",
+   "pattern": "～ごとく",
+   "reg": "viet",
+   "regTip": "〜ように・〜みたいに",
+   "review": false
+  },
+  {
+   "ex": "大きな地震が起きないとも限らないので、非常食を用意しておこう。",
+   "exVi": "Biết đâu lại có động đất lớn, nên hãy chuẩn bị đồ ăn khẩn cấp.",
+   "form": "V-ない + ないとも限らない",
+   "level": "N1",
+   "meaning": "không phải là không có khả năng…; biết đâu lại…",
+   "note": "Khác とは限らない (N2: chưa chắc đã…). ないとも限らない = khả năng thấp nhưng có, nên phòng bị.",
+   "pattern": "～ないとも限らない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜かもしれない",
+   "review": false
+  },
+  {
+   "ex": "二台の車は抜きつ抜かれつのレースを最後まで続けた。",
+   "exVi": "Hai chiếc xe giằng co vượt qua vượt lại đến tận cuối cuộc đua.",
+   "form": "V1-ます(bỏ ます)+つ + V2-ます(bỏ ます)+つ (cặp động từ đối nghĩa/chủ-bị động)",
+   "level": "N1",
+   "meaning": "lúc thì… lúc thì…, qua lại lẫn nhau",
+   "note": "Dùng trong cụm cố định: 持ちつ持たれつ, 行きつ戻りつ, 抜きつ抜かれつ. Khẩu ngữ dùng 〜たり〜たり.",
+   "pattern": "～つ～つ",
+   "reg": "viet",
+   "regTip": "〜たり〜たり",
+   "review": false
+  },
+  {
+   "ex": "これほどの損害を出しておいて、謝るだけではすまない。",
+   "exVi": "Gây ra thiệt hại cỡ này thì chỉ xin lỗi thôi là không xong.",
+   "form": "N／V普通形(だけ) + ではすまない／ではすまされない",
+   "level": "N1",
+   "meaning": "chỉ như thế thì không xong, không thể cho qua",
+   "note": "Khác ずにはすまない (không thể không làm). ではすまない = mức đó chưa đủ, sẽ bị đòi hỏi hơn.",
+   "pattern": "～ではすまない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜じゃすまない",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Động từ ghép chỉ mức độ hoàn thành: かける／きる／ぬく／とおす／つくす",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "すべて + つくす: thử hết mọi cách. かけた = mới thử dở; とおす = duy trì một việc; っぱなし = để nguyên không xử lý.",
+   "options": [
+    "試しかけた",
+    "試しつくした",
+    "試しとおした",
+    "試しっぱなしだった"
+   ],
+   "q": "考えられる方法はすべて（　）が、問題は解決しなかった。"
+  },
+  {
+   "answer": 3,
+   "explain": "読みかけの + N = đọc dở. Các phương án kia không đi với の + N theo nghĩa này.",
+   "options": [
+    "きり",
+    "ぬき",
+    "とおし",
+    "かけ"
+   ],
+   "q": "机の上に、読み（　）の雑誌が置いてある。"
+  },
+  {
+   "answer": 2,
+   "explain": "一度も休まずに…まで → とおす (liên tục đến cuối). かけた = dở dang; 気味 không đi với động từ này; かねる = khó mà làm.",
+   "options": [
+    "歩きかけた",
+    "歩き気味だった",
+    "歩きとおした",
+    "歩きかねた"
+   ],
+   "q": "大雨の中、彼は一度も休まずにゴールまで（　）。"
+  },
+  {
+   "answer": 0,
+   "explain": "N + ではすまない: chỉ 'xin lỗi' thôi thì không xong. ずにはすまない cần V-ない; べからず/ないとも限らない không nối với danh từ.",
+   "options": [
+    "ではすまない",
+    "ずにはすまない",
+    "べからず",
+    "ないとも限らない"
+   ],
+   "q": "冗談のつもりでも、相手を深く傷つけたら「ごめん」（　）。"
+  },
+  {
+   "answer": 2,
+   "explain": "ごとく/ごとき là văn viết cổ; nói với bạn dùng みたいに. 矢のごときだ còn sai ngữ pháp (ごとき phải + N).",
+   "options": [
+    "月日は矢のごとく過ぎゆくものである。",
+    "時の流れは矢のごときであるな。",
+    "時間って、矢みたいにあっという間だよね。",
+    "時間は矢のごときだね。"
+   ],
+   "q": "Nói chuyện với bạn thân: 'Thời gian trôi nhanh như tên bay nhỉ.' Câu nào tự nhiên nhất?"
+  },
+  {
+   "answer": 1,
+   "explain": "大声で + 怒鳴る (quát to). 暴露 = phơi bày; 抑止 = ngăn chặn; くたびれる = mệt rã.",
+   "options": [
+    "暴露した",
+    "怒鳴った",
+    "抑止した",
+    "くたびれた"
+   ],
+   "q": "会議中に部長が大声で（　）ので、部屋が一瞬で静まり返った。"
+  },
+  {
+   "answer": 3,
+   "explain": "〜ようとした矢先に = đúng lúc vừa định… thì. Các từ khác không tạo cấu trúc này.",
+   "options": [
+    "手際に",
+    "規模に",
+    "錯綜に",
+    "矢先に"
+   ],
+   "q": "引っ越しの準備を始めようとした（　）、急に海外出張が決まった。"
+  },
+  {
+   "answer": 2,
+   "explain": "をきっかけに = nhân dịp, khởi đầu từ (bài 12/11). をこめて = gửi gắm; を中心に = lấy làm trung tâm; をもとに = dựa trên.",
+   "options": [
+    "をこめて",
+    "を中心に",
+    "をきっかけに",
+    "をもとに"
+   ],
+   "q": "(ôn) 留学（　）、日本の伝統文化に興味を持つようになった。"
+  },
+  {
+   "answer": 0,
+   "explain": "頻発（ひんぱつ・TẦN PHÁT）= xảy ra liên tục (bài 15/11). 稼働 = vận hành; 精査 = điều tra kỹ; 点検 = kiểm tra.",
+   "options": [
+    "頻発",
+    "稼働",
+    "精査",
+    "点検"
+   ],
+   "q": "(ôn) この交差点では事故が（　）しているため、信号機が新しく設置された。"
+  },
+  {
+   "answer": 1,
+   "explain": "〜てこそ = chính vì đã… mới (bài 17/11). さえ/すら = ngay cả; ばかり = toàn là.",
+   "options": [
+    "さえ",
+    "こそ",
+    "すら",
+    "ばかり"
+   ],
+   "q": "(ôn) 自分で失敗してみて（　）、先輩の忠告の意味がわかった。"
+  }
+ ],
+ "ratio": "N2 50% · N1 50%",
+ "reading": {
+  "answer": 2,
+  "explain": "「手際よく作業を割り振り、最後まで冷静に現場をまとめとおした」と一致. Không hoãn lịch (1), không quát ai (怒鳴ることはなく) (2), cả nhóm cùng làm chứ không một mình (4).",
+  "options": [
+   "連絡が混乱したため、作業の予定を延期した。",
+   "トラブルの際、部下を厳しく叱って原因を探させた。",
+   "作業をうまく分担させ、最後まで落ち着いて現場をまとめた。",
+   "一人で徹夜して、システムの更新をすべて終わらせた。"
+  ],
+  "q": "山田さんについて、本文の内容と合うものはどれか。",
+  "text": "先月、わが社では過去最大規模のシステム更新が行われた。作業は夜間に限られ、関係部署との連絡も錯綜したため、一時は予定どおり終わらないのではないかと心配された。しかし、リーダーの山田さんは手際よく作業を割り振り、最後まで冷静に現場をまとめとおした。トラブルが起きた際も、誰かを怒鳴ることはなく、原因を一つ一つ確認していった。全員がくたびれきった朝、システムは無事に動き始めた。山田さんは「みんなが力を出しつくしてくれたおかげだ」と笑った。"
+ },
+ "vocab": [
+  {
+   "ex": "今回の地震は、規模のわりに被害が少なかった。",
+   "exVi": "Trận động đất lần này thiệt hại ít so với quy mô của nó.",
+   "hanviet": "QUY MÔ",
+   "level": "N2",
+   "meaning": "quy mô",
+   "reading": "きぼ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "規模"
+  },
+  {
+   "ex": "隣の部屋から父の怒鳴る声が聞こえてきた。",
+   "exVi": "Từ phòng bên vọng sang tiếng bố quát tháo.",
+   "hanviet": "NỘ MINH",
+   "level": "N2",
+   "meaning": "quát tháo, la mắng ầm ĩ",
+   "reading": "どなる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "怒鳴る"
+  },
+  {
+   "ex": "災害に備えて、水と食料を家に置いておく。",
+   "exVi": "Để phòng thiên tai, tôi để sẵn nước và lương thực ở nhà.",
+   "hanviet": "BỊ",
+   "level": "N2",
+   "meaning": "chuẩn bị sẵn, phòng bị; được trang bị (tính năng)",
+   "reading": "そなえる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "備える"
+  },
+  {
+   "ex": "一日中歩き回って、すっかりくたびれた。",
+   "exVi": "Đi bộ cả ngày nên tôi mệt rã rời.",
+   "hanviet": "",
+   "level": "N2",
+   "meaning": "mệt rã rời; (đồ) cũ sờn",
+   "reading": "くたびれる",
+   "reg": "noi",
+   "regTip": "",
+   "review": false,
+   "word": "くたびれる"
+  },
+  {
+   "ex": "久しぶりの休日に、温泉を満喫した。",
+   "exVi": "Ngày nghỉ hiếm hoi, tôi tận hưởng trọn vẹn suối nước nóng.",
+   "hanviet": "MÃN KHIẾT",
+   "level": "N2",
+   "meaning": "tận hưởng trọn vẹn",
+   "reading": "まんきつ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "満喫"
+  },
+  {
+   "ex": "彼女は手際よく会議の準備を済ませた。",
+   "exVi": "Cô ấy chuẩn bị cuộc họp xong một cách nhanh gọn.",
+   "hanviet": "THỦ TẾ",
+   "level": "N1",
+   "meaning": "sự khéo léo, nhanh gọn khi xử lý việc",
+   "reading": "てぎわ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "手際"
+  },
+  {
+   "ex": "防犯カメラの設置は、犯罪の抑止につながる。",
+   "exVi": "Lắp camera an ninh giúp ngăn chặn tội phạm.",
+   "hanviet": "ỨC CHỈ",
+   "level": "N1",
+   "meaning": "ngăn chặn, răn đe (trước khi xảy ra)",
+   "reading": "よくし",
+   "reg": "viet",
+   "regTip": "防ぐ・止める",
+   "review": false,
+   "word": "抑止"
+  },
+  {
+   "ex": "事故直後は情報が錯綜し、正確な被害がわからなかった。",
+   "exVi": "Ngay sau tai nạn thông tin rối loạn, không nắm được thiệt hại chính xác.",
+   "hanviet": "THÁC TỔNG",
+   "level": "N1",
+   "meaning": "rối ren, đan xen chồng chéo (thông tin, tình hình)",
+   "reading": "さくそう",
+   "reg": "viet",
+   "regTip": "ごちゃごちゃしている・入り乱れている",
+   "review": false,
+   "word": "錯綜"
+  },
+  {
+   "ex": "出かけようとした矢先に、電話が鳴った。",
+   "exVi": "Đúng lúc vừa định ra ngoài thì điện thoại reo.",
+   "hanviet": "THỈ TIÊN",
+   "level": "N1",
+   "meaning": "đúng lúc (vừa định làm gì thì…)",
+   "reading": "やさき",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "矢先"
+  },
+  {
+   "ex": "元社員が会社の不正を週刊誌に暴露した。",
+   "exVi": "Nhân viên cũ đã phơi bày sai phạm của công ty trên tuần san.",
+   "hanviet": "BẠO LỘ",
+   "level": "N1",
+   "meaning": "phơi bày, tiết lộ (bí mật, điều xấu)",
+   "reading": "ばくろ",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: バラす",
+   "review": false,
+   "word": "暴露"
+  }
+ ]
+}

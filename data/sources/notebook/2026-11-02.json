@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-02",
+ "grammar": [
+  {
+   "ex": "彼は英語ばかりでなく、中国語も話せる。",
+   "exVi": "Anh ấy không chỉ nói được tiếng Anh mà còn nói được cả tiếng Trung.",
+   "form": "N／普通形（なAな・Nである）+ ばかりでなく",
+   "level": "N2",
+   "meaning": "không chỉ… mà còn…",
+   "note": "ばかりか (đã học) mạnh hơn, hàm ý bất ngờ và không đi với mệnh lệnh/ý chí; ばかりでなく trung tính, dùng được với ～しなさい.",
+   "pattern": "～ばかりでなく",
+   "reg": "chung",
+   "regTip": "thân mật: 〜だけじゃなくて",
+   "review": false
+  },
+  {
+   "ex": "この問題は日本のみならず、世界全体の課題だ。",
+   "exVi": "Vấn đề này không chỉ của Nhật Bản mà là thách thức của toàn thế giới.",
+   "form": "N／普通形（Nである・なAである）+ のみならず",
+   "level": "N2",
+   "meaning": "không chỉ… mà còn… (văn viết, trang trọng)",
+   "note": "Nghĩa như ばかりでなく nhưng dùng trong văn viết, bài phát biểu.",
+   "pattern": "～のみならず",
+   "reg": "viet",
+   "regTip": "〜だけじゃなくて",
+   "review": false
+  },
+  {
+   "ex": "この公園は週末に限らず、平日も人が多い。",
+   "exVi": "Công viên này không chỉ cuối tuần mà ngày thường cũng đông người.",
+   "form": "N + に限らず",
+   "level": "N2",
+   "meaning": "không giới hạn ở…, không chỉ… mà cả (phạm vi rộng hơn)",
+   "note": "Nhấn phạm vi mở rộng ra cả nhóm tương tự; khác ～に限って (riêng/đúng lúc… thì).",
+   "pattern": "～に限らず",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この店は味はもとより、サービスも素晴らしい。",
+   "exVi": "Quán này vị thì khỏi phải nói, cả phục vụ cũng tuyệt vời.",
+   "form": "N + はもとより",
+   "level": "N2",
+   "meaning": "…thì đương nhiên rồi, cả… cũng",
+   "note": "Trang trọng hơn はもちろん; vế trước là điều hiển nhiên.",
+   "pattern": "～はもとより",
+   "reg": "viet",
+   "regTip": "〜はもちろん",
+   "review": false
+  },
+  {
+   "ex": "彼女は平日はもちろん、休日も練習している。",
+   "exVi": "Cô ấy ngày thường thì đương nhiên, cả ngày nghỉ cũng luyện tập.",
+   "form": "N + はもちろん",
+   "level": "N2",
+   "meaning": "…thì đương nhiên, cả… cũng (hội thoại)",
+   "note": "Nghĩa như はもとより nhưng thân mật, dùng nhiều trong văn nói.",
+   "pattern": "～はもちろん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この部屋は狭い上に、家賃も高い。",
+   "exVi": "Căn phòng này đã chật lại còn tiền thuê cao.",
+   "form": "普通形（なAな・Nの／である）+ 上に",
+   "level": "N2",
+   "meaning": "hơn nữa, thêm vào đó (cùng chiều tốt–tốt / xấu–xấu)",
+   "note": "Đừng nhầm với ～上は (đã học: vì đã… nên phải). Hai vế của 上に phải cùng chiều.",
+   "pattern": "～上に",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "薬を飲んだが、熱は下がるどころか、さらに上がった。",
+   "exVi": "Đã uống thuốc nhưng sốt chẳng những không hạ mà còn tăng thêm.",
+   "form": "N／普通形（なA・N bỏ だ）+ どころか",
+   "level": "N2",
+   "meaning": "chẳng những không… mà ngược lại…",
+   "note": "Phủ định vế trước, đưa ra thực tế trái ngược; ばかりでなく・上に là cộng thêm cùng chiều.",
+   "pattern": "～どころか",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "忙しくて、旅行はおろか、週末に休むことさえできない。",
+   "exVi": "Bận đến mức du lịch thì khỏi nói, ngay cả nghỉ cuối tuần cũng không được.",
+   "form": "N + はおろか",
+   "level": "N1",
+   "meaning": "…thì khỏi nói, đến cả… cũng (không)",
+   "note": "Vế sau thường tiêu cực, đi với も／さえ／まで; はもとより trung tính, dùng được cho ý tích cực.",
+   "pattern": "～はおろか",
+   "reg": "viet",
+   "regTip": "〜どころか・〜なんて",
+   "review": false
+  },
+  {
+   "ex": "この映画は、ストーリーもさることながら、音楽が素晴らしい。",
+   "exVi": "Bộ phim này cốt truyện đã hay, nhưng âm nhạc còn tuyệt vời hơn.",
+   "form": "N + もさることながら",
+   "level": "N1",
+   "meaning": "…đã đành, nhưng… còn hơn thế",
+   "note": "Trọng tâm ở vế sau; はもとより coi vế trước là hiển nhiên, trọng tâm ở việc thêm vế sau.",
+   "pattern": "～もさることながら",
+   "reg": "viet",
+   "regTip": "〜もいいけど",
+   "review": false
+  },
+  {
+   "ex": "被害は町内にとどまらず、県全体に広がった。",
+   "exVi": "Thiệt hại không dừng ở trong thị trấn mà lan ra cả tỉnh.",
+   "form": "N／普通形 + にとどまらず",
+   "level": "N1",
+   "meaning": "không dừng lại ở…, vượt ra ngoài phạm vi…",
+   "note": "Nhấn sự lan rộng vượt giới hạn; に限らず chỉ nói phạm vi không bị hạn chế.",
+   "pattern": "～にとどまらず",
+   "reg": "viet",
+   "regTip": "〜だけじゃなく",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm “không chỉ… mà còn”: ばかりでなく／のみならず／に限らず／はもとより／はもちろん／上に／どころか",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "Vế sau trái ngược kỳ vọng → どころか. ばかりでなく/上に là cộng thêm cùng chiều; はもとより nối N.",
+   "options": [
+    "ばかりでなく",
+    "上に",
+    "どころか",
+    "はもとより"
+   ],
+   "q": "薬を飲んだのに、熱は下がる（　）、ますます上がってしまった。"
+  },
+  {
+   "answer": 1,
+   "explain": "Hai ưu điểm cùng chiều → 上に. 上は = đã… thì phải; どころか phủ định vế trước.",
+   "options": [
+    "上は",
+    "上に",
+    "どころか",
+    "にとどまらず"
+   ],
+   "q": "彼は仕事ができる（　）、性格も明るいので、みんなに好かれている。"
+  },
+  {
+   "answer": 3,
+   "explain": "N はおろか + vế phủ định với も → はおろか. もさることながら dùng để khen; にとどまらず diễn tả lan rộng.",
+   "options": [
+    "にとどまらず",
+    "上に",
+    "もさることながら",
+    "はおろか"
+   ],
+   "q": "お金がなくて、海外旅行（　）、近所の温泉にも行けない。"
+  },
+  {
+   "answer": 0,
+   "explain": "Không chỉ Nhật mà cả thế giới → のみならず. どころか cần ý trái ngược; はおろか cần vế sau tiêu cực; 上に không nối trực tiếp N.",
+   "options": [
+    "のみならず",
+    "どころか",
+    "はおろか",
+    "上に"
+   ],
+   "q": "この問題は日本（　）、世界中の国々が抱えている。"
+  },
+  {
+   "answer": 1,
+   "explain": "Diễn xuất đã hay, nhưng âm nhạc được đánh giá cao hơn (trọng tâm vế sau) → もさることながら.",
+   "options": [
+    "どころか",
+    "もさることながら",
+    "はおろか",
+    "上は"
+   ],
+   "q": "この映画は、俳優の演技（　）、音楽の美しさが特に高く評価されている。"
+  },
+  {
+   "answer": 2,
+   "explain": "柔軟に見直す: xem xét lại một cách linh hoạt. 頑丈 = chắc chắn (đồ vật); 貴重 = quý; 脆い là tính từ い, không đi với に.",
+   "options": [
+    "頑丈",
+    "貴重",
+    "柔軟",
+    "脆い"
+   ],
+   "q": "状況が変わったのだから、計画も（　）に見直すべきだ。"
+  },
+  {
+   "answer": 1,
+   "explain": "話題が尽きる: hết chuyện để nói (つきる). 誇る = tự hào; 秀でる = xuất sắc; 綻びる = bung chỉ.",
+   "options": [
+    "誇る",
+    "尽きる",
+    "秀でる",
+    "綻びる"
+   ],
+   "q": "昔の友人と会って、何時間話しても話題が（　）ことはなかった。"
+  },
+  {
+   "answer": 3,
+   "explain": "踏襲（とうしゅう）: kế thừa nguyên xi. 打診 = thăm dò ý; 是正 = sửa sai; 頓挫 = bị đình trệ (tự động từ).",
+   "options": [
+    "打診",
+    "是正",
+    "頓挫",
+    "踏襲"
+   ],
+   "q": "(ôn) 新社長も前社長の経営方針をそのまま（　）した。"
+  },
+  {
+   "answer": 0,
+   "explain": "Vì lý do xã hội/trách nhiệm nên không thể nghỉ → わけにはいかない. わけがない là phán đoán 'không thể có chuyện'; ずにはいられない cần thể ず (休まず).",
+   "options": [
+    "わけにはいかない",
+    "わけがない",
+    "わけだ",
+    "ずにはいられない"
+   ],
+   "q": "(ôn) 熱があるが、今日は大事な会議があるので、休む（　）。"
+  },
+  {
+   "answer": 1,
+   "explain": "Phớt lờ sự phản đối của dân → をよそに. に応じて = tùy theo; に先立って = trước khi.",
+   "options": [
+    "に応じて",
+    "をよそに",
+    "に先立って",
+    "ばかりか"
+   ],
+   "q": "(ôn) 住民の反対（　）、市は工事を強行した。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: 「社員が気軽に連絡を取り合える仕組みを作ることが大切だろう」. a sai: bài nói đang lan rộng cả DN vừa và nhỏ; b trái với 「効率が上がるどころか…下がった」; d sai: còn lợi ích thời gian bên gia đình.",
+  "options": [
+   "在宅勤務は中小企業には向いていない。",
+   "在宅勤務を導入すれば、仕事の効率は必ず上がる。",
+   "在宅勤務では、社員同士が連絡しやすい環境作りが重要だ。",
+   "在宅勤務の利点は、通勤の負担が減ることだけだ。"
+  ],
+  "q": "筆者の考えに合うものはどれか。",
+  "text": "近年、在宅勤務は大企業のみならず、中小企業にも広がっている。通勤の負担が減る上に、家族と過ごす時間が増えるなど、利点は多い。しかし、ある調査によると、在宅勤務を始めてから仕事の効率が上がるどころか、かえって下がったと感じる人も少なくない。上司や同僚にすぐ相談できず、一人で問題を抱え込んでしまうことが原因の一つだという。制度を導入するだけでなく、社員が気軽に連絡を取り合える仕組みを作ることが大切だろう。"
+ },
+ "vocab": [
+  {
+   "ex": "スマートフォンの普及により、生活が大きく変わった。",
+   "exVi": "Nhờ sự phổ cập của điện thoại thông minh, cuộc sống đã thay đổi nhiều.",
+   "level": "N2",
+   "meaning": "phổ cập, lan rộng",
+   "reading": "ふきゅう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "普及"
+  },
+  {
+   "ex": "状況に応じて柔軟に対応してください。",
+   "exVi": "Hãy xử lý linh hoạt tùy theo tình huống.",
+   "level": "N2",
+   "meaning": "linh hoạt, mềm dẻo",
+   "reading": "じゅうなん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "柔軟"
+  },
+  {
+   "ex": "健康を犠牲にしてまで働く必要はない。",
+   "exVi": "Không cần phải làm việc đến mức hy sinh cả sức khỏe.",
+   "level": "N2",
+   "meaning": "sự hy sinh; thiệt hại (về người)",
+   "reading": "ぎせい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "犠牲"
+  },
+  {
+   "ex": "体力が尽きて、もう一歩も歩けない。",
+   "exVi": "Cạn sức rồi, không bước thêm được bước nào nữa.",
+   "level": "N2",
+   "meaning": "cạn, hết",
+   "reading": "つきる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "尽きる"
+  },
+  {
+   "ex": "適度な運動は血液の循環を良くする。",
+   "exVi": "Vận động vừa phải giúp tuần hoàn máu tốt hơn.",
+   "level": "N2",
+   "meaning": "tuần hoàn, lưu thông",
+   "reading": "じゅんかん",
+   "reg": "viet",
+   "regTip": "回る・巡る",
+   "review": false,
+   "word": "循環"
+  },
+  {
+   "ex": "この町は三百年の歴史を誇っている。",
+   "exVi": "Thị trấn này tự hào có lịch sử 300 năm.",
+   "level": "N2",
+   "meaning": "tự hào, hãnh diện; có (thành tích) đáng tự hào",
+   "reading": "ほこる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "誇る"
+  },
+  {
+   "ex": "新しい計画は会議で正式に承認された。",
+   "exVi": "Kế hoạch mới đã được phê duyệt chính thức tại cuộc họp.",
+   "level": "N2",
+   "meaning": "phê duyệt, chấp thuận",
+   "reading": "しょうにん",
+   "reg": "viet",
+   "regTip": "OKをもらう・許可",
+   "review": false,
+   "word": "承認"
+  },
+  {
+   "ex": "彼女は語学に秀でている。",
+   "exVi": "Cô ấy xuất sắc về ngoại ngữ.",
+   "level": "N1",
+   "meaning": "xuất sắc, vượt trội (ở lĩnh vực nào đó)",
+   "reading": "ひいでる",
+   "reg": "viet",
+   "regTip": "優れている・得意",
+   "review": false,
+   "word": "秀でる"
+  },
+  {
+   "ex": "古いシャツの袖口が綻びてしまった。",
+   "exVi": "Cổ tay áo sơ mi cũ bị bung chỉ mất rồi.",
+   "level": "N1",
+   "meaning": "(đường may) bị sờn, bung chỉ; (nụ hoa) hé nở",
+   "reading": "ほころびる",
+   "reg": "viet",
+   "regTip": "ほつれる・(花が)咲き始める",
+   "review": false,
+   "word": "綻びる"
+  },
+  {
+   "ex": "このガラスは薄くて脆いので、注意して運んでください。",
+   "exVi": "Kính này mỏng và dễ vỡ nên hãy vận chuyển cẩn thận.",
+   "level": "N1",
+   "meaning": "giòn, dễ vỡ; yếu lòng, dễ xúc động",
+   "reading": "もろい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "脆い"
+  }
+ ]
+}

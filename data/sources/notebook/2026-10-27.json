@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-27",
+ "grammar": [
+  {
+   "ex": "子供のころは、よくこの川で泳いだものだ。",
+   "exVi": "Hồi nhỏ tôi hay bơi ở con sông này.",
+   "form": "Thể thường (Aい／Naな) + ものだ; Vた + ものだ",
+   "level": "N2",
+   "meaning": "① lẽ thường, bản chất (vốn dĩ là…); ② Vたものだ: hồi tưởng thói quen quá khứ (hồi đó hay…); ③ cảm thán",
+   "note": "Khác ことだ (lời khuyên: nên…). ものだ nói lẽ thường chung/hoài niệm, ことだ là khuyên cụ thể cho người nghe.",
+   "pattern": "～ものだ",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜もんだ",
+   "review": false
+  },
+  {
+   "ex": "人の悪口を言うものではない。",
+   "exVi": "Không nên nói xấu người khác.",
+   "form": "Vる + ものではない",
+   "level": "N2",
+   "meaning": "không nên (trái với lẽ thường, đạo lý)",
+   "note": "Khác べきではない (ý kiến/nguyên tắc của người nói) và わけではない (không hẳn là). ものではない = khuyên răn theo lẽ thường xã hội.",
+   "pattern": "～ものではない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜もんじゃない",
+   "review": false
+  },
+  {
+   "ex": "彼の演奏には人の心を打つものがある。",
+   "exVi": "Màn biểu diễn của anh ấy có gì đó lay động lòng người.",
+   "form": "Vる／Aい／Naな + ものがある",
+   "level": "N2",
+   "meaning": "có cái gì đó…, thật là… (cảm nhận sâu sắc của người nói)",
+   "note": "Diễn đạt cảm nhận chủ quan, thường đi với 胸に迫る・目を見張る・感慨深い…; không dùng cho sự thật khách quan.",
+   "pattern": "～ものがある",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "できるものなら、もう一度学生時代に戻りたい。",
+   "exVi": "Nếu có thể thì tôi muốn quay lại thời sinh viên một lần nữa.",
+   "form": "V khả năng + ものなら; Vよう + ものなら",
+   "level": "N2",
+   "meaning": "① nếu mà có thể (điều khó thực hiện) thì…; ② Vようものなら: lỡ mà… thì (hậu quả nghiêm trọng)",
+   "note": "Khác なら thường: ものなら chỉ dùng cho điều khó xảy ra. Vようものなら luôn kéo theo kết quả xấu (大変なことになる, 怒られる…).",
+   "pattern": "～ものなら",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "電車が遅れたもので、遅刻してしまいました。",
+   "exVi": "Vì tàu bị trễ nên tôi đã đến muộn.",
+   "form": "Thể thường (Naな／Nな) + もので",
+   "level": "N2",
+   "meaning": "vì… (giải thích, biện minh, xin lỗi)",
+   "note": "Vế sau không dùng mệnh lệnh/ý chí. ものだから cùng nghĩa nhưng văn nói hơn; khác ものの (tuy… nhưng).",
+   "pattern": "～もので",
+   "reg": "noi",
+   "regTip": "khẩu ngữ: 〜もんで",
+   "review": false
+  },
+  {
+   "ex": "あんな店、二度と行くものか。",
+   "exVi": "Cái quán đó, tôi nhất định không bao giờ quay lại.",
+   "form": "Thể thường (Naな) + ものか (văn nói: もんか／ものですか)",
+   "level": "N2",
+   "meaning": "nhất định không…, làm gì có chuyện… (phủ định mạnh, cảm xúc)",
+   "note": "Khác わけがない (phán đoán khách quan: không thể nào). ものか thể hiện quyết tâm/cảm xúc mạnh của người nói.",
+   "pattern": "～ものか",
+   "reg": "noi",
+   "regTip": "khẩu ngữ: 〜もんか",
+   "review": false
+  },
+  {
+   "ex": "約束を破るのは無責任というものだ。",
+   "exVi": "Phá vỡ lời hứa thì đúng là vô trách nhiệm.",
+   "form": "Thể thường (N／Na thường không cần だ) + というものだ",
+   "level": "N2",
+   "meaning": "đó chính là…, như thế là… (nhận định, đánh giá)",
+   "note": "Phủ định というものではない = không hẳn cứ… là… (vd: 高ければいいというものではない).",
+   "pattern": "～というものだ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "被害者の話を聞くと、怒りを禁じ得ない。",
+   "exVi": "Nghe câu chuyện của nạn nhân, tôi không kìm được cơn giận.",
+   "form": "N (cảm xúc) + を禁じ得ない",
+   "level": "N1",
+   "meaning": "không kìm nén được (cảm xúc)",
+   "note": "Gần ずにはいられない (N2) nhưng văn viết, trang trọng, đi với danh từ: 同情・涙・驚き・怒り.",
+   "pattern": "～を禁じ得ない",
+   "reg": "viet",
+   "regTip": "〜を抑えられない",
+   "review": false
+  },
+  {
+   "ex": "夢を実現せんがために、彼は寝る間も惜しんで働いた。",
+   "exVi": "Để thực hiện ước mơ, anh ấy làm việc đến quên cả ngủ.",
+   "form": "Vない (bỏ ない) + んがため(に); する→せんがため",
+   "level": "N1",
+   "meaning": "để mà… (mục đích mạnh mẽ, quyết tâm)",
+   "note": "Khác ために thường: んがため văn cứng, nhấn mạnh quyết tâm; vế sau không dùng mệnh lệnh/nhờ vả.",
+   "pattern": "～んがため(に)",
+   "reg": "viet",
+   "regTip": "〜ために",
+   "review": false
+  },
+  {
+   "ex": "私は両親の幸せを願ってやまない。",
+   "exVi": "Tôi luôn mong cha mẹ hạnh phúc từ tận đáy lòng.",
+   "form": "Vて + やまない",
+   "level": "N1",
+   "meaning": "luôn luôn… từ đáy lòng (mong, yêu, kỳ vọng)",
+   "note": "Chỉ đi với động từ cảm xúc: 願う・祈る・愛する・期待する・尊敬する; chủ ngữ thường là người nói.",
+   "pattern": "～てやまない",
+   "reg": "viet",
+   "regTip": "心から〜",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm もの: ものだ／ものではない／ものがある／ものなら／もので／ものか／というものだ",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "Vた + ものだ: hồi tưởng thói quen trong quá khứ.",
+   "options": [
+    "ものか",
+    "もので",
+    "ものだ",
+    "ものがある"
+   ],
+   "q": "子どものころは、毎日暗くなるまで外で遊んだ＿＿。"
+  },
+  {
+   "answer": 1,
+   "explain": "Khuyên răn theo lẽ thường → ものではない; ものなら cần vế sau.",
+   "options": [
+    "わけではない",
+    "ものではない",
+    "ものがある",
+    "ものなら"
+   ],
+   "q": "目上の人に向かって、そんな失礼なことを言う＿＿。"
+  },
+  {
+   "answer": 1,
+   "explain": "Cảm nhận sâu sắc về một đối tượng (〜には…ものがある).",
+   "options": [
+    "ものだ",
+    "ものがある",
+    "ものではない",
+    "というものだ"
+   ],
+   "q": "あの映画のラストシーンには、胸に迫る＿＿。"
+  },
+  {
+   "answer": 3,
+   "explain": "Giải thích lý do khi xin lỗi → もので; ものの là “tuy… nhưng”, trái logic.",
+   "options": [
+    "ものか",
+    "ものの",
+    "ものなら",
+    "もので"
+   ],
+   "q": "寝坊した＿＿、会議に遅れてしまいました。申し訳ありません。"
+  },
+  {
+   "answer": 3,
+   "explain": "Vようものなら: lỡ mà… thì hậu quả nghiêm trọng.",
+   "options": [
+    "もので",
+    "ものだ",
+    "ものがある",
+    "ものなら"
+   ],
+   "q": "このことが社長に知られよう＿＿、大変なことになる。"
+  },
+  {
+   "answer": 0,
+   "explain": "妨げる = cản trở; 睡眠を妨げる là cụm tự nhiên.",
+   "options": [
+    "妨げて",
+    "委ねて",
+    "依存して",
+    "緩和して"
+   ],
+   "q": "工事の騒音が、近所の人たちの睡眠を＿＿いる。"
+  },
+  {
+   "answer": 1,
+   "explain": "頓挫する = đổ bể giữa chừng, hợp với 途中で.",
+   "options": [
+    "徹底",
+    "頓挫",
+    "緩和",
+    "依存"
+   ],
+   "q": "予算が足りなくなり、新しいプロジェクトは途中で＿＿してしまった。"
+  },
+  {
+   "answer": 0,
+   "explain": "点検を怠る = lơ là kiểm tra (bài 23/10).",
+   "options": [
+    "怠る",
+    "携わる",
+    "衰える",
+    "妥協する"
+   ],
+   "q": "(ôn) 毎日の点検を＿＿と、大きな事故につながりかねない。"
+  },
+  {
+   "answer": 2,
+   "explain": "かねない = có thể dẫn đến điều xấu; かねる = khó mà làm (bài 23/10).",
+   "options": [
+    "ものの",
+    "かねる",
+    "かねない",
+    "ばかりか"
+   ],
+   "q": "(ôn) このまま無理を続けると、体を壊し＿＿。"
+  },
+  {
+   "answer": 1,
+   "explain": "ものの = tuy… nhưng (bài 23/10).",
+   "options": [
+    "ばかりか",
+    "ものの",
+    "に先立って",
+    "に応じて"
+   ],
+   "q": "(ôn) 説明会に参加した＿＿、内容が難しくてよく分からなかった。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: 副業はあくまで本業を大切にした上で、無理のない範囲で行うものだ → đáp án 3. Câu 1 sai (không chỉ vì thu nhập), câu 2 sai (tác giả ủng hộ có điều kiện), câu 4 trái với ý 本業に生かしてくれる.",
+  "options": [
+   "副業は収入を増やすためだけに行うべきだ。",
+   "会社は社員の副業を禁止したほうがよい。",
+   "本業に影響が出ないよう、無理のない範囲で副業をするべきだ。",
+   "副業で得た経験は本業には役に立たない。"
+  ],
+  "q": "筆者の考えに合うものはどれか。",
+  "text": "近年、会社員が本業以外の仕事を持つ「副業」を認める企業が増えている。収入を増やしたいという理由だけでなく、本業では得られない経験や人脈を求めて始める人も少なくない。会社側にとっても、社員が外で身につけた知識を本業に生かしてくれるなら、歓迎すべきことだろう。しかし、副業に時間を取られすぎて睡眠が不足し、本業に支障が出ては元も子もない。副業はあくまで本業を大切にした上で、無理のない範囲で行うものだ。"
+ },
+ "vocab": [
+  {
+   "ex": "騒音が睡眠を妨げる。",
+   "exVi": "Tiếng ồn cản trở giấc ngủ.",
+   "level": "N2",
+   "meaning": "cản trở, gây trở ngại",
+   "reading": "さまたげる",
+   "reg": "viet",
+   "regTip": "邪魔する",
+   "review": false,
+   "word": "妨げる"
+  },
+  {
+   "ex": "店では衛生管理を徹底している。",
+   "exVi": "Cửa hàng quản lý vệ sinh một cách triệt để.",
+   "level": "N2",
+   "meaning": "triệt để, kỹ lưỡng đến cùng",
+   "reading": "てってい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "徹底"
+  },
+  {
+   "ex": "景気回復の見通しはまだ立っていない。",
+   "exVi": "Vẫn chưa có triển vọng phục hồi kinh tế.",
+   "level": "N2",
+   "meaning": "triển vọng, dự đoán (tình hình sắp tới)",
+   "reading": "みとおし",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "見通し"
+  },
+  {
+   "ex": "若者のスマホへの依存が問題になっている。",
+   "exVi": "Việc giới trẻ lệ thuộc vào điện thoại đang trở thành vấn đề.",
+   "level": "N2",
+   "meaning": "phụ thuộc, lệ thuộc",
+   "reading": "いぞん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "依存"
+  },
+  {
+   "ex": "夜更かしを続けると健康を損なう。",
+   "exVi": "Thức khuya liên tục sẽ làm hại sức khỏe.",
+   "level": "N2",
+   "meaning": "làm tổn hại, làm hỏng",
+   "reading": "そこなう",
+   "reg": "viet",
+   "regTip": "悪くする・(機嫌を)損ねる",
+   "review": false,
+   "word": "損なう"
+  },
+  {
+   "ex": "この町は人口の減少が著しい。",
+   "exVi": "Thị trấn này dân số giảm rõ rệt.",
+   "level": "N2",
+   "meaning": "rõ rệt, đáng kể",
+   "reading": "いちじるしい",
+   "reg": "viet",
+   "regTip": "すごく・かなり",
+   "review": false,
+   "word": "著しい"
+  },
+  {
+   "ex": "入国の規制が緩和された。",
+   "exVi": "Quy định nhập cảnh đã được nới lỏng.",
+   "level": "N2",
+   "meaning": "nới lỏng, làm dịu bớt",
+   "reading": "かんわ",
+   "reg": "viet",
+   "regTip": "ゆるくなる・和らぐ",
+   "review": false,
+   "word": "緩和"
+  },
+  {
+   "ex": "最終的な判断は社長に委ねられた。",
+   "exVi": "Phán quyết cuối cùng được giao cho giám đốc.",
+   "level": "N1",
+   "meaning": "giao phó, phó thác",
+   "reading": "ゆだねる",
+   "reg": "viet",
+   "regTip": "任せる",
+   "review": false,
+   "word": "委ねる"
+  },
+  {
+   "ex": "資金不足で計画が頓挫した。",
+   "exVi": "Kế hoạch đổ bể giữa chừng vì thiếu vốn.",
+   "level": "N1",
+   "meaning": "đổ bể giữa chừng, bế tắc",
+   "reading": "とんざ",
+   "reg": "viet",
+   "regTip": "途中でダメになった",
+   "review": false,
+   "word": "頓挫"
+  },
+  {
+   "ex": "これはあくまで暫定的な結果だ。",
+   "exVi": "Đây chỉ là kết quả tạm thời mà thôi.",
+   "level": "N1",
+   "meaning": "tạm thời (chưa chính thức)",
+   "reading": "ざんてい",
+   "reg": "viet",
+   "regTip": "とりあえず・仮に",
+   "review": false,
+   "word": "暫定"
+  }
+ ]
+}

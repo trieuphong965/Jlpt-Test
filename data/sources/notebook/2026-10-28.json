@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-28",
+ "grammar": [
+  {
+   "ex": "約束したからには、必ず守る。",
+   "exVi": "Một khi đã hứa thì nhất định giữ lời.",
+   "form": "V thể thường + からには",
+   "level": "N2",
+   "meaning": "Một khi đã… thì (phải/nhất định)",
+   "note": "Cùng nghĩa 以上は／上は; からには mang sắc thái khẩu ngữ hơn. Vế sau là quyết tâm, nghĩa vụ, khuyên bảo.",
+   "pattern": "～からには",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "契約書にサインした以上は、最後まで責任を持つべきだ。",
+   "exVi": "Một khi đã ký hợp đồng thì phải chịu trách nhiệm đến cùng.",
+   "form": "V/Aい thể thường; Naである/Nである + 以上（は）",
+   "level": "N2",
+   "meaning": "Một khi đã… / vì đã… thì đương nhiên",
+   "note": "Hay dùng trong văn viết, quy tắc chung; thay được cho からには trong hầu hết trường hợp.",
+   "pattern": "～以上（は）",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "こうなった上は、社長に直接話すしかない。",
+   "exVi": "Đã đến nước này thì chỉ còn cách nói thẳng với giám đốc.",
+   "form": "V辞書形／Vた + 上は",
+   "level": "N2",
+   "meaning": "Một khi đã (quyết định/tình thế đã đến mức này)",
+   "note": "Chỉ nối với động từ, trang trọng nhất trong ba mẫu からには／以上は／上は; thường đi với quyết định quan trọng.",
+   "pattern": "～上は",
+   "reg": "viet",
+   "regTip": "〜からには",
+   "review": false
+  },
+  {
+   "ex": "君のことを思っているからこそ、厳しく言うのだ。",
+   "exVi": "Chính vì nghĩ cho em nên tôi mới nói nghiêm khắc.",
+   "form": "thể thường + からこそ",
+   "level": "N2",
+   "meaning": "Chính vì…",
+   "note": "Nhấn mạnh lý do (thường kèm のだ). Khác ばかりに: “chỉ vì… mà” dẫn đến kết quả xấu.",
+   "pattern": "～からこそ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "高いからといって、品質がいいとは限らない。",
+   "exVi": "Đắt chưa chắc chất lượng đã tốt.",
+   "form": "thể thường + からといって",
+   "level": "N2",
+   "meaning": "Dù là… thì cũng không hẳn (vế sau phủ định)",
+   "note": "Vế sau đi với とは限らない／わけではない／～てはいけない. Đừng nhầm với からには (vế sau khẳng định, quyết tâm).",
+   "pattern": "～からといって",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜からって",
+   "review": false
+  },
+  {
+   "ex": "あの店は店構えからして高級そうだ。",
+   "exVi": "Cửa hàng đó nhìn ngay từ mặt tiền đã thấy sang trọng.",
+   "form": "N + からして",
+   "level": "N2",
+   "meaning": "Ngay từ (cái cơ bản nhất)… đã; xét từ…",
+   "note": "Nêu một ví dụ điển hình (“ngay cả X cũng vậy thì những cái khác…”), hay mang ý đánh giá. Khác からすると (lập trường).",
+   "pattern": "～からして",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "親からすると、子供の一人暮らしはやはり心配だ。",
+   "exVi": "Đứng ở góc độ cha mẹ, con sống một mình vẫn đáng lo.",
+   "form": "N + からすると／からすれば",
+   "level": "N2",
+   "meaning": "Đứng trên lập trường của… / căn cứ vào… mà xét",
+   "note": "からすると = lập trường/căn cứ phán đoán; からして = “ngay cả X”.",
+   "pattern": "～からすると／からすれば",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "検査の結果いかんでは、手術が必要になる。",
+   "exVi": "Tùy kết quả xét nghiệm mà có thể cần phẫu thuật.",
+   "form": "N（の）+ いかんでは",
+   "level": "N1",
+   "meaning": "Tùy vào… mà (có thể)",
+   "note": "Khác いかんによらず／いかんを問わず = “bất kể…”.",
+   "pattern": "～いかんでは",
+   "reg": "viet",
+   "regTip": "〜次第では",
+   "review": false
+  },
+  {
+   "ex": "本日をもって、この店は閉店いたします。",
+   "exVi": "Cửa hàng xin đóng cửa kể từ hôm nay.",
+   "form": "N + をもって",
+   "level": "N1",
+   "meaning": "① Bằng (phương tiện, trang trọng); ② Kể từ / đến hết (mốc thời gian)",
+   "note": "Trang trọng hơn によって／で; hay gặp trong thông báo chính thức.",
+   "pattern": "～をもって",
+   "reg": "viet",
+   "regTip": "〜で",
+   "review": false
+  },
+  {
+   "ex": "事実に即して報告してください。",
+   "exVi": "Hãy báo cáo đúng theo sự thật.",
+   "form": "N + に即して",
+   "level": "N1",
+   "meaning": "Dựa đúng theo, phù hợp với (thực tế, quy định)",
+   "note": "Khác に沿って (theo phương châm, kỳ vọng); に即して nhấn mạnh việc khớp với thực tế/luật cụ thể.",
+   "pattern": "～に即して",
+   "reg": "viet",
+   "regTip": "〜に合わせて",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm “から” – tiền đề & lý do: からには／以上は／上は／からこそ／からといって／からして／からすると",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "“Một khi đã nhận thì không thể bỏ giữa chừng” → からには (vế sau là nghĩa vụ).",
+   "options": [
+    "からといって",
+    "からして",
+    "からには",
+    "からすると"
+   ],
+   "q": "引き受けた（　）、途中で投げ出すわけにはいかない。"
+  },
+  {
+   "answer": 1,
+   "explain": "Vế sau とは限らない → からといって.",
+   "options": [
+    "からには",
+    "からといって",
+    "上は",
+    "からこそ"
+   ],
+   "q": "日本に住んでいる（　）、日本語が上手だとは限らない。"
+  },
+  {
+   "answer": 2,
+   "explain": "“Ngay từ cách nói chuyện đã thấy…” → N + からして.",
+   "options": [
+    "からといって",
+    "からには",
+    "からして",
+    "以上は"
+   ],
+   "q": "彼は話し方（　）、自信のなさが伝わってくる。"
+  },
+  {
+   "answer": 0,
+   "explain": "Nhấn mạnh lý do + のだ → からこそ.",
+   "options": [
+    "からこそ",
+    "からといって",
+    "からには",
+    "上は"
+   ],
+   "q": "失敗を経験した（　）、人の痛みがわかるようになったのだ。"
+  },
+  {
+   "answer": 1,
+   "explain": "“Tùy kết quả đàm phán mà có thể…” → いかんでは.",
+   "options": [
+    "をもって",
+    "いかんでは",
+    "に即して",
+    "からして"
+   ],
+   "q": "交渉の結果（　）、計画を中止することもあり得る。"
+  },
+  {
+   "answer": 0,
+   "explain": "矛盾する: mâu thuẫn với phát ngôn hôm qua.",
+   "options": [
+    "矛盾",
+    "均衡",
+    "把握",
+    "見積もり"
+   ],
+   "q": "彼の今日の発言は、昨日の発言と（　）している。"
+  },
+  {
+   "answer": 0,
+   "explain": "お金を蓄える: dành dụm tiền.",
+   "options": [
+    "蓄えて",
+    "把握して",
+    "逸脱して",
+    "辛抱して"
+   ],
+   "q": "来月の旅行のために、少しずつお金を（　）いる。"
+  },
+  {
+   "answer": 0,
+   "explain": "確認を怠る: lơ là, sao nhãng việc kiểm tra.",
+   "options": [
+    "怠る",
+    "衰える",
+    "携わる",
+    "妥協する"
+   ],
+   "q": "(ôn) 毎日の確認を（　）と、大きな事故につながる。"
+  },
+  {
+   "answer": 0,
+   "explain": "Vます + かねない: có nguy cơ (xấu); かねる là “khó lòng làm”.",
+   "options": [
+    "かねない",
+    "かねる",
+    "ものの",
+    "ばかりか"
+   ],
+   "q": "(ôn) このまま無理を続けると、体を壊し（　）。"
+  },
+  {
+   "answer": 0,
+   "explain": "N + のためとあれば: nếu là vì… thì (sẵn sàng làm).",
+   "options": [
+    "とあれば",
+    "をよそに",
+    "ないまでも",
+    "にかこつけて"
+   ],
+   "q": "(ôn) 子供のため（　）、どんな苦労もいとわない。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu “ちょっとした相談やアイデアは、顔を合わせているからこそ生まれる” nêu rõ lý do; phương án 1 sai vì bài nói họp online vẫn đủ.",
+  "options": [
+   "会議をオンラインで行うのが難しいから",
+   "通勤の負担を社員に感じてほしいから",
+   "直接会うことで気軽な相談や発想が生まれると考えたから",
+   "在宅勤務の制度をやめることにしたから"
+  ],
+  "q": "この会社が出社日を設けた主な理由は何か。",
+  "text": "在宅勤務が広まって数年がたつ。通勤の負担がなくなり、家族と過ごす時間が増えたと喜ぶ声がある一方で、同僚との雑談が減り、孤立感を抱く人も少なくない。ある会社では、週に一度は全員が出社する日を設けた。会議はオンラインでも十分できるが、ちょっとした相談やアイデアは、顔を合わせているからこそ生まれるという考えからだ。働く場所を自由に選べるようになったからといって、職場に集まる意味がなくなったわけではないのだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "現状を正確に把握することが大切だ。",
+   "exVi": "Nắm chính xác tình hình hiện tại là điều quan trọng.",
+   "level": "N2",
+   "meaning": "nắm bắt, nắm rõ",
+   "reading": "はあく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "把握"
+  },
+  {
+   "ex": "彼の説明には矛盾がある。",
+   "exVi": "Lời giải thích của anh ấy có mâu thuẫn.",
+   "level": "N2",
+   "meaning": "mâu thuẫn",
+   "reading": "むじゅん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "矛盾"
+  },
+  {
+   "ex": "老後のためにお金を蓄えている。",
+   "exVi": "Tôi đang dành dụm tiền cho tuổi già.",
+   "level": "N2",
+   "meaning": "tích trữ, dành dụm",
+   "reading": "たくわえる",
+   "reg": "viet",
+   "regTip": "貯める",
+   "review": false,
+   "word": "蓄える"
+  },
+  {
+   "ex": "粘り強く交渉した結果、契約が取れた。",
+   "exVi": "Nhờ kiên trì đàm phán mà đã ký được hợp đồng.",
+   "level": "N2",
+   "meaning": "kiên trì, bền bỉ",
+   "reading": "ねばりづよい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "粘り強い"
+  },
+  {
+   "ex": "合格まであと少しの辛抱だ。",
+   "exVi": "Chỉ cần nhẫn nại thêm chút nữa là đỗ.",
+   "level": "N2",
+   "meaning": "nhẫn nại, chịu đựng",
+   "reading": "しんぼう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "辛抱"
+  },
+  {
+   "ex": "業者に修理の見積もりを頼んだ。",
+   "exVi": "Tôi đã nhờ bên dịch vụ báo giá sửa chữa.",
+   "level": "N2",
+   "meaning": "báo giá, ước tính",
+   "reading": "みつもり",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "見積もり"
+  },
+  {
+   "ex": "厄介な問題に巻き込まれた。",
+   "exVi": "Bị cuốn vào một vấn đề rắc rối.",
+   "level": "N2",
+   "meaning": "phiền phức, rắc rối",
+   "reading": "やっかい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "厄介"
+  },
+  {
+   "ex": "需要と供給の均衡が崩れた。",
+   "exVi": "Sự cân bằng cung cầu đã bị phá vỡ.",
+   "level": "N1",
+   "meaning": "sự cân bằng",
+   "reading": "きんこう",
+   "reg": "viet",
+   "regTip": "バランス",
+   "review": false,
+   "word": "均衡"
+  },
+  {
+   "ex": "規則から逸脱した行為は認められない。",
+   "exVi": "Hành vi đi chệch quy định không được chấp nhận.",
+   "level": "N1",
+   "meaning": "đi chệch, vượt khỏi (quy tắc, chuẩn mực)",
+   "reading": "いつだつ",
+   "reg": "viet",
+   "regTip": "外れる・はみ出す",
+   "review": false,
+   "word": "逸脱"
+  },
+  {
+   "ex": "毎回パスワードを入力するのは煩わしい。",
+   "exVi": "Lần nào cũng phải nhập mật khẩu thật phiền.",
+   "level": "N1",
+   "meaning": "phiền toái, rườm rà",
+   "reading": "わずらわしい",
+   "reg": "viet",
+   "regTip": "めんどくさい",
+   "review": false,
+   "word": "煩わしい"
+  }
+ ]
+}

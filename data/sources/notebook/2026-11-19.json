@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-19",
+ "grammar": [
+  {
+   "ex": "彼女は何か言いたげな顔でこちらを見ていた。",
+   "exVi": "Cô ấy nhìn về phía này với vẻ mặt như muốn nói gì đó.",
+   "form": "Aい（bỏ い）／Aな／Vたい（bỏ い） + げ",
+   "level": "N2",
+   "meaning": "có vẻ, ra vẻ (miêu tả từ bên ngoài)",
+   "note": "Giống 〜そう nhưng mang sắc thái văn miêu tả; khi nói chuyện dùng 〜そう. Không dùng cho người nói.",
+   "pattern": "～げ",
+   "reg": "viet",
+   "regTip": "〜そう",
+   "review": false
+  },
+  {
+   "ex": "田中さんの丁寧な仕事ぶりは、取引先からも高く評価されている。",
+   "exVi": "Cách làm việc cẩn thận của anh Tanaka được cả đối tác đánh giá cao.",
+   "form": "N／Vます + ぶり；Thời gian + ぶり",
+   "level": "N2",
+   "meaning": "① cách, dáng vẻ làm gì ② lần đầu sau (khoảng thời gian)",
+   "note": "仕事ぶり＝cách làm việc (đánh giá); 3年ぶり＝sau 3 năm mới lại.",
+   "pattern": "～ぶり",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "間違いだらけの図面を外注先に送ってしまった。",
+   "exVi": "Lỡ gửi bản vẽ toàn lỗi cho bên gia công.",
+   "form": "N + だらけ",
+   "level": "N2",
+   "meaning": "đầy, toàn là (thứ không mong muốn)",
+   "note": "だらけ: số lượng nhiều, cả vật trừu tượng (間違い, 借金). まみれ (N1): chất bẩn/lỏng bám phủ bề mặt.",
+   "pattern": "～だらけ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼がそんなミスをするとは、にわかには信じがたい。",
+   "exVi": "Thật khó mà tin ngay được rằng anh ấy lại mắc lỗi như vậy.",
+   "form": "Vます + がたい",
+   "level": "N2",
+   "meaning": "khó mà (về tâm lý/nhận thức gần như không thể)",
+   "note": "がたい: hầu như không thể (信じがたい・許しがたい). づらい: làm được nhưng thấy khó chịu/vất vả.",
+   "pattern": "～がたい",
+   "reg": "viet",
+   "regTip": "〜にくい・なかなか〜できない",
+   "review": false
+  },
+  {
+   "ex": "忙しそうな上司には、ちょっと相談しづらい。",
+   "exVi": "Sếp trông bận quá nên hơi khó mở lời xin tư vấn.",
+   "form": "Vます + づらい",
+   "level": "N2",
+   "meaning": "khó làm (vì gánh nặng tâm lý, thể chất)",
+   "note": "にくい: khó do tính chất khách quan (割れにくい); づらい: chủ quan, cảm giác khó chịu của người làm.",
+   "pattern": "～づらい",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "これは初心者向けのPLC講座だ。",
+   "exVi": "Đây là khóa học PLC dành cho người mới.",
+   "form": "N + 向け（の N／に）",
+   "level": "N2",
+   "meaning": "dành cho (đối tượng được nhắm tới khi làm ra)",
+   "note": "向け: nhà sản xuất nhắm tới đối tượng. 向き: phù hợp về tính chất (dù không chủ ý).",
+   "pattern": "～向け",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この仕事は細かい作業が好きな人向きだ。",
+   "exVi": "Công việc này hợp với người thích làm việc tỉ mỉ.",
+   "form": "N + 向き（だ／の N）",
+   "level": "N2",
+   "meaning": "hợp với, phù hợp với",
+   "note": "Xem ～向け. 向き còn có nghĩa hướng (南向きの部屋).",
+   "pattern": "～向き",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "盤の配線作業で、手が油まみれになった。",
+   "exVi": "Đi dây tủ điện xong tay dính đầy dầu.",
+   "form": "N + まみれ",
+   "level": "N1",
+   "meaning": "dính đầy, lấm lem (chất bám trên bề mặt)",
+   "note": "Chỉ dùng với chất bám (泥・汗・油・血・ほこり); 借金まみれ là ẩn dụ. 間違いまみれ ✗ → 間違いだらけ.",
+   "pattern": "～まみれ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "被害者は涙ながらに当時の状況を語った。",
+   "exVi": "Nạn nhân vừa khóc vừa kể lại tình hình lúc đó.",
+   "form": "N／Vます + ながらに（して）",
+   "level": "N1",
+   "meaning": "trong trạng thái ~ (giữ nguyên), vẫn ~ mà",
+   "note": "Cụm cố định: 涙ながらに・生まれながらに・昔ながらの・いながらにして. Khác ながらも (dù ~ nhưng).",
+   "pattern": "～ながらに",
+   "reg": "viet",
+   "regTip": "〜まま・〜ながら",
+   "review": false
+  },
+  {
+   "ex": "これだけの成果を上げたのだから、もっと評価されてしかるべきだ。",
+   "exVi": "Đạt thành quả đến thế thì đáng lẽ phải được đánh giá cao hơn.",
+   "form": "Vて + しかるべきだ",
+   "level": "N1",
+   "meaning": "đương nhiên phải ~, ~ mới là hợp lẽ",
+   "note": "Mạnh và trang trọng hơn 〜べきだ; thường kèm ý phê phán thực tế chưa như vậy.",
+   "pattern": "～てしかるべきだ",
+   "reg": "viet",
+   "regTip": "〜て当然だ・〜べきだ",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Hậu tố tính chất – trạng thái – độ khó: げ／ぶり／だらけ／がたい／づらい／向け／向き",
+ "quiz": [
+  {
+   "answer": 0,
+   "explain": "向け: viết nhắm cho đối tượng trẻ em. 向き = phù hợp tính chất, không đi với 「に書かれている」.",
+   "options": [
+    "向け",
+    "向き",
+    "だらけ",
+    "ぶり"
+   ],
+   "q": "この記事は子ども＿＿＿に書かれているので、漢字にふりがながついている。"
+  },
+  {
+   "answer": 3,
+   "explain": "誤字 không phải chất bám bề mặt → だらけ. まみれ chỉ dùng cho 泥・油・汗…",
+   "options": [
+    "げ",
+    "向き",
+    "まみれ",
+    "だらけ"
+   ],
+   "q": "このレポートは誤字＿＿＿で、とても提出できない。"
+  },
+  {
+   "answer": 1,
+   "explain": "到底〜がたい: gần như không thể tin. づらい chỉ cảm giác khó chịu khi làm, không hợp với 到底.",
+   "options": [
+    "づらい",
+    "がたい",
+    "ぶりの",
+    "まみれの"
+   ],
+   "q": "長年の取引先が品質データを偽っていたとは、到底信じ＿＿＿ことだ。"
+  },
+  {
+   "answer": 2,
+   "explain": "仕事ぶり = cách làm việc. げ không gắn sau danh từ 仕事.",
+   "options": [
+    "向け",
+    "げ",
+    "ぶり",
+    "だらけ"
+   ],
+   "q": "新人の頃から変わらない彼の真面目な仕事＿＿＿には頭が下がる。"
+  },
+  {
+   "answer": 1,
+   "explain": "劣化（れっか）: xuống cấp. 蓄積 = tích lũy, 掲載 = đăng bài, 裏付け = chứng thực.",
+   "options": [
+    "蓄積",
+    "劣化",
+    "掲載",
+    "裏付け"
+   ],
+   "q": "古いケーブルは被覆が＿＿＿して、ひび割れていた。"
+  },
+  {
+   "answer": 3,
+   "explain": "杞憂に終わる（きゆう）: hóa ra chỉ là lo hão. Cụm cố định.",
+   "options": [
+    "一概",
+    "劣化",
+    "蓄積",
+    "杞憂"
+   ],
+   "q": "トラブルが起きないかと心配していたが、＿＿＿に終わった。"
+  },
+  {
+   "answer": 1,
+   "explain": "Nói với bạn dùng khẩu ngữ: 〜なくて・〜なさそう. Các câu còn lại là văn viết/trang trọng (多忙を極める・がたい・所存・ざるを得ない).",
+   "options": [
+    "仕事が多忙を極めており、参加しがたい状況だ。",
+    "ごめん、仕事が終わらなくて、ちょっと行けなさそう。",
+    "業務多忙につき、欠席させていただく所存です。",
+    "残念ながら、参加は困難と言わざるを得ない。"
+   ],
+   "q": "友達に「明日の飲み会、来られる？」と聞かれた。最も自然な返事はどれか。"
+  },
+  {
+   "answer": 2,
+   "explain": "〜たあげく: sau một hồi (vất vả, lưỡng lự) thì rốt cuộc. たところ = khi thử làm thì (phát hiện).",
+   "options": [
+    "たところ",
+    "きり",
+    "あげく",
+    "っぱなし"
+   ],
+   "q": "（ôn）さんざん迷った＿＿＿、結局最初に見た部屋に決めた。"
+  },
+  {
+   "answer": 3,
+   "explain": "〜を問わず: không phân biệt (đi với cặp/nhóm 年齢や経験). にもかかわらず = mặc dù.",
+   "options": [
+    "にもかかわらず",
+    "に限って",
+    "をこめて",
+    "を問わず"
+   ],
+   "q": "（ôn）この大会は年齢や経験＿＿＿、誰でも参加できる。"
+  },
+  {
+   "answer": 1,
+   "explain": "憶測（おくそく）: phỏng đoán không căn cứ. 見解 = quan điểm, 安堵 = yên lòng, 一律 = đồng loạt.",
+   "options": [
+    "見解",
+    "憶測",
+    "安堵",
+    "一律"
+   ],
+   "q": "（ôn）確かな根拠もなく、＿＿＿だけで記事を書くべきではない。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: 「一概には言えない」「立場に合った働き方を選べる仕組みを作ること」が大切. a, b, d chỉ là một mặt được nêu, tác giả không khẳng định 'nên' như vậy.",
+  "options": [
+   "在宅勤務は生産性を上げるので、すべての社員に勧めるべきだ。",
+   "新入社員は在宅勤務をやめて、出社して先輩から学ぶべきだ。",
+   "在宅勤務の良し悪しは立場によって違うので、働き方を選べる仕組みが必要だ。",
+   "画面越しの会議は発言しにくいので、対面の会議に戻すべきだ。"
+  ],
+  "q": "筆者の考えに最も近いものはどれか。",
+  "text": "在宅勤務が広がって数年、職場のコミュニケーションの形は大きく変わった。画面越しの会議では相手の表情が読み取りづらく、発言のタイミングをつかめないまま会議が終わることも少なくない。一方で、通勤の負担がなくなり、仕事に集中しやすくなったという声も多い。ある調査によれば、在宅勤務で生産性が上がったと感じる人は全体の半数を超えるという。しかし、新入社員にとっては事情が異なる。先輩の仕事ぶりを近くで見て学ぶ機会が減り、質問したくても相手の忙しさが見えないため、声をかけづらいのだ。在宅勤務が良いか悪いかは一概には言えない。大切なのは、それぞれの立場に合った働き方を選べる仕組みを作ることだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "長年使った制御盤のケーブルが劣化して、被覆にひびが入っていた。",
+   "exVi": "Dây cáp trong tủ điều khiển dùng nhiều năm đã xuống cấp, lớp vỏ bị nứt.",
+   "hanviet": "LIỆT HÓA",
+   "level": "N2",
+   "meaning": "xuống cấp, lão hóa (vật liệu, chất lượng)",
+   "reading": "れっか",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "劣化"
+  },
+  {
+   "ex": "彼は巧みな話術で、渋っていた客を説得した。",
+   "exVi": "Anh ấy dùng tài ăn nói khéo léo thuyết phục được vị khách đang lưỡng lự.",
+   "hanviet": "XẢO",
+   "level": "N2",
+   "meaning": "khéo léo, tài tình",
+   "reading": "たくみ",
+   "reg": "viet",
+   "regTip": "上手・うまい",
+   "review": false,
+   "word": "巧み"
+  },
+  {
+   "ex": "会議中の私語は慎んでください。",
+   "exVi": "Xin hạn chế nói chuyện riêng trong cuộc họp.",
+   "hanviet": "THẬN",
+   "level": "N2",
+   "meaning": "giữ ý, kiêng, hạn chế (lời nói, hành vi)",
+   "reading": "つつしむ",
+   "reg": "viet",
+   "regTip": "控える・気をつける",
+   "review": false,
+   "word": "慎む"
+  },
+  {
+   "ex": "長年蓄積されたノウハウが、この会社の強みだ。",
+   "exVi": "Bí quyết tích lũy qua nhiều năm là thế mạnh của công ty này.",
+   "hanviet": "SÚC TÍCH",
+   "level": "N2",
+   "meaning": "tích lũy (kinh nghiệm, dữ liệu, mệt mỏi…)",
+   "reading": "ちくせき",
+   "reg": "viet",
+   "regTip": "たまる・ためる",
+   "review": false,
+   "word": "蓄積"
+  },
+  {
+   "ex": "打ち合わせは終始和やかな雰囲気で進んだ。",
+   "exVi": "Buổi họp diễn ra trong bầu không khí hòa nhã từ đầu đến cuối.",
+   "hanviet": "HÒA",
+   "level": "N2",
+   "meaning": "hòa nhã, ôn hòa, vui vẻ (bầu không khí)",
+   "reading": "なごやか",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "和やか"
+  },
+  {
+   "ex": "子犬は大きな音に怯えて、ソファの下に隠れた。",
+   "exVi": "Con chó con sợ tiếng động lớn nên trốn dưới ghế sofa.",
+   "hanviet": "KHIẾP",
+   "level": "N2",
+   "meaning": "sợ hãi, khiếp sợ",
+   "reading": "おびえる",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: ビビる",
+   "review": false,
+   "word": "怯える"
+  },
+  {
+   "ex": "新製品の記事が業界誌に掲載された。",
+   "exVi": "Bài viết về sản phẩm mới được đăng trên tạp chí ngành.",
+   "hanviet": "YẾT TẢI",
+   "level": "N2",
+   "meaning": "đăng (bài, ảnh lên báo, web)",
+   "reading": "けいさい",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 載る・載せる",
+   "review": false,
+   "word": "掲載"
+  },
+  {
+   "ex": "納期に間に合うか心配したが、杞憂に終わった。",
+   "exVi": "Đã lo không kịp hạn giao hàng, nhưng hóa ra chỉ là lo hão.",
+   "hanviet": "KỶ ƯU",
+   "level": "N1",
+   "meaning": "lo hão, lo xa vô cớ",
+   "reading": "きゆう",
+   "reg": "viet",
+   "regTip": "取り越し苦労・心配しすぎ",
+   "review": false,
+   "word": "杞憂"
+  },
+  {
+   "ex": "安い部品が悪いとは一概には言えない。",
+   "exVi": "Không thể nói chung chung rằng linh kiện rẻ là kém.",
+   "hanviet": "NHẤT KHÁI",
+   "level": "N1",
+   "meaning": "(đi với phủ định) không thể nói chung chung, vơ đũa cả nắm",
+   "reading": "いちがいに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "一概に"
+  },
+  {
+   "ex": "実験結果がその仮説を裏付けた。",
+   "exVi": "Kết quả thí nghiệm đã chứng thực giả thuyết đó.",
+   "hanviet": "LÝ PHÓ",
+   "level": "N1",
+   "meaning": "chứng thực, củng cố bằng chứng cứ",
+   "reading": "うらづける",
+   "reg": "viet",
+   "regTip": "証明する・確かめる",
+   "review": false,
+   "word": "裏付ける"
+  }
+ ]
+}

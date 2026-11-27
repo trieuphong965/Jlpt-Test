@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-25",
+ "grammar": [
+  {
+   "ex": "台風によって、工場の操業が二日間停止した。",
+   "exVi": "Do bão, nhà máy đã ngừng hoạt động hai ngày.",
+   "form": "N + によって／により",
+   "level": "N2",
+   "meaning": "do, bởi, bằng (nguyên nhân, phương tiện, tác nhân trong câu bị động trang trọng)",
+   "note": "により là dạng cứng hơn. Nghĩa \"khác nhau tùy theo\" (人によって違う) thì dùng được cả khi nói. Còn nói \"chỉ một số trường hợp thì…\" → によっては.",
+   "pattern": "～によって",
+   "reg": "viet",
+   "regTip": "〜で・〜のせいで",
+   "review": false
+  },
+  {
+   "ex": "天候によっては、試合が中止になることもあります。",
+   "exVi": "Tùy thời tiết mà trận đấu cũng có thể bị hủy.",
+   "form": "N + によっては",
+   "level": "N2",
+   "meaning": "tùy vào… mà có trường hợp… (nêu một khả năng riêng)",
+   "note": "によって = khác nhau tùy theo (nói chung); によっては = ở một số trường hợp thì…, hay đi với こともある／場合もある.",
+   "pattern": "～によっては",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "天気予報によると、明日は雪が降るそうだ。",
+   "exVi": "Theo dự báo thời tiết thì mai sẽ có tuyết.",
+   "form": "N（nguồn tin） + によると／によれば",
+   "level": "N2",
+   "meaning": "theo (nguồn tin)…; cuối câu thường là そうだ／ということだ／らしい",
+   "note": "Chỉ dùng cho nguồn thông tin, không dùng cho căn cứ hành động (→ に基づいて).",
+   "pattern": "～によると／によれば",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜の話だと・〜が言ってたけど",
+   "review": false
+  },
+  {
+   "ex": "飲酒運転による事故は後を絶たない。",
+   "exVi": "Tai nạn do lái xe khi say rượu vẫn không dứt.",
+   "form": "N + による + N",
+   "level": "N2",
+   "meaning": "do… gây ra / bằng… (dạng bổ nghĩa danh từ của によって)",
+   "note": "Đứng trước danh từ thì dùng による, không dùng によって.",
+   "pattern": "～による",
+   "reg": "viet",
+   "regTip": "〜が原因の・〜での",
+   "review": false
+  },
+  {
+   "ex": "この仕事は年齢や経験によらず、誰でも応募できる。",
+   "exVi": "Công việc này ai cũng ứng tuyển được, không phân biệt tuổi hay kinh nghiệm.",
+   "form": "N + によらず",
+   "level": "N2",
+   "meaning": "không phân biệt, bất kể; 見かけによらず = trông vậy mà",
+   "note": "Gần にかかわらず／を問わず (đã học). Riêng 見かけによらず là thành ngữ rất hay dùng khi nói.",
+   "pattern": "～によらず",
+   "reg": "viet",
+   "regTip": "〜に関係なく",
+   "review": false
+  },
+  {
+   "ex": "彼は五十歳にして初めて海外旅行をした。",
+   "exVi": "Đến tận năm 50 tuổi ông ấy mới lần đầu đi du lịch nước ngoài.",
+   "form": "N + にして",
+   "level": "N1",
+   "meaning": "(1) đến tận… mới (40歳にして初めて) (2) ngay cả… cũng (プロにして難しい)",
+   "note": "Khác にしては (N2: so với… thì) và にしてみれば (đứng trên lập trường…).",
+   "pattern": "～にして",
+   "reg": "viet",
+   "regTip": "〜になって初めて・〜でも",
+   "review": false
+  },
+  {
+   "ex": "社内規定に則って、処分を決定する。",
+   "exVi": "Quyết định hình thức kỷ luật theo đúng quy định công ty.",
+   "form": "N（luật, quy định, truyền thống） + に則って／に則り",
+   "level": "N1",
+   "meaning": "theo đúng (luật lệ, quy chuẩn, phép tắc)",
+   "note": "に即して (đã học) = sát với thực tế/tình hình; に則って = theo chuẩn mực, luật; に沿って = theo kế hoạch/dọc theo.",
+   "pattern": "～に則って",
+   "reg": "viet",
+   "regTip": "〜どおりに・〜に従って",
+   "review": false
+  },
+  {
+   "ex": "条件次第では、引き受けないものでもない。",
+   "exVi": "Tùy điều kiện thì không phải là tôi không nhận.",
+   "form": "V-ない + ものでもない",
+   "level": "N1",
+   "meaning": "không phải là không (làm được/có thể), miễn cưỡng chấp nhận",
+   "note": "Gần ないことはない (N2, đã học) nhưng cứng hơn, hàm ý \"nếu… thì có thể\".",
+   "pattern": "～ないものでもない",
+   "reg": "viet",
+   "regTip": "〜ないこともない・〜てもいいけど",
+   "review": false
+  },
+  {
+   "ex": "借金してまで新車を買う必要はないと思う。",
+   "exVi": "Tôi nghĩ không cần phải vay nợ để mua xe mới.",
+   "form": "V-て + まで",
+   "level": "N1",
+   "meaning": "đến mức phải (làm điều quá đáng) để…",
+   "note": "Thường đi với 〜たくない／必要はない／〜とは (phê phán).",
+   "pattern": "～てまで",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "隣の家とは家族ぐるみで付き合っている。",
+   "exVi": "Nhà tôi qua lại thân thiết với nhà bên cạnh cả gia đình.",
+   "form": "N + ぐるみ",
+   "level": "N1",
+   "meaning": "cả…, toàn bộ… cùng tham gia (家族ぐるみ・町ぐるみ・会社ぐるみ)",
+   "note": "Khác ずくめ (toàn là, đã học), だらけ／まみれ (đầy thứ xấu, bẩn).",
+   "pattern": "～ぐるみ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm による: によって／によっては／によると・によれば／による＋N／によらず",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Nguồn tin + そうだ → によると. によっては cần \"có trường hợp…\"; による phải đứng trước danh từ.",
+   "options": [
+    "によっては",
+    "によると",
+    "による",
+    "によらず"
+   ],
+   "q": "専門家の話（　　）、この地域では大きな地震が起こる可能性が高いそうだ。"
+  },
+  {
+   "answer": 2,
+   "explain": "\"Tùy loại thuốc mà có khi…\" + こともある → によっては. によると là nguồn tin, không hợp.",
+   "options": [
+    "に則って",
+    "にして",
+    "によっては",
+    "によると"
+   ],
+   "q": "薬（　　）、眠くなる副作用が出ることもあるので注意してください。"
+  },
+  {
+   "answer": 3,
+   "explain": "Đứng trước danh từ 事故 → による（＝不注意が原因の）. によらず = bất kể, ngược nghĩa.",
+   "options": [
+    "によっては",
+    "によらず",
+    "にしても",
+    "による"
+   ],
+   "q": "不注意（　　）事故を防ぐため、作業前の確認を徹底している。"
+  },
+  {
+   "answer": 0,
+   "explain": "Theo đúng luật → に則って（のっとって）. ぐるみ = cả tập thể; にして = đến tận… mới.",
+   "options": [
+    "に則って",
+    "ぐるみで",
+    "にして",
+    "てまで"
+   ],
+   "q": "選挙は法律（　　）公正に行われなければならない。"
+  },
+  {
+   "answer": 2,
+   "explain": "尊重（そんちょう）する = tôn trọng phán đoán. 辞退 = từ chối; 審査 = xét duyệt; 委託 = ủy thác.",
+   "options": [
+    "辞退",
+    "審査",
+    "尊重",
+    "委託"
+   ],
+   "q": "上司の判断を（　　）して、計画を一部変更した。"
+  },
+  {
+   "answer": 1,
+   "explain": "弊害（へいがい）が指摘される = tác hại được chỉ ra. Các từ còn lại không đi với 指摘される trong ngữ cảnh này.",
+   "options": [
+    "収束",
+    "弊害",
+    "遺憾",
+    "一掃"
+   ],
+   "q": "新しい制度には、思わぬ（　　）も指摘されている。"
+  },
+  {
+   "answer": 3,
+   "explain": "緩やか／遺憾／弊害／懸念 đều là văn viết. Nói với bạn: じわじわ上がってるよね.",
+   "options": [
+    "最近、物価が緩やかに上昇していると言える。",
+    "物価の上昇は誠に遺憾である。",
+    "物価上昇による弊害が懸念される。",
+    "最近、物価がじわじわ上がってるよね。"
+   ],
+   "q": "友達との会話で最も自然なのはどれか。"
+  },
+  {
+   "answer": 0,
+   "explain": "根回し（ねまわし）= vận động, dàn xếp trước. 齟齬（そご）= vênh nhau; 目処（めど）= triển vọng; 懸案（けんあん）= vấn đề tồn đọng.",
+   "options": [
+    "根回し",
+    "齟齬",
+    "目処",
+    "懸案"
+   ],
+   "q": "(ôn) 大事な会議の前に関係者に（　　）をしておいたので、提案はすんなり通った。"
+  },
+  {
+   "answer": 1,
+   "explain": "Song song công việc chính → かたわら（N1）. 反面 = mặt trái của cùng một sự việc.",
+   "options": [
+    "ばかりに",
+    "かたわら",
+    "反面",
+    "どころか"
+   ],
+   "q": "(ôn) 彼は会社勤めの（　　）、週末は小説を書いている。"
+  },
+  {
+   "answer": 3,
+   "explain": "Khoảng thời gian liên tục → にわたって. にかけて cần dạng X から Y にかけて.",
+   "options": [
+    "にかけて",
+    "において",
+    "に至るまで",
+    "にわたって"
+   ],
+   "q": "(ôn) 国際会議は三日間（　　）行われた。"
+  }
+ ],
+ "ratio": "N2 50% · N1 50%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: bảo vệ sức khỏe nhân viên rốt cuộc cũng có lợi cho công ty → C. A, B không phải ý tác giả (B chỉ là \"có người\" như vậy); D quá đà – bài chỉ nói cấm gửi mail ngoài giờ.",
+  "options": [
+   "休日にメールを確認することは、仕事の効率を上げる。",
+   "休日に連絡が来ないと不安になるのは当然のことだ。",
+   "勤務時間外の連絡を控えることは、会社にとってもプラスになる。",
+   "スマートフォンを仕事に使うことは禁止すべきだ。"
+  ],
+  "q": "筆者の考えに最も近いものはどれか。",
+  "text": "ある調査によると、会社員の約六割が「休日も仕事のメールを確認してしまう」と答えたという。スマートフォンの普及により、いつでもどこでも連絡が取れるようになった反面、仕事と私生活の境目があいまいになっている。人によっては、休日に連絡が来ないと逆に不安になるという声もある。しかし、休みの日まで仕事に追われていては、心身ともに疲れがたまる一方だ。最近では、勤務時間外のメール送信を禁止する企業も現れ始めた。社員の健康を守ることは、結果的に会社の利益にもつながるのではないだろうか。"
+ },
+ "vocab": [
+  {
+   "ex": "書類審査に通ったので、来週面接を受けることになった。",
+   "exVi": "Vì đã qua vòng xét hồ sơ nên tuần sau tôi sẽ đi phỏng vấn.",
+   "hanviet": "THẨM TRA",
+   "level": "N2",
+   "meaning": "thẩm tra, xét duyệt (hồ sơ, đơn, tác phẩm)",
+   "reading": "しんさ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "審査"
+  },
+  {
+   "ex": "彼はいつも言い訳をして、責任を逃れようとする。",
+   "exVi": "Anh ta lúc nào cũng viện cớ để trốn tránh trách nhiệm.",
+   "hanviet": "ĐÀO",
+   "level": "N2",
+   "meaning": "thoát khỏi, trốn tránh (trách nhiệm, nguy hiểm)",
+   "reading": "のがれる",
+   "reg": "viet",
+   "regTip": "逃げる・避ける",
+   "review": false,
+   "word": "逃れる"
+  },
+  {
+   "ex": "物価は緩やかに上昇している。",
+   "exVi": "Giá cả đang tăng từ từ.",
+   "hanviet": "HOÃN",
+   "level": "N2",
+   "meaning": "thoai thoải, chậm rãi, từ từ; nới lỏng",
+   "reading": "ゆるやか",
+   "reg": "viet",
+   "regTip": "ゆるい・なだらか・じわじわ",
+   "review": false,
+   "word": "緩やか"
+  },
+  {
+   "ex": "本人の意思を尊重して、転職に反対しなかった。",
+   "exVi": "Tôn trọng ý muốn của bản thân cậu ấy nên tôi đã không phản đối chuyện chuyển việc.",
+   "hanviet": "TÔN TRỌNG",
+   "level": "N2",
+   "meaning": "tôn trọng (ý kiến, ý chí, quyền)",
+   "reading": "そんちょう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "尊重"
+  },
+  {
+   "ex": "内定を辞退するなら、早めに連絡したほうがいい。",
+   "exVi": "Nếu định từ chối offer thì nên liên lạc sớm.",
+   "hanviet": "TỪ THOÁI",
+   "level": "N2",
+   "meaning": "từ chối, rút lui (lời mời, giải thưởng, nội định)",
+   "reading": "じたい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "辞退"
+  },
+  {
+   "ex": "スマホの使いすぎによる弊害が指摘されている。",
+   "exVi": "Tác hại của việc dùng điện thoại quá nhiều đang được chỉ ra.",
+   "hanviet": "TỆ HẠI",
+   "level": "N1",
+   "meaning": "tác hại, mặt trái",
+   "reading": "へいがい",
+   "reg": "viet",
+   "regTip": "悪い影響・マイナス面",
+   "review": false,
+   "word": "弊害"
+  },
+  {
+   "ex": "今回の事態は誠に遺憾であります。",
+   "exVi": "Sự việc lần này thật vô cùng đáng tiếc.",
+   "hanviet": "DI HÁM",
+   "level": "N1",
+   "meaning": "đáng tiếc (dùng trong phát biểu chính thức, xin lỗi công khai)",
+   "reading": "いかん",
+   "reg": "viet",
+   "regTip": "残念",
+   "review": false,
+   "word": "遺憾"
+  },
+  {
+   "ex": "新社長は古い慣習を一掃した。",
+   "exVi": "Tân giám đốc đã quét sạch những tập quán cũ.",
+   "hanviet": "NHẤT TẢO",
+   "level": "N1",
+   "meaning": "quét sạch, xóa bỏ hoàn toàn",
+   "reading": "いっそう",
+   "reg": "viet",
+   "regTip": "全部なくす・一気に片付ける",
+   "review": false,
+   "word": "一掃"
+  },
+  {
+   "ex": "感染の収束にはまだ時間がかかる見込みだ。",
+   "exVi": "Dự kiến vẫn cần thời gian để dịch bệnh lắng xuống.",
+   "hanviet": "THU THÚC",
+   "level": "N1",
+   "meaning": "lắng xuống, được kiểm soát (dịch bệnh, sự cố, tình hình)",
+   "reading": "しゅうそく",
+   "reg": "viet",
+   "regTip": "落ち着く・おさまる",
+   "review": false,
+   "word": "収束"
+  },
+  {
+   "ex": "部品の製造を外部の業者に委託している。",
+   "exVi": "Chúng tôi ủy thác việc sản xuất linh kiện cho nhà thầu bên ngoài.",
+   "hanviet": "ỦY THÁC",
+   "level": "N1",
+   "meaning": "ủy thác, giao (việc) cho bên ngoài",
+   "reading": "いたく",
+   "reg": "viet",
+   "regTip": "外に頼む・任せる・外注する",
+   "review": false,
+   "word": "委託"
+  }
+ ]
+}

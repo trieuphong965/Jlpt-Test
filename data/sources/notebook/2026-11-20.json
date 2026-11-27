@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-20",
+ "grammar": [
+  {
+   "ex": "自分の部屋くらい自分で掃除しなさい。",
+   "exVi": "Ít nhất phòng mình thì tự dọn đi.",
+   "form": "V普通形／Aい／Aな／N + くらい",
+   "level": "N2",
+   "meaning": "(1) đến mức… (2) ít nhất / chỉ… thôi (coi nhẹ: việc cỏn con đó thì phải làm được)",
+   "note": "ほど cũng chỉ mức độ nhưng KHÔNG có nghĩa coi nhẹ/tối thiểu (×部屋ほど自分で掃除しなさい).",
+   "pattern": "～くらい（ぐらい）",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ぐらい",
+   "review": false
+  },
+  {
+   "ex": "あの会社に戻るくらいなら、アルバイトをしたほうがましだ。",
+   "exVi": "Nếu phải quay lại công ty đó thì thà đi làm thêm còn hơn.",
+   "form": "V辞書形 + くらいなら",
+   "level": "N2",
+   "meaning": "nếu phải… thì thà… còn hơn",
+   "note": "Vế sau thường là ほうがいい／ほうがまし／～ない. Vế trước là điều người nói rất không muốn.",
+   "pattern": "～くらいなら",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ぐらいなら",
+   "review": false
+  },
+  {
+   "ex": "部長にあんなことが言えるのは、田中さんくらいのものだ。",
+   "exVi": "Người dám nói thế với trưởng phòng chỉ có anh Tanaka thôi.",
+   "form": "N + くらいのものだ",
+   "level": "N2",
+   "meaning": "chỉ có… mà thôi (giới hạn, nhấn mạnh hiếm)",
+   "note": "Gần ～しかいない／～だけだ nhưng mang sắc thái “hiếm có”.",
+   "pattern": "～くらいのものだ",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜くらいのもんだ",
+   "review": false
+  },
+  {
+   "ex": "仕事の後に飲むビールほどうまいものはない。",
+   "exVi": "Không gì ngon bằng bia uống sau giờ làm.",
+   "form": "N + ほど + N + はない",
+   "level": "N2",
+   "meaning": "không gì… bằng (so sánh nhất)",
+   "note": "＝くらい～はない. Khác ～に限る (khuyên dùng theo kinh nghiệm chủ quan: 夏はビールに限る).",
+   "pattern": "～ほど～はない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "ただの風邪だから、病院に行くほどのことではない。",
+   "exVi": "Chỉ là cảm thường, không đến mức phải đi viện.",
+   "form": "V辞書形 + ほどのことではない",
+   "level": "N2",
+   "meaning": "không đến mức phải…, không đáng để…",
+   "note": "～までもない (N1) = hiển nhiên nên khỏi cần; ほどのことではない = việc nhỏ, không đáng.",
+   "pattern": "～ほどのことではない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ほどのことじゃない",
+   "review": false
+  },
+  {
+   "ex": "保険には入っておくに越したことはない。",
+   "exVi": "Có bảo hiểm thì vẫn là tốt nhất.",
+   "form": "V辞書形／Aい／Aな・N（である）+ に越したことはない",
+   "level": "N2",
+   "meaning": "tốt nhất là…, …thì còn gì bằng (lẽ đương nhiên)",
+   "note": "Nêu lẽ thường khách quan, hay đi với が・けど. ～に限る là đánh giá chủ quan từ kinh nghiệm.",
+   "pattern": "～に越したことはない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜に越したことない",
+   "review": false
+  },
+  {
+   "ex": "料理は得意というほどではないが、毎日自炊している。",
+   "exVi": "Không đến mức giỏi nấu ăn, nhưng ngày nào tôi cũng tự nấu.",
+   "form": "普通形（N・Aなは だ có thể bỏ）+ というほどではない",
+   "level": "N2",
+   "meaning": "không đến mức có thể gọi là…",
+   "note": "Phủ nhận mức độ của một cách đánh giá; ～ほどのことではない là “không đáng làm việc đó”.",
+   "pattern": "～というほどではない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ってほどじゃない",
+   "review": false
+  },
+  {
+   "ex": "三時間も遅刻するなんて、のんびりにもほどがある。",
+   "exVi": "Trễ tận ba tiếng, thong thả cũng phải có giới hạn chứ.",
+   "form": "N／Aな／Aい／V普通形 + にもほどがある",
+   "level": "N1",
+   "meaning": "… cũng phải có giới hạn chứ (quá đáng, trách móc)",
+   "note": "Hay gặp: 冗談にもほどがある. Khác ～極まりない (văn viết, đánh giá cực độ).",
+   "pattern": "～にもほどがある",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この程度の傷なら、心配するには及ばない。",
+   "exVi": "Vết thương cỡ này thì không cần phải lo.",
+   "form": "V辞書形／N + には及ばない",
+   "level": "N1",
+   "meaning": "không cần phải…; (N には及ばない) không bằng…",
+   "note": "Gần ～までもない. Nghĩa “không bằng”: 私の腕は彼には及ばない.",
+   "pattern": "～には及ばない",
+   "reg": "viet",
+   "regTip": "〜なくていい・〜なくても大丈夫",
+   "review": false
+  },
+  {
+   "ex": "今日は晴れると思いきや、午後から大雨になった。",
+   "exVi": "Cứ tưởng hôm nay nắng, ai ngờ chiều mưa to.",
+   "form": "普通形 + と思いきや",
+   "level": "N1",
+   "meaning": "cứ tưởng… ai ngờ (kết quả ngược dự đoán)",
+   "note": "Khác ～かと思うと (N2: vừa… thì ngay lập tức).",
+   "pattern": "～と思いきや",
+   "reg": "viet",
+   "regTip": "〜と思ったら・〜と思ったのに",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Mức độ – so sánh – “thà… còn hơn / không đến mức”: くらい／くらいなら／くらいのものだ／ほど～はない／ほどのことではない／に越したことはない／というほどではない",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Vる + くらいなら…ほうがまし: thà… còn hơn. ばかりに = chỉ vì (kết quả xấu).",
+   "options": [
+    "ばかりに",
+    "くらいなら",
+    "というより",
+    "にしては"
+   ],
+   "q": "彼に頭を下げる（　）、一人で最後までやったほうがましだ。"
+  },
+  {
+   "answer": 2,
+   "explain": "ほどのことではない: không đến mức phải nghỉ. に越したことはない sẽ thành “nghỉ là tốt nhất”, mâu thuẫn だけだから.",
+   "options": [
+    "に越したことはない",
+    "にもほどがある",
+    "ほどのことではない",
+    "くらいのものだ"
+   ],
+   "q": "少し熱があるだけだから、仕事を休む（　）。"
+  },
+  {
+   "answer": 0,
+   "explain": "N + くらいのものだ: chỉ có… thôi.",
+   "options": [
+    "くらいのものだ",
+    "というほどではない",
+    "ほどのことではない",
+    "に越したことはない"
+   ],
+   "q": "この難問が解けるのは、クラスで田中さん（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "Với bạn bè dùng やる. 実施 là từ văn viết; いたします／でしょうか là kính ngữ.",
+   "options": [
+    "実施するの？",
+    "開催いたしますか？",
+    "行われるのでしょうか？",
+    "やるの？"
+   ],
+   "q": "友達との会話で自然なのはどれか。「明日のイベント、本当に（　）」"
+  },
+  {
+   "answer": 1,
+   "explain": "と思いきや: cứ tưởng… ai ngờ. からには/とあって là tiền đề – lý do, không có nghĩa trái dự đoán.",
+   "options": [
+    "からには",
+    "と思いきや",
+    "とあって",
+    "くらいなら"
+   ],
+   "q": "今年の試験は簡単だろう（　）、去年よりずっと難しかった。"
+  },
+  {
+   "answer": 2,
+   "explain": "根拠（こんきょ）: căn cứ cho lập luận.",
+   "options": [
+    "実施",
+    "膨大",
+    "根拠",
+    "億劫"
+   ],
+   "q": "この記事の主張には、はっきりした（　）が示されていない。"
+  },
+  {
+   "answer": 0,
+   "explain": "億劫（おっくう）: ngại, lười vì thấy phiền.",
+   "options": [
+    "億劫",
+    "緻密",
+    "膨大",
+    "根拠"
+   ],
+   "q": "寒い日は外に出るのが（　）で、つい家にこもってしまう。"
+  },
+  {
+   "answer": 3,
+   "explain": "Vた + あげく: sau khi… mãi thì cuối cùng (11/9).",
+   "options": [
+    "とたん",
+    "うちに",
+    "最中に",
+    "あげく"
+   ],
+   "q": "(ôn) さんざん迷った（　）、結局最初の店で買った。"
+  },
+  {
+   "answer": 1,
+   "explain": "安堵（あんど）する: yên lòng, nhẹ nhõm (11/11).",
+   "options": [
+    "修繕",
+    "安堵",
+    "免除",
+    "寄与"
+   ],
+   "q": "(ôn) 手術が無事に終わったと聞いて、（　）した。"
+  },
+  {
+   "answer": 2,
+   "explain": "を契機に: nhân dịp/lấy… làm bước ngoặt (11/12).",
+   "options": [
+    "をこめて",
+    "をもとに",
+    "を契機に",
+    "に反して"
+   ],
+   "q": "(ôn) 転職（　）、生活スタイルを大きく見直した。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: 準備に時間をかけるに越したことはないが、まず小さく始めてみることも必要. (1) sai vì không nói “ai cũng nên”; (2) ngược với くらいなら…やめたほうがいい; (4) ngược với 大きな利益を狙うことではなく.",
+  "options": [
+   "副業は収入が増えるので、誰でもすぐに始めるべきだ。",
+   "本業に悪い影響があっても、将来のために副業を続けるべきだ。",
+   "十分に準備するのは望ましいが、小さく始めてみることも大切だ。",
+   "副業では、まず大きな利益を得ることを目指すべきだ。"
+  ],
+  "q": "この文章の内容に合うものはどれか。",
+  "text": "最近、副業を始める会社員が増えている。収入を増やしたいという理由が多いが、本業以外の経験を積みたいという人も少なくない。もちろん、本業に支障が出るくらいなら、副業はやめたほうがいい。しかし、会社に頼るだけでは将来が不安だという声もある。専門家によれば、副業で大切なのは、すぐに大きな利益を狙うことではなく、自分の得意分野を少しずつ広げていくことだという。準備に時間をかけるに越したことはないが、まず小さく始めてみることも必要だろう。"
+ },
+ "vocab": [
+  {
+   "ex": "若者を狙った新商品が来月発売される。",
+   "exVi": "Sản phẩm mới nhắm vào giới trẻ sẽ ra mắt tháng sau.",
+   "hanviet": "THƯ",
+   "level": "N2",
+   "meaning": "nhắm vào, nhắm tới (mục tiêu, đối tượng)",
+   "reading": "ねらう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "狙う"
+  },
+  {
+   "ex": "細かい説明は省いて、結論から話します。",
+   "exVi": "Tôi bỏ qua phần giải thích chi tiết, nói kết luận trước.",
+   "hanviet": "TỈNH",
+   "level": "N2",
+   "meaning": "lược bỏ, cắt bớt (bước, phần thừa)",
+   "reading": "はぶく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "省く"
+  },
+  {
+   "ex": "膨大なデータを一人で整理するのは無理だ。",
+   "exVi": "Một mình sắp xếp lượng dữ liệu khổng lồ đó là không thể.",
+   "hanviet": "BÀNH ĐẠI",
+   "level": "N2",
+   "meaning": "khổng lồ, đồ sộ (lượng, số liệu, chi phí)",
+   "reading": "ぼうだい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "膨大"
+  },
+  {
+   "ex": "その噂には何の根拠もない。",
+   "exVi": "Tin đồn đó chẳng có căn cứ gì cả.",
+   "hanviet": "CĂN CỨ",
+   "level": "N2",
+   "meaning": "căn cứ, cơ sở (cho lập luận)",
+   "reading": "こんきょ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "根拠"
+  },
+  {
+   "ex": "今回の旅行は天気に恵まれた。",
+   "exVi": "Chuyến đi lần này gặp được thời tiết đẹp.",
+   "hanviet": "HUỆ",
+   "level": "N2",
+   "meaning": "được ban cho, may mắn có được (điều kiện tốt)",
+   "reading": "めぐまれる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "恵まれる"
+  },
+  {
+   "ex": "来月、全社員を対象にアンケートを実施する。",
+   "exVi": "Tháng sau sẽ tiến hành khảo sát toàn bộ nhân viên.",
+   "hanviet": "THỰC THI",
+   "level": "N2",
+   "meaning": "thực thi, tiến hành (kế hoạch, khảo sát, kỳ thi)",
+   "reading": "じっし",
+   "reg": "viet",
+   "regTip": "やる・行う",
+   "review": false,
+   "word": "実施"
+  },
+  {
+   "ex": "毎日同じ話ばかりで、もううんざりだ。",
+   "exVi": "Ngày nào cũng toàn chuyện đó, ngán tận cổ rồi.",
+   "hanviet": "",
+   "level": "N2",
+   "meaning": "chán ngấy, ngán tận cổ",
+   "reading": "うんざり",
+   "reg": "noi",
+   "regTip": "",
+   "review": false,
+   "word": "うんざり"
+  },
+  {
+   "ex": "緻密な計画のおかげで、工事は予定どおり終わった。",
+   "exVi": "Nhờ kế hoạch tỉ mỉ, công trình xong đúng tiến độ.",
+   "hanviet": "TRÍ MẬT",
+   "level": "N1",
+   "meaning": "tỉ mỉ, chặt chẽ, chi tiết (kế hoạch, phân tích)",
+   "reading": "ちみつ",
+   "reg": "viet",
+   "regTip": "細かい・しっかりした",
+   "review": false,
+   "word": "緻密"
+  },
+  {
+   "ex": "寒い朝は布団から出るのが億劫だ。",
+   "exVi": "Sáng lạnh thì ngại chui ra khỏi chăn.",
+   "hanviet": "ỨC KIẾP",
+   "level": "N1",
+   "meaning": "ngại, lười (thấy phiền nên không muốn làm)",
+   "reading": "おっくう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "億劫"
+  },
+  {
+   "ex": "それを私のせいにするなんて、誤解も甚だしい。",
+   "exVi": "Đổ cho tôi chuyện đó thì hiểu lầm quá mức rồi.",
+   "hanviet": "THẬM",
+   "level": "N1",
+   "meaning": "quá mức, nghiêm trọng (thường nghĩa xấu; 〜も甚だしい)",
+   "reading": "はなはだしい",
+   "reg": "viet",
+   "regTip": "ひどい・すごく",
+   "review": false,
+   "word": "甚だしい"
+  }
+ ]
+}

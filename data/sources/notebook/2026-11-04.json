@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-04",
+ "grammar": [
+  {
+   "ex": "忙しいと、食事が不規則になりがちだ。",
+   "exVi": "Hễ bận là bữa ăn dễ thất thường.",
+   "form": "Vます／N + がちだ",
+   "level": "N2",
+   "meaning": "hay…, dễ có xu hướng… (thường việc xấu, lặp lại)",
+   "note": "がち = việc hay lặp lại; 気味 = trạng thái “hơi…” ở hiện tại.",
+   "pattern": "～がちだ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "最近、疲れ気味で集中できない。",
+   "exVi": "Dạo này hơi mệt nên không tập trung được.",
+   "form": "Vます／N + 気味（だ／の）",
+   "level": "N2",
+   "meaning": "hơi…, có vẻ hơi… (cảm nhận dấu hiệu nhẹ)",
+   "note": "気味 = mức độ nhẹ tại thời điểm; がち = tần suất cao.",
+   "pattern": "～気味",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼は怒りっぽい性格だ。",
+   "exVi": "Anh ấy có tính hay nổi nóng.",
+   "form": "Vます／Aい（bỏ い）／N + っぽい",
+   "level": "N2",
+   "meaning": "có vẻ…, hay… (văn nói)",
+   "note": "Vます+っぽい = tính hay (忘れっぽい); N+っぽい = trông giống (子どもっぽい). Khác らしい = đúng chất.",
+   "pattern": "～っぽい",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "円安の影響で、生活費は上がる一方だ。",
+   "exVi": "Do đồng yên yếu, chi phí sinh hoạt ngày càng tăng.",
+   "form": "Vる + 一方だ",
+   "level": "N2",
+   "meaning": "ngày càng… (biến đổi một chiều, thường xấu)",
+   "note": "一方だ: một chiều không dừng; つつある: đang dần dần (trung tính, trang trọng).",
+   "pattern": "～一方だ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "地方の人口は減少しつつある。",
+   "exVi": "Dân số địa phương đang dần giảm.",
+   "form": "Vます + つつある",
+   "level": "N2",
+   "meaning": "đang dần dần…",
+   "note": "Khác つつ (= ながら) và つつも (= mặc dù).",
+   "pattern": "～つつある",
+   "reg": "viet",
+   "regTip": "〜てきている",
+   "review": false
+  },
+  {
+   "ex": "台風が上陸するおそれがある。",
+   "exVi": "Có nguy cơ bão đổ bộ.",
+   "form": "Vる／Nの + おそれがある",
+   "level": "N2",
+   "meaning": "có nguy cơ… (trang trọng, tin tức)",
+   "note": "かねない (đã học): Vます+かねない, sắc thái chủ quan của người nói; おそれがある khách quan, dùng trong thông báo.",
+   "pattern": "～おそれがある",
+   "reg": "viet",
+   "regTip": "〜かもしれない",
+   "review": false
+  },
+  {
+   "ex": "その条件では、契約に同意しかねる。",
+   "exVi": "Với điều kiện đó thì tôi khó lòng đồng ý ký hợp đồng.",
+   "form": "Vます + かねる",
+   "level": "N2",
+   "meaning": "khó có thể, không thể (từ chối lịch sự)",
+   "note": "かねる = KHÔNG thể; かねない = CÓ THỂ (điều xấu). Rất dễ nhầm!",
+   "pattern": "～かねる",
+   "reg": "chung",
+   "regTip": "lịch sự khi nói: 分かりかねます",
+   "review": false
+  },
+  {
+   "ex": "彼は物事を悲観的に考えるきらいがある。",
+   "exVi": "Anh ta có khuynh hướng nhìn mọi việc bi quan.",
+   "form": "Vる／Nの + きらいがある",
+   "level": "N1",
+   "meaning": "có khuynh hướng (xấu, mang ý phê phán)",
+   "note": "Trang trọng hơn がちだ, dùng cho tính cách/thói quen của người bị phê phán.",
+   "pattern": "～きらいがある",
+   "reg": "viet",
+   "regTip": "〜しがち",
+   "review": false
+  },
+  {
+   "ex": "梅の花が咲き始め、町の景色も春めく季節になった。",
+   "exVi": "Hoa mơ bắt đầu nở, đã đến mùa phong cảnh phố phường mang dáng xuân.",
+   "form": "N + めく（めいた／めいて）",
+   "level": "N1",
+   "meaning": "mang dáng dấp…, có vẻ…",
+   "note": "Thường đi với từ cố định: 春めく、皮肉めいた、謎めいた.",
+   "pattern": "～めく",
+   "reg": "viet",
+   "regTip": "〜っぽい・〜らしくなる",
+   "review": false
+  },
+  {
+   "ex": "業績の悪化により、工場は閉鎖を余儀なくされる見通しだ。",
+   "exVi": "Do kết quả kinh doanh xấu đi, nhà máy dự kiến buộc phải đóng cửa.",
+   "form": "N + を余儀なくされる",
+   "level": "N1",
+   "meaning": "buộc phải… (do hoàn cảnh, ngoài ý muốn)",
+   "note": "ざるを得ない (đã học): chủ thể tự quyết miễn cưỡng; を余儀なくされる: bị hoàn cảnh ép, văn viết.",
+   "pattern": "～を余儀なくされる",
+   "reg": "viet",
+   "regTip": "〜しかなかった",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm khuynh hướng & nguy cơ: がちだ／気味／っぽい／一方だ／つつある／おそれがある／かねる",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "“từ sáng nay hơi bị cảm” = trạng thái nhẹ hiện tại → 気味. がち cần ý lặp lại; 一方/おそれ sai cách nối.",
+   "options": [
+    "がち",
+    "気味",
+    "一方",
+    "おそれ"
+   ],
+   "q": "今朝から少し風邪（　）で、のどが痛い。"
+  },
+  {
+   "answer": 2,
+   "explain": "Mùa đông “hay/dễ” thiếu vận động (xu hướng lặp lại) → がちな.",
+   "options": [
+    "気味な",
+    "つつある",
+    "がちな",
+    "かねる"
+   ],
+   "q": "冬は運動不足になり（　）ので、意識して歩くようにしている。"
+  },
+  {
+   "answer": 0,
+   "explain": "Vる + 一方だ: ngày càng giảm. つつある/がちだ/っぽい cần Vます (減りつつある…).",
+   "options": [
+    "一方だ",
+    "つつある",
+    "がちだ",
+    "っぽい"
+   ],
+   "q": "少子化の影響で、この町の小学校の数は減る（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "Từ chối lịch sự = かねます (không thể). かねません = có thể xảy ra điều xấu → sai nghĩa.",
+   "options": [
+    "かねません",
+    "がちです",
+    "つつあります",
+    "かねます"
+   ],
+   "q": "申し訳ございませんが、そのご要望にはお応えし（　）。"
+  },
+  {
+   "answer": 1,
+   "explain": "Nguy cơ khách quan → おそれがある. きらいがある chỉ khuynh hướng xấu của con người.",
+   "options": [
+    "一方だ",
+    "おそれがある",
+    "きらいがある",
+    "気味だ"
+   ],
+   "q": "このまま雨が続くと、川が氾濫する（　）。"
+  },
+  {
+   "answer": 2,
+   "explain": "勘が鈍る (にぶる) = cảm giác/linh cảm bị cùn đi.",
+   "options": [
+    "膨らむ",
+    "削る",
+    "鈍る",
+    "憧れる"
+   ],
+   "q": "長い休みの後は、どうしても仕事の勘が（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "費用が膨らむ (ふくらむ) = chi phí phình ra. 削る là tha động từ, cần を.",
+   "options": [
+    "削った",
+    "浸透した",
+    "停滞した",
+    "膨らんだ"
+   ],
+   "q": "当初の予定より参加者が増え、費用が大きく（　）。"
+  },
+  {
+   "answer": 0,
+   "explain": "からには = một khi đã… thì phải… (đi với べきだ). からといって = không phải vì… mà…",
+   "options": [
+    "からには",
+    "からといって",
+    "からして",
+    "からすると"
+   ],
+   "q": "(ôn) 一度引き受けた（　）、最後まで責任を持ってやるべきだ。"
+  },
+  {
+   "answer": 2,
+   "explain": "Vよう + ものなら = nếu lỡ… thì (hậu quả xấu).",
+   "options": [
+    "もので",
+    "ものか",
+    "ものなら",
+    "ものの"
+   ],
+   "q": "(ôn) あんな怖い先生に反論しよう（　）、どんなに叱られるかわからない。"
+  },
+  {
+   "answer": 1,
+   "explain": "該当 (がいとう) する = thuộc diện, phù hợp với.",
+   "options": [
+    "維持",
+    "該当",
+    "打診",
+    "克服"
+   ],
+   "q": "(ôn) 申込書の中で、自分に（　）する項目に丸をつけてください。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 1,
+  "explain": "本文「目的は仕事を進めることではなく、互いの様子を知ることだ」。その日は会議を入れないので1は誤り、制度廃止・業務量の話はない。",
+  "options": [
+   "会議を効率よく進めるため",
+   "社員同士が互いの様子を知り、関係を築くため",
+   "在宅勤務の制度をやめるため",
+   "若手の業務量を減らすため"
+  ],
+  "q": "この企業が週に一度の出社日を設けた主な目的は何か。",
+  "text": "在宅勤務が広く浸透した一方で、新たな課題も見えてきた。顔を合わせる機会が減ると、社員同士の会話は業務連絡に偏りがちだ。ちょっとした雑談から生まれていたアイデアや、若手が先輩に気軽に相談できる雰囲気が失われつつあると感じる管理職は少なくない。ある企業では、週に一度は全員が出社する日を設け、その日は会議を入れないことにした。目的は仕事を進めることではなく、互いの様子を知ることだという。効率だけを追い求めると、組織の土台となる信頼関係が損なわれかねない。"
+ },
+ "vocab": [
+  {
+   "ex": "景気の停滞が長引いている。",
+   "exVi": "Sự trì trệ của nền kinh tế đang kéo dài.",
+   "level": "N2",
+   "meaning": "trì trệ, đình trệ",
+   "reading": "ていたい",
+   "reg": "viet",
+   "regTip": "止まってる・進まない",
+   "review": false,
+   "word": "停滞"
+  },
+  {
+   "ex": "新しい制度が社員に浸透するまで時間がかかった。",
+   "exVi": "Mất thời gian để chế độ mới thấm đến nhân viên.",
+   "level": "N2",
+   "meaning": "thấm, thấm sâu; lan rộng (tư tưởng, chế độ)",
+   "reading": "しんとう",
+   "reg": "viet",
+   "regTip": "広まる",
+   "review": false,
+   "word": "浸透"
+  },
+  {
+   "ex": "長く練習を休むと、感覚が鈍る。",
+   "exVi": "Nghỉ tập lâu thì cảm giác sẽ kém nhạy đi.",
+   "level": "N2",
+   "meaning": "cùn đi, kém nhạy, chậm lại",
+   "reading": "にぶる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "鈍る"
+  },
+  {
+   "ex": "予算が当初の二倍に膨らんだ。",
+   "exVi": "Ngân sách đã phình lên gấp đôi ban đầu.",
+   "level": "N2",
+   "meaning": "phồng lên, phình ra (chi phí, kỳ vọng)",
+   "reading": "ふくらむ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "膨らむ"
+  },
+  {
+   "ex": "方針をめぐって部長と意見が衝突した。",
+   "exVi": "Tôi xung đột ý kiến với trưởng phòng xoay quanh phương châm.",
+   "level": "N2",
+   "meaning": "va chạm, xung đột",
+   "reading": "しょうとつ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "衝突"
+  },
+  {
+   "ex": "子どものころから海外生活に憧れていた。",
+   "exVi": "Từ nhỏ tôi đã khao khát cuộc sống ở nước ngoài.",
+   "level": "N2",
+   "meaning": "ngưỡng mộ, khao khát",
+   "reading": "あこがれる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "憧れる"
+  },
+  {
+   "ex": "経費を削るため、出張を減らした。",
+   "exVi": "Để cắt giảm chi phí, công ty đã giảm công tác.",
+   "level": "N2",
+   "meaning": "gọt, bào; cắt giảm",
+   "reading": "けずる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "削る"
+  },
+  {
+   "ex": "相手が新人だからといって侮ってはいけない。",
+   "exVi": "Không được coi thường đối phương chỉ vì họ là người mới.",
+   "level": "N1",
+   "meaning": "coi thường, xem nhẹ",
+   "reading": "あなどる",
+   "reg": "viet",
+   "regTip": "甘く見る・なめる(khẩu ngữ)",
+   "review": false,
+   "word": "侮る"
+  },
+  {
+   "ex": "社内に無責任な空気が蔓延している。",
+   "exVi": "Bầu không khí vô trách nhiệm đang lan tràn trong công ty.",
+   "level": "N1",
+   "meaning": "lan tràn (điều xấu: dịch bệnh, thói xấu)",
+   "reading": "まんえん",
+   "reg": "viet",
+   "regTip": "広がる・はびこる",
+   "review": false,
+   "word": "蔓延"
+  },
+  {
+   "ex": "電力の需給が逼迫している。",
+   "exVi": "Cung cầu điện đang rất căng thẳng.",
+   "level": "N1",
+   "meaning": "căng thẳng, eo hẹp (tài chính, cung cầu)",
+   "reading": "ひっぱく",
+   "reg": "viet",
+   "regTip": "苦しい・足りない",
+   "review": false,
+   "word": "逼迫"
+  }
+ ]
+}

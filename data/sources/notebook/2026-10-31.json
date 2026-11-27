@@ -1,0 +1,849 @@
+{
+ "date": "2026-10-31",
+ "grammar": [],
+ "test": {
+  "note": "Kiểm tra từ vựng & ngữ pháp các bài 26–30/10 (nhóm わけ, nhóm もの, nhóm から, nhóm thời điểm 'ngay khi/trong lúc', nhóm đối tượng/chủ đề) cùng một phần ôn bài 23–24/10 (～をよそに, につれて, に基づいて, かねない…).",
+  "questions": [
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "把握 đọc là はあく (nắm bắt). 握 = あく; không có âm おく hay biến âm ぱ/ば ở đây.",
+    "old": false,
+    "options": [
+     "はおく",
+     "ぱあく",
+     "はあく",
+     "ばあく"
+    ],
+    "passage": "",
+    "q": "漢字読み：現状を〔把握〕するのに時間がかかった。",
+    "refs": [
+     "vocab:把握"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "憂慮 = ゆうりょ (lo ngại sâu sắc). 慮 đọc りょ (như 配慮・遠慮), không kéo dài thành りょう.",
+    "old": false,
+    "options": [
+     "ゆうろ",
+     "ゆうりょ",
+     "うりょ",
+     "ゆうりょう"
+    ],
+    "passage": "",
+    "q": "漢字読み：専門家は事態を深く〔憂慮〕している。",
+    "refs": [
+     "vocab:憂慮"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "vocab",
+    "explain": "示唆 = しさ (gợi ý, ám chỉ). 示 ở đây đọc し (không phải じ như 指示 しじ).",
+    "old": false,
+    "options": [
+     "しさ",
+     "じしゃ",
+     "じさ",
+     "しさく"
+    ],
+    "passage": "",
+    "q": "漢字読み：今回の調査結果は、新たな可能性を〔示唆〕している。",
+    "refs": [
+     "vocab:示唆"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "頓挫 = とんざ (đổ bể giữa chừng). Chú ý 挫 đọc ざ (như 挫折 ざせつ).",
+    "old": false,
+    "options": [
+     "とんさ",
+     "とんざ",
+     "どんざ",
+     "とんざい"
+    ],
+    "passage": "",
+    "q": "漢字読み：資金不足のため、新事業の計画は〔頓挫〕した。",
+    "refs": [
+     "vocab:頓挫"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "是正 = ぜせい (chấn chỉnh). 是 đọc ぜ; 正 đọc せい (không phải しょう như 正直).",
+    "old": true,
+    "options": [
+     "ぜしょう",
+     "ぜいせい",
+     "ぜせい",
+     "せせい"
+    ],
+    "passage": "",
+    "q": "漢字読み：地域間の格差を〔是正〕する政策が求められている。",
+    "refs": [
+     "vocab:是正"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "vocab",
+    "explain": "いきどおる = 憤る (phẫn nộ, bộ 忄 tâm). 噴 (phun), 墳 (mộ), 奮 (phấn chấn) đều sai.",
+    "old": false,
+    "options": [
+     "憤る",
+     "噴る",
+     "奮る",
+     "墳る"
+    ],
+    "passage": "",
+    "q": "表記：役所の不誠実な対応に〔いきどおる〕市民が増えている。",
+    "refs": [
+     "vocab:憤る"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "ゆだねる = 委ねる (giao phó; 委 trong 委任). 季・萎・秀 chỉ giống hình.",
+    "old": false,
+    "options": [
+     "萎ねる",
+     "委ねる",
+     "季ねる",
+     "秀ねる"
+    ],
+    "passage": "",
+    "q": "表記：最終的な判断は、現場の責任者に〔ゆだねる〕ことにした。",
+    "refs": [
+     "vocab:委ねる"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "たくわえる = 蓄える (bộ 艹 trên 畜). 畜 (gia súc) thiếu bộ thảo; 築・積 không có cách đọc này.",
+    "old": false,
+    "options": [
+     "築えて",
+     "畜えて",
+     "積えて",
+     "蓄えて"
+    ],
+    "passage": "",
+    "q": "表記：将来に備えて、少しずつ資金を〔たくわえて〕いる。",
+    "refs": [
+     "vocab:蓄える"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "けねん = 懸念 (lo ngại). 県 thiếu phần 系+心; 然 đọc ねん trong 天然 nhưng không ghép ở đây.",
+    "old": true,
+    "options": [
+     "献念",
+     "県念",
+     "懸然",
+     "懸念"
+    ],
+    "passage": "",
+    "q": "表記：新薬の副作用について〔けねん〕の声が上がっている。",
+    "refs": [
+     "vocab:懸念"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "戸惑う = bối rối, lúng túng khi gặp cái mới → hợp với 慣れず. 憤る (phẫn nộ), 拒む (từ chối), 補う (bù đắp) không hợp ngữ cảnh.",
+    "old": false,
+    "options": [
+     "拒んで",
+     "補って",
+     "戸惑って",
+     "憤って"
+    ],
+    "passage": "",
+    "q": "文脈規定：新しいシステムに慣れず、多くの職員が（　）いる。",
+    "refs": [
+     "vocab:戸惑う"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "妥当 = thỏa đáng, hợp lý → đánh giá tích cực. 厄介 (phiền phức), 漠然 (mơ hồ), 紛らわしい (dễ nhầm) không hợp với 'dựa trên ý kiến chuyên gia'.",
+    "old": false,
+    "options": [
+     "漠然",
+     "厄介",
+     "妥当",
+     "紛らわしい"
+    ],
+    "passage": "",
+    "q": "文脈規定：専門家の意見を踏まえた今回の判断は、（　）だと評価された。",
+    "refs": [
+     "vocab:妥当"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "vocab",
+    "explain": "紛らわしい = dễ gây nhầm lẫn → dẫn tới đặt nhầm hàng. 煩わしい (phiền toái), 慌ただしい (tất bật), 乏しい (thiếu) không giải thích được việc nhầm.",
+    "old": false,
+    "options": [
+     "紛らわしい",
+     "煩わしい",
+     "慌ただしい",
+     "乏しい"
+    ],
+    "passage": "",
+    "q": "文脈規定：二つの商品名が（　）ので、注文を間違える客が多い。",
+    "refs": [
+     "vocab:紛らわしい"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "踏襲 = kế thừa, noi theo cách làm cũ → hợp với 受け継いだ製法. 逸脱 (đi chệch), 打開 (phá bế tắc), 是正 (sửa sai) không hợp.",
+    "old": true,
+    "options": [
+     "逸脱",
+     "踏襲",
+     "是正",
+     "打開"
+    ],
+    "passage": "",
+    "q": "文脈規定：その店は、先代から受け継いだ製法を（　）しつつ、新しい味にも挑戦している。",
+    "refs": [
+     "vocab:踏襲"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "潔い = dứt khoát, đường hoàng → 潔く責任を取る là cụm cố định. 曖昧に (mơ hồ) trái nghĩa; 頻繁に, 慎重に không hợp.",
+    "old": true,
+    "options": [
+     "曖昧に",
+     "頻繁に",
+     "潔く",
+     "慎重に"
+    ],
+    "passage": "",
+    "q": "文脈規定：彼は自分の誤りを認め、（　）責任を取って辞任した。",
+    "refs": [
+     "vocab:潔い"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "vocab",
+    "explain": "粘り強く = kiên trì, bền bỉ ≈ あきらめずに (không bỏ cuộc).",
+    "old": false,
+    "options": [
+     "あきらめずに",
+     "素早く",
+     "楽しそうに",
+     "一人で"
+    ],
+    "passage": "",
+    "q": "言い換え：彼は難しい課題にも〔粘り強く〕取り組む。",
+    "refs": [
+     "vocab:粘り強い"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "見通し = triển vọng, dự đoán tình hình sắp tới ≈ 予想. 見通しが立つ = có thể dự đoán được.",
+    "old": false,
+    "options": [
+     "対策",
+     "記録",
+     "原因",
+     "予想"
+    ],
+    "passage": "",
+    "q": "言い換え：景気回復の〔見通し〕はまだ立っていない。",
+    "refs": [
+     "vocab:見通し"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "怠る (おこたる) = lơ là ≈ さぼる. 続ける là nghĩa ngược lại.",
+    "old": true,
+    "options": [
+     "続ける",
+     "さぼる",
+     "増やす",
+     "急ぐ"
+    ],
+    "passage": "",
+    "q": "言い換え：毎日の練習を〔怠る〕と、すぐに技術が落ちる。",
+    "refs": [
+     "vocab:怠る"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "vocab",
+    "explain": "顕著 (けんちょ) = rõ rệt, nổi bật ≈ 目立って. わずかに (chút ít) gần như ngược nghĩa.",
+    "old": true,
+    "options": [
+     "目立って",
+     "わずかに",
+     "意外に",
+     "徐々に"
+    ],
+    "passage": "",
+    "q": "言い換え：都市と地方の格差が〔顕著に〕表れている。",
+    "refs": [
+     "vocab:顕著"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "克服 (こくふく) = vượt qua khó khăn, điểm yếu, bệnh tật. Các câu kia dùng nhầm thay cho 応募する, 作る, やむ.",
+    "old": false,
+    "options": [
+     "雨が克服したので、出かけることにした。",
+     "彼は長い時間をかけて、苦手だった人前で話すことを克服した。",
+     "料理を克服して、友人にふるまった。",
+     "新しい会社に克服するため、履歴書を送った。"
+    ],
+    "passage": "",
+    "q": "用法：「克服」",
+    "refs": [
+     "vocab:克服"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "損なう (そこなう) = làm tổn hại (健康・信頼・美観を損なう). Các câu sai cần 落とす／捨てる／遅れる.",
+    "old": false,
+    "options": [
+     "駅で財布を損なって、警察に届けた。",
+     "友人との約束の時間を損なってしまった。",
+     "古くなったシャツを損なって、新しいのを買った。",
+     "不規則な生活を続けると、健康を損なうおそれがある。"
+    ],
+    "passage": "",
+    "q": "用法：「損なう」",
+    "refs": [
+     "vocab:損なう"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "携わる (たずさわる) = tham gia, làm việc trong lĩnh vực. Câu 2 phải là 携えて (mang theo); câu 3, 4 cần 降られて／会って.",
+    "old": true,
+    "options": [
+     "駅で偶然友人に携わって、一緒に帰った。",
+     "雨に携わって、服がすっかりぬれた。",
+     "父は三十年間、教育の仕事に携わってきた。",
+     "彼女は大きなかばんを手に携わって出かけた。"
+    ],
+    "passage": "",
+    "q": "用法：「携わる」",
+    "refs": [
+     "vocab:携わる"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "偏る (かたよる) = lệch, mất cân bằng (栄養・意見・考えが偏る). Các câu khác dùng sai nghĩa (cần 狭い／急いで／会って).",
+    "old": true,
+    "options": [
+     "久しぶりに友人に偏って、話がはずんだ。",
+     "この道は偏っているので、車に気をつけてください。",
+     "彼は毎朝、駅まで偏って歩いている。",
+     "栄養が偏らないように、野菜もしっかり食べている。"
+    ],
+    "passage": "",
+    "q": "用法：「偏る」",
+    "refs": [
+     "vocab:偏る"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "どうりで…わけだ = hèn chi, thì ra là (kết luận từ lý do đã biết). わけではない (không hẳn), わけがない (không thể nào) ngược nghĩa; わけにはいかない nối với V, không nối 上手な.",
+    "old": false,
+    "options": [
+     "わけにはいかない",
+     "わけだ",
+     "わけがない",
+     "わけではない"
+    ],
+    "passage": "",
+    "q": "彼は毎日3時間も練習しているそうだ。どうりで上手な（　）。",
+    "refs": [
+     "grammar:～わけだ"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "わけにはいかない = không thể làm vì lý do trách nhiệm/hoàn cảnh (của bản thân người nói). ものではない là lời khuyên chung 'không nên', không dùng cho quyết định của mình; というものだ là nhận định.",
+    "old": false,
+    "options": [
+     "わけではない",
+     "わけにはいかない",
+     "ものではない",
+     "というものだ"
+    ],
+    "passage": "",
+    "q": "大事な取引先との約束なので、私は多少熱があっても休む（　）。",
+    "refs": [
+     "grammar:～わけにはいかない"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "Vたものだ = hồi tưởng thói quen trong quá khứ (hồi đó hay…). ものがある: cảm nhận sâu sắc; もので: lý do; ものか: phủ định mạnh.",
+    "old": false,
+    "options": [
+     "ものか",
+     "もので",
+     "ものだ",
+     "ものがある"
+    ],
+    "passage": "",
+    "q": "子どものころは、夏になると毎日この川で泳いだ（　）。",
+    "refs": [
+     "grammar:～ものだ"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "もので = vì… (giải thích, xin lỗi). ものの (tuy… nhưng) không hợp vì vế sau là kết quả tự nhiên; ものなら dùng với V khả năng/ý chí.",
+    "old": false,
+    "options": [
+     "ものの",
+     "ものなら",
+     "もので",
+     "ものか"
+    ],
+    "passage": "",
+    "q": "「申し訳ありません。電車が止まっていた（　）、遅れてしまいました。」",
+    "refs": [
+     "grammar:～もので"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "Vるものか = nhất định không… (phủ định mạnh, cảm xúc) → hợp với 二度と. Các mẫu còn lại không mang nghĩa phủ định.",
+    "old": false,
+    "options": [
+     "ものだ",
+     "ものがある",
+     "わけだ",
+     "ものか"
+    ],
+    "passage": "",
+    "q": "あんなに失礼な態度をとる店には、二度と行く（　）。",
+    "refs": [
+     "grammar:～ものか"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "からには = một khi đã… thì phải → vế sau べきだ. からといって cần vế sau phủ định; からして/からすると nối với N.",
+    "old": false,
+    "options": [
+     "からといって",
+     "からすると",
+     "からして",
+     "からには"
+    ],
+    "passage": "",
+    "q": "一度引き受けた（　）、最後まで責任を持ってやり遂げるべきだ。",
+    "refs": [
+     "grammar:～からには"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "からといって…とは限らない = dù… cũng không hẳn. からには/上は (một khi đã) và からこそ (chính vì) không đi với vế phủ định một phần.",
+    "old": false,
+    "options": [
+     "からこそ",
+     "からには",
+     "からといって",
+     "上は"
+    ],
+    "passage": "",
+    "q": "有名な大学を出た（　）、仕事ができるとは限らない。",
+    "refs": [
+     "grammar:～からといって"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "Vます(bỏ ます)＋次第 = ngay sau khi… (sẽ làm, ý chí). たとたん cần Vた và vế sau là việc bất ngờ; 最中に/うちに không nối với dạng ます.",
+    "old": false,
+    "options": [
+     "最中に",
+     "次第",
+     "たとたん",
+     "うちに"
+    ],
+    "passage": "",
+    "q": "資料の準備ができ（　）、すぐに会議を始めます。",
+    "refs": [
+     "grammar:～次第"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "Nの最中に = đúng lúc đang… thì bị chen ngang → hợp với 突然. Nのうちに dùng cho 'trong lúc còn…'; 次第/とたん không nối với Nの.",
+    "old": false,
+    "options": [
+     "最中に",
+     "とたん",
+     "うちに",
+     "次第"
+    ],
+    "passage": "",
+    "q": "大切な会議の（　）、突然、建物全体が停電した。",
+    "refs": [
+     "grammar:～最中に"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "Vたかと思うと = vừa mới… thì đã (thay đổi nhanh, bất ngờ, ngoài tầm kiểm soát). 次第 cần Vます và vế sau ý chí; 最中に/うちに không nối Vた.",
+    "old": false,
+    "options": [
+     "最中に",
+     "かと思うと",
+     "次第",
+     "うちに"
+    ],
+    "passage": "",
+    "q": "さっきまで晴れていた空が急に暗くなった（　）、激しい雨が降り出した。",
+    "refs": [
+     "grammar:～かと思うと"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "をめぐって = xoay quanh vấn đề gây tranh cãi → hợp với 激しい議論. にとって (đối với ai), にかけては (riêng về sở trường), として (tư cách) không hợp.",
+    "old": false,
+    "options": [
+     "として",
+     "をめぐって",
+     "にかけては",
+     "にとって"
+    ],
+    "passage": "",
+    "q": "新しい駅の建設計画（　）、住民の間で激しい議論が続いている。",
+    "refs": [
+     "grammar:～をめぐって"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "にかけては = riêng về mặt (năng lực, sở trường) thì… → thường đi với 右に出る者はいない／自信がある.",
+    "old": false,
+    "options": [
+     "にかけては",
+     "について",
+     "に対して",
+     "として"
+    ],
+    "passage": "",
+    "q": "料理の腕（　）、彼の右に出る者はいない。",
+    "refs": [
+     "grammar:～にかけては"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "をよそに = mặc kệ, bất chấp (sự phản đối, lo lắng của người khác). にかこつけて (viện cớ), とあれば (nếu là… thì), に先立って (trước khi) không hợp.",
+    "old": true,
+    "options": [
+     "に先立って",
+     "にかこつけて",
+     "とあれば",
+     "をよそに"
+    ],
+    "passage": "",
+    "q": "住民の強い反対（　）、工事はそのまま進められた。",
+    "refs": [
+     "grammar:～をよそに"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "につれて = càng… thì càng (thay đổi dần dần). に基づいて/に沿って/を皮切りに nối với N, không diễn tả biến đổi tương quan.",
+    "old": true,
+    "options": [
+     "につれて",
+     "に沿って",
+     "に基づいて",
+     "を皮切りに"
+    ],
+    "passage": "",
+    "q": "年をとる（　）、新しいことを覚えるのに時間がかかるようになった。",
+    "refs": [
+     "grammar:～につれて"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "Vます＋かねない = có thể dẫn tới (kết quả xấu). Các mẫu khác sai nghĩa và sai cách nối với つながり.",
+    "old": true,
+    "options": [
+     "ずにはおかない",
+     "ないまでも",
+     "かねない",
+     "ものの"
+    ],
+    "passage": "",
+    "q": "このまま問題を放置すれば、大きな事故につながり（　）。",
+    "refs": [
+     "grammar:～かねない"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "に基づいて = dựa trên, căn cứ vào (dữ liệu, sự thật). につれて/ほど diễn tả biến đổi; を皮切りに = mở màn bằng.",
+    "old": true,
+    "options": [
+     "を皮切りに",
+     "に基づいて",
+     "につれて",
+     "ほど"
+    ],
+    "passage": "",
+    "q": "過去十年の調査データ（　）、新しい防災計画が作られた。",
+    "refs": [
+     "grammar:～に基づいて"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "Nともなると = khi đã ở cương vị… thì đương nhiên. が早いか nối với V; をよそに, にかこつけて sai nghĩa.",
+    "old": true,
+    "options": [
+     "ともなると",
+     "にかこつけて",
+     "をよそに",
+     "が早いか"
+    ],
+    "passage": "",
+    "q": "社長（　）、一つ一つの発言に重い責任が伴う。",
+    "refs": [
+     "grammar:～ともなると"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "Thứ tự: 嫌いな → わけでは → ない(★) → のだが. ～わけではない = không hẳn là (phủ định một phần): không phải ghét thịt, nhưng hôm nay không muốn ăn.",
+    "old": false,
+    "options": [
+     "のだが",
+     "わけでは",
+     "ない",
+     "嫌いな"
+    ],
+    "passage": "",
+    "q": "並べ替え：私は肉が ＿＿ ＿＿ ★ ＿＿ 、今日はあまり食べたくない。",
+    "refs": [
+     "grammar:～わけではない"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "Thứ tự: ずっと → 支えて → くれた(★) → からこそ. からこそ = chính vì… (nhấn mạnh lý do).",
+    "old": false,
+    "options": [
+     "支えて",
+     "からこそ",
+     "ずっと",
+     "くれた"
+    ],
+    "passage": "",
+    "q": "並べ替え：両親が ＿＿ ＿＿ ★ ＿＿ 、今の自分がある。",
+    "refs": [
+     "grammar:～からこそ"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "Thứ tự: 社会人 → として → の(★) → 自覚を持って. N＋としての＋N = với tư cách là… (bổ nghĩa danh từ).",
+    "old": false,
+    "options": [
+     "社会人",
+     "として",
+     "自覚を持って",
+     "の"
+    ],
+    "passage": "",
+    "q": "並べ替え：新入社員にも ＿＿ ＿＿ ★ ＿＿ 行動してほしい。",
+    "refs": [
+     "grammar:～として"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "Thứ tự: 彼 → をおいて → ほかに(★) → いない. N＋をおいてほかに～ない = ngoài… ra không còn ai (đánh giá cao, duy nhất).",
+    "old": false,
+    "options": [
+     "ほかに",
+     "をおいて",
+     "彼",
+     "いない"
+    ],
+    "passage": "",
+    "q": "並べ替え：この難しい仕事を任せられるのは、＿＿ ＿＿ ★ ＿＿ 。",
+    "refs": [
+     "grammar:～をおいて"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "Thứ tự: とは → 言わない → までも(★) → 週に2回は. ～ないまでも = dù không đến mức… thì ít nhất cũng….",
+    "old": true,
+    "options": [
+     "週に2回は",
+     "とは",
+     "までも",
+     "言わない"
+    ],
+    "passage": "",
+    "q": "並べ替え：健康のために、毎日 ＿＿ ＿＿ ★ ＿＿ 運動したほうがいい。",
+    "refs": [
+     "grammar:～ないまでも"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "reading",
+    "explain": "Đoạn văn: 業務の進め方が見直され、形だけの無駄な会議も減った. Bài nói rõ すべての問題が解決したわけではない, 雑談が減り → các phương án khác sai.",
+    "old": false,
+    "options": [
+     "業務の進め方が見直され、無駄な会議が減った。",
+     "社員同士の雑談が増え、職場の雰囲気がよくなった。",
+     "通信の問題がなくなり、すべての課題が解決した。",
+     "仕事の質が落ちたため、在宅勤務をやめることにした。"
+    ],
+    "passage": "当社では昨年から在宅勤務を導入している。導入に際して、多くの社員が新しい働き方に戸惑ったものだ。会議の最中に通信が途切れたり、資料の共有がうまくいかなかったりと、厄介な問題が次々に起きた。しかし、在宅勤務だからといって、仕事の質を落とすわけにはいかない。そこで、各部署がそれぞれの課題を把握し、改善策を出し合った。その結果、業務の進め方が見直され、形だけの無駄な会議も減った。もちろん、すべての問題が解決したわけではない。社員同士の雑談が減り、新入社員がなかなか職場になじめないという声もある。働き方を変えるからには、仕事の効率だけでなく、こうした人間関係の面にも目を向ける必要があるだろう。",
+    "q": "在宅勤務を導入した結果について、筆者はどのように述べているか。",
+    "refs": []
+   },
+   {
+    "answer": 0,
+    "area": "reading",
+    "explain": "Câu kết: 働き方を変えるからには…人間関係の面にも目を向ける必要がある (からには = một khi đã… thì cần).",
+    "old": false,
+    "options": [
+     "働き方を変えるときは、人間関係の面にも配慮すべきだ。",
+     "会議の回数を減らせば、仕事の質は必ず上がる。",
+     "新入社員には在宅勤務をさせるべきではない。",
+     "在宅勤務は問題が多いので、導入すべきではない。"
+    ],
+    "passage": "",
+    "q": "筆者がこの文章で最も言いたいことは何か。",
+    "refs": []
+   },
+   {
+    "answer": 0,
+    "area": "reading",
+    "explain": "大型スーパーができたとたん、客足は急に遠のき (たとたん = vừa… thì ngay lập tức).",
+    "old": false,
+    "options": [
+     "郊外に大型スーパーができたこと",
+     "若い店主たちが新しい店を開いたこと",
+     "店主たちが高齢になったこと",
+     "住民が商店街の再生に反対したこと"
+    ],
+    "passage": "私が子どものころ、この商店街はいつも買い物客でにぎわっていたものだ。しかし、郊外に大型スーパーができたとたん、客足は急に遠のき、店は一軒、また一軒と閉まっていった。商店街の再生をめぐっては、住民の間でもさまざまな意見がある。「便利な大型店があるのだから、商店街はもう必要ない」と考える人もいる。だが、車を運転しない高齢者にとって、歩いて行ける店は生活に欠かせない存在だ。また、店主と客が気軽に言葉を交わす、商店街ならではの温かさには、大型店にはない魅力がある。最近、若い店主たちが空き店舗を活用して新しい店を開き始めた。小さな動きではあるが、商店街の将来に一つの明るい見通しを与えてくれるのではないだろうか。",
+    "q": "商店街の客が減った原因として、文章で述べられているものはどれか。",
+    "refs": []
+   },
+   {
+    "answer": 3,
+    "area": "reading",
+    "explain": "Tác giả nêu: にとって欠かせない存在, ならではの温かさ, 明るい見通し →商店街 có giá trị. 'もう必要ない' chỉ là ý kiến của một số người.",
+    "old": false,
+    "options": [
+     "若い店主に任せるのは危険だ。",
+     "大型店があるので、もう必要ない。",
+     "昔のようににぎわうことは決してない。",
+     "高齢者の生活や人とのつながりのために、価値がある。"
+    ],
+    "passage": "",
+    "q": "商店街について、筆者はどのように考えているか。",
+    "refs": []
+   },
+   {
+    "answer": 3,
+    "area": "reading",
+    "explain": "アルバイトで学費を払っていた私に、そんな余裕があるわけがなかった (わけがない = không thể nào).",
+    "old": false,
+    "options": [
+     "毎朝勉強する時間がなかったから",
+     "外国語を学びたいという気持ちがなかったから",
+     "大学が留学を認めなかったから",
+     "自分で学費を払っていて、経済的な余裕がなかったから"
+    ],
+    "passage": "「留学できるものなら、今すぐにでも行きたい」。学生時代、私は口癖のようにそう言っていた。しかし、アルバイトで学費を払っていた私に、そんな余裕があるわけがなかった。それでも、外国語を学びたいという気持ちは消えなかった。そこで、少しずつ留学費用を蓄えながら、毎朝三十分だけ自分で勉強を続けることにした。最初は単語を覚えるそばから忘れてしまい、何度もやめたくなった。だが、続けているうちに、少しずつ文章が読めるようになっていった。三年後、ようやく留学が実現した。現地の大学で初めて発表をした際、自分の言葉が通じたことに、喜びを禁じ得なかった。今振り返ると、あの三年間の地道な努力こそが、私の一番の財産だと思う。",
+    "q": "筆者が学生時代にすぐ留学できなかったのはなぜか。",
+    "refs": []
+   },
+   {
+    "answer": 1,
+    "area": "reading",
+    "explain": "Ba năm đó = 留学費用を蓄えながら、毎朝三十分だけ自分で勉強を続けた. Việc học ở trường nước ngoài là SAU ba năm.",
+    "old": false,
+    "options": [
+     "単語を一度で覚える方法を身につけたこと",
+     "費用をためながら、毎日少しずつ自分で勉強を続けたこと",
+     "現地の大学で毎日授業を受けたこと",
+     "アルバイトをやめて勉強に集中したこと"
+    ],
+    "passage": "",
+    "q": "「あの三年間の地道な努力」とは、どのようなことか。",
+    "refs": []
+   }
+  ],
+  "range": "26/10–30/10 + ôn tuần cũ (23–24/10)"
+ },
+ "vocab": []
+}

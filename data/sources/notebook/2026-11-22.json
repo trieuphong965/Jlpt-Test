@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-22",
+ "grammar": [
+  {
+   "ex": "部長の話では、来月から新しいシステムが導入されるということだ。",
+   "exVi": "Theo lời trưởng phòng thì nghe nói từ tháng sau sẽ đưa hệ thống mới vào.",
+   "form": "普通形 + ということだ",
+   "level": "N2",
+   "meaning": "nghe nói là…, được biết là… (truyền đạt lại thông tin)",
+   "note": "Cùng hình thức còn nghĩa “tức là…” (kết luận: つまり〜ということだ) – phân biệt bằng ngữ cảnh. Trung tính, trang trọng hơn って/とか.",
+   "pattern": "～ということだ",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ってことだ",
+   "review": false
+  },
+  {
+   "ex": "先方によると、到着が30分ほど遅れるとのことだ。",
+   "exVi": "Bên đối tác báo là sẽ đến muộn khoảng 30 phút.",
+   "form": "普通形 + とのことだ",
+   "level": "N2",
+   "meaning": "nghe nói là…, (người đó) nói rằng… – truyền lời người thứ ba một cách lịch sự",
+   "note": "Dùng trong email, báo cáo, điện thoại công việc; nguồn tin thường rõ ràng. Không dùng cho tin đồn mơ hồ (→ とか).",
+   "pattern": "～とのことだ",
+   "reg": "viet",
+   "regTip": "〜って・〜って言ってたよ",
+   "review": false
+  },
+  {
+   "ex": "駅前に新しいラーメン屋ができたとか。今度行ってみない？",
+   "exVi": "Nghe đâu trước ga mới mở quán ramen. Lần tới đi thử không?",
+   "form": "普通形 + とか（cuối câu）",
+   "level": "N2",
+   "meaning": "nghe đâu là…, hình như là… (tin nghe được, không chắc chắn)",
+   "note": "Mơ hồ, nhẹ hơn そうだ; khác とか liệt kê (AとかBとか). Không dùng trong văn bản trang trọng.",
+   "pattern": "～とか",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "田中さん、来月会社を辞めるって。",
+   "exVi": "Nghe nói anh Tanaka tháng sau nghỉ việc đấy.",
+   "form": "普通形 + って（cuối câu）",
+   "level": "N2",
+   "meaning": "nghe nói…, (ai đó) bảo là…",
+   "note": "Dạng nói của そうだ/と言っていた. Khác って nêu chủ đề (〜って何？) và って trích dẫn giữa câu.",
+   "pattern": "～って（伝聞）",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "この寺は千年以上前に建てられたという。",
+   "exVi": "Tương truyền ngôi chùa này được xây hơn nghìn năm trước.",
+   "form": "普通形 + という（cuối câu）",
+   "level": "N2",
+   "meaning": "tương truyền, người ta nói rằng… (truyền thuyết, chuyện xưa, tin khách quan)",
+   "note": "Văn kể, sách báo; hay dùng cho chuyện xưa. Khi nói chuyện dùng らしい/そうだ.",
+   "pattern": "～という（伝聞）",
+   "reg": "viet",
+   "regTip": "〜らしい・〜そうだ",
+   "review": false
+  },
+  {
+   "ex": "彼女は今にも泣き出さんばかりに頭を下げた。",
+   "exVi": "Cô ấy cúi đầu như thể sắp bật khóc đến nơi.",
+   "form": "Vない（bỏ ない）+ んばかりに／んばかりの N（する→せんばかり）",
+   "level": "N1",
+   "meaning": "như sắp…, gần như đến mức sắp…",
+   "note": "とばかりに (đã học) = như thể muốn nói “…” (đi sau câu trích/ý định); んばかり = trạng thái suýt xảy ra.",
+   "pattern": "～んばかりに",
+   "reg": "viet",
+   "regTip": "今にも〜しそうなくらい",
+   "review": false
+  },
+  {
+   "ex": "忙しくて、結局その映画は見ずじまいだった。",
+   "exVi": "Bận quá nên rốt cuộc không xem được bộ phim đó.",
+   "form": "Vない（bỏ ない）+ ずじまい（する→せずじまい）",
+   "level": "N1",
+   "meaning": "rốt cuộc không làm được… (kết thúc mà không làm, có tiếc nuối)",
+   "note": "ずに済む = may mà không phải làm (nhẹ nhõm) – ngược sắc thái với ずじまい (tiếc).",
+   "pattern": "～ずじまい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "電車が動かないなら、歩いて帰るまでのことだ。",
+   "exVi": "Nếu tàu không chạy thì cứ đi bộ về là xong.",
+   "form": "V辞書形 + までのことだ (quyết tâm) ／ Vた + までのことだ (chỉ là… thôi)",
+   "level": "N1",
+   "meaning": "(nếu vậy) thì cứ việc… là xong; chỉ đơn giản là… thôi",
+   "note": "までもない (đã học) = không cần đến mức…",
+   "pattern": "～までのことだ",
+   "reg": "viet",
+   "regTip": "〜すればいいだけ・〜しただけ",
+   "review": false
+  },
+  {
+   "ex": "教師たるもの、生徒の前で嘘をついてはならない。",
+   "exVi": "Đã là giáo viên thì không được nói dối trước học sinh.",
+   "form": "N + たるもの（は）",
+   "level": "N1",
+   "meaning": "đã là… thì (phải/không được)… – nêu chuẩn mực tương xứng với tư cách",
+   "note": "ともあろう (đã học) dùng để trách người có địa vị mà làm sai; たるもの nêu chuẩn mực nên có.",
+   "pattern": "～たるもの",
+   "reg": "viet",
+   "regTip": "〜なら（当然）",
+   "review": false
+  },
+  {
+   "ex": "散歩がてら、駅前のパン屋に寄ってきた。",
+   "exVi": "Nhân tiện đi dạo, tôi ghé tiệm bánh mì trước ga.",
+   "form": "N（danh động từ）／Vます + がてら",
+   "level": "N1",
+   "meaning": "nhân tiện…, kết hợp… (làm A đồng thời tranh thủ B)",
+   "note": "かたがた (đã học) trang trọng, dùng thư từ; ついでに phổ thông nhất.",
+   "pattern": "～がてら",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Truyền văn – “nghe nói là…”: ということだ／とのことだ／とか／って／という",
+ "quiz": [
+  {
+   "answer": 3,
+   "explain": "とのことです: truyền lời lịch sự trong email. “中止ってです/中止とかです” sai ngữ pháp & văn phong.",
+   "options": [
+    "って",
+    "とか",
+    "んばかり",
+    "とのこと"
+   ],
+   "q": "（社内メール）部長から、明日の会議は中止＿＿＿です。"
+  },
+  {
+   "answer": 1,
+   "explain": "泣き出さ (dạng ない) + んばかりの = như sắp khóc. とばかり đi sau câu trích/thể thường, không nối với dạng ない.",
+   "options": [
+    "とばかりの",
+    "んばかりの",
+    "ずじまいの",
+    "がてらの"
+   ],
+   "q": "子どもは今にも泣き出さ＿＿＿顔で母親を見つめた。"
+  },
+  {
+   "answer": 2,
+   "explain": "ずじまい = rốt cuộc không làm được, tiếc nuối (楽しみにしていた). ずに済んだ = may mà không phải làm – trái ý.",
+   "options": [
+    "ずに済んだ",
+    "ないではいられなかった",
+    "ずじまいだった",
+    "んばかりだった"
+   ],
+   "q": "雨続きで、楽しみにしていた山には結局登ら＿＿＿。"
+  },
+  {
+   "answer": 0,
+   "explain": "たるもの + てはならない: đã là bác sĩ thì không được… がてら/ならでは/にすぎず không hợp nghĩa.",
+   "options": [
+    "たるもの",
+    "がてら",
+    "にすぎず",
+    "ならでは"
+   ],
+   "q": "医者＿＿＿、患者の秘密を他人に話してはならない。"
+  },
+  {
+   "answer": 3,
+   "explain": "〜を踏まえて = dựa trên. 網羅 = bao quát hết, 払拭 = xóa bỏ (điều xấu), 抜擢 = đề bạt người.",
+   "options": [
+    "網羅して",
+    "払拭して",
+    "抜擢して",
+    "踏まえて"
+   ],
+   "q": "前回のアンケート結果を＿＿＿、新しい企画を立てた。"
+  },
+  {
+   "answer": 1,
+   "explain": "不信感・懸念・イメージ を払拭する = xóa bỏ. 誘導 = dẫn dắt; không hợp với 不信感.",
+   "options": [
+    "誘導",
+    "払拭",
+    "網羅",
+    "抜擢"
+   ],
+   "q": "社長は記者会見で、会社に対する不信感の＿＿＿に努めた。"
+  },
+  {
+   "answer": 1,
+   "explain": "って = khẩu ngữ truyền văn. とのことである/という là văn viết; に相違ない là phán đoán, văn viết.",
+   "options": [
+    "駅前に新しいカフェが開店したとのことである。",
+    "ねえ、駅前に新しいカフェできたって。",
+    "駅前に新しいカフェが開店したという。",
+    "駅前に新しいカフェが開店したに相違ない。"
+   ],
+   "q": "友達とのLINEで最も自然なのはどれか。"
+  },
+  {
+   "answer": 2,
+   "explain": "Vます + っこない = không đời nào (khẩu ngữ): 解けっこない. Bài 10/11.",
+   "options": [
+    "っぽい",
+    "気味だ",
+    "っこない",
+    "ずじまいだ"
+   ],
+   "q": "（ôn）こんな難しい問題、一日で解け＿＿＿よ。"
+  },
+  {
+   "answer": 1,
+   "explain": "一律（いちりつ）= đồng loạt, như nhau. 依然 = vẫn như cũ. Bài 12/11.",
+   "options": [
+    "依然",
+    "一律",
+    "頼もしく",
+    "根回し"
+   ],
+   "q": "（ôn）交通費は距離に関係なく、＿＿＿5000円支給される。"
+  },
+  {
+   "answer": 3,
+   "explain": "Khoảng thời gian + にわたって = suốt. にかけて cần から〜にかけて (từ… đến…). Bài 15/11.",
+   "options": [
+    "にかけて",
+    "に至るまで",
+    "において",
+    "にわたって"
+   ],
+   "q": "（ôn）この工事は3か月＿＿＿行われる予定だ。"
+  }
+ ],
+ "ratio": "N2 50% · N1 50%",
+ "reading": {
+  "answer": 2,
+  "explain": "Đoạn cuối: lần trước báo muộn nên bị trách → lần này báo sớm, 先に手を打つほうが信頼を損なわずに済む. Các phương án khác không có trong bài.",
+  "options": [
+   "遅れの原因は部品メーカーにあり、自社は責められないと考えているから",
+   "顧客に責められても気にしない性格だから",
+   "以前の経験から、早めに顧客へ事情を伝えれば信頼を損なわずに済むと考えているから",
+   "同僚が代わりに顧客へ事情を説明することになったから"
+  ],
+  "q": "上司が今回落ち着いていた理由として、最も適当なものはどれか。",
+  "text": "先日、取引先の担当者から電話があり、納品が一週間ほど遅れるとのことだった。部品メーカーの工場で設備のトラブルが起きたということだ。上司に報告すると、「遅れるなら仕方がない。こちらの作業の順番を入れ替えるまでのことだ」と、意外にも落ち着いていた。同僚の話では、上司は以前、納期の遅れを顧客に伝えるのが遅くなり、厳しく責められたことがあるとか。だから今回はすぐに顧客へ連絡し、事情を説明することにしたのだという。慌てて謝るより、先に手を打っておくほうが信頼を損なわずに済む、というのが上司の考えらしい。"
+ },
+ "vocab": [
+  {
+   "ex": "この店は素材にこだわった料理しか出さない。",
+   "exVi": "Quán này chỉ phục vụ món ăn chăm chút kỹ về nguyên liệu.",
+   "hanviet": "CÂU",
+   "level": "N2",
+   "meaning": "câu nệ, khắt khe; chăm chút kỹ (một điểm nào đó)",
+   "reading": "こだわる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "拘る"
+  },
+  {
+   "ex": "失敗を嘆いてばかりいても仕方がない。",
+   "exVi": "Cứ than thở về thất bại mãi cũng chẳng ích gì.",
+   "hanviet": "THÁN",
+   "level": "N2",
+   "meaning": "than thở, than vãn, đau buồn",
+   "reading": "なげく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "嘆く"
+  },
+  {
+   "ex": "このスープ、ちょっと物足りないね。塩を足そうか。",
+   "exVi": "Súp này hơi nhạt nhạt nhỉ. Thêm muối nhé?",
+   "hanviet": "VẬT TÚC",
+   "level": "N2",
+   "meaning": "thiếu thiếu, chưa thỏa mãn, chưa đã",
+   "reading": "ものたりない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "物足りない"
+  },
+  {
+   "ex": "係員の誘導に従って避難してください。",
+   "exVi": "Hãy sơ tán theo sự hướng dẫn của nhân viên.",
+   "hanviet": "DỤ ĐẠO",
+   "level": "N2",
+   "meaning": "hướng dẫn, dẫn dắt (người, xe…); cảm ứng (誘導モーター)",
+   "reading": "ゆうどう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "誘導"
+  },
+  {
+   "ex": "話し合いの結果、問題は円満に解決した。",
+   "exVi": "Sau khi trao đổi, vấn đề đã được giải quyết êm đẹp.",
+   "hanviet": "VIÊN MÃN",
+   "level": "N2",
+   "meaning": "êm đẹp, hòa thuận, suôn sẻ",
+   "reading": "えんまん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "円満"
+  },
+  {
+   "ex": "新社長は社内に広がる不信感の払拭に努めている。",
+   "exVi": "Tân giám đốc đang nỗ lực xóa bỏ sự mất lòng tin lan rộng trong công ty.",
+   "hanviet": "PHẤT THỨC",
+   "level": "N1",
+   "meaning": "xóa bỏ, quét sạch (nghi ngờ, ấn tượng xấu, lo ngại)",
+   "reading": "ふっしょく",
+   "reg": "viet",
+   "regTip": "なくす・消す",
+   "review": false,
+   "word": "払拭"
+  },
+  {
+   "ex": "彼女は入社3年目でリーダーに抜擢された。",
+   "exVi": "Cô ấy được đề bạt làm trưởng nhóm khi mới vào công ty năm thứ 3.",
+   "hanviet": "BẠT TRẠC",
+   "level": "N1",
+   "meaning": "đề bạt, chọn (người trẻ/ít kinh nghiệm) vào vị trí quan trọng",
+   "reading": "ばってき",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "抜擢"
+  },
+  {
+   "ex": "前回の反省を踏まえて、作業手順を見直した。",
+   "exVi": "Dựa trên rút kinh nghiệm lần trước, đã xem lại quy trình làm việc.",
+   "hanviet": "ĐẠP",
+   "level": "N1",
+   "meaning": "dựa trên, căn cứ vào (kết quả, kinh nghiệm…)",
+   "reading": "ふまえる",
+   "reg": "viet",
+   "regTip": "〜を考えて・〜をもとに",
+   "review": false,
+   "word": "踏まえる"
+  },
+  {
+   "ex": "この参考書はN1の文法をほぼ網羅している。",
+   "exVi": "Cuốn sách tham khảo này bao quát gần như toàn bộ ngữ pháp N1.",
+   "hanviet": "VÕNG LA",
+   "level": "N1",
+   "meaning": "bao quát toàn bộ, thu thập đầy đủ",
+   "reading": "もうら",
+   "reg": "viet",
+   "regTip": "全部カバーしてる・全部載ってる",
+   "review": false,
+   "word": "網羅"
+  },
+  {
+   "ex": "夜間は警備が手薄になりがちだ。",
+   "exVi": "Ban đêm lực lượng bảo vệ thường bị mỏng.",
+   "hanviet": "THỦ BẠC",
+   "level": "N1",
+   "meaning": "mỏng, thiếu (người, phòng bị, hàng tồn)",
+   "reading": "てうす",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "手薄"
+  }
+ ]
+}

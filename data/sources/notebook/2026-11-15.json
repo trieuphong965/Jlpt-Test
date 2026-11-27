@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-15",
+ "grammar": [
+  {
+   "ex": "本日の会議において、新しい方針が発表された。",
+   "exVi": "Tại cuộc họp hôm nay, phương châm mới đã được công bố.",
+   "form": "N + において／における + N",
+   "level": "N2",
+   "meaning": "tại, trong (địa điểm, lĩnh vực, thời điểm)",
+   "note": "Bổ nghĩa danh từ dùng における. Khác に関して (về chủ đề): において chỉ nơi/khung diễn ra.",
+   "pattern": "～において",
+   "reg": "viet",
+   "regTip": "〜で",
+   "review": false
+  },
+  {
+   "ex": "工事は3か月にわたって行われた。",
+   "exVi": "Công trình kéo dài suốt 3 tháng.",
+   "form": "N (thời gian/phạm vi/số lần) + にわたって／にわたる + N",
+   "level": "N2",
+   "meaning": "suốt, trải dài khắp (quy mô lớn)",
+   "note": "Đi với con số/phạm vi lớn. Khác にかけて (A から B, ranh giới mơ hồ) và を通して (suốt từ đầu đến cuối, nhấn mạnh liên tục).",
+   "pattern": "～にわたって",
+   "reg": "viet",
+   "regTip": "〜の間ずっと・〜も",
+   "review": false
+  },
+  {
+   "ex": "今夜から明日の朝にかけて雪が降るでしょう。",
+   "exVi": "Từ tối nay đến sáng mai trời sẽ có tuyết.",
+   "form": "N1 から N2 にかけて",
+   "level": "N2",
+   "meaning": "từ khoảng A đến khoảng B (thời gian/khu vực, ranh giới không rõ)",
+   "note": "から〜まで: điểm đầu-cuối rõ ràng; から〜にかけて: khoảng chừng, rải rác. Khác にかけては (đã học: 'về mặt ~ thì giỏi').",
+   "pattern": "～にかけて",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "社長から新入社員に至るまで、全員が研修を受けた。",
+   "exVi": "Từ giám đốc cho đến tận nhân viên mới, tất cả đều tham gia đào tạo.",
+   "form": "N + に至るまで",
+   "level": "N2",
+   "meaning": "cho đến tận ~ (nhấn mạnh phạm vi rộng tới cả điểm cực)",
+   "note": "Nặng hơn まで: hàm ý 'đến cả cái đó cũng'.",
+   "pattern": "～に至るまで",
+   "reg": "viet",
+   "regTip": "〜まで全部・〜まで",
+   "review": false
+  },
+  {
+   "ex": "この仕事を通して、多くのことを学んだ。",
+   "exVi": "Thông qua công việc này tôi học được nhiều điều.",
+   "form": "N + を通して",
+   "level": "N2",
+   "meaning": "thông qua (phương tiện/trung gian); suốt (một khoảng thời gian)",
+   "note": "Gần như đồng nghĩa を通じて (đã học), を通じて cứng hơn chút. Nghĩa 'suốt': 一年を通して (cả năm, không gián đoạn) khác にわたって (nhấn mạnh độ dài).",
+   "pattern": "～を通して",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "3年間の準備期間を経て、新工場が完成した。",
+   "exVi": "Trải qua 3 năm chuẩn bị, nhà máy mới đã hoàn thành.",
+   "form": "N + を経て",
+   "level": "N2",
+   "meaning": "trải qua, qua (giai đoạn/quy trình/địa điểm trung gian)",
+   "note": "Nhấn mạnh đã qua một bước trung gian rồi mới đến kết quả; khác を通して (phương tiện).",
+   "pattern": "～を経て",
+   "reg": "viet",
+   "regTip": "〜てから・〜を通って",
+   "review": false
+  },
+  {
+   "ex": "新しいシステムを導入するにあたって、説明会を開いた。",
+   "exVi": "Khi đưa hệ thống mới vào, đã tổ chức buổi giải thích.",
+   "form": "V辞書形／N + にあたって／にあたり",
+   "level": "N2",
+   "meaning": "khi (bắt đầu làm việc quan trọng), nhân dịp",
+   "note": "Gần に際して (đã học); にあたって nhấn mạnh sự chuẩn bị/tâm thế trước việc lớn. Khác に先立って (trước khi, làm trước việc gì).",
+   "pattern": "～にあたって",
+   "reg": "viet",
+   "regTip": "〜とき・〜前に",
+   "review": false
+  },
+  {
+   "ex": "厳しい不況にあって、その会社は売上を伸ばした。",
+   "exVi": "Giữa lúc suy thoái khắc nghiệt, công ty đó vẫn tăng doanh thu.",
+   "form": "N + にあって",
+   "level": "N1",
+   "meaning": "trong hoàn cảnh/vị trí đặc biệt ~ (thì)",
+   "note": "Khác において (chỉ nơi/khung trung tính): にあって nhấn mạnh hoàn cảnh đặc biệt và thái độ/đánh giá đi kèm.",
+   "pattern": "～にあって",
+   "reg": "viet",
+   "regTip": "〜の中で・〜なのに",
+   "review": false
+  },
+  {
+   "ex": "納期に間に合わせるべく、全員で残業した。",
+   "exVi": "Để kịp hạn giao hàng, cả nhóm đã làm thêm giờ.",
+   "form": "V辞書形 + べく（する → すべく）",
+   "level": "N1",
+   "meaning": "để, nhằm (mục đích, sắc thái quyết tâm)",
+   "note": "Không dùng ở vế sau là mệnh lệnh/nhờ vả. Cứng hơn ために.",
+   "pattern": "～べく",
+   "reg": "viet",
+   "regTip": "〜ために・〜ようと",
+   "review": false
+  },
+  {
+   "ex": "いくら良い計画を立てても、実行しなければそれまでだ。",
+   "exVi": "Lập kế hoạch hay mấy mà không thực hiện thì cũng vô ích.",
+   "form": "V/Aい ば + それまでだ",
+   "level": "N1",
+   "meaning": "nếu ~ thì coi như hết, mọi thứ thành vô ích",
+   "note": "Khác までもない (đã học: không cần đến mức).",
+   "pattern": "～ばそれまでだ",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜たらそれまでだ・〜たら終わりだ",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Phạm vi, bối cảnh & trải qua: において／にわたって／にかけて／に至るまで／を通して／を経て／にあたって",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "Mẫu A から B にかけて (khoảng không gian, ranh giới mơ hồ); bổ nghĩa danh từ → にかけての.",
+   "options": [
+    "において",
+    "を経て",
+    "にかけての",
+    "にあたって"
+   ],
+   "q": "台風の影響で、関東から東北＿＿＿広い範囲で大雨が降った。"
+  },
+  {
+   "answer": 1,
+   "explain": "Con số thời gian dài + にわたる + N. にかけて cần cặp A から B.",
+   "options": [
+    "にかけての",
+    "にわたる",
+    "において",
+    "にあって"
+   ],
+   "q": "この新製品は、5年＿＿＿研究の成果である。"
+  },
+  {
+   "answer": 3,
+   "explain": "Trải qua nhiều lần thử nghiệm rồi mới quyết định → を経て.",
+   "options": [
+    "にわたって",
+    "に至るまで",
+    "にあたって",
+    "を経て"
+   ],
+   "q": "試作品は何度もの試験＿＿＿、ようやく量産が決まった。"
+  },
+  {
+   "answer": 0,
+   "explain": "Trước một việc quan trọng, chuẩn bị sẵn → にあたって. において không đi sau động từ.",
+   "options": [
+    "にあたって",
+    "において",
+    "を経て",
+    "にかけて"
+   ],
+   "q": "海外工場に赴任する＿＿＿、現地の法律を一通り調べておいた。"
+  },
+  {
+   "answer": 2,
+   "explain": "点検（てんけん）: kiểm tra. 稼働 = vận hành, 頻発 = xảy ra liên tục.",
+   "options": [
+    "稼働",
+    "頻発",
+    "点検",
+    "誤差"
+   ],
+   "q": "出荷前には必ず製品を＿＿＿してください。"
+  },
+  {
+   "answer": 1,
+   "explain": "誤差（ごさ）: sai số của phép đo. 欠陥 là lỗi của sản phẩm, không dùng cho số đo.",
+   "options": [
+    "欠陥",
+    "誤差",
+    "抜群",
+    "精査"
+   ],
+   "q": "測定値には0.1ミリ程度の＿＿＿がある。"
+  },
+  {
+   "answer": 3,
+   "explain": "において là văn viết; nói chuyện với bạn chỉ cần 〜で.",
+   "options": [
+    "明日の飲み会において話すね。",
+    "明日の飲み会にあって話すね。",
+    "明日の飲み会を経て話すね。",
+    "明日の飲み会で話すね。"
+   ],
+   "q": "友達とのLINEで自然なのはどれか。"
+  },
+  {
+   "answer": 2,
+   "explain": "に限って: đúng lúc ~ thì lại (chuyện không may). に限り = chỉ riêng; を限りに = lấy ~ làm mốc chấm dứt.",
+   "options": [
+    "に限らず",
+    "を限りに",
+    "に限って",
+    "に限り"
+   ],
+   "q": "(ôn) 急いでいる日＿＿＿、電車が遅れるんだよね。"
+  },
+  {
+   "answer": 1,
+   "explain": "躊躇（ちゅうちょ）: do dự. 承諾 (đồng ý) mâu thuẫn với 'nhưng rồi nhận ngay'.",
+   "options": [
+    "承諾",
+    "躊躇",
+    "兆し",
+    "賄い"
+   ],
+   "q": "(ôn) 彼は一瞬＿＿＿したが、すぐにその仕事を引き受けた。"
+  },
+  {
+   "answer": 3,
+   "explain": "だけあって: quả xứng với (đánh giá tích cực hợp lý). わりに/にしては là trái kỳ vọng; ばかりに dẫn kết quả xấu.",
+   "options": [
+    "ばかりに",
+    "わりに",
+    "にしては",
+    "だけあって"
+   ],
+   "q": "(ôn) 10年も日本に住んでいた＿＿＿、彼の日本語はとても自然だ。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: dừng máy tốn kém nhưng về lâu dài lại rẻ hơn (vì tránh sự cố lớn như lần trước). Đào tạo nhân viên mới chỉ là lợi ích phụ (にも); b ngược với nội dung.",
+  "options": [
+   "新人に機械の仕組みを教えるため",
+   "故障してから修理するほうが安いとわかったため",
+   "大きな故障を防ぎ、結果的に費用を抑えるため",
+   "設計者が現場の仕事を学ぶ必要があるため"
+  ],
+  "q": "筆者によると、この工場が年に一度ラインを止める主な理由は何か。",
+  "text": "当社の工場では、年に一度、一週間にわたって全ての生産ラインを止め、設備の点検を行っている。以前は、故障が起きてから修理すればよいという考え方が一般的だった。しかし、小さな欠陥を見逃したために、ライン全体が長期間止まってしまったことがあり、それをきっかけに方針が見直された。点検にあたっては、現場の担当者だけでなく、設計者から新人に至るまで、多くの社員が参加する。新人にとっては、機械の仕組みを実際に見て学ぶ貴重な機会にもなっている。ラインを止める間の損失は小さくないが、長い目で見れば、そのほうがかえって安く済むのである。"
+ },
+ "vocab": [
+  {
+   "ex": "検査で配線の欠陥が見つかった。",
+   "exVi": "Khi kiểm tra đã phát hiện lỗi đi dây.",
+   "hanviet": "KHIẾM HÃM",
+   "level": "N2",
+   "meaning": "khiếm khuyết, lỗi (thiết kế/sản phẩm)",
+   "reading": "けっかん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "欠陥"
+  },
+  {
+   "ex": "毎朝、機械を点検してから作業を始める。",
+   "exVi": "Mỗi sáng kiểm tra máy rồi mới bắt đầu làm việc.",
+   "hanviet": "ĐIỂM KIỂM",
+   "level": "N2",
+   "meaning": "kiểm tra, rà soát (thiết bị, định kỳ)",
+   "reading": "てんけん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "点検"
+  },
+  {
+   "ex": "このセンサーの誤差は0.5％以内だ。",
+   "exVi": "Sai số của cảm biến này trong vòng 0,5%.",
+   "hanviet": "NGỘ SAI",
+   "level": "N2",
+   "meaning": "sai số",
+   "reading": "ごさ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "誤差"
+  },
+  {
+   "ex": "休んだおかげで、体力が徐々に戻ってきた。",
+   "exVi": "Nhờ nghỉ ngơi mà thể lực dần hồi phục.",
+   "hanviet": "TỪ TỪ",
+   "level": "N2",
+   "meaning": "dần dần, từ từ",
+   "reading": "じょじょに",
+   "reg": "chung",
+   "regTip": "khẩu ngữ hay dùng: だんだん・ちょっとずつ",
+   "review": false,
+   "word": "徐々に"
+  },
+  {
+   "ex": "忙しかったが、先輩の頼みなので引き受けた。",
+   "exVi": "Dù bận nhưng vì là lời nhờ của tiền bối nên tôi đã nhận.",
+   "hanviet": "DẪN THỤ",
+   "level": "N2",
+   "meaning": "nhận lời, đảm nhận (việc được nhờ)",
+   "reading": "ひきうける",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "引き受ける"
+  },
+  {
+   "ex": "この店のラーメンは味が抜群だ。",
+   "exVi": "Ramen quán này vị tuyệt hảo.",
+   "hanviet": "BẠT QUẦN",
+   "level": "N2",
+   "meaning": "xuất sắc, vượt trội",
+   "reading": "ばつぐん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "抜群"
+  },
+  {
+   "ex": "新製品は大きな成功を収めた。",
+   "exVi": "Sản phẩm mới đã đạt thành công lớn.",
+   "hanviet": "THU",
+   "level": "N2",
+   "meaning": "đạt được (thành công, thành tích); cất vào",
+   "reading": "おさめる",
+   "reg": "viet",
+   "regTip": "成功した・うまくいった・（成績を）取った",
+   "review": false,
+   "word": "収める"
+  },
+  {
+   "ex": "新しいラインは来月から稼働する予定だ。",
+   "exVi": "Dây chuyền mới dự kiến vận hành từ tháng sau.",
+   "hanviet": "GIÁ ĐỘNG",
+   "level": "N1",
+   "meaning": "vận hành, hoạt động (máy móc, nhà máy)",
+   "reading": "かどう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "稼働"
+  },
+  {
+   "ex": "データを精査した結果、入力ミスが見つかった。",
+   "exVi": "Rà soát kỹ dữ liệu thì phát hiện lỗi nhập.",
+   "hanviet": "TINH TRA",
+   "level": "N1",
+   "meaning": "xem xét kỹ lưỡng, thẩm tra chi tiết",
+   "reading": "せいさ",
+   "reg": "viet",
+   "regTip": "よく調べる・細かくチェックする",
+   "review": false,
+   "word": "精査"
+  },
+  {
+   "ex": "この交差点では事故が頻発している。",
+   "exVi": "Ở ngã tư này tai nạn xảy ra liên tục.",
+   "hanviet": "TẦN PHÁT",
+   "level": "N1",
+   "meaning": "xảy ra liên tục, thường xuyên",
+   "reading": "ひんぱつ",
+   "reg": "viet",
+   "regTip": "よく起きる・しょっちゅう起きる",
+   "review": false,
+   "word": "頻発"
+  }
+ ]
+}

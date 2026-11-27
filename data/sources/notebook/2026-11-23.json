@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-23",
+ "grammar": [
+  {
+   "ex": "あんな失礼な店には二度と行くまいと決めた。",
+   "exVi": "Tôi đã quyết sẽ không bao giờ đến cái quán thô lỗ đó nữa.",
+   "form": "V辞書形 + まい（Nhóm II: Vない形 + まい cũng được; する→するまい／すまい、来る→来るまい／こまい）",
+   "level": "N2",
+   "meaning": "(1) quyết không… (ý chí phủ định của bản thân); (2) chắc là không… (suy đoán phủ định)",
+   "note": "Khác ～ものか (khẩu ngữ, phản bác cảm xúc mạnh: 行くもんか). まい mang sắc thái văn viết, cứng.",
+   "pattern": "～まい",
+   "reg": "viet",
+   "regTip": "二度と〜ない・〜ないつもりだ・〜ないだろう",
+   "review": false
+  },
+  {
+   "ex": "転職しようかするまいか、まだ迷っている。",
+   "exVi": "Tôi vẫn đang phân vân có nên chuyển việc hay không.",
+   "form": "V意向形 + か + V辞書形 + まいか",
+   "level": "N2",
+   "meaning": "có nên… hay không (do dự của bản thân)",
+   "note": "Thường đi với 迷う・悩む・考える; chỉ dùng cho do dự của chính người nói/chủ thể.",
+   "pattern": "～ようか～まいか",
+   "reg": "viet",
+   "regTip": "〜しようかどうか・〜するかしないか",
+   "review": false
+  },
+  {
+   "ex": "この問題について、みんなで考えようではないか。",
+   "exVi": "Chúng ta hãy cùng nhau suy nghĩ về vấn đề này.",
+   "form": "V意向形 + ではないか",
+   "level": "N2",
+   "meaning": "hãy cùng… (kêu gọi mạnh mẽ, giọng diễn thuyết)",
+   "note": "Khác ～ではないか đơn thuần (xác nhận/trách: 言ったではないか). Văn diễn thuyết, phát biểu; nói chuyện thường dùng 〜しよう.",
+   "pattern": "～ようではないか",
+   "reg": "viet",
+   "regTip": "〜しよう・〜ようよ（nam, khẩu ngữ: 〜ようじゃないか）",
+   "review": false
+  },
+  {
+   "ex": "息子は何度注意しても、ゲームをやめようとしない。",
+   "exVi": "Con trai tôi nhắc bao nhiêu lần cũng không chịu bỏ game.",
+   "form": "V意向形 + としない",
+   "level": "N2",
+   "meaning": "không chịu… (người khác không có ý định làm)",
+   "note": "Chủ ngữ thường ngôi 3. Khác ～ようにも～ない (muốn làm nhưng không được) và ～ようがない (không có cách nào).",
+   "pattern": "～ようとしない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "材料が足りなくて、作業を続けようにも続けられない。",
+   "exVi": "Thiếu vật tư nên muốn tiếp tục công việc cũng không tiếp tục được.",
+   "form": "V意向形 + にも + V可能形ない（cùng một động từ）",
+   "level": "N2",
+   "meaning": "muốn… cũng không thể… (vì trở ngại khách quan)",
+   "note": "Có ý muốn nhưng bị cản trở ≠ ～ようとしない (không có ý muốn).",
+   "pattern": "～ようにも～ない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "君が信じようが信じまいが、これは事実だ。",
+   "exVi": "Dù cậu có tin hay không thì đây vẫn là sự thật.",
+   "form": "V意向形 + が + V辞書形 + まいが",
+   "level": "N1",
+   "meaning": "dù có… hay không… thì (vế sau vẫn không đổi)",
+   "note": "Tương đương ～ようと～まいと. Mức N2 nói: 〜ても〜なくても／〜にかかわらず.",
+   "pattern": "～ようが～まいが",
+   "reg": "viet",
+   "regTip": "〜ても〜なくても",
+   "review": false
+  },
+  {
+   "ex": "あの先生は厳しくて、宿題を一度でも忘れようものなら、ひどく叱られる。",
+   "exVi": "Thầy đó rất nghiêm, lỡ quên bài tập dù một lần thôi là bị mắng té tát.",
+   "form": "V意向形 + ものなら",
+   "level": "N1",
+   "meaning": "nếu lỡ… (dù chỉ một chút) thì sẽ dẫn đến hậu quả tệ",
+   "note": "Khác ～ものなら (N2, V可能形 + ものなら: “nếu làm được thì…”, điều khó thực hiện: 行けるものなら行きたい).",
+   "pattern": "～ようものなら",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜ようもんなら",
+   "review": false
+  },
+  {
+   "ex": "列車が今まさに発車せんとするその時、彼が駆け込んできた。",
+   "exVi": "Đúng lúc đoàn tàu sắp sửa chuyển bánh thì anh ấy chạy ào vào.",
+   "form": "Vない形 + んとする（する→せんとする）",
+   "level": "N1",
+   "meaning": "sắp sửa…, định… (văn cổ, trang trọng)",
+   "note": "≈ 〜ようとする. Khác ～んばかりに (như thể sắp…, mô tả dáng vẻ) và ～んがため (mục đích).",
+   "pattern": "～んとする",
+   "reg": "viet",
+   "regTip": "〜ようとする・〜そうになる",
+   "review": false
+  },
+  {
+   "ex": "患者の個人情報を漏らすとは、医師にあるまじき行為だ。",
+   "exVi": "Làm lộ thông tin cá nhân của bệnh nhân là hành vi không thể chấp nhận ở một bác sĩ.",
+   "form": "V辞書形 + まじき + N（する→すまじき）; thường: N + にあるまじき + N",
+   "level": "N1",
+   "meaning": "…không được phép…, không thể chấp nhận (với tư cách…)",
+   "note": "Khác ～まい (ý chí/suy đoán phủ định). まじき luôn bổ nghĩa cho danh từ (行為・発言…).",
+   "pattern": "～まじき",
+   "reg": "viet",
+   "regTip": "〜としてありえない・〜してはいけない",
+   "review": false
+  },
+  {
+   "ex": "大地震がこの街を襲うなど、想像するだに恐ろしい。",
+   "exVi": "Động đất lớn tấn công thành phố này ư, chỉ tưởng tượng thôi đã thấy sợ.",
+   "form": "V辞書形 + だに（想像する・考える・聞く…）; N + だに（夢にだに〜ない）",
+   "level": "N1",
+   "meaning": "chỉ cần… thôi cũng (đã sợ…); ngay cả… cũng không",
+   "note": "Chỉ đi với số ít động từ/cụm cố định; ～すら／～さえ dùng rộng hơn.",
+   "pattern": "～だに",
+   "reg": "viet",
+   "regTip": "〜だけでも・〜さえ",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm thể ý chí (よう／まい): まい／ようか～まいか／ようではないか／ようとしない／ようにも～ない",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Muốn ra ngoài nhưng mưa cản → V意向形+にも+V可能形ない. ようとしない/ようものなら không hợp cấu trúc.",
+   "options": [
+    "ようとも",
+    "ようにも",
+    "まいか",
+    "ようものなら"
+   ],
+   "q": "雨が激しくて、出かけ（　）出かけられない。"
+  },
+  {
+   "answer": 2,
+   "explain": "Người khác không chịu thừa nhận → ようとしない. ようではないか là kêu gọi; ようものなら cần vế sau.",
+   "options": [
+    "ようではないか",
+    "まいか",
+    "ようとしない",
+    "ようものなら"
+   ],
+   "q": "何度説明しても、彼は自分の誤りを認め（　）。"
+  },
+  {
+   "answer": 0,
+   "explain": "Cặp cố định ～ようが～まいが (dù đến hay không). 来るまいか đi với ～ようか.",
+   "options": [
+    "来まいが",
+    "来ないが",
+    "来ようか",
+    "来るまいか"
+   ],
+   "q": "彼が来ようが（　）、会議は予定通り始めます。"
+  },
+  {
+   "answer": 1,
+   "explain": "Do dự của bản thân: ～ようか～まいか + 悩む／迷う.",
+   "options": [
+    "しようとしない",
+    "するまいか",
+    "しようにも",
+    "しようものなら"
+   ],
+   "q": "留学しようか（　）、一晩中悩んだ。"
+  },
+  {
+   "answer": 3,
+   "explain": "不備（ふび）= thiếu sót giấy tờ. 気配 = dấu hiệu; 用心 = đề phòng; 了承 = chấp thuận.",
+   "options": [
+    "気配",
+    "用心",
+    "了承",
+    "不備"
+   ],
+   "q": "申込書に記入漏れなどの（　）がないか、確認してください。"
+  },
+  {
+   "answer": 2,
+   "explain": "運航／運転を見合わせる = tạm ngừng chạy. 遮る = chắn; 心得る = nắm rõ.",
+   "options": [
+    "遮る",
+    "心得る",
+    "見合わせる",
+    "費やす"
+   ],
+   "q": "台風の影響で、本日のフェリーは運航を（　）ことになった。"
+  },
+  {
+   "answer": 1,
+   "explain": "Nói với bạn bè → わかったよ. 了承 là văn viết/kinh doanh; かしこまりました dùng với khách/cấp trên.",
+   "options": [
+    "うん、了承した。",
+    "うん、わかったよ。",
+    "かしこまりました。",
+    "ご了承ください。"
+   ],
+   "q": "友達に「明日の集合時間変わったの、わかった？」と聞かれた。自然な返事はどれか。"
+  },
+  {
+   "answer": 3,
+   "explain": "Bài 10/11: V(ます形)+っこない = làm sao mà… được (khẩu ngữ). Các phương án khác sai cách nối/nghĩa.",
+   "options": [
+    "に違いない",
+    "ものか",
+    "がちだ",
+    "っこない"
+   ],
+   "q": "(ôn) こんな難しい試験、一週間の勉強で合格でき（　）よ。"
+  },
+  {
+   "answer": 2,
+   "explain": "Bài 12/11: 根回し（ねまわし）= vận động, dàn xếp trước. 疎通 = thông suốt; 一律 = đồng loạt; 目処 = triển vọng.",
+   "options": [
+    "疎通",
+    "一律",
+    "根回し",
+    "目処"
+   ],
+   "q": "(ôn) 会議で反対されないよう、事前に関係部署へ（　）しておいた。"
+  },
+  {
+   "answer": 1,
+   "explain": "Bài 15/11: ～を経て = trải qua (quá trình) rồi mới… にわたって đi với khoảng thời gian/phạm vi (三年間にわたる交渉).",
+   "options": [
+    "にわたって",
+    "を経て",
+    "に至るまで",
+    "において"
+   ],
+   "q": "(ôn) 三年間の交渉（　）、ようやく両社の合意が成立した。"
+  }
+ ],
+ "ratio": "N2 50% · N1 50%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu cuối: 大切なのは…ルールを厳密に守ること自体よりも、互いが安心して話せる場をつくること → đáp án 3 (index 2). Đáp án 1 ngược ý; 2 và 4 không được nhắc tới.",
+  "options": [
+   "ルールは厳密に守らなければ意味がない。",
+   "オンライン会議では、なるべく発言を控えるべきだ。",
+   "ルールそのものより、安心して発言できる環境づくりが重要だ。",
+   "対面の会議に戻すことが最善の解決策だ。"
+  ],
+  "q": "筆者の考えに最も近いものはどれか。",
+  "text": "最近、オンライン会議が増えたことで、「話しづらい」と感じる人が多いという。対面なら相手の表情や場の気配から発言のタイミングを計れるが、画面越しではそれが難しい。そのため、話し始めた瞬間に他の人と声が重なったり、意図せず相手の話を遮ってしまったりする。ある会社では、発言したい人はまず「挙手」ボタンを押すというルールを設けた。初めは面倒だという声もあったが、結果的に会議はかえって円滑に進むようになった。大切なのは、決まりを厳密に守ること自体よりも、互いが安心して話せる場をつくることなのだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "大雨のため、電車は運転を見合わせております。",
+   "exVi": "Do mưa lớn, tàu điện đang tạm ngừng chạy.",
+   "hanviet": "KIẾN HỢP",
+   "level": "N2",
+   "meaning": "tạm hoãn, tạm dừng (chờ xem tình hình); nhìn nhau",
+   "reading": "みあわせる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "見合わせる"
+  },
+  {
+   "ex": "厳密に言えば、この部品は仕様と少し違う。",
+   "exVi": "Nói chính xác thì linh kiện này hơi khác so với spec.",
+   "hanviet": "NGHIÊM MẬT",
+   "level": "N2",
+   "meaning": "nghiêm ngặt, chặt chẽ, chính xác tuyệt đối",
+   "reading": "げんみつ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "厳密"
+  },
+  {
+   "ex": "誰もいないはずの部屋に、人の気配を感じた。",
+   "exVi": "Tôi cảm thấy có hơi người trong căn phòng lẽ ra không có ai.",
+   "hanviet": "KHÍ PHỐI",
+   "level": "N2",
+   "meaning": "dấu hiệu, cảm giác có sự hiện diện",
+   "reading": "けはい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "気配"
+  },
+  {
+   "ex": "人の話を途中で遮るのは失礼だよ。",
+   "exVi": "Ngắt lời người khác giữa chừng là bất lịch sự đấy.",
+   "hanviet": "GIÀ",
+   "level": "N2",
+   "meaning": "chắn, che; ngắt lời",
+   "reading": "さえぎる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "遮る"
+  },
+  {
+   "ex": "最近空き巣が多いから、戸締まりには用心してね。",
+   "exVi": "Dạo này nhiều trộm lắm, nhớ cẩn thận khóa cửa nhé.",
+   "hanviet": "DỤNG TÂM",
+   "level": "N2",
+   "meaning": "cẩn thận, đề phòng",
+   "reading": "ようじん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "用心"
+  },
+  {
+   "ex": "申請書類に不備がありましたので、再提出をお願いいたします。",
+   "exVi": "Hồ sơ đăng ký có thiếu sót, xin vui lòng nộp lại.",
+   "hanviet": "BẤT BỊ",
+   "level": "N1",
+   "meaning": "thiếu sót, chưa đầy đủ (giấy tờ, thủ tục, thiết bị)",
+   "reading": "ふび",
+   "reg": "viet",
+   "regTip": "抜け・足りないところ・ミス",
+   "review": false,
+   "word": "不備"
+  },
+  {
+   "ex": "納期の変更につきまして、ご了承いただけますと幸いです。",
+   "exVi": "Về việc thay đổi thời hạn giao hàng, rất mong quý công ty thông cảm chấp thuận.",
+   "hanviet": "LIỄU THỪA",
+   "level": "N1",
+   "meaning": "chấp thuận, thông cảm chấp nhận",
+   "reading": "りょうしょう",
+   "reg": "viet",
+   "regTip": "わかった・いいよ・OK",
+   "review": false,
+   "word": "了承"
+  },
+  {
+   "ex": "傘を持たずに出かけたら、案の定雨に降られた。",
+   "exVi": "Ra ngoài không mang ô, quả nhiên bị mắc mưa.",
+   "hanviet": "ÁN ĐỊNH",
+   "level": "N1",
+   "meaning": "quả nhiên, đúng như dự đoán (thường việc xấu)",
+   "reading": "あんのじょう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "案の定"
+  },
+  {
+   "ex": "彼は客の扱い方をよく心得ている。",
+   "exVi": "Anh ấy rất nắm rõ cách đối xử với khách hàng.",
+   "hanviet": "TÂM ĐẮC",
+   "level": "N1",
+   "meaning": "hiểu rõ, nắm vững (cách làm, phép tắc)",
+   "reading": "こころえる",
+   "reg": "viet",
+   "regTip": "よくわかっている・知っている",
+   "review": false,
+   "word": "心得る"
+  },
+  {
+   "ex": "マニュアル通りにいかない時は、臨機応変に対応してください。",
+   "exVi": "Khi không làm theo manual được thì hãy xử lý linh hoạt theo tình huống.",
+   "hanviet": "LÂM CƠ ỨNG BIẾN",
+   "level": "N1",
+   "meaning": "tùy cơ ứng biến, linh hoạt theo tình huống",
+   "reading": "りんきおうへん",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "臨機応変"
+  }
+ ]
+}

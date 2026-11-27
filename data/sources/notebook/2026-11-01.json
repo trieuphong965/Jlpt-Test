@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-01",
+ "grammar": [
+  {
+   "ex": "合格したければ、毎日少しずつでも勉強することだ。",
+   "exVi": "Nếu muốn đỗ thì nên học mỗi ngày, dù chỉ một chút.",
+   "form": "Vる／Vない + ことだ",
+   "level": "N2",
+   "meaning": "nên, tốt nhất là (lời khuyên cụ thể)",
+   "note": "ものだ (đã học) nói lẽ thường chung; ことだ là lời khuyên cụ thể cho người nghe.",
+   "pattern": "～ことだ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "驚いたことに、その店は開店初日に完売した。",
+   "exVi": "Điều đáng ngạc nhiên là cửa hàng đó bán hết ngay ngày khai trương.",
+   "form": "Aい／Aな／Vた + ことに（は）",
+   "level": "N2",
+   "meaning": "điều (đáng ngạc nhiên / vui / tiếc) là…",
+   "note": "Chỉ đi với từ cảm xúc (驚いた・残念な・うれしい); khác ことから (lý do).",
+   "pattern": "～ことに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "富士山が見えることから、この坂は「富士見坂」と呼ばれている。",
+   "exVi": "Vì nhìn thấy núi Phú Sĩ nên con dốc này được gọi là \"Fujimizaka\".",
+   "form": "Vthường／Aい／Aな・Nである + ことから",
+   "level": "N2",
+   "meaning": "vì, từ việc… (căn cứ, nguồn gốc tên gọi)",
+   "note": "Văn viết, hay dùng giải thích tên gọi/phán đoán; からこそ nhấn mạnh lý do chủ quan.",
+   "pattern": "～ことから",
+   "reg": "viet",
+   "regTip": "〜から",
+   "review": false
+  },
+  {
+   "ex": "彼は一度も休むことなく、十年間働き続けた。",
+   "exVi": "Anh ấy làm việc liên tục mười năm mà không nghỉ một lần nào.",
+   "form": "Vる + ことなく",
+   "level": "N2",
+   "meaning": "không… mà vẫn (văn viết của ないで／ずに)",
+   "note": "Trang trọng hơn ずに; hay đi với 一度も để nhấn mạnh \"không hề\".",
+   "pattern": "～ことなく",
+   "reg": "viet",
+   "regTip": "〜ないで・〜ずに",
+   "review": false
+  },
+  {
+   "ex": "合格の知らせを聞いて、どんなにうれしかったことか。",
+   "exVi": "Nghe tin đỗ, tôi đã vui biết bao.",
+   "form": "どんなに／何度 + Vthường／Aい／Aな + ことか",
+   "level": "N2",
+   "meaning": "biết bao, biết chừng nào (cảm thán)",
+   "note": "ものか (đã học) = \"đời nào\" (phủ định mạnh); ことか = cảm thán mạnh.",
+   "pattern": "～ことか",
+   "reg": "viet",
+   "regTip": "どんなに〜か",
+   "review": false
+  },
+  {
+   "ex": "真面目な田中さんのことだから、約束の時間には必ず来るだろう。",
+   "exVi": "Anh Tanaka nghiêm túc như thế nên chắc chắn sẽ đến đúng giờ.",
+   "form": "N + の + ことだから",
+   "level": "N2",
+   "meaning": "vì là (người đó, vốn tính như vậy) nên chắc…",
+   "note": "N là người/vật cả hai bên đều biết rõ; vế sau là phán đoán (だろう・はずだ).",
+   "pattern": "～ことだから",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "実際に使ってみないことには、良いかどうか分からない。",
+   "exVi": "Nếu không dùng thử thì không biết tốt hay không.",
+   "form": "Vない + ことには + (vế phủ định)",
+   "level": "N2",
+   "meaning": "nếu không… thì không thể…",
+   "note": "Vế sau luôn mang nghĩa phủ định/không thể; khác ないわけにはいかない (buộc phải làm).",
+   "pattern": "～ないことには",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "彼はゲームを始めたが最後、朝まで止まらない。",
+   "exVi": "Một khi anh ta đã bắt đầu chơi game thì sẽ không dừng đến sáng.",
+   "form": "Vた + が最後",
+   "level": "N1",
+   "meaning": "một khi đã… thì (chắc chắn dẫn tới kết quả xấu)",
+   "note": "たとたん chỉ thời điểm; が最後 nhấn mạnh hậu quả không cứu vãn được.",
+   "pattern": "～が最後",
+   "reg": "viet",
+   "regTip": "一度〜たら",
+   "review": false
+  },
+  {
+   "ex": "兄にひきかえ、弟は社交的で誰とでもすぐ仲良くなる。",
+   "exVi": "Trái ngược với anh trai, cậu em hòa đồng, thân với ai cũng nhanh.",
+   "form": "N／Vthường の + にひきかえ",
+   "level": "N1",
+   "meaning": "trái ngược hẳn với…",
+   "note": "に対して chỉ đối chiếu khách quan; にひきかえ kèm đánh giá chủ quan (tốt/xấu).",
+   "pattern": "～にひきかえ",
+   "reg": "viet",
+   "regTip": "〜に比べて・〜とは逆に",
+   "review": false
+  },
+  {
+   "ex": "今年は昇進に結婚と、いいことずくめの一年だった。",
+   "exVi": "Năm nay toàn chuyện tốt: nào thăng chức, nào kết hôn.",
+   "form": "N + ずくめ",
+   "level": "N1",
+   "meaning": "toàn là, đầy những… (thường chuyện tốt, hoặc màu đen)",
+   "note": "だらけ thường tiêu cực (bẩn, lỗi); まみれ là dính bám bề mặt (泥まみれ).",
+   "pattern": "～ずくめ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm こと: ことだ／ことに／ことから／ことなく／ことか／ことだから／ないことには",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "Lời khuyên cụ thể → ことだ.",
+   "options": [
+    "ことか",
+    "ことから",
+    "ことだ",
+    "ことに"
+   ],
+   "q": "試験に受かりたいなら、悩んでいないで、とにかく過去問を解く（　）よ。"
+  },
+  {
+   "answer": 0,
+   "explain": "ことなく = không hề…mà (= 振り返らずに).",
+   "options": [
+    "ことなく",
+    "ことには",
+    "ことから",
+    "ことだから"
+   ],
+   "q": "彼は一度も振り返る（　）、駅のほうへ歩いて行った。"
+  },
+  {
+   "answer": 3,
+   "explain": "どんなに～ことか = biết bao (cảm thán); ものか = đời nào, sai nghĩa.",
+   "options": [
+    "ものか",
+    "ことに",
+    "わけか",
+    "ことか"
+   ],
+   "q": "子どもが無事に帰ってきたとき、母親はどんなに安心した（　）。"
+  },
+  {
+   "answer": 1,
+   "explain": "Nの + ことだから + phán đoán だろう; からには không nối sau の.",
+   "options": [
+    "ことなく",
+    "ことだから",
+    "からには",
+    "ことに"
+   ],
+   "q": "時間に厳しい山田さんの（　）、もう会場に着いているだろう。"
+  },
+  {
+   "answer": 2,
+   "explain": "ないことには + vế phủ định (決められない).",
+   "options": [
+    "ことなく",
+    "わけには",
+    "ことには",
+    "ことだから"
+   ],
+   "q": "実物を見ない（　）、買うかどうか決められない。"
+  },
+  {
+   "answer": 3,
+   "explain": "力を発揮する = phát huy sức mạnh.",
+   "options": [
+    "縮小",
+    "吟味",
+    "損失",
+    "発揮"
+   ],
+   "q": "チームのエースは決勝戦で本来の力を十分に（　）した。"
+  },
+  {
+   "answer": 1,
+   "explain": "常識・定説を覆す = lật đổ điều vốn được tin.",
+   "options": [
+    "抱く",
+    "覆す",
+    "欠かす",
+    "補う"
+   ],
+   "q": "長年信じられてきた常識を（　）ような研究結果が発表された。"
+  },
+  {
+   "answer": 1,
+   "explain": "をよそに = mặc kệ (sự phản đối) – bài 23/10.",
+   "options": [
+    "に沿って",
+    "をよそに",
+    "に基づいて",
+    "に先立って"
+   ],
+   "q": "(ôn) 住民の反対（　）、市は工事を強行した。"
+  },
+  {
+   "answer": 0,
+   "explain": "に沿って = làm theo (quy trình, hướng dẫn) – bài 24/10.",
+   "options": [
+    "に沿って",
+    "につれて",
+    "をよそに",
+    "とともに"
+   ],
+   "q": "(ôn) マニュアル（　）作業を進めてください。"
+  },
+  {
+   "answer": 2,
+   "explain": "怠る（おこたる）= lơ là, sao nhãng – bài 23/10.",
+   "options": [
+    "携わる",
+    "衰える",
+    "怠る",
+    "補う"
+   ],
+   "q": "(ôn) 安全確認を（　）と、大きな事故につながりかねない。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "Câu 「仕事の量そのものが減らないことには…解決にはならない」 và câu cuối 「業務の進め方自体を見直すことが求められている」 → c. a, d chỉ nói mặt tích cực; b không có trong bài.",
+  "options": [
+   "社員に歓迎されているので、すべての会社が導入するべきだ。",
+   "水曜日に残業できないため、社員の不満が高まっている。",
+   "仕事の量や進め方を見直さなければ、本当の解決にはならない。",
+   "家族と過ごす時間が増えたので、問題はすでに解決した。"
+  ],
+  "q": "筆者は「ノー残業デー」についてどう述べているか。",
+  "text": "最近、「ノー残業デー」を導入する会社が増えている。毎週水曜日などは定時に帰るよう呼びかける制度だ。社員からは「家族と過ごす時間が増えた」と歓迎する声が多い。しかし、仕事の量そのものが減らないことには、根本的な解決にはならないという指摘もある。実際、水曜日に終わらなかった仕事を木曜日に回し、かえって忙しくなったという人もいる。制度を形だけのものにしないためには、業務の進め方自体を見直すことが求められている。"
+ },
+ "vocab": [
+  {
+   "ex": "本番で実力を十分に発揮できた。",
+   "exVi": "Tôi đã phát huy hết thực lực trong lần thi thật.",
+   "level": "N2",
+   "meaning": "phát huy (năng lực, sức mạnh)",
+   "reading": "はっき",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "発揮"
+  },
+  {
+   "ex": "台風で農家は大きな損失を被った。",
+   "exVi": "Vì bão, nông dân chịu tổn thất lớn.",
+   "level": "N2",
+   "meaning": "tổn thất, thiệt hại",
+   "reading": "そんしつ",
+   "reg": "viet",
+   "regTip": "損",
+   "review": false,
+   "word": "損失"
+  },
+  {
+   "ex": "不況のため、事業を縮小することになった。",
+   "exVi": "Vì suy thoái, công ty quyết định thu hẹp kinh doanh.",
+   "level": "N2",
+   "meaning": "thu nhỏ, thu hẹp (quy mô)",
+   "reading": "しゅくしょう",
+   "reg": "viet",
+   "regTip": "小さくする・減らす",
+   "review": false,
+   "word": "縮小"
+  },
+  {
+   "ex": "詳細は後日メールでお知らせします。",
+   "exVi": "Chi tiết sẽ được thông báo qua email sau.",
+   "level": "N2",
+   "meaning": "chi tiết, cụ thể",
+   "reading": "しょうさい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "詳細"
+  },
+  {
+   "ex": "険しい山道を三時間かけて登った。",
+   "exVi": "Tôi mất ba tiếng để leo con đường núi hiểm trở.",
+   "level": "N2",
+   "meaning": "hiểm trở, dốc đứng; (nét mặt) nghiêm khắc, căng thẳng",
+   "reading": "けわしい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "険しい"
+  },
+  {
+   "ex": "彼は子どもの頃から宇宙飛行士になる夢を抱いていた。",
+   "exVi": "Từ nhỏ anh ấy đã ấp ủ ước mơ trở thành phi hành gia.",
+   "level": "N2",
+   "meaning": "ôm ấp, mang (ước mơ, nghi ngờ, cảm xúc)",
+   "reading": "いだく",
+   "reg": "viet",
+   "regTip": "(気持ちを)持つ",
+   "review": false,
+   "word": "抱く"
+  },
+  {
+   "ex": "祖父は毎朝の散歩を欠かさない。",
+   "exVi": "Ông tôi không bỏ buổi đi dạo sáng nào.",
+   "level": "N2",
+   "meaning": "bỏ, thiếu (thường dùng phủ định: không bỏ ngày nào)",
+   "reading": "かかす",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "欠かす"
+  },
+  {
+   "ex": "この店では素材を吟味して料理を作っている。",
+   "exVi": "Quán này chọn lọc nguyên liệu kỹ lưỡng để nấu ăn.",
+   "level": "N1",
+   "meaning": "xem xét kỹ lưỡng, chọn lọc cẩn thận",
+   "reading": "ぎんみ",
+   "reg": "viet",
+   "regTip": "よく考えて選ぶ",
+   "review": false,
+   "word": "吟味"
+  },
+  {
+   "ex": "新しい発見が従来の定説を覆した。",
+   "exVi": "Phát hiện mới đã lật đổ định thuyết trước nay.",
+   "level": "N1",
+   "meaning": "lật đổ, đảo ngược (định thuyết, phán quyết)",
+   "reading": "くつがえす",
+   "reg": "viet",
+   "regTip": "ひっくり返す",
+   "review": false,
+   "word": "覆す"
+  },
+  {
+   "ex": "彼は頑なに謝罪を拒んだ。",
+   "exVi": "Anh ta khăng khăng từ chối xin lỗi.",
+   "level": "N1",
+   "meaning": "cố chấp, ương ngạnh",
+   "reading": "かたくな",
+   "reg": "viet",
+   "regTip": "頑固・意地を張る",
+   "review": false,
+   "word": "頑な"
+  }
+ ]
+}

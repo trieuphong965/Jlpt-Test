@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-11",
+ "grammar": [
+  {
+   "ex": "試験の結果が気になってならない。",
+   "exVi": "Tôi cứ bồn chồn mãi về kết quả kỳ thi.",
+   "form": "Vて／Aくて／Naで + ならない",
+   "level": "N2",
+   "meaning": "không kìm được, cứ thấy… (cảm xúc/cảm giác tự phát trào lên)",
+   "note": "Hay đi với 気がする／思える／気になる (tự phát); văn viết hơn てたまらない. てたまらない không đi với 気がする／思える.",
+   "pattern": "～てならない",
+   "reg": "viet",
+   "regTip": "すごく〜",
+   "review": false
+  },
+  {
+   "ex": "合格の知らせを聞いて、嬉しくてたまらない。",
+   "exVi": "Nghe tin đỗ, tôi vui không chịu nổi.",
+   "form": "Vて／Aくて／Naで + たまらない",
+   "level": "N2",
+   "meaning": "… không chịu nổi, cực kỳ… (cảm xúc, cảm giác cơ thể)",
+   "note": "Mạnh, cảm tính; dùng cả cho cảm giác cơ thể (暑くて／痛くてたまらない). Ngôi 3 cần thêm らしい／ようだ／がっている.",
+   "pattern": "～てたまらない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "新しい仕事が楽しくてしょうがない。",
+   "exVi": "Công việc mới vui ơi là vui.",
+   "form": "Vて／Aくて／Naで + しょうがない",
+   "level": "N2",
+   "meaning": "… hết chịu nổi, cứ… mãi (khẩu ngữ)",
+   "note": "Là dạng khẩu ngữ của てしかたがない; nghĩa gần như てたまらない.",
+   "pattern": "～てしょうがない",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "昨夜あまり寝ていないので、眠くてしかたがない。",
+   "exVi": "Tối qua ngủ ít nên buồn ngủ không chịu được.",
+   "form": "Vて／Aくて／Naで + しかたがない",
+   "level": "N2",
+   "meaning": "… không sao chịu được, cứ… mãi",
+   "note": "Lịch sự hơn てしょうがない một chút. Khác ～ざるを得ない (buộc phải làm) – しかたがない ở đây chỉ mức độ cảm xúc.",
+   "pattern": "～てしかたがない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "困っている人を見ると、声をかけないではいられない。",
+   "exVi": "Thấy người gặp khó khăn là tôi không thể không hỏi han.",
+   "form": "Vない + ではいられない",
+   "level": "N2",
+   "meaning": "không thể không…, không kìm được mà…",
+   "note": "= ずにはいられない (đã học 26/10), ずに trang trọng hơn (する→せずには). Khác ずにはすまない (bắt buộc vì hoàn cảnh/xã hội).",
+   "pattern": "～ないではいられない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "締め切り前夜の忙しさといったらない。",
+   "exVi": "Cái bận rộn của đêm trước hạn chót thì khỏi nói.",
+   "form": "N／Aい + といったらない",
+   "level": "N2",
+   "meaning": "… không gì bằng, cực kỳ… (cả tích cực lẫn tiêu cực)",
+   "note": "Dạng tiêu cực, cảm giác bực bội: といったらありはしない (N1).",
+   "pattern": "～といったらない",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "長年の友人が遠くへ引っ越してしまい、寂しい限りだ。",
+   "exVi": "Người bạn lâu năm chuyển đi xa, tôi buồn vô cùng.",
+   "form": "Aい／Naな／Nの + 限りだ",
+   "level": "N2",
+   "meaning": "thật là… hết mức (cảm xúc của người nói)",
+   "note": "Chỉ dùng cho cảm xúc của chính người nói. Khác ～限り (chừng nào còn…, đã học 3/11).",
+   "pattern": "～限りだ",
+   "reg": "viet",
+   "regTip": "すごく〜",
+   "review": false
+  },
+  {
+   "ex": "このような賞をいただき、光栄の至りです。",
+   "exVi": "Được nhận giải thưởng này, tôi vô cùng vinh dự.",
+   "form": "N + の至り",
+   "level": "N1",
+   "meaning": "vô cùng, hết mực (trang trọng, cụm cố định)",
+   "note": "Cụm hay gặp: 光栄の至り, 恐縮の至り, 若気の至り (do bồng bột tuổi trẻ).",
+   "pattern": "～の至り",
+   "reg": "viet",
+   "regTip": "本当に〜",
+   "review": false
+  },
+  {
+   "ex": "大切な試合で一点も取れず、無念の極みだ。",
+   "exVi": "Không ghi nổi một điểm trong trận quan trọng, tiếc nuối tột cùng.",
+   "form": "N + の極み",
+   "level": "N1",
+   "meaning": "tột cùng của…, cực điểm",
+   "note": "Khác 極まりない (đã học 8/11): 極まりない đi sau Na (失礼極まりない); の極み đi sau N.",
+   "pattern": "～の極み",
+   "reg": "viet",
+   "regTip": "本当に〜",
+   "review": false
+  },
+  {
+   "ex": "毎晩隣の部屋がうるさいといったらありはしない。",
+   "exVi": "Tối nào phòng bên cạnh cũng ồn ào không chịu nổi.",
+   "form": "N／Aい + といったらありはしない（ありゃしない）",
+   "level": "N1",
+   "meaning": "… hết sức, quá đỗi (thường tiêu cực, bực bội)",
+   "note": "といったらない dùng được cả nghĩa tốt; ありはしない hầu như chỉ nghĩa xấu, giọng phàn nàn.",
+   "pattern": "～といったらありはしない",
+   "reg": "noi",
+   "regTip": "khẩu ngữ: 〜ったらありゃしない",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Cảm xúc dâng trào / mức độ cực điểm: てならない／てたまらない／てしょうがない／てしかたがない／ないではいられない／といったらない／限りだ",
+ "quiz": [
+  {
+   "answer": 2,
+   "explain": "聞きたく + てならなかった: nhớ, muốn nghe giọng gia đình không kìm được. Các mẫu còn lại không nối với dạng 〜く.",
+   "options": [
+    "ないではいられなかった",
+    "といったらなかった",
+    "てならなかった",
+    "限りだった"
+   ],
+   "q": "一人暮らしを始めた頃は、夜になると家族の声が聞きたく（　）。"
+  },
+  {
+   "answer": 1,
+   "explain": "気がする (cảm giác tự phát) đi với てならない; てたまらない không đi với 気がする; といったらない, 限りだ không hợp.",
+   "options": [
+    "してたまらない",
+    "してならない",
+    "するといったらない",
+    "する限りだ"
+   ],
+   "q": "最近、どうも誰かに見られているような気が（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "ないではいられない: không kìm được mà nhảy xuống cứu. Các phương án khác sai nghĩa hoặc sai ngữ pháp.",
+   "options": [
+    "ないわけではなかった",
+    "ないこともなかった",
+    "ないものだった",
+    "ないではいられなかった"
+   ],
+   "q": "子どもが川で溺れそうになっているのを見て、彼は飛び込ま（　）。"
+  },
+  {
+   "answer": 1,
+   "explain": "うれしい限りだ: vui vô cùng (cảm xúc người nói). 極まりない đi sau Na; てならない cần うれしくて; ありはしない mang sắc thái phàn nàn.",
+   "options": [
+    "極まりない",
+    "限りだ",
+    "てならない",
+    "といったらありはしない"
+   ],
+   "q": "久しぶりに会った恩師に名前を覚えていてもらえて、うれしい（　）。"
+  },
+  {
+   "answer": 2,
+   "explain": "恐縮の至り: vô cùng áy náy/cảm kích (cụm trang trọng). ならでは, ずくめ, をよそに không hợp nghĩa.",
+   "options": [
+    "ならでは",
+    "ずくめ",
+    "の至り",
+    "をよそに"
+   ],
+   "q": "皆様にこのような盛大な会を開いていただき、恐縮（　）でございます。"
+  },
+  {
+   "answer": 3,
+   "explain": "免除（めんじょ）される: được miễn phí nhập học. 修繕 = sửa chữa, 寄与 = đóng góp, 安堵 = nhẹ nhõm.",
+   "options": [
+    "修繕",
+    "寄与",
+    "安堵",
+    "免除"
+   ],
+   "q": "優れた成績を収めた学生は、入学金が（　）される。"
+  },
+  {
+   "answer": 2,
+   "explain": "際立つ（きわだつ）: nổi bật. 漂う = phảng phất, 傾ける = nghiêng/dồn, 戒める = răn dạy.",
+   "options": [
+    "漂って",
+    "傾けて",
+    "際立って",
+    "戒めて"
+   ],
+   "q": "大勢の候補者の中でも、彼女の才能はひときわ（　）いた。"
+  },
+  {
+   "answer": 1,
+   "explain": "からといって〜とは限らない: dù… nhưng không hẳn (28/10). からには／上は = đã… thì phải; からこそ = chính vì.",
+   "options": [
+    "からには",
+    "からといって",
+    "からこそ",
+    "上は"
+   ],
+   "q": "(ôn) 値段が高い（　）、品質がいいとは限らない。"
+  },
+  {
+   "answer": 0,
+   "explain": "迅速（じんそく）に: nhanh chóng (30/10). 謙虚 = khiêm tốn, 疎か = lơ là, 漠然 = mơ hồ.",
+   "options": [
+    "迅速",
+    "謙虚",
+    "疎か",
+    "漠然"
+   ],
+   "q": "(ôn) 事故の連絡を受け、消防隊は（　）に現場へ向かった。"
+  },
+  {
+   "answer": 3,
+   "explain": "に限って: đúng vào lúc… lại (điều không mong muốn) (3/11). に限らず = không chỉ; 限りでは = trong phạm vi; を限りに = lấy … làm mốc chấm dứt.",
+   "options": [
+    "に限らず",
+    "限りでは",
+    "を限りに",
+    "に限って"
+   ],
+   "q": "(ôn) 傘を持っていない日（　）、雨が降るものだ。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 1,
+  "explain": "「自分だけが取り残されているように思えてならなかった」→ cảm thấy mình thua kém bạn bè. Thực tế không ai hỏi chức vụ, thu nhập; không nhắc đến chuyện ngại gặp thầy hay bị trách.",
+  "options": [
+   "友人たちに肩書きや収入のことを聞かれると分かっていたから",
+   "自分だけが友人たちより劣っているように感じていたから",
+   "担任の先生に会うのが恥ずかしかったから",
+   "子どもの頃のいたずらを責められると思ったから"
+  ],
+  "q": "筆者が同窓会に行く前に気が重かったのはなぜか。",
+  "text": "先日、十年ぶりに小学校の同窓会に出席した。正直に言うと、行く前は気が重くてしかたがなかった。昔の友人たちがそれぞれ立派に活躍しているのに、自分だけが取り残されているように思えてならなかったからだ。ところが、実際に会ってみると、誰も肩書きや収入の話などしなかった。話題はもっぱら子どもの頃のいたずらや、担任の先生の口癖のことばかりで、私は何度も声を上げて笑った。比べていたのは周りではなく、自分自身だったのだと気づかされた。帰り道に交わした「また来年」という約束が、今は何よりうれしい。"
+ },
+ "vocab": [
+  {
+   "ex": "成績優秀者は授業料が免除される。",
+   "exVi": "Sinh viên có thành tích xuất sắc được miễn học phí.",
+   "hanviet": "MIỄN TRỪ",
+   "level": "N2",
+   "meaning": "miễn (phí, thuế, nghĩa vụ)",
+   "reading": "めんじょ",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "免除"
+  },
+  {
+   "ex": "古い寺の屋根を修繕する工事が始まった。",
+   "exVi": "Công trình tu sửa mái ngôi chùa cũ đã bắt đầu.",
+   "hanviet": "TU THIỆN",
+   "level": "N2",
+   "meaning": "tu sửa, sửa chữa (nhà cửa, đồ vật)",
+   "reading": "しゅうぜん",
+   "reg": "viet",
+   "regTip": "修理・直す",
+   "review": false,
+   "word": "修繕"
+  },
+  {
+   "ex": "彼の研究は医学の発展に大きく寄与した。",
+   "exVi": "Nghiên cứu của anh ấy đã góp phần lớn vào sự phát triển của y học.",
+   "hanviet": "KÝ DỮ",
+   "level": "N2",
+   "meaning": "đóng góp, góp phần",
+   "reading": "きよ",
+   "reg": "viet",
+   "regTip": "役に立つ・貢献する",
+   "review": false,
+   "word": "寄与"
+  },
+  {
+   "ex": "今は動かずに様子を見るのが賢明だ。",
+   "exVi": "Lúc này đứng yên quan sát tình hình là sáng suốt.",
+   "hanviet": "HIỀN MINH",
+   "level": "N2",
+   "meaning": "sáng suốt, khôn ngoan",
+   "reading": "けんめい",
+   "reg": "viet",
+   "regTip": "賢い・いい判断",
+   "review": false,
+   "word": "賢明"
+  },
+  {
+   "ex": "部下の意見にもっと耳を傾けるべきだ。",
+   "exVi": "Nên lắng nghe ý kiến cấp dưới nhiều hơn.",
+   "hanviet": "KHUYNH",
+   "level": "N2",
+   "meaning": "nghiêng; dồn (tâm sức); 耳を傾ける: lắng nghe",
+   "reading": "かたむける",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "傾ける"
+  },
+  {
+   "ex": "彼女の演技は新人の中でも際立っていた。",
+   "exVi": "Diễn xuất của cô ấy nổi bật ngay cả giữa các diễn viên mới.",
+   "hanviet": "TẾ LẬP",
+   "level": "N2",
+   "meaning": "nổi bật, nổi trội",
+   "reading": "きわだつ",
+   "reg": "viet",
+   "regTip": "目立つ",
+   "review": false,
+   "word": "際立つ"
+  },
+  {
+   "ex": "台所からカレーのいい匂いが漂ってきた。",
+   "exVi": "Mùi cà ri thơm phảng phất từ bếp bay ra.",
+   "hanviet": "PHIÊU",
+   "level": "N2",
+   "meaning": "trôi nổi; (mùi, bầu không khí) lan tỏa, phảng phất",
+   "reading": "ただよう",
+   "reg": "viet",
+   "regTip": "〜な感じがする",
+   "review": false,
+   "word": "漂う"
+  },
+  {
+   "ex": "子どもが無事だと聞いて、母親は安堵の表情を浮かべた。",
+   "exVi": "Nghe tin con bình an, người mẹ lộ vẻ nhẹ nhõm.",
+   "hanviet": "AN ĐỔ",
+   "level": "N1",
+   "meaning": "an tâm, nhẹ nhõm",
+   "reading": "あんど",
+   "reg": "viet",
+   "regTip": "ほっとする・安心",
+   "review": false,
+   "word": "安堵"
+  },
+  {
+   "ex": "慢心しないよう、常に自らを戒めている。",
+   "exVi": "Tôi luôn tự răn mình để không tự mãn.",
+   "hanviet": "GIỚI",
+   "level": "N1",
+   "meaning": "răn dạy, cảnh tỉnh, tự răn mình",
+   "reading": "いましめる",
+   "reg": "viet",
+   "regTip": "注意する・気をつける",
+   "review": false,
+   "word": "戒める"
+  },
+  {
+   "ex": "留学して、語学力の不足を痛切に感じた。",
+   "exVi": "Đi du học rồi tôi mới thấm thía sự thiếu hụt năng lực ngoại ngữ.",
+   "hanviet": "THỐNG THIẾT",
+   "level": "N1",
+   "meaning": "thấm thía, sâu sắc (cảm nhận)",
+   "reading": "つうせつ",
+   "reg": "viet",
+   "regTip": "身にしみて",
+   "review": false,
+   "word": "痛切"
+  }
+ ]
+}

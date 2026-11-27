@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-16",
+ "grammar": [
+  {
+   "ex": "引っ越しの準備やら手続きやらで、毎日バタバタしている。",
+   "exVi": "Nào chuẩn bị chuyển nhà, nào thủ tục, ngày nào cũng tất bật.",
+   "form": "N／V辞書形／いA + やら、N／V辞書形／いA + やら",
+   "level": "N2",
+   "meaning": "nào là… nào là… (liệt kê, thường kèm cảm giác bận rộn, lộn xộn, vất vả)",
+   "note": "とか～とか trung tính; だの～だの mang ý phàn nàn rõ hơn.",
+   "pattern": "～やら～やら",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "弟は、寒いだの眠いだのと文句ばかり言っている。",
+   "exVi": "Em trai tôi toàn càu nhàu nào là lạnh, nào là buồn ngủ.",
+   "form": "N／普通形 + だの、N／普通形 + だの（と）",
+   "level": "N2",
+   "meaning": "nào là… nào là… (liệt kê lời nói/đòi hỏi với ý chê, bực)",
+   "note": "Hay đi với 文句・言う; tiêu cực mạnh hơn やら～やら.",
+   "pattern": "～だの～だの",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "賛成するにしろ反対するにしろ、理由ははっきり言うべきだ。",
+   "exVi": "Dù tán thành hay phản đối thì cũng nên nói rõ lý do.",
+   "form": "N／普通形 + にしろ、N／普通形 + にしろ",
+   "level": "N2",
+   "meaning": "dù là A hay B thì cũng…",
+   "note": "= にせよ～にせよ (cứng hơn). Khác といい～といい (đánh giá cả hai mặt đều…).",
+   "pattern": "～にしろ～にしろ",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜にしても〜にしても",
+   "review": false
+  },
+  {
+   "ex": "どんな理由があったにせよ、無断欠勤は許されない。",
+   "exVi": "Dù có lý do gì đi nữa, nghỉ không báo vẫn không được chấp nhận.",
+   "form": "普通形（なA／N＋である）+ にせよ",
+   "level": "N2",
+   "meaning": "dù… đi nữa thì (cũng)",
+   "note": "= にしろ nhưng cứng hơn; dạng nói là にしても.",
+   "pattern": "～にせよ",
+   "reg": "viet",
+   "regTip": "〜にしても・〜としても",
+   "review": false
+  },
+  {
+   "ex": "京都や奈良といった古都には、毎年多くの観光客が訪れる。",
+   "exVi": "Những cố đô như Kyoto, Nara mỗi năm đón rất nhiều khách du lịch.",
+   "form": "N1（や N2）+ といった + N",
+   "level": "N2",
+   "meaning": "như là… (nêu vài ví dụ tiêu biểu rồi gom lại)",
+   "note": "Đừng nhầm với といっても (nhượng bộ: tuy nói là… nhưng).",
+   "pattern": "～といった",
+   "reg": "viet",
+   "regTip": "〜とか〜みたいな",
+   "review": false
+  },
+  {
+   "ex": "彼が会社を辞めるなんて、信じられない。",
+   "exVi": "Anh ấy mà nghỉ việc ư, không thể tin nổi.",
+   "form": "N／普通形 + なんて",
+   "level": "N2",
+   "meaning": "(chuyện)… thì / cái thứ… (ngạc nhiên, coi nhẹ, chê)",
+   "note": "Văn viết dùng など・とは. なんか thiên về coi nhẹ (私なんか…).",
+   "pattern": "～なんて",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "北海道といえば、やっぱり新鮮な海鮮だね。",
+   "exVi": "Nhắc đến Hokkaido thì phải là hải sản tươi nhỉ.",
+   "form": "N + といえば／というと／といったら",
+   "level": "N2",
+   "meaning": "nhắc đến… thì (gợi liên tưởng điển hình)",
+   "note": "といったら còn nghĩa nhấn mạnh cảm xúc (といったらない).",
+   "pattern": "～といえば",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜っていえば・〜って言ったら",
+   "review": false
+  },
+  {
+   "ex": "この部屋は広さといい日当たりといい、申し分ない。",
+   "exVi": "Căn phòng này cả độ rộng lẫn ánh nắng đều không chê vào đâu được.",
+   "form": "N + といい、N + といい",
+   "level": "N1",
+   "meaning": "cả A lẫn B đều… (người nói đánh giá, khen/chê)",
+   "note": "Luôn kèm đánh giá; khác にしろ～にしろ (bất kể trường hợp nào).",
+   "pattern": "～といい～といい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "遅れるなら、電話するなりメールするなりして連絡してください。",
+   "exVi": "Nếu đến muộn thì gọi điện hay gửi mail gì đó báo nhé.",
+   "form": "V辞書形／N + なり、V辞書形／N + なり",
+   "level": "N1",
+   "meaning": "hoặc… hoặc… (gợi ý lựa chọn, ví dụ cách làm)",
+   "note": "Không dùng cho việc quá khứ; khác ～なり (vừa… liền, bài 29/10).",
+   "pattern": "～なり～なり",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "本番まで、一日たりとも練習を休まなかった。",
+   "exVi": "Đến ngày biểu diễn, không nghỉ tập dù chỉ một ngày.",
+   "form": "1 + 助数詞 + たりとも〜ない",
+   "level": "N1",
+   "meaning": "dù chỉ một… cũng không",
+   "note": "Cứng hơn 〜も〜ない.",
+   "pattern": "～たりとも",
+   "reg": "viet",
+   "regTip": "一日も・一円も",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Liệt kê, nêu ví dụ & gợi chủ đề: やら～やら／だの～だの／にしろ～にしろ／にせよ／といった／なんて／といえば",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Liệt kê việc làm bận rộn → やら～やら. にしろ = dù A hay B; といい = đánh giá; なり = gợi ý lựa chọn.",
+   "options": [
+    "にしろ／にしろ",
+    "やら／やら",
+    "といい／といい",
+    "なり／なり"
+   ],
+   "q": "休みの日も、洗濯（　）掃除（　）で、ゆっくりする時間がない。"
+  },
+  {
+   "answer": 2,
+   "explain": "Gợi ý chọn một trong vài cách → なり～なり. だの (phàn nàn), やら (bận rộn) không dùng cho lời khuyên.",
+   "options": [
+    "だの／だの",
+    "といい／といい",
+    "なり／なり",
+    "やら／やら"
+   ],
+   "q": "週末は映画を見る（　）買い物に行く（　）して、気分転換したらどう？"
+  },
+  {
+   "answer": 0,
+   "explain": "Đánh giá cả hai mặt đều tốt → といい～といい.",
+   "options": [
+    "といい／といい",
+    "なり／なり",
+    "やら／やら",
+    "だの／だの"
+   ],
+   "q": "このレストランは、味（　）雰囲気（　）、文句のつけようがない。"
+  },
+  {
+   "answer": 3,
+   "explain": "1 + đơn vị + たりとも〜ない = dù chỉ 1 phút cũng không.",
+   "options": [
+    "なんて",
+    "にせよ",
+    "といった",
+    "たりとも"
+   ],
+   "q": "試験まであと3日だ。1分（　）無駄にはできない。"
+  },
+  {
+   "answer": 1,
+   "explain": "手配（てはい）: đặt/bố trí vé, phòng. 手間 = công sức, không đi với する theo nghĩa này.",
+   "options": [
+    "一環",
+    "手配",
+    "手間",
+    "圧倒"
+   ],
+   "q": "出張のホテルと新幹線の（　）は、総務課がしてくれる。"
+  },
+  {
+   "answer": 2,
+   "explain": "煩雑（はんざつ）= rườm rà. 冷静/懸命 chỉ thái độ người, 疎通 là danh từ 'thông hiểu'.",
+   "options": [
+    "冷静",
+    "懸命",
+    "煩雑",
+    "疎通"
+   ],
+   "q": "このシステムは入力項目が多く、手続きが（　）だ。"
+  },
+  {
+   "answer": 3,
+   "explain": "といった・等・のである・次第である là văn viết; khi nói dùng とか〜みたいな + 好きなんだ.",
+   "options": [
+    "寿司や天ぷらといった和食を好むのである。",
+    "寿司、天ぷら等の和食を嗜好している。",
+    "寿司や天ぷらといった和食を好む次第である。",
+    "寿司とか天ぷらみたいな和食が好きなんだ。"
+   ],
+   "q": "Nói với bạn thân, câu nào tự nhiên nhất?"
+  },
+  {
+   "answer": 0,
+   "explain": "Cụm cố định 拍車をかける（はくしゃ）= thúc đẩy nhanh hơn (bài 03/11).",
+   "options": [
+    "拍車",
+    "兆し",
+    "名残",
+    "遜色"
+   ],
+   "q": "(ôn) 人手不足が、現場の負担増に（　）をかけている。"
+  },
+  {
+   "answer": 1,
+   "explain": "を余儀なくされる = buộc phải (do hoàn cảnh) (bài 04/11).",
+   "options": [
+    "のきらいがあった",
+    "を余儀なくされた",
+    "を禁じ得なかった",
+    "に足りた"
+   ],
+   "q": "(ôn) 台風の影響で、イベントは中止（　）。"
+  },
+  {
+   "answer": 2,
+   "explain": "ながらも = tuy… nhưng (bài 05/11). くせに mang ý chê; ばかりに/だけに chỉ nguyên nhân.",
+   "options": [
+    "くせに",
+    "ばかりに",
+    "ながらも",
+    "だけに"
+   ],
+   "q": "(ôn) 彼は体調が悪い（　）、最後まで仕事をやり遂げた。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 2,
+  "explain": "「意思疎通が難しくなる」という問題への「対策の一環」として出社日を設けた → giao tiếp. A, B là lợi ích của làm ở nhà; D sai vì vẫn kết hợp cả hai.",
+  "options": [
+   "通勤の手間を省くため",
+   "家事や育児と両立しやすくするため",
+   "社員同士のコミュニケーションを取りやすくするため",
+   "在宅勤務を完全にやめるため"
+  ],
+  "q": "この会社が週に一度の出社日を設けたのはなぜか。",
+  "text": "最近、在宅勤務と出社を組み合わせる会社が増えている。通勤の手間が省けるうえ、家事や育児と両立しやすいといった利点がある一方で、同僚との意思疎通が難しくなるという声も少なくない。ある会社では、その対策の一環として、週に一度は全員が出社する日を設けた。社員からは「雑談やら相談やらが気軽にできるようになった」と好評だという。働き方に正解はない。在宅にせよ出社にせよ、目的に合わせて選ぶことが大切なのだろう。"
+ },
+ "vocab": [
+  {
+   "ex": "空港までのタクシーを手配しておきました。",
+   "exVi": "Tôi đã gọi sẵn taxi ra sân bay rồi.",
+   "hanviet": "THỦ PHỐI",
+   "level": "N2",
+   "meaning": "sắp xếp, bố trí, đặt trước (xe, vé, khách sạn, người…)",
+   "reading": "てはい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "手配"
+  },
+  {
+   "ex": "救助隊が懸命に捜索を続けている。",
+   "exVi": "Đội cứu hộ đang dốc sức tiếp tục tìm kiếm.",
+   "hanviet": "HUYỀN MỆNH",
+   "level": "N2",
+   "meaning": "dốc hết sức, hết mình (thường dạng 懸命に)",
+   "reading": "けんめい",
+   "reg": "viet",
+   "regTip": "一生懸命・必死に",
+   "review": false,
+   "word": "懸命"
+  },
+  {
+   "ex": "トラブルの時こそ、冷静に判断しよう。",
+   "exVi": "Chính lúc có sự cố mới càng phải phán đoán bình tĩnh.",
+   "hanviet": "LÃNH TĨNH",
+   "level": "N2",
+   "meaning": "bình tĩnh, điềm tĩnh",
+   "reading": "れいせい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "冷静"
+  },
+  {
+   "ex": "部屋が散らかってて、ちょっと恥ずかしいな。",
+   "exVi": "Phòng bừa bộn quá, hơi ngại nhỉ.",
+   "hanviet": "TÁN",
+   "level": "N2",
+   "meaning": "bừa bộn, vương vãi",
+   "reading": "ちらかる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "散らかる"
+  },
+  {
+   "ex": "初めて見た富士山の大きさに圧倒された。",
+   "exVi": "Tôi choáng ngợp trước độ lớn của núi Phú Sĩ lần đầu thấy.",
+   "hanviet": "ÁP ĐẢO",
+   "level": "N2",
+   "meaning": "áp đảo; bị choáng ngợp (圧倒される)",
+   "reading": "あっとう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "圧倒"
+  },
+  {
+   "ex": "省エネ対策の一環として、工場の照明をLEDに替えた。",
+   "exVi": "Như một phần của biện pháp tiết kiệm năng lượng, đã thay đèn nhà máy sang LED.",
+   "hanviet": "NHẤT HOÀN",
+   "level": "N2",
+   "meaning": "một phần (trong một chuỗi kế hoạch, hoạt động)",
+   "reading": "いっかん",
+   "reg": "viet",
+   "regTip": "〜の一つとして・〜の一部として",
+   "review": false,
+   "word": "一環"
+  },
+  {
+   "ex": "この料理は手間がかかるけど、すごくおいしいよ。",
+   "exVi": "Món này tốn công nhưng ngon lắm đấy.",
+   "hanviet": "THỦ GIAN",
+   "level": "N2",
+   "meaning": "công sức, thời gian bỏ ra (手間がかかる／手間が省ける)",
+   "reading": "てま",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "手間"
+  },
+  {
+   "ex": "部署間の意思疎通を図るため、定例会議を設けた。",
+   "exVi": "Để các bộ phận hiểu ý nhau hơn, đã lập cuộc họp định kỳ.",
+   "hanviet": "SƠ THÔNG",
+   "level": "N1",
+   "meaning": "thông suốt, hiểu nhau (thường 意思疎通)",
+   "reading": "そつう",
+   "reg": "viet",
+   "regTip": "話が通じる・気持ちが伝わる",
+   "review": false,
+   "word": "疎通"
+  },
+  {
+   "ex": "申請手続きが煩雑で、窓口に問い合わせが殺到している。",
+   "exVi": "Thủ tục xin phép rườm rà nên câu hỏi dồn dập đổ về quầy.",
+   "hanviet": "PHIỀN TẠP",
+   "level": "N1",
+   "meaning": "rườm rà, phức tạp, nhiêu khê",
+   "reading": "はんざつ",
+   "reg": "viet",
+   "regTip": "面倒・ややこしい",
+   "review": false,
+   "word": "煩雑"
+  },
+  {
+   "ex": "復旧の目処が立ったら、すぐに連絡します。",
+   "exVi": "Khi có triển vọng khôi phục, tôi sẽ liên lạc ngay.",
+   "hanviet": "MỤC XỨ",
+   "level": "N1",
+   "meaning": "triển vọng, mốc dự kiến (目処が立つ／目処をつける); hay viết めど",
+   "reading": "めど",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "目処"
+  }
+ ]
+}

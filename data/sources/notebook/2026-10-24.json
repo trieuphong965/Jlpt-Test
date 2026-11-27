@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-24",
+ "grammar": [
+  {
+   "ex": "日本での生活に慣れるにつれて、友達も増えてきた。",
+   "exVi": "Càng quen với cuộc sống ở Nhật, bạn bè càng tăng lên.",
+   "form": "N / V辞書形 + につれて",
+   "level": "N2",
+   "meaning": "càng… thì càng… (thay đổi dần dần theo tiến trình)",
+   "note": "Cả hai vế đều là thay đổi dần dần; vế sau không dùng ý chí/mệnh lệnh. Không dùng cho thay đổi một lần (→ に伴って).",
+   "pattern": "～につれて",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "人口の増加に伴って、住宅問題が深刻になった。",
+   "exVi": "Cùng với sự gia tăng dân số, vấn đề nhà ở trở nên nghiêm trọng.",
+   "form": "N / V辞書形 + に伴って（に伴い）",
+   "level": "N2",
+   "meaning": "cùng với, kéo theo (A thay đổi kéo theo B)",
+   "note": "Văn viết, trang trọng; dùng được cả với sự kiện xảy ra một lần (移転に伴い…), khác につれて.",
+   "pattern": "～に伴って",
+   "reg": "viet",
+   "regTip": "〜につれて・〜と一緒に",
+   "review": false
+  },
+  {
+   "ex": "年齢とともに、考え方も変わっていく。",
+   "exVi": "Cùng với tuổi tác, cách suy nghĩ cũng thay đổi.",
+   "form": "N / V辞書形 + とともに",
+   "level": "N2",
+   "meaning": "cùng với; đồng thời (thay đổi song song)",
+   "note": "Còn có nghĩa “cùng với (ai)” (家族とともに) và “đồng thời” (A であるとともに B).",
+   "pattern": "～とともに",
+   "reg": "viet",
+   "regTip": "〜と一緒に",
+   "review": false
+  },
+  {
+   "ex": "山を登るにしたがって、空気が薄くなる。",
+   "exVi": "Càng leo lên núi, không khí càng loãng.",
+   "form": "N / V辞書形 + にしたがって",
+   "level": "N2",
+   "meaning": "càng… càng… / theo, tuân theo",
+   "note": "Gần nghĩa につれて, nhưng có thêm nghĩa “tuân theo” (指示にしたがって) — khi đó vế sau dùng ý chí được.",
+   "pattern": "～にしたがって",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "考えれば考えるほど、分からなくなる。",
+   "exVi": "Càng nghĩ càng không hiểu.",
+   "form": "(Vば) + V辞書形 + ほど / Aい + ほど",
+   "level": "N2",
+   "meaning": "càng… càng… (tỉ lệ thuận)",
+   "note": "につれて nhấn tiến trình theo thời gian; ほど nhấn tương quan mức độ, thường đi với dạng ば～ほど.",
+   "pattern": "～ほど",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "アンケートの結果に基づいて、新商品を開発した。",
+   "exVi": "Dựa trên kết quả khảo sát, đã phát triển sản phẩm mới.",
+   "form": "N + に基づいて（に基づく N）",
+   "level": "N2",
+   "meaning": "dựa trên, căn cứ vào (dữ liệu, sự thật, luật)",
+   "note": "に沿って: làm theo, không lệch khỏi (kế hoạch, mong muốn); に基づいて: lấy làm căn cứ/cơ sở.",
+   "pattern": "～に基づいて",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "マニュアルに沿って作業を進めてください。",
+   "exVi": "Hãy tiến hành công việc theo đúng sổ tay hướng dẫn.",
+   "form": "N + に沿って（に沿った N）",
+   "level": "N2",
+   "meaning": "theo, bám theo (kế hoạch, hướng dẫn); dọc theo",
+   "note": "Nghĩa vật lý: dọc theo (川に沿って). Phân biệt với に基づいて (căn cứ).",
+   "pattern": "～に沿って",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "東京公演を皮切りに、全国ツアーが始まる。",
+   "exVi": "Mở màn bằng buổi diễn ở Tokyo, chuyến lưu diễn toàn quốc bắt đầu.",
+   "form": "N + を皮切りに（して／として）",
+   "level": "N1",
+   "meaning": "bắt đầu từ…, mở màn bằng… (rồi liên tiếp)",
+   "note": "～をきっかけに (N2): cơ hội/nguyên nhân dẫn đến thay đổi; を皮切りに: điểm khởi đầu của chuỗi sự việc cùng loại.",
+   "pattern": "～を皮切りに",
+   "reg": "viet",
+   "regTip": "〜から始まって",
+   "review": false
+  },
+  {
+   "ex": "子どもは家に帰るが早いか、遊びに出かけた。",
+   "exVi": "Đứa trẻ vừa về đến nhà là lập tức đi chơi ngay.",
+   "form": "V辞書形 / Vた + が早いか",
+   "level": "N1",
+   "meaning": "vừa… thì ngay lập tức…",
+   "note": "Gần ～や否や; thường dùng miêu tả người khác, vế sau không dùng ý chí/mệnh lệnh. ～たとたん (N3): nhấn sự bất ngờ.",
+   "pattern": "～が早いか",
+   "reg": "viet",
+   "regTip": "〜とすぐ",
+   "review": false
+  },
+  {
+   "ex": "社長ともなると、自由な時間はほとんどない。",
+   "exVi": "Đã là giám đốc thì hầu như chẳng có thời gian rảnh.",
+   "form": "N + ともなると（ともなれば）",
+   "level": "N1",
+   "meaning": "khi đã đến mức/cương vị… thì đương nhiên…",
+   "note": "～となると (N2): “nếu mà…” chung chung; ともなると nhấn đến một mức/vị trí đặc biệt cao.",
+   "pattern": "～ともなると",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Biến đổi tương quan & “theo/dựa trên”: につれて／に伴って／とともに／にしたがって／ほど／に基づいて／に沿って",
+ "quiz": [
+  {
+   "answer": 0,
+   "explain": "につれて: thay đổi dần dần song song (mùa thu đến gần → ngày ngắn lại).",
+   "options": [
+    "につれて",
+    "に沿って",
+    "に基づいて",
+    "を皮切りに"
+   ],
+   "q": "季節が秋に近づく＿＿、日が短くなってきた。"
+  },
+  {
+   "answer": 1,
+   "explain": "Chuyển trụ sở là sự kiện một lần → に伴って; につれて chỉ dùng cho thay đổi dần dần.",
+   "options": [
+    "につれて",
+    "に伴って",
+    "ほど",
+    "に沿って"
+   ],
+   "q": "会社の移転＿＿、電話番号が変わります。"
+  },
+  {
+   "answer": 1,
+   "explain": "Dữ liệu là căn cứ → に基づいて; に沿って dùng cho kế hoạch, hướng dẫn, mong muốn.",
+   "options": [
+    "に沿って",
+    "に基づいて",
+    "につれて",
+    "ともなると"
+   ],
+   "q": "調査データ＿＿、報告書を作成した。"
+  },
+  {
+   "answer": 0,
+   "explain": "Cấu trúc ば～ほど: càng… càng…",
+   "options": [
+    "ほど",
+    "につれて",
+    "とともに",
+    "に伴って"
+   ],
+   "q": "練習すればする＿＿、上達が早くなる。"
+  },
+  {
+   "answer": 1,
+   "explain": "を皮切りに: mở đầu bằng (cửa hàng Osaka) rồi mở rộng liên tiếp.",
+   "options": [
+    "につれて",
+    "を皮切りに",
+    "ともなると",
+    "が早いか"
+   ],
+   "q": "大阪店のオープン＿＿、全国に店舗を広げていく予定だ。"
+  },
+  {
+   "answer": 0,
+   "explain": "削減（さくげん）: cắt giảm chi phí.",
+   "options": [
+    "削減",
+    "踏襲",
+    "顕著",
+    "貴重"
+   ],
+   "q": "予算が足りないので、人件費を＿＿することになった。"
+  },
+  {
+   "answer": 1,
+   "explain": "偏る（かたよる）: mất cân bằng, thiên lệch — 栄養が偏る.",
+   "options": [
+    "補った",
+    "偏った",
+    "促した",
+    "拒んだ"
+   ],
+   "q": "栄養が＿＿食事は健康によくない。"
+  },
+  {
+   "answer": 0,
+   "explain": "をよそに: mặc kệ sự lo lắng của người khác.",
+   "options": [
+    "をよそに",
+    "にかこつけて",
+    "に先立って",
+    "に応じて"
+   ],
+   "q": "(ôn) 彼は家族の心配＿＿、危険な山に一人で登った。"
+  },
+  {
+   "answer": 0,
+   "explain": "怠る（おこたる）: lơ là, sao nhãng.",
+   "options": [
+    "おこたる",
+    "いつわる",
+    "おそる",
+    "あなどる"
+   ],
+   "q": "(ôn) 「怠る」の読み方は？"
+  },
+  {
+   "answer": 1,
+   "explain": "かねない: có thể dẫn đến kết quả xấu; かねる là “khó mà làm”.",
+   "options": [
+    "かねる",
+    "かねない",
+    "ずにはおかない",
+    "ないまでも"
+   ],
+   "q": "(ôn) 睡眠不足のまま運転すると、事故を起こし＿＿。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 1,
+  "explain": "Câu cuối 「～からこそ、一人一人が時間の使い方を工夫し、意識的に人とつながる努力をすることが求められている」 là ý chính. Bài không bảo bỏ làm việc tại nhà (a), không nói mọi người đều hài lòng (c), và coi việc khó phân biệt công/tư là vấn đề (d sai).",
+  "options": [
+   "在宅勤務は孤独を生むので、やめるべきだ。",
+   "在宅勤務では、自分で時間を管理し、人との関わりを意識することが大切だ。",
+   "通勤時間がなくなったので、すべての人が満足している。",
+   "仕事と私生活は区別しないほうがよい。"
+  ],
+  "q": "筆者が最も言いたいことは何か。",
+  "text": "近年、在宅勤務を導入する企業が増えている。通勤時間がなくなったことで、自分の時間が増えたと喜ぶ人は多い。一方で、同僚と直接話す機会が減り、孤独を感じるという声も少なくない。ある調査によると、在宅勤務を続けている人の約四割が「仕事と私生活の区別がつきにくくなった」と答えている。働く場所が自由になったからこそ、一人一人が時間の使い方を工夫し、意識的に人とつながる努力をすることが求められているのではないだろうか。"
+ },
+ "vocab": [
+  {
+   "ex": "政府は国民に節電を促した。",
+   "exVi": "Chính phủ kêu gọi người dân tiết kiệm điện.",
+   "level": "N2",
+   "meaning": "thúc giục, kêu gọi",
+   "reading": "うながす",
+   "reg": "viet",
+   "regTip": "〜するように言う",
+   "review": false,
+   "word": "促す"
+  },
+  {
+   "ex": "多くの企業が人手不足という問題を抱えている。",
+   "exVi": "Nhiều doanh nghiệp đang gặp vấn đề thiếu nhân lực.",
+   "level": "N2",
+   "meaning": "ôm, mang (vấn đề, gánh nặng)",
+   "reading": "かかえる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "抱える"
+  },
+  {
+   "ex": "睡眠不足を昼寝で補う。",
+   "exVi": "Bù đắp việc thiếu ngủ bằng giấc ngủ trưa.",
+   "level": "N2",
+   "meaning": "bù đắp, bổ sung",
+   "reading": "おぎなう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "補う"
+  },
+  {
+   "ex": "契約書には慎重に目を通すべきだ。",
+   "exVi": "Nên đọc kỹ hợp đồng một cách thận trọng.",
+   "level": "N2",
+   "meaning": "thận trọng",
+   "reading": "しんちょう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "慎重"
+  },
+  {
+   "ex": "貴重なご意見をありがとうございます。",
+   "exVi": "Cảm ơn ý kiến quý báu của anh/chị.",
+   "level": "N2",
+   "meaning": "quý giá",
+   "reading": "きちょう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "貴重"
+  },
+  {
+   "ex": "経費を二割削減することになった。",
+   "exVi": "Đã quyết định cắt giảm 20% chi phí.",
+   "level": "N2",
+   "meaning": "cắt giảm",
+   "reading": "さくげん",
+   "reg": "viet",
+   "regTip": "減らす",
+   "review": false,
+   "word": "削減"
+  },
+  {
+   "ex": "栄養が偏らないように気をつけている。",
+   "exVi": "Tôi chú ý để dinh dưỡng không bị mất cân bằng.",
+   "level": "N2",
+   "meaning": "lệch, thiên lệch, mất cân bằng",
+   "reading": "かたよる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "偏る"
+  },
+  {
+   "ex": "新社長は前社長の方針を踏襲した。",
+   "exVi": "Tân giám đốc kế thừa đường lối của giám đốc cũ.",
+   "level": "N1",
+   "meaning": "kế thừa, noi theo (cách làm cũ)",
+   "reading": "とうしゅう",
+   "reg": "viet",
+   "regTip": "前と同じやり方を続ける",
+   "review": false,
+   "word": "踏襲"
+  },
+  {
+   "ex": "高齢化の影響が地方で顕著に表れている。",
+   "exVi": "Ảnh hưởng của già hóa dân số thể hiện rõ rệt ở các địa phương.",
+   "level": "N1",
+   "meaning": "rõ rệt, nổi bật",
+   "reading": "けんちょ",
+   "reg": "viet",
+   "regTip": "はっきり・目立つ",
+   "review": false,
+   "word": "顕著"
+  },
+  {
+   "ex": "彼は取材を拒んだ。",
+   "exVi": "Anh ấy từ chối trả lời phỏng vấn.",
+   "level": "N1",
+   "meaning": "từ chối, cự tuyệt",
+   "reading": "こばむ",
+   "reg": "viet",
+   "regTip": "断る・嫌がる",
+   "review": false,
+   "word": "拒む"
+  }
+ ]
+}

@@ -1,0 +1,899 @@
+{
+ "date": "2026-11-07",
+ "grammar": [],
+ "test": {
+  "note": "Kiểm tra từ vựng & ngữ pháp các bài 1–6/11 (nhóm こと, nhóm “không chỉ… mà còn”, nhóm 限り/限る, nhóm khuynh hướng & nguy cơ, nhóm nhượng bộ/trái ngược, nhóm “bất kể / gác lại / tùy vào”) cùng phần ôn bài 23–24/10 (措置, 妥協, 促す, ～に先立って, ～ものの, ～に応じて, ～ばかりか, ～とあれば…).",
+  "questions": [
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "吟味 = ぎんみ (xem xét kỹ, chọn lọc). 吟 đọc ぎん (không phải きん); 味 ở đây là み, không đọc あじ.",
+    "old": false,
+    "options": [
+     "ぎんび",
+     "きんみ",
+     "ぎんあじ",
+     "ぎんみ"
+    ],
+    "passage": "",
+    "q": "漢字読み：業者を決める前に、見積もりの内容をよく〔吟味〕した。",
+    "refs": [
+     "vocab:吟味"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "慎重 = しんちょう (thận trọng). 重 ở đây đọc ちょう (như 貴重 きちょう), không phải じゅう.",
+    "old": true,
+    "options": [
+     "しんじゅう",
+     "じんちょう",
+     "しんちょ",
+     "しんちょう"
+    ],
+    "passage": "",
+    "q": "漢字読み：この件は〔慎重〕に検討する必要がある。",
+    "refs": [
+     "vocab:慎重"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "滞る = とどこおる (bị đình trệ, ứ đọng). とどまる = 留まる (dừng lại), おこたる = 怠る (lơ là), ためらう = do dự.",
+    "old": false,
+    "options": [
+     "とどまって",
+     "とどこおって",
+     "ためらって",
+     "おこたって"
+    ],
+    "passage": "",
+    "q": "漢字読み：部品が届かないため、工場の生産が〔滞って〕いる。",
+    "refs": [
+     "vocab:滞る"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "措置 = そち (biện pháp). Dễ nhầm với 処置 しょち (xử lý) và 装置 そうち (thiết bị).",
+    "old": true,
+    "options": [
+     "そうち",
+     "しょち",
+     "そち",
+     "そじ"
+    ],
+    "passage": "",
+    "q": "漢字読み：市は被害の拡大を防ぐための〔措置〕をとった。",
+    "refs": [
+     "vocab:措置"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "頻繁 = ひんぱん (thường xuyên). 繁 biến âm thành ぱん; không phải ばん hay ぱつ.",
+    "old": true,
+    "options": [
+     "ひんぱつ",
+     "ひんぱん",
+     "びんぱん",
+     "ひんばん"
+    ],
+    "passage": "",
+    "q": "漢字読み：この交差点では〔頻繁〕に事故が起きている。",
+    "refs": [
+     "vocab:頻繁"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "そんしつ = 損失 (tổn thất). 存 (tồn) đọc そん nhưng nghĩa là tồn tại; 室・質 cũng đọc しつ nhưng sai nghĩa.",
+    "old": false,
+    "options": [
+     "存失",
+     "損室",
+     "損質",
+     "損失"
+    ],
+    "passage": "",
+    "q": "表記：為替の変動により、会社は大きな〔そんしつ〕を出した。",
+    "refs": [
+     "vocab:損失"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "じゅんかん = 循環 (tuần hoàn). 盾 (thuẫn) có hình gần giống 循; 還 (hoàn – trở về) dễ nhầm với 環 (vòng).",
+    "old": false,
+    "options": [
+     "巡間",
+     "循還",
+     "盾環",
+     "循環"
+    ],
+    "passage": "",
+    "q": "表記：この施設では雨水を〔じゅんかん〕させて再利用している。",
+    "refs": [
+     "vocab:循環"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "vocab",
+    "explain": "おぎなう = 補う (bù đắp). 捕 (bắt) và 舗 (cửa hàng) cùng phần 甫 nhưng sai bộ; 賄う đọc まかなう (trang trải).",
+    "old": true,
+    "options": [
+     "補う",
+     "舗う",
+     "捕う",
+     "賄う"
+    ],
+    "passage": "",
+    "q": "表記：足りない分は貯金で〔おぎなう〕つもりだ。",
+    "refs": [
+     "vocab:補う",
+     "vocab:賄う"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "さくげん = 削減 (cắt giảm). 滅 (diệt) giống hình 減; 索 đọc さく nhưng nghĩa là tìm kiếm.",
+    "old": true,
+    "options": [
+     "索減",
+     "削減",
+     "削源",
+     "削滅"
+    ],
+    "passage": "",
+    "q": "表記：人件費の〔さくげん〕が検討されている。",
+    "refs": [
+     "vocab:削減"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "vocab",
+    "explain": "拍車をかける = đẩy nhanh, làm trầm trọng thêm. 歯止めをかける là ngược lại (chặn lại); 手間をかける (tốn công), 磨きをかける (trau chuốt) không hợp.",
+    "old": false,
+    "options": [
+     "手間",
+     "拍車",
+     "歯止め",
+     "磨き"
+    ],
+    "passage": "",
+    "q": "文脈規定：SNSでの拡散が、うわさの広がりに（　）をかけた。",
+    "refs": [
+     "vocab:拍車"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "膨らむ (ふくらむ) = phình ra (chi phí). 削られた = bị cắt giảm (ngược nghĩa với 長引き), 尽きた = cạn, 衰えた = suy yếu (dùng cho sức lực).",
+    "old": false,
+    "options": [
+     "尽きた",
+     "削られた",
+     "膨らんだ",
+     "衰えた"
+    ],
+    "passage": "",
+    "q": "文脈規定：工事が長引き、費用が予定より大幅に（　）。",
+    "refs": [
+     "vocab:膨らむ",
+     "vocab:削る",
+     "vocab:尽きる"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "躊躇 (ちゅうちょ) することなく = không chút do dự. 承諾 (đồng ý) mâu thuẫn với 引き受けた; 補足・打診 không hợp.",
+    "old": false,
+    "options": [
+     "打診",
+     "承諾",
+     "躊躇",
+     "補足"
+    ],
+    "passage": "",
+    "q": "文脈規定：彼女は少しも（　）することなく、その難しい仕事を引き受けた。",
+    "refs": [
+     "vocab:躊躇",
+     "grammar:～ことなく"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "妥協 (だきょう) しない = không thỏa hiệp. 措置 (biện pháp), 是正 (chấn chỉnh), 依存 (phụ thuộc) không hợp nghĩa.",
+    "old": true,
+    "options": [
+     "措置",
+     "是正",
+     "妥協",
+     "依存"
+    ],
+    "passage": "",
+    "q": "文脈規定：品質に関しては一切（　）しないのが、この職人のこだわりだ。",
+    "refs": [
+     "vocab:妥協"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "vocab",
+    "explain": "拒む (こばむ) = cự tuyệt. 促す (thúc giục) trái với 反対運動; 抱える (ôm, mang), 譲る (nhường) không hợp.",
+    "old": true,
+    "options": [
+     "拒んだ",
+     "譲った",
+     "促した",
+     "抱えた"
+    ],
+    "passage": "",
+    "q": "文脈規定：住民たちは反対運動を続け、工場の建設を最後まで（　）。",
+    "refs": [
+     "vocab:拒む"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "率直 (そっちょく) に = thẳng thắn ≈ 正直に. 慎重に (thận trọng), 簡単に (đơn giản), 丁寧に (lịch sự) khác nghĩa.",
+    "old": false,
+    "options": [
+     "慎重に",
+     "丁寧に",
+     "正直に",
+     "簡単に"
+    ],
+    "passage": "",
+    "q": "言い換え：率直に言って、その案には賛成できない。",
+    "refs": [
+     "vocab:率直"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "円滑 (えんかつ) に = trôi chảy ≈ スムーズに. ゆっくり (chậm), 予定どおり (đúng kế hoạch) không phải nghĩa của 円滑.",
+    "old": false,
+    "options": [
+     "ゆっくり",
+     "慎重に",
+     "スムーズに",
+     "予定どおり"
+    ],
+    "passage": "",
+    "q": "言い換え：担当者が丁寧に説明してくれたので、手続きが円滑に進んだ。",
+    "refs": [
+     "vocab:円滑"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "曖昧 (あいまい) = mơ hồ ≈ はっきりしない.",
+    "old": true,
+    "options": [
+     "冷たかった",
+     "短かった",
+     "はっきりしなかった",
+     "遅かった"
+    ],
+    "passage": "",
+    "q": "言い換え：彼の返事は曖昧だった。",
+    "refs": [
+     "vocab:曖昧"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "vocab",
+    "explain": "衰える (おとろえる) = suy yếu dần ≈ 弱くなる. なくなる (mất hẳn) quá mạnh; 変わる không nêu chiều hướng xấu.",
+    "old": true,
+    "options": [
+     "弱くなって",
+     "なくなって",
+     "良くなって",
+     "変わって"
+    ],
+    "passage": "",
+    "q": "言い換え：年とともに記憶力が衰えてきた。",
+    "refs": [
+     "vocab:衰える"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "侮る (あなどる) = coi thường, xem nhẹ đối thủ/khó khăn. Các câu kia dùng nhầm thay cho 敬う/感謝する, 降る, 食べる.",
+    "old": false,
+    "options": [
+     "先生の努力を侮って、心からお礼を言った。",
+     "雨が侮ってきたので、傘をさした。",
+     "初出場のチームだと侮っていたら、あっさり負けてしまった。",
+     "健康のために、毎朝野菜を侮っている。"
+    ],
+    "passage": "",
+    "q": "用法：「侮る」",
+    "refs": [
+     "vocab:侮る"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "vocab",
+    "explain": "秀でる (ひいでる) = xuất sắc về năng lực (〜に秀でる). Các câu sai: あふれる/増える, 日当たりがいい, 意見が出る.",
+    "old": false,
+    "options": [
+     "川の水が秀でて、道路まであふれた。",
+     "会議で新しい意見が秀でたので、検討することにした。",
+     "この部屋は南向きで、日当たりが秀でている。",
+     "彼は幼いころから数学に秀でていた。"
+    ],
+    "passage": "",
+    "q": "用法：「秀でる」",
+    "refs": [
+     "vocab:秀でる"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "欠かす (かかす) = bỏ, thiếu (thường 〜を欠かさない: không bỏ ngày nào). 財布は落とす; người/vật thiếu dùng 欠けている (tự động từ).",
+    "old": false,
+    "options": [
+     "メンバーが一人欠かしているので、試合ができない。",
+     "このコップは縁が少し欠かしている。",
+     "彼女は毎晩日記をつけることを欠かさない。",
+     "財布を欠かしてしまい、交番に届けた。"
+    ],
+    "passage": "",
+    "q": "用法：「欠かす」",
+    "refs": [
+     "vocab:欠かす"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "vocab",
+    "explain": "促す (うながす) = thúc giục, kêu gọi (AにBを促す). Các câu khác dùng nhầm thay cho 乗り遅れる, 咲く, 持つ.",
+    "old": true,
+    "options": [
+     "重い荷物を促して、階段を上った。",
+     "彼は電車に促して、会社に遅れた。",
+     "市は住民に節水を促している。",
+     "その花は春になると美しく促す。"
+    ],
+    "passage": "",
+    "q": "用法：「促す」",
+    "refs": [
+     "vocab:促す"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "Vる + ことなく = không… mà vẫn. ことから (vì/căn cứ), ことに (điều … là, đi với cảm xúc), ことだから (N のことだから) đều không hợp.",
+    "old": false,
+    "options": [
+     "ことから",
+     "ことなく",
+     "ことだから",
+     "ことに"
+    ],
+    "passage": "",
+    "q": "この機械は一度設定すれば、人の手を借りる（　）二十四時間動き続ける。",
+    "refs": [
+     "grammar:～ことなく",
+     "grammar:～ことから",
+     "grammar:～ことに"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "ことだ = lời khuyên (tốt nhất là…). ことか cần どんなに/何度 để cảm thán; ことに・ことから không kết câu như vậy.",
+    "old": false,
+    "options": [
+     "ことから",
+     "ことか",
+     "ことだ",
+     "ことに"
+    ],
+    "passage": "",
+    "q": "新しい職場に早く慣れたいなら、まず周りの人の話をよく聞く（　）。",
+    "refs": [
+     "grammar:～ことだ",
+     "grammar:～ことか"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "どころか = chẳng những không… mà ngược lại. ばかりでなく・上に là cộng thêm cùng chiều (mâu thuẫn ở đây); はもとより nối với N.",
+    "old": false,
+    "options": [
+     "どころか",
+     "上に",
+     "はもとより",
+     "ばかりでなく"
+    ],
+    "passage": "",
+    "q": "彼は自分の非を認める（　）、相手に責任を押し付けた。",
+    "refs": [
+     "grammar:～どころか",
+     "grammar:～ばかりでなく",
+     "grammar:～上に",
+     "grammar:～はもとより"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "に限らず = không chỉ… mà cả (mở rộng phạm vi). に限り (chỉ riêng), に限って (đúng lúc… thì lại), に限る (… là nhất) ngược hướng.",
+    "old": false,
+    "options": [
+     "に限り",
+     "に限って",
+     "に限る",
+     "に限らず"
+    ],
+    "passage": "",
+    "q": "この問題は若者（　）、あらゆる世代に関わることだ。",
+    "refs": [
+     "grammar:～に限らず",
+     "grammar:～に限り",
+     "grammar:～に限って",
+     "grammar:～に限る"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "に限り = chỉ riêng (điều kiện, thông báo). に限らず ngược nghĩa; に限って mang sắc thái bất mãn; とは限らない là phủ định.",
+    "old": false,
+    "options": [
+     "に限り",
+     "に限らず",
+     "とは限らない",
+     "に限って"
+    ],
+    "passage": "",
+    "q": "この割引券は、会員ご本人（　）ご利用いただけます。",
+    "refs": [
+     "grammar:～に限り",
+     "grammar:～に限らず",
+     "grammar:～に限って"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "聞いた/調べた + かぎりでは = theo phạm vi tôi biết thì. ないかぎり cần Vない; に限り nối N.",
+    "old": false,
+    "options": [
+     "ないかぎり",
+     "かぎりでは",
+     "とは限らず",
+     "に限り"
+    ],
+    "passage": "",
+    "q": "私が聞いた（　）、その計画はまだ正式に決まっていないようだ。",
+    "refs": [
+     "grammar:～かぎりでは",
+     "grammar:～ないかぎり"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "Vます + がちだ = hay bị (xu hướng xấu). っぽい không đi với なり; 一方だ cần V辞書形 (なる一方); めく nối với N.",
+    "old": false,
+    "options": [
+     "がちな",
+     "っぽい",
+     "めいた",
+     "一方な"
+    ],
+    "passage": "",
+    "q": "冬は運動不足になり（　）ので、意識して体を動かすようにしている。",
+    "refs": [
+     "grammar:～がちだ",
+     "grammar:～っぽい",
+     "grammar:～一方だ",
+     "grammar:～めく"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "V辞書形 + 一方だ = ngày càng (một chiều). がちだ・気味だ・つつある đều cần Vます (増しがち, 増しつつある).",
+    "old": false,
+    "options": [
+     "一方だ",
+     "気味だ",
+     "がちだ",
+     "つつある"
+    ],
+    "passage": "",
+    "q": "人手不足が深刻になり、現場の負担は増す（　）。",
+    "refs": [
+     "grammar:～一方だ",
+     "grammar:～気味",
+     "grammar:～つつある"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "Vます + かねる = khó có thể (từ chối lịch sự). Ba mẫu còn lại không mang nghĩa từ chối.",
+    "old": false,
+    "options": [
+     "気味です",
+     "かねます",
+     "がちです",
+     "つつあります"
+    ],
+    "passage": "",
+    "q": "申し訳ございませんが、そのご要望にはお応えし（　）。",
+    "refs": [
+     "grammar:～かねる",
+     "grammar:～つつある"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "Vます + ながらも = tuy… nhưng (vế sau tích cực được). くせに mang ý chê trách; にしても・といっても không nối với Vます.",
+    "old": false,
+    "options": [
+     "といっても",
+     "にしても",
+     "くせに",
+     "ながらも"
+    ],
+    "passage": "",
+    "q": "彼は体調が悪いと言い（　）、最後まで仕事をやり遂げた。",
+    "refs": [
+     "grammar:～ながらも",
+     "grammar:～くせに"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "といっても = nói là… nhưng thực ra (mức độ không nhiều). としても là giả định; くせに là chê trách; にもかかわらず không hợp logic.",
+    "old": false,
+    "options": [
+     "といっても",
+     "くせに",
+     "にもかかわらず",
+     "としても"
+    ],
+    "passage": "",
+    "q": "留学した（　）、たった三か月なので、英語はあまり上達しなかった。",
+    "refs": [
+     "grammar:～といっても",
+     "grammar:～としても",
+     "grammar:～にもかかわらず"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "を問わず = không kể, bất luận. を抜きにして (bỏ qua), に応じて (tùy theo), をめぐって (xoay quanh tranh cãi) không hợp với どなたでも.",
+    "old": false,
+    "options": [
+     "をめぐって",
+     "を問わず",
+     "に応じて",
+     "を抜きにして"
+    ],
+    "passage": "",
+    "q": "この講座は年齢や国籍（　）、どなたでも受講できます。",
+    "refs": [
+     "grammar:～を問わず",
+     "grammar:～を抜きにして"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "はともかく = … thì khoan bàn, (quan trọng là…). 次第で (tùy vào) mâu thuẫn ý; もかまわず (chẳng màng điều lẽ ra nên để ý), に限って không hợp.",
+    "old": false,
+    "options": [
+     "に限って",
+     "はともかく",
+     "次第で",
+     "もかまわず"
+    ],
+    "passage": "",
+    "q": "結果（　）、最後まであきらめずに努力したことに意味がある。",
+    "refs": [
+     "grammar:～はともかく",
+     "grammar:～次第で",
+     "grammar:～もかまわず"
+    ]
+   },
+   {
+    "answer": 1,
+    "area": "grammar",
+    "explain": "に先立って = trước khi (sự kiện quan trọng). にかけては (về mặt sở trường), を問わず (bất kể), にひきかえ (trái ngược với) không hợp.",
+    "old": true,
+    "options": [
+     "にひきかえ",
+     "に先立って",
+     "を問わず",
+     "にかけては"
+    ],
+    "passage": "",
+    "q": "新製品の発売（　）、記者会見が開かれた。",
+    "refs": [
+     "grammar:～に先立って"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "ものの = tuy… nhưng. ものなら (nếu có thể), もので (vì – biện minh), ことから (vì/căn cứ) không hợp với vế sau trái ngược.",
+    "old": true,
+    "options": [
+     "ものなら",
+     "ことから",
+     "ものの",
+     "もので"
+    ],
+    "passage": "",
+    "q": "資格は取った（　）、実際の仕事に生かす機会がない。",
+    "refs": [
+     "grammar:～ものの",
+     "grammar:～ことから"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "に応じて = tùy theo, tương ứng với. を問わず・にかかわらず (bất kể) mâu thuẫn với 変わります; はさておき (gác lại) không hợp.",
+    "old": true,
+    "options": [
+     "に応じて",
+     "はさておき",
+     "を問わず",
+     "にかかわらず"
+    ],
+    "passage": "",
+    "q": "このプールの料金は、利用する時間（　）変わります。",
+    "refs": [
+     "grammar:～に応じて",
+     "grammar:～にかかわらず"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "ばかりか = không những… mà còn (cùng chiều xấu). 次第 cần Vます; かぎりでは đi với 知る/聞く; がちで cần Vます.",
+    "old": true,
+    "options": [
+     "かぎりでは",
+     "がちで",
+     "次第",
+     "ばかりか"
+    ],
+    "passage": "",
+    "q": "彼は約束の時間に遅れた（　）、謝りもしなかった。",
+    "refs": [
+     "grammar:～ばかりか"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "grammar",
+    "explain": "Thứ tự: 一度 → 働いて → みない(★) → ことには. Vない + ことには + phủ định = nếu không… thì không thể.",
+    "old": false,
+    "options": [
+     "一度",
+     "ことには",
+     "みない",
+     "働いて"
+    ],
+    "passage": "",
+    "q": "並べ替え：現場で ＿＿ ＿＿ ★ ＿＿ 、この仕事の本当の厳しさは分からないだろう。",
+    "refs": [
+     "grammar:～ないことには"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "grammar",
+    "explain": "Thứ tự: 返事を → しなければ → と(★) → 思いつつも. Vます + つつも = tuy biết/nghĩ… nhưng vẫn.",
+    "old": false,
+    "options": [
+     "と",
+     "しなければ",
+     "思いつつも",
+     "返事を"
+    ],
+    "passage": "",
+    "q": "並べ替え：早く ＿＿ ＿＿ ★ ＿＿ 、つい先延ばしにしてしまう。",
+    "refs": [
+     "grammar:～つつも"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "Thứ tự: 結果は → 皆さんの → 協力(★) → 次第で. N + 次第で = tùy vào N mà (kết quả thay đổi).",
+    "old": false,
+    "options": [
+     "結果は",
+     "次第で",
+     "皆さんの",
+     "協力"
+    ],
+    "passage": "",
+    "q": "並べ替え：この計画の ＿＿ ＿＿ ★ ＿＿ 大きく変わるだろう。",
+    "refs": [
+     "grammar:～次第で"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "Thứ tự: 働く → 人 → にとって(★) → のみならず. のみならず = không chỉ… mà còn (văn viết), vế sau có も.",
+    "old": false,
+    "options": [
+     "のみならず",
+     "働く",
+     "人",
+     "にとって"
+    ],
+    "passage": "",
+    "q": "並べ替え：この制度は ＿＿ ＿＿ ★ ＿＿ 、企業にとっても利点が大きい。",
+    "refs": [
+     "grammar:～のみならず"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "grammar",
+    "explain": "Thứ tự: 将来 → の → ため(★) → とあれば. とあれば = nếu là (vì…) thì sẵn sàng làm.",
+    "old": true,
+    "options": [
+     "の",
+     "とあれば",
+     "将来",
+     "ため"
+    ],
+    "passage": "",
+    "q": "並べ替え：子どもの ＿＿ ＿＿ ★ ＿＿ 、どんな苦労もいとわない。",
+    "refs": [
+     "grammar:～とあれば"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "reading",
+    "explain": "Câu 2: 安い輸入材が広く出回るようになると、林業は衰退する一方だった. Việc thu hút người nhập cư là biện pháp đối phó, không phải nguyên nhân.",
+    "old": false,
+    "options": [
+     "若者が林業の研修を受けなくなったこと",
+     "住民と移住者の間で衝突が起きたこと",
+     "町が移住の促進に力を入れたこと",
+     "安い輸入材が広く出回るようになったこと"
+    ],
+    "passage": "私の住む町は、かつて林業で栄えていた。しかし、安い輸入材が広く出回るようになると、林業は衰退する一方だった。若者は仕事を求めて都会へ出ていき、町の人口も減りつつある。こうした状況を変えようと、町は数年前から移住の促進に力を入れている。移住者には住宅の改修費を補助するほか、年齢や経験を問わず、林業の研修を無料で受けられる制度も設けた。その結果、少しずつではあるが、都会から移り住む人が現れ始めた。もっとも、移住者が増えれば町が元気になるとは限らない。住民と移住者の間で、ごみの出し方や地域の行事をめぐって衝突が起きることもある。大切なのは、移住者を「お客様」として扱うのではなく、ともに町の将来を考える仲間として迎えることだろう。制度の良し悪しはともかく、住民一人一人の意識次第で、町の未来は大きく変わるはずだ。",
+    "q": "町の林業が衰えた理由として、本文で述べられているものはどれか。",
+    "refs": [
+     "vocab:衰退",
+     "grammar:～一方だ"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "reading",
+    "explain": "Cuối bài: 大切なのは…仲間として迎えること; 住民一人一人の意識次第で. とは限らない phủ định phương án 2; 制度の良し悪しはともかく nên phương án 3 sai.",
+    "old": false,
+    "options": [
+     "何よりも制度をもっと充実させることが重要だ",
+     "移住者が増えれば、町は必ず元気になる",
+     "住民が移住者を仲間として迎える意識が大切だ",
+     "生活習慣が違う移住者は受け入れるべきではない"
+    ],
+    "passage": "",
+    "q": "筆者の考えに最も近いものはどれか。",
+    "refs": [
+     "grammar:～とは限らない",
+     "grammar:～はともかく",
+     "grammar:～次第で"
+    ]
+   },
+   {
+    "answer": 3,
+    "area": "reading",
+    "explain": "躊躇しがちだった / 一人で抱え込んで、仕事を滞らせてしまった. Lời khuyên của課長 khiến筆者 nhẹ lòng, không phải mất động lực.",
+    "old": false,
+    "options": [
+     "後輩からの相談が多く、自分の仕事が進まなかったこと",
+     "課長に厳しく叱られ、仕事への意欲をなくしたこと",
+     "先輩が忙しく、質問に答えてくれなかったこと",
+     "先輩に質問できず一人で悩み、仕事を遅らせたこと"
+    ],
+    "passage": "入社して三年目になる。最初の一年は、分からないことがあっても先輩に聞くのを躊躇しがちだった。忙しそうな先輩に声をかけるのは悪いと思いつつも、一人で抱え込んで、かえって仕事を滞らせてしまったこともある。そんなとき、課長に「迷惑をかけたくないという気持ちは分かる。しかし、確認しないまま進めて大きなミスにつながるほうが、よほど迷惑だ」と率直に言われた。その一言で、気持ちがずいぶん楽になった。今では、小さなことでも早めに相談するようにしている。相談するといっても、答えをすぐに教えてもらえるわけではない。先輩はたいてい「君はどう思う？」と聞き返してくる。自分で考えることなく答えだけもらっても、力はつかないからだろう。最近は、後輩から相談を受ける機会も増えてきた。今度は私が、相談しやすい雰囲気を作る番だ。",
+    "q": "筆者が入社一年目に困ったことは何か。",
+    "refs": [
+     "vocab:躊躇",
+     "grammar:～がちだ",
+     "grammar:～つつも"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "reading",
+    "explain": "自分で考えることなく答えだけもらっても、力はつかないからだろう. Phương án 3 là việc筆者 muốn làm cho hậu bối.",
+    "old": false,
+    "options": [
+     "自分で考えずに答えだけもらっても、力がつかないから",
+     "先輩自身も答えが分からないから",
+     "筆者の意見を課長に報告するため",
+     "相談しやすい雰囲気を作りたいから"
+    ],
+    "passage": "",
+    "q": "先輩が「君はどう思う？」と聞き返すのはなぜだと筆者は考えているか。",
+    "refs": [
+     "grammar:～ことなく",
+     "grammar:～といっても"
+    ]
+   },
+   {
+    "answer": 0,
+    "area": "reading",
+    "explain": "海外では、勤務時間外の連絡を拒む権利を法律で認める国も出てきた. Quy định sau 10 giờ tối là của một số công ty Nhật, không phải luật.",
+    "old": false,
+    "options": [
+     "勤務時間外の連絡に応じなくてもよい権利を法律で認める国がある",
+     "休日にメールに対応した人に手当を支払っている",
+     "夜十時以降のメールを法律で全面的に禁止している",
+     "緊急の対応が必要な職種をなくそうとしている"
+    ],
+    "passage": "近年、通信技術の普及に伴い、いつでもどこでも仕事の連絡が取れるようになった。便利になった反面、休日や夜間にまで仕事のメールに対応せざるを得ず、心身の健康を損なう人も少なくない。こうした問題を受け、海外では、勤務時間外の連絡を拒む権利を法律で認める国も出てきた。日本でも一部の企業が、夜十時以降は社内メールを送れない仕組みを取り入れている。もっとも、職種によっては緊急の対応が欠かせない場合もあるので、一律に禁止すればよいというものではない。大切なのは、私生活を犠牲にしてまで働くことを当然とする意識を改め、それぞれの職場に合ったルールを柔軟に作っていくことだ。しっかり休んでこそ、人は仕事で本来の力を発揮できるのではないだろうか。",
+    "q": "本文によると、海外ではどのような動きがあるか。",
+    "refs": [
+     "vocab:拒む"
+    ]
+   },
+   {
+    "answer": 2,
+    "area": "reading",
+    "explain": "大切なのは…それぞれの職場に合ったルールを柔軟に作っていくことだ. 一律に禁止すればよいというものではない nên phương án 2 sai.",
+    "old": false,
+    "options": [
+     "スマートフォンを仕事に使うこと自体をやめるべきだ",
+     "緊急の対応が多い職種では、休日がなくてもしかたがない",
+     "職場ごとの事情に合わせて、休むためのルールを柔軟に作るべきだ",
+     "勤務時間外の連絡は、すべての職場で一律に禁止すべきだ"
+    ],
+    "passage": "",
+    "q": "筆者の主張に合うものはどれか。",
+    "refs": [
+     "vocab:柔軟",
+     "vocab:犠牲",
+     "vocab:発揮"
+    ]
+   }
+  ],
+  "range": "1/11–6/11 + ôn tuần cũ (23–24/10)"
+ },
+ "vocab": []
+}

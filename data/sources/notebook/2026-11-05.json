@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-05",
+ "grammar": [
+  {
+   "ex": "悪天候にもかかわらず、多くの人が集まった。",
+   "exVi": "Dù thời tiết xấu, rất nhiều người đã tụ tập.",
+   "form": "普通形 (Naである／Nである) + にもかかわらず",
+   "level": "N2",
+   "meaning": "mặc dù… vậy mà",
+   "note": "Trang trọng hơn のに, nêu trái ngược khách quan. Khác をよそに (phớt lờ sự lo lắng/phản đối của người khác).",
+   "pattern": "～にもかかわらず",
+   "reg": "viet",
+   "regTip": "〜のに",
+   "review": false
+  },
+  {
+   "ex": "自分では何もしないくせに、人の文句ばかり言う。",
+   "exVi": "Bản thân chẳng làm gì mà toàn chê người khác.",
+   "form": "普通形 (Naな／Nの) + くせに",
+   "level": "N2",
+   "meaning": "đã… vậy mà còn (chê trách)",
+   "note": "Hai vế cùng chủ ngữ, sắc thái khó chịu; のに trung tính hơn.",
+   "pattern": "～くせに",
+   "reg": "noi",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "体に悪いと知りつつも、つい夜更かしをしてしまう。",
+   "exVi": "Biết là hại sức khỏe mà vẫn cứ thức khuya.",
+   "form": "Vます + つつも",
+   "level": "N2",
+   "meaning": "tuy biết/nghĩ… nhưng vẫn",
+   "note": "Hay đi với 知る・思う・言う. Khác つつある (đang dần dần).",
+   "pattern": "～つつも",
+   "reg": "viet",
+   "regTip": "〜ながら・〜けど",
+   "review": false
+  },
+  {
+   "ex": "狭いながらも、居心地のいい部屋だ。",
+   "exVi": "Tuy chật nhưng là căn phòng dễ chịu.",
+   "form": "Vます／Aい／Na／N + ながらも",
+   "level": "N2",
+   "meaning": "tuy… nhưng (trạng thái)",
+   "note": "ながら “vừa… vừa” (động tác đồng thời) ≠ ながらも (nhượng bộ).",
+   "pattern": "～ながらも",
+   "reg": "viet",
+   "regTip": "〜けど",
+   "review": false
+  },
+  {
+   "ex": "料理ができるといっても、簡単なものしか作れない。",
+   "exVi": "Nói là biết nấu ăn, nhưng chỉ nấu được món đơn giản.",
+   "form": "普通形 + といっても",
+   "level": "N2",
+   "meaning": "nói là… nhưng thực ra (mức độ chẳng bao nhiêu)",
+   "note": "Điều chỉnh kỳ vọng của người nghe xuống.",
+   "pattern": "～といっても",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "忙しいにしても、連絡ぐらいはするべきだ。",
+   "exVi": "Dù có bận thì ít nhất cũng nên liên lạc.",
+   "form": "N／普通形 + にしても",
+   "level": "N2",
+   "meaning": "dù (thừa nhận)… đi nữa thì cũng",
+   "note": "Thường dựa trên sự thật đã biết, vế sau là phê phán/ý kiến; としても thiên về giả định.",
+   "pattern": "～にしても",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "たとえ反対されたとしても、私はこの道を進む。",
+   "exVi": "Dù có bị phản đối, tôi vẫn đi con đường này.",
+   "form": "普通形 + としても",
+   "level": "N2",
+   "meaning": "giả sử… đi nữa thì cũng",
+   "note": "Hay đi với たとえ／仮に.",
+   "pattern": "～としても",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "一言言ってくれれば手伝ったものを。",
+   "exVi": "Giá mà nói một tiếng thì tôi đã giúp rồi.",
+   "form": "普通形 (Naな) + ものを",
+   "level": "N1",
+   "meaning": "giá mà… thì đã… (vậy mà) – tiếc nuối, trách",
+   "note": "Khác ものの (tuy… nhưng, trung tính).",
+   "pattern": "～ものを",
+   "reg": "viet",
+   "regTip": "〜のに",
+   "review": false
+  },
+  {
+   "ex": "春とはいえ、朝晩はまだ寒い。",
+   "exVi": "Tuy là mùa xuân nhưng sáng tối vẫn lạnh.",
+   "form": "普通形 (N／Na có thể bỏ だ) + とはいえ",
+   "level": "N1",
+   "meaning": "tuy nói là… nhưng",
+   "note": "Trang trọng hơn といっても. Khác といえども (dù là… ngay cả, vế sau là nghĩa vụ/nhận định).",
+   "pattern": "～とはいえ",
+   "reg": "viet",
+   "regTip": "〜といっても・〜けど",
+   "review": false
+  },
+  {
+   "ex": "今から行ったところで、もう間に合わない。",
+   "exVi": "Giờ có đi thì cũng không kịp nữa.",
+   "form": "Vた + ところで",
+   "level": "N1",
+   "meaning": "dù có… thì cũng (vô ích)",
+   "note": "Vế sau là kết quả phủ định/vô ích; としても trung tính hơn.",
+   "pattern": "～たところで",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Nhóm nhượng bộ/trái ngược: にもかかわらず／くせに／つつも／ながらも／といっても／にしても／としても",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Chê trách cùng chủ ngữ “bản thân không làm mà lại…” → くせに.",
+   "options": [
+    "にしても",
+    "くせに",
+    "としても",
+    "といっても"
+   ],
+   "q": "彼は自分では何もしない（　）、他人の仕事には文句ばかり言う。"
+  },
+  {
+   "answer": 2,
+   "explain": "N + とはいえ: tuy là xuân nhưng… くせに cần Nの; ものを/たところで sai cách nối.",
+   "options": [
+    "くせに",
+    "ものを",
+    "とはいえ",
+    "たところで"
+   ],
+   "q": "春（　）、朝晩はまだコートが必要なほど寒い。"
+  },
+  {
+   "answer": 1,
+   "explain": "たとえ～としても: giả sử… đi nữa.",
+   "options": [
+    "くせに",
+    "としても",
+    "つつも",
+    "にもかかわらず"
+   ],
+   "q": "たとえ今回の試験に落ちた（　）、来年また挑戦するつもりだ。"
+  },
+  {
+   "answer": 0,
+   "explain": "Vた + ところで + kết quả vô ích (間に合わない).",
+   "options": [
+    "ところで",
+    "にもかかわらず",
+    "くせに",
+    "ながらも"
+   ],
+   "q": "今から走った（　）、もう最終電車には間に合わない。"
+  },
+  {
+   "answer": 3,
+   "explain": "知りつつも: biết mà vẫn… つつある = đang dần, sai nghĩa.",
+   "options": [
+    "つつある",
+    "がちで",
+    "ものを",
+    "つつも"
+   ],
+   "q": "体に悪いと知り（　）、ついお菓子を食べてしまう。"
+  },
+  {
+   "answer": 1,
+   "explain": "痛みを和らげる (やわらげる) = làm dịu cơn đau.",
+   "options": [
+    "費やす",
+    "和らげる",
+    "隔てる",
+    "励む"
+   ],
+   "q": "この薬は、患者の痛みを（　）効果がある。"
+  },
+  {
+   "answer": 2,
+   "explain": "回復の兆し (きざし) = dấu hiệu phục hồi.",
+   "options": [
+    "躊躇",
+    "承諾",
+    "兆し",
+    "鮮やか"
+   ],
+   "q": "長い不況が続いていたが、ようやく景気回復の（　）が見えてきた。"
+  },
+  {
+   "answer": 0,
+   "explain": "見積もりを取る = lấy báo giá (bài 28/10).",
+   "options": [
+    "見積もり",
+    "見通し",
+    "手がかり",
+    "把握"
+   ],
+   "q": "(ôn) 修理を頼む前に、いくつかの業者から（　）を取ったほうがいい。"
+  },
+  {
+   "answer": 1,
+   "explain": "というものだ: nhận định “như thế đúng là vô trách nhiệm” (bài 27/10).",
+   "options": [
+    "わけにはいかない",
+    "というものだ",
+    "ものがある",
+    "ものか"
+   ],
+   "q": "(ôn) 一度決めたことを簡単に投げ出すのは、無責任（　）。"
+  },
+  {
+   "answer": 3,
+   "explain": "N + に際して: nhân dịp sự kiện đặc biệt (bài 29/10). 最中に cần の; 次第 cần Vます.",
+   "options": [
+    "最中に",
+    "次第",
+    "かと思うと",
+    "に際して"
+   ],
+   "q": "(ôn) 新製品の発売（　）、記者会見が開かれた。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 1,
+  "explain": "Câu 「売り手は商品の状態を率直に伝えることが大切だ」 và câu kết về 誠実さ là ý chính. a chỉ là lợi ích; c quá cực đoan (bài chỉ nói 「トラブルがないわけではない」); d không được nhắc.",
+  "options": [
+   "手軽に収入が得られるので、もっと多くの人が利用すべきだ。",
+   "売り手が商品の状態を正直に伝えることが、安心して利用できる前提になる。",
+   "トラブルが多いので、利用しないほうがいい。",
+   "写真と実物が違うのは、買い手の確認不足が原因だ。"
+  ],
+  "q": "筆者が最も言いたいことは何か。",
+  "text": "最近、使わなくなった物をフリマアプリで売る人が増えている。不要な物を捨てずに必要な人に譲ることができるうえ、ちょっとした収入にもなるため、若者を中心に広がっている。しかし、手軽だといっても、トラブルがないわけではない。写真と実物の色が違う、届いた商品が壊れていたなどの苦情も少なくない。買い手が安心して利用できるよう、売り手は商品の状態を率直に伝えることが大切だ。便利な仕組みも、使う人一人一人の誠実さに支えられているのである。"
+ },
+ "vocab": [
+  {
+   "ex": "この論文の完成に三年を費やした。",
+   "exVi": "Tôi đã mất ba năm để hoàn thành luận văn này.",
+   "level": "N2",
+   "meaning": "tiêu tốn (thời gian, tiền, công sức)",
+   "reading": "ついやす",
+   "reg": "viet",
+   "regTip": "(時間を)かける・使う",
+   "review": false,
+   "word": "費やす"
+  },
+  {
+   "ex": "彼は毎日練習に励んでいる。",
+   "exVi": "Ngày nào anh ấy cũng chăm chỉ luyện tập.",
+   "level": "N2",
+   "meaning": "nỗ lực, chuyên tâm",
+   "reading": "はげむ",
+   "reg": "viet",
+   "regTip": "頑張る",
+   "review": false,
+   "word": "励む"
+  },
+  {
+   "ex": "この薬には痛みを和らげる効果がある。",
+   "exVi": "Thuốc này có tác dụng làm dịu cơn đau.",
+   "level": "N2",
+   "meaning": "làm dịu, xoa dịu",
+   "reading": "やわらげる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "和らげる"
+  },
+  {
+   "ex": "率直な意見を聞かせてください。",
+   "exVi": "Hãy cho tôi nghe ý kiến thẳng thắn.",
+   "level": "N2",
+   "meaning": "thẳng thắn",
+   "reading": "そっちょく",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "率直"
+  },
+  {
+   "ex": "親の承諾を得て、留学を決めた。",
+   "exVi": "Được bố mẹ đồng ý, tôi quyết định đi du học.",
+   "level": "N2",
+   "meaning": "đồng ý, chấp thuận (lời đề nghị/yêu cầu)",
+   "reading": "しょうだく",
+   "reg": "viet",
+   "regTip": "OKする・引き受ける",
+   "review": false,
+   "word": "承諾"
+  },
+  {
+   "ex": "川を隔てて、二つの町が向かい合っている。",
+   "exVi": "Hai thị trấn nhìn sang nhau, cách một con sông.",
+   "level": "N2",
+   "meaning": "ngăn cách",
+   "reading": "へだてる",
+   "reg": "viet",
+   "regTip": "分ける・間にある",
+   "review": false,
+   "word": "隔てる"
+  },
+  {
+   "ex": "秋になると、山が鮮やかな赤に染まる。",
+   "exVi": "Vào thu, núi nhuộm một màu đỏ rực rỡ.",
+   "level": "N2",
+   "meaning": "tươi tắn, rực rỡ; điêu luyện",
+   "reading": "あざやか",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "鮮やか"
+  },
+  {
+   "ex": "景気に回復の兆しが見え始めた。",
+   "exVi": "Kinh tế bắt đầu có dấu hiệu phục hồi.",
+   "level": "N1",
+   "meaning": "dấu hiệu, điềm báo",
+   "reading": "きざし",
+   "reg": "viet",
+   "regTip": "気配・〜しそう",
+   "review": false,
+   "word": "兆し"
+  },
+  {
+   "ex": "彼は一瞬躊躇したが、すぐに決断した。",
+   "exVi": "Anh ấy thoáng do dự nhưng đã quyết định ngay.",
+   "level": "N1",
+   "meaning": "do dự, chần chừ",
+   "reading": "ちゅうちょ",
+   "reg": "viet",
+   "regTip": "ためらう・迷う",
+   "review": false,
+   "word": "躊躇"
+  },
+  {
+   "ex": "学費はアルバイトで賄っている。",
+   "exVi": "Tôi trang trải học phí bằng việc làm thêm.",
+   "level": "N1",
+   "meaning": "trang trải, chi trả (bằng nguồn nào đó)",
+   "reading": "まかなう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "賄う"
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-13",
+ "grammar": [
+  {
+   "ex": "スマホは便利な反面、使いすぎると目が疲れる。",
+   "exVi": "Điện thoại thông minh tiện lợi, nhưng mặt khác dùng quá nhiều thì mỏi mắt.",
+   "form": "V/Aい 普通形・Naな／である・Nである + 反面",
+   "level": "N2",
+   "meaning": "mặt khác, ngược lại (hai mặt trái ngược của cùng một sự vật)",
+   "note": "反面: hai mặt của CÙNG một đối tượng. 一方で: có thể so sánh hai đối tượng khác nhau (thành phố ↔ nông thôn).",
+   "pattern": "～反面",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "都市部では人口が増えている一方で、地方では過疎化が進んでいる。",
+   "exVi": "Trong khi dân số ở đô thị tăng thì ở địa phương tình trạng thưa dân ngày càng nghiêm trọng.",
+   "form": "普通形（Naな／である・Nである）+ 一方（で）",
+   "level": "N2",
+   "meaning": "trong khi đó, mặt khác (đối chiếu hai sự việc/hai phía)",
+   "note": "Khác ～一方だ (ngày càng ~, đã học). Khi nói chuyện thường dùng 〜けど、その一方で… hoặc chỉ 〜けど.",
+   "pattern": "～一方（で）",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "予想に反して、新製品はまったく売れなかった。",
+   "exVi": "Trái với dự đoán, sản phẩm mới hoàn toàn không bán được.",
+   "form": "N（予想・期待・意図・規則）+ に反して／に反する N",
+   "level": "N2",
+   "meaning": "trái với, ngược với (dự đoán, kỳ vọng, quy định)",
+   "note": "に対して = đối với / so với (đối chiếu). に反して = kết quả đi NGƯỢC với dự đoán/kỳ vọng/quy tắc.",
+   "pattern": "～に反して",
+   "reg": "viet",
+   "regTip": "〜と違って・〜とは逆に",
+   "review": false
+  },
+  {
+   "ex": "引っ越しを手伝ってもらったかわりに、晩ご飯をごちそうした。",
+   "exVi": "Để đáp lại việc được giúp chuyển nhà, tôi đã mời bữa tối.",
+   "form": "Nの／V・Aい 普通形／Naな + かわりに",
+   "level": "N2",
+   "meaning": "thay vì; đổi lại, bù lại",
+   "note": "かわりに có nghĩa 'đổi lại/bù lại'; に代わって chỉ nghĩa 'thay mặt, thay thế'.",
+   "pattern": "～かわりに",
+   "reg": "chung",
+   "regTip": "",
+   "review": false
+  },
+  {
+   "ex": "社長に代わって、副社長がご挨拶申し上げます。",
+   "exVi": "Thay mặt giám đốc, phó giám đốc xin gửi lời chào.",
+   "form": "N + に代わって／に代わり",
+   "level": "N2",
+   "meaning": "thay mặt, thay cho (người/vật vốn đảm nhận)",
+   "note": "Trang trọng (phát biểu, tin tức: 人間に代わってロボットが…). Nói thường: 〜の代わりに.",
+   "pattern": "～に代わって",
+   "reg": "viet",
+   "regTip": "〜の代わりに",
+   "review": false
+  },
+  {
+   "ex": "今日は涼しいというより、むしろ寒い。",
+   "exVi": "Hôm nay nói là mát thì không đúng, phải nói là lạnh.",
+   "form": "普通形（Na・N thường bỏ だ）+ というより（むしろ）",
+   "level": "N2",
+   "meaning": "nói là ~ thì đúng hơn là ~ (chọn cách diễn đạt chính xác hơn)",
+   "note": "Hay đi với むしろ. Khác 〜どころか (không những không A mà còn ngược lại B).",
+   "pattern": "～というより",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜っていうより",
+   "review": false
+  },
+  {
+   "ex": "仕事が忙しくて、旅行どころではない。",
+   "exVi": "Công việc bận quá, chẳng phải lúc mà đi du lịch.",
+   "form": "N／V辞書形 + どころではない",
+   "level": "N2",
+   "meaning": "không phải lúc để ~, không có tâm trí/điều kiện để ~",
+   "note": "どころではない đứng cuối câu = không thể làm. どころか đứng giữa câu = chẳng những không… mà còn (đã học).",
+   "pattern": "～どころではない",
+   "reg": "chung",
+   "regTip": "khẩu ngữ: 〜どころじゃない",
+   "review": false
+  },
+  {
+   "ex": "彼は会社に勤めるかたわら、小説を書いている。",
+   "exVi": "Anh ấy vừa đi làm công ty, vừa viết tiểu thuyết.",
+   "form": "Nの／V辞書形 + かたわら",
+   "level": "N1",
+   "meaning": "bên cạnh (công việc chính), song song còn làm ~ (thời gian dài)",
+   "note": "ながら: hai hành động cùng lúc trong chốc lát. がてら: tiện thể (đi dạo). かたわら: hai hoạt động song song kéo dài (nghề chính + nghề phụ).",
+   "pattern": "～かたわら",
+   "reg": "viet",
+   "regTip": "〜しながら・〜のほかに",
+   "review": false
+  },
+  {
+   "ex": "子どもではあるまいし、自分のことは自分でやりなさい。",
+   "exVi": "Có phải trẻ con đâu, việc của mình thì tự làm đi.",
+   "form": "N／V普通形（の）+ ではあるまいし",
+   "level": "N1",
+   "meaning": "có phải là ~ đâu mà… (trách móc, phê phán)",
+   "note": "Vế sau thường là mệnh lệnh, khuyên nhủ, phê phán. Gần nghĩa 〜じゃないんだから.",
+   "pattern": "～ではあるまいし",
+   "reg": "noi",
+   "regTip": "khẩu ngữ: 〜じゃあるまいし・〜じゃないんだから",
+   "review": false
+  },
+  {
+   "ex": "貧しさゆえに、学校に通えない子どもたちがいる。",
+   "exVi": "Có những đứa trẻ không thể đến trường vì nghèo.",
+   "form": "N（の）／普通形（Naである）+ ゆえ（に）／ゆえの N",
+   "level": "N1",
+   "meaning": "vì, do (lý do; sắc thái cổ, trang trọng)",
+   "note": "Ý như から・ために nhưng rất văn viết. Hay gặp: 若さゆえの過ち, それゆえ.",
+   "pattern": "～ゆえに",
+   "reg": "viet",
+   "regTip": "〜から・〜ので",
+   "review": false
+  }
+ ],
+ "grammarGroup": "Đối lập, thay thế & phủ định mức độ: 反面／一方（で）／に反して／かわりに／に代わって／というより／どころではない",
+ "quiz": [
+  {
+   "answer": 1,
+   "explain": "Hai mặt trái ngược của cùng một app (miễn phí ↔ nhiều quảng cáo) → 反面.",
+   "options": [
+    "に反して",
+    "反面",
+    "どころではない",
+    "に代わって"
+   ],
+   "q": "このアプリは無料で使える＿＿、広告が多くて使いにくい。"
+  },
+  {
+   "answer": 0,
+   "explain": "Kết quả ngược với dự đoán → 予想に反して. に対して không đi với 予想 theo nghĩa này.",
+   "options": [
+    "に反して",
+    "に対して",
+    "にとって",
+    "反面"
+   ],
+   "q": "多くの専門家の予想＿＿、円高が急速に進んだ。"
+  },
+  {
+   "answer": 3,
+   "explain": "Cuối câu, 'không phải lúc để đi nhậu' → どころではない. どころか cần vế sau.",
+   "options": [
+    "わけではない",
+    "というより",
+    "どころか",
+    "どころではない"
+   ],
+   "q": "来週は大事な試験があるので、飲み会＿＿。"
+  },
+  {
+   "answer": 2,
+   "explain": "Thay mặt người vốn đảm nhận → に代わって (にかわって).",
+   "options": [
+    "に反して",
+    "をめぐって",
+    "に代わって",
+    "にとって"
+   ],
+   "q": "入院中の部長＿＿、課長が会議の司会を務めた。"
+  },
+  {
+   "answer": 2,
+   "explain": "交渉（こうしょう）= thương lượng → dẫn đến 合意.",
+   "options": [
+    "撤退",
+    "補充",
+    "交渉",
+    "繁栄"
+   ],
+   "q": "値下げについて取引先と＿＿した結果、5％引きで合意した。"
+  },
+  {
+   "answer": 1,
+   "explain": "Cụm cố định 気を引き締める（ひきしめる）= tập trung tinh thần.",
+   "options": [
+    "漏れ",
+    "引き締め",
+    "凝っ",
+    "勘違いし"
+   ],
+   "q": "試験まであと一週間だ。気を＿＿てがんばろう。"
+  },
+  {
+   "answer": 2,
+   "explain": "Với bạn bè dùng khẩu ngữ どころじゃない; ゆえ・につき・かねます là văn viết/kính ngữ.",
+   "options": [
+    "多忙であるがゆえに、映画を鑑賞する余裕はございません。",
+    "当方、多忙につき映画鑑賞は困難である。",
+    "ごめん、今バイトが忙しくて映画どころじゃないんだ。",
+    "恐れ入りますが、多忙ゆえ映画にはまいりかねます。"
+   ],
+   "q": "友達にLINEで返信するとき、最も自然なのはどれか。"
+  },
+  {
+   "answer": 1,
+   "explain": "躊躇（ちゅうちょ）なく = không chần chừ (bài 05/11).",
+   "options": [
+    "兆し",
+    "躊躇",
+    "率直",
+    "名残"
+   ],
+   "q": "（ôn）彼は＿＿なく上司に反対意見を述べた。"
+  },
+  {
+   "answer": 3,
+   "explain": "を問わず = bất kể (tuổi, giới tính…) (bài 06/11).",
+   "options": [
+    "に限って",
+    "に際して",
+    "をめぐって",
+    "を問わず"
+   ],
+   "q": "（ôn）年齢＿＿、誰でもこの講座に参加できます。"
+  },
+  {
+   "answer": 1,
+   "explain": "必ず〜とは限らない = không hẳn lúc nào cũng (bài 03/11).",
+   "options": [
+    "に限る",
+    "とは限らない",
+    "に限って",
+    "限りだ"
+   ],
+   "q": "（ôn）値段が高い店が必ずおいしい＿＿。"
+  }
+ ],
+ "ratio": "N2 70% · N1 30%",
+ "reading": {
+  "answer": 3,
+  "explain": "Câu của giám đốc: 「効率を上げるためというより、信頼関係を保つための工夫だ」→ mục đích chính là giữ quan hệ tin cậy. というより phủ nhận phương án 1; ý tưởng mới chỉ là kết quả phụ (生まれることも多い).",
+  "options": [
+   "仕事の効率を上げるため",
+   "社員の通勤時間を減らすため",
+   "新しい企画を必ず生み出すため",
+   "社員同士の信頼関係を保つため"
+  ],
+  "q": "この会社が週に一度の出社日を設けた主な目的は何か。",
+  "text": "最近、在宅勤務を導入する企業が増えている。通勤時間がなくなる反面、同僚と気軽に話す機会が減ったと感じる人も少なくない。ある会社では、週に一度の出社日を設けるかわりに、ほかの日は働く場所を自由に選べるようにした。社長は「効率を上げるためというより、社員同士の信頼関係を保つための工夫だ」と話す。実際、出社日の雑談から新しい企画が生まれることも多いという。働き方の自由と、人とのつながり。その両方をどう両立させるかが、これからの課題だろう。"
+ },
+ "vocab": [
+  {
+   "ex": "値段を交渉したら、少し安くしてもらえた。",
+   "exVi": "Thử mặc cả giá thì được giảm cho một chút.",
+   "hanviet": "GIAO THIỆP",
+   "level": "N2",
+   "meaning": "đàm phán, thương lượng",
+   "reading": "こうしょう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "交渉"
+  },
+  {
+   "ex": "コピー機の用紙を補充しておいてください。",
+   "exVi": "Anh chị châm thêm giấy vào máy photo giúp nhé.",
+   "hanviet": "BỔ SUNG",
+   "level": "N2",
+   "meaning": "bổ sung, châm thêm (cái đã thiếu/hết)",
+   "reading": "ほじゅう",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "補充"
+  },
+  {
+   "ex": "港町として繁栄したこの地域も、今は人口が減り続けている。",
+   "exVi": "Vùng này từng phồn vinh như một thành phố cảng, nay dân số vẫn đang giảm.",
+   "hanviet": "PHỒN VINH",
+   "level": "N2",
+   "meaning": "phồn vinh, thịnh vượng",
+   "reading": "はんえい",
+   "reg": "viet",
+   "regTip": "栄える・にぎわう",
+   "review": false,
+   "word": "繁栄"
+  },
+  {
+   "ex": "ごめん、会議は明日だと勘違いしてた。",
+   "exVi": "Xin lỗi, tớ cứ tưởng nhầm cuộc họp là ngày mai.",
+   "hanviet": "KHÁM VI",
+   "level": "N2",
+   "meaning": "hiểu lầm, nhầm tưởng",
+   "reading": "かんちがい",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "勘違い"
+  },
+  {
+   "ex": "大会を前に、気を引き締めて練習しよう。",
+   "exVi": "Trước giải đấu, hãy tập trung tinh thần mà luyện tập.",
+   "hanviet": "DẪN ĐẾ",
+   "level": "N2",
+   "meaning": "thắt chặt; (気を〜) lên tinh thần, tập trung cao độ",
+   "reading": "ひきしめる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "引き締める"
+  },
+  {
+   "ex": "彼は料理に凝っていて、カレーのスパイスまで自分で調合する。",
+   "exVi": "Anh ấy mê nấu ăn, đến gia vị cà ri cũng tự phối.",
+   "hanviet": "NGƯNG",
+   "level": "N2",
+   "meaning": "say mê, làm cầu kỳ; (肩が〜) mỏi cứng vai",
+   "reading": "こる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "凝る"
+  },
+  {
+   "ex": "会議の内容が外部に漏れてしまった。",
+   "exVi": "Nội dung cuộc họp đã bị lộ ra bên ngoài.",
+   "hanviet": "LẬU",
+   "level": "N2",
+   "meaning": "rò rỉ (nước, khí, thông tin); bị sót",
+   "reading": "もれる",
+   "reg": "chung",
+   "regTip": "",
+   "review": false,
+   "word": "漏れる"
+  },
+  {
+   "ex": "業績不振のため、その会社は海外市場から撤退した。",
+   "exVi": "Do kinh doanh kém, công ty đó đã rút khỏi thị trường nước ngoài.",
+   "hanviet": "TRIỆT THOÁI",
+   "level": "N1",
+   "meaning": "rút lui, rút khỏi (thị trường, chiến trường)",
+   "reading": "てったい",
+   "reg": "viet",
+   "regTip": "手を引く・やめる",
+   "review": false,
+   "word": "撤退"
+  },
+  {
+   "ex": "双方が少しずつ譲歩し、ようやく合意に至った。",
+   "exVi": "Hai bên mỗi bên nhượng bộ một chút, cuối cùng đã đi đến thỏa thuận.",
+   "hanviet": "NHƯỢNG BỘ",
+   "level": "N1",
+   "meaning": "nhượng bộ",
+   "reading": "じょうほ",
+   "reg": "viet",
+   "regTip": "折れる・ゆずる",
+   "review": false,
+   "word": "譲歩"
+  },
+  {
+   "ex": "この10年で、AI技術は目覚ましい発展を遂げた。",
+   "exVi": "Trong 10 năm qua, công nghệ AI đã phát triển vượt bậc.",
+   "hanviet": "MỤC GIÁC",
+   "level": "N1",
+   "meaning": "đáng kinh ngạc, vượt bậc (tiến bộ, phát triển)",
+   "reading": "めざましい",
+   "reg": "viet",
+   "regTip": "すごい・びっくりするほどの",
+   "review": false,
+   "word": "目覚ましい"
+  }
+ ]
+}

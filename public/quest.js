@@ -14,8 +14,11 @@ const numToDate = n => { const d = new Date(n * DAY); return new Date(d.getUTCFu
 
 // ---------- Cài đặt (theo người xem) ----------
 const SETTINGS_KEY = "jlpt-srs-settings";
-const settings = () => ({ newPerDay: 15, maxReviews: 100, typing: true, ...store.get(SETTINGS_KEY, {}) });
-const saveSettings = s => store.set(SETTINGS_KEY, s);
+// Cài đặt theo từng cấp độ (N2 mặc định 20 thẻ mới/ngày, N1 10); "typing" dùng chung
+const DEF_NEW = { N2: 20, N1: 10 };
+const settings = (level = "N2") => ({ newPerDay: DEF_NEW[level] || 20, maxReviews: 100, typing: store.get(SETTINGS_KEY, {}).typing ?? true,
+  ...store.get(SETTINGS_KEY + "-" + level, {}) });
+const saveSettings = (level, s) => { store.set(SETTINGS_KEY + "-" + level, s); store.set(SETTINGS_KEY, { ...store.get(SETTINGS_KEY, {}), typing: s.typing }); };
 
 // ---------- Thanh điều hướng chung ----------
 function appBar(active, remote) {
@@ -38,7 +41,9 @@ async function loadQuests(level) {
     d.itemMap = {}; d.questMap = {};
     d.quests.forEach(q => { d.questMap[q.id] = q; q.items.forEach(it => { d.itemMap[it.id] = { ...it, quest: q }; }); });
     // Thứ tự thẻ mới: xen kẽ các bộ (漢字 → 文法 → 漢字…) để mỗi buổi có nhiều dạng bài
-    const decks = d.quests.map(q => q.items.map(it => it.id)); d.newOrder = [];
+    // Thẻ "Đã ra thi" học trước, phần còn lại xen kẽ các bộ (mỗi vòng lấy 1 thẻ mỗi bộ)
+    const examFirst = d.quests.flatMap(q => q.items.filter(it => it.exam).map(it => it.id));
+    const decks = d.quests.map(q => q.items.filter(it => !it.exam).map(it => it.id)); d.newOrder = [...examFirst];
     for (let i = 0; decks.some(x => x.length > i); i++) decks.forEach(x => { if (x[i]) d.newOrder.push(x[i]); });
   }
   return d;
@@ -93,7 +98,7 @@ function cardBucket(st) { if (!st) return "new"; if (st.state === "learn" || st.
 
 // ---------- Lập kế hoạch ngày ----------
 function plan(level) {
-  const data = QDATA[level], srs = SRS[level] || {}, cfg = settings(), today = todayNum();
+  const data = QDATA[level], srs = SRS[level] || {}, cfg = settings(level), today = todayNum();
   const due = Object.entries(srs).filter(([id, s]) => data.itemMap[id] && s.due <= today).sort((a, b) => a[1].due - b[1].due).map(([id]) => id);
   const newToday = Object.values(srs).filter(s => s.added === today).length;
   const newLeft = Math.max(0, cfg.newPerDay - newToday);
@@ -152,27 +157,30 @@ const kpi = (k, v, unit) => `<div class="kpi"><div class="eyebrow">${k}</div><di
 
 // ---------- Tổng quan ----------
 async function renderDashboard() {
-  const [data] = await Promise.all([loadQuests("N2"), loadUser("N2")]);
+  const [data, data1] = await Promise.all([loadQuests("N2"), loadQuests("N1"), loadUser("N2"), loadUser("N1")]);
   const log = QLOG.N2;
   const A = data ? analyze("N2") : null, P = data ? plan("N2") : null;
+  const A1 = data1 ? analyze("N1") : null, P1 = data1 ? plan("N1") : null;
+  const todo1 = P1 ? P1.due.length + P1.newIds.length : 0;
   const todayN = A ? A.days[13].n : 0, pct = A && A.total ? Math.round(A.totalOk / A.total * 100) : null;
   const todo = P ? P.due.length + P.newIds.length : 0;
   $("#app").innerHTML = `${appBar("home", log.remote)}
   <div class="page wide">
     <div class="hero gridpaper">
-      <div class="eyebrow">Ôn tập hằng ngày · N2</div>
-      <h1>${todo ? `Hôm nay: ${todo} thẻ` : "Hôm nay đã xong ✓"}</h1>
-      <p>${todo ? `${P.due.length} thẻ đến hạn ôn lại · ${P.newIds.length} thẻ mới · khoảng ${Math.max(1, Math.round(todo * 12 / 60))} phút.` : "Đã ôn hết thẻ đến hạn. Quay lại vào ngày mai, hoặc làm một đề thi thử."}</p>
-      ${todo ? `<a class="btn pri" style="margin-top:14px" href="#review/N2/study">Bắt đầu ôn ${ICON.next}</a>` : ""}
+      <div class="eyebrow">Ôn tập hằng ngày</div>
+      <h1>${todo + todo1 ? `Hôm nay: ${todo + todo1} thẻ` : "Hôm nay đã xong ✓"}</h1>
+      <p>${todo + todo1 ? `N2: ${P.due.length} ôn lại + ${P.newIds.length} mới${P1 ? ` · N1: ${P1.due.length} ôn lại + ${P1.newIds.length} mới` : ""} · khoảng ${Math.max(1, Math.round((todo + todo1) * 12 / 60))} phút.` : "Đã ôn hết thẻ đến hạn. Quay lại vào ngày mai, hoặc làm một đề thi thử."}</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">${todo ? `<a class="btn pri" href="#review/N2/study">Ôn N2 · ${todo} ${ICON.next}</a>` : ""}${todo1 ? `<a class="btn ${todo ? "" : "pri"}" href="#review/N1/study">Ôn N1 · ${todo1} ${ICON.next}</a>` : ""}</div>
       <div class="blocks" aria-hidden="true"><span class="hatch" style="height:14px"></span><span class="hatch" style="height:24px"></span><span style="height:34px;background:var(--dark)"></span><span class="hatch" style="height:46px"></span></div>
     </div>
     ${A ? `<div class="kpis">${kpi("Hôm nay", todayN, "lượt")}${kpi("Chuỗi ngày", A.streak, "ngày")}${kpi("Tỉ lệ đúng", pct ?? "—", pct == null ? "" : "%")}${kpi("Thuộc lâu", A.buckets.mature, "/ " + A.nItems)}</div>` : ""}
     <div class="dash">
-      <a class="dash-card" href="#review/N2"><div class="eyebrow">Ôn tập hằng ngày</div><h3>N2 · 漢字・文法</h3>
+      <a class="dash-card" href="#review/N2"><div class="eyebrow">Ôn tập hằng ngày</div><h3>N2 · 漢字・語彙・文法</h3>
         <p class="muted small">${A ? `${A.nItems} thẻ · ${A.nItems - A.buckets.new} đã học · ${P.freshTotal} thẻ mới còn lại` : ""}</p>
         ${A ? srsMini(A) : ""}<span class="btn sm" style="margin-top:12px">Bộ thẻ & cài đặt →</span></a>
-      <a class="dash-card dim" href="#review/N1"><div class="eyebrow">Ôn tập hằng ngày</div><h3>N1</h3>
-        <p class="muted small">Sắp có — thêm khi bắt đầu khoá N1.</p><span class="tag" style="margin-top:12px">Coming soon</span></a>
+      <a class="dash-card" href="#review/N1"><div class="eyebrow">Ôn tập hằng ngày</div><h3>N1 · 語彙・文法</h3>
+        <p class="muted small">${A1 ? `${A1.nItems} thẻ · ${A1.nItems - A1.buckets.new} đã học · ${P1.freshTotal} thẻ mới còn lại` : "Chưa có dữ liệu"}</p>
+        ${A1 ? srsMini(A1) : ""}<span class="btn sm" style="margin-top:12px">Bộ thẻ & cài đặt →</span></a>
       <a class="dash-card" href="#exams"><div class="eyebrow">Đề thi thử</div><h3>JLPT N2 · N1</h3>
         <p class="muted small">${INDEX.length} đề theo cấu trúc đề thật.</p><span class="btn sm" style="margin-top:12px">Danh sách đề →</span></a>
       <a class="dash-card" href="#stats/N2"><div class="eyebrow">Phân tích</div><h3>Thống kê</h3>
@@ -196,7 +204,7 @@ async function routeReview(parts) {
   renderReviewHome(level);
 }
 function renderReviewHome(level) {
-  const data = QDATA[level], cfg = settings();
+  const data = QDATA[level], cfg = settings(level);
   const levelSeg = `<div class="seg" style="max-width:160px">${LEVELS.map(l => `<button data-lv="${l}" class="${l === level ? "on" : ""}">${l}</button>`).join("")}</div>`;
   if (!data) {
     $("#app").innerHTML = `${appBar("review")}<div class="page wide"><div class="qmap-head"><div><div class="eyebrow">Ôn tập hằng ngày</div><h2 class="intro-h">${level}</h2></div>${levelSeg}</div>
@@ -243,7 +251,7 @@ function renderReviewHome(level) {
   </div>`;
   bindLevelSeg("review");
   $$("[data-set]").forEach(seg => $$("button", seg).forEach(b => b.onclick = () => {
-    const s = settings(), k = seg.dataset.set; s[k] = k === "typing" ? b.dataset.v === "true" : +b.dataset.v; saveSettings(s); renderReviewHome(level);
+    const s = settings(level), k = seg.dataset.set; s[k] = k === "typing" ? b.dataset.v === "true" : +b.dataset.v; saveSettings(level, s); renderReviewHome(level);
   }));
   const more = $("#more"); if (more) more.onclick = () => startCustom(level, data.newOrder.filter(id => !SRS[level][id]).slice(0, 10), "Học thêm thẻ mới");
 }
@@ -255,14 +263,18 @@ function shuffleItem(it) {
   const perm = shuffleArr([0, 1, 2, 3].slice(0, it.opts.length));
   return { ...it, opts: perm.map(i => it.opts[i]), ans: perm.indexOf(it.ans - 1) + 1 };
 }
-const isYomi = it => it.type === "漢字読み";
-const isGrammar = it => !["漢字読み", "漢字書き", "語形成", "narabe"].includes(it.type);
-// Chọn dạng bài: thẻ mới → trắc nghiệm; thẻ ôn → xen kẽ gõ cách đọc / lật thẻ / trắc nghiệm
+const isGrammar = it => it.type === "文法" || !["漢字読み", "漢字書き", "語形成", "narabe", "語彙", "総合"].includes(it.type);
+const hasBlank = it => /（　+）|\(　\)/.test(it.stem);
+const modesOf = it => it.modes || ["mc"];
+// Chọn dạng bài theo modes của thẻ: thẻ mới → trắc nghiệm (thẻ chỉ có "flip" thì lật);
+// thẻ ôn → xen kẽ gõ cách đọc / lật thẻ / trắc nghiệm
 function pickMode(it, st) {
+  const m = modesOf(it);
+  if (!m.includes("mc")) return m[0];
   if (!st || st.state !== "review") return "mc";
   const r = Math.random();
-  if (isYomi(it) && settings().typing && r < 0.6) return "type";
-  if (isGrammar(it) && st.ivl >= 3 && r < 0.5) return "flip";
+  if (m.includes("type") && settings().typing && r < 0.5) return "type";
+  if (m.includes("flip") && st.ivl >= 3 && r < 0.75) return "flip";
   return "mc";
 }
 function startSession(level, ids, title) {
@@ -294,7 +306,7 @@ function renderCard() {
       <p class="small muted" style="margin:12px 0 6px">Gõ cách đọc của phần gạch chân bằng hiragana:</p>
       <form id="tform" class="tform"><input id="tin" lang="ja" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ひらがな" enterkeyhint="done"><button class="btn pri" type="submit">Kiểm tra</button></form>
       <button class="btn sm" id="tomc" style="margin-top:8px">Không gõ được → chuyển sang trắc nghiệm</button>`;
-  if (c.mode === "flip") body = `<div class="flip-front"><div class="eyebrow">Mẫu ngữ pháp</div><div class="flip-tag">${esc(it.tag)}</div><div class="small muted">Nghĩa là gì? Dùng trong tình huống nào? Nghĩ xong rồi lật thẻ.</div></div>
+  if (c.mode === "flip") body = `<div class="flip-front"><div class="eyebrow">${it.type === "文法" || isGrammar(it) ? "Mẫu ngữ pháp" : "Từ vựng"}</div><div class="flip-tag">${esc(it.tag)}</div><div class="small muted">${esc(it.flipQ || "Nghĩa là gì? Dùng trong tình huống nào?")} Nghĩ xong rồi lật thẻ.</div></div>
       <button class="btn pri block" id="flipbtn" style="margin-top:14px">Lật thẻ <span class="kbd-inline">Space</span></button>`;
   $("#app").innerHTML = `
     <div class="topbar"><div class="in">
@@ -303,7 +315,8 @@ function renderCard() {
       <span class="count-btn" style="display:inline-flex" title="Còn lại">${SES.queue.length - SES.i}</span>
     </div><div class="qprog"><i class="hatch" style="width:${SES.done / SES.total * 100}%"></i></div></div>
     <div class="page">
-      <div class="qhead-row"><div><div class="eyebrow">${esc(it.type === "narabe" ? "並べ替え" : it.type)} · ${modeLabel}</div><h2>${SES.done}/${SES.total} thẻ</h2></div><div style="text-align:right">${badge}</div></div>
+      <div class="qhead-row"><div><div class="eyebrow">${esc(it.type === "narabe" ? "並べ替え" : it.type)} · ${modeLabel}</div><h2>${SES.done}/${SES.total} thẻ</h2></div>
+        <div style="text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px">${badge}${it.exam ? `<span class="tag" style="background:var(--dark);color:var(--dark-ink)" title="${esc(it.exam.join(", "))}">Đã ra thi</span>` : ""}${it.src ? `<span class="small muted">${esc(it.src)}</span>` : ""}</div></div>
       ${it.type === "narabe" ? `<div class="instr"><span class="ic">!</span><span class="tx">Sắp xếp 4 mảnh thành câu đúng, chọn mảnh ở vị trí <b>★</b>.</span></div>` : ""}
       <div class="canvas gridpaper"><div class="qcard" id="card">${body}<div id="fb"></div></div></div>
       <div class="kbd-hint">${c.mode === "flip" ? "<kbd>Space</kbd> lật · <kbd>1</kbd>–<kbd>4</kbd> chấm" : "<kbd>1</kbd>–<kbd>4</kbd> chọn · <kbd>Enter</kbd> tiếp"}</div>
@@ -427,7 +440,7 @@ function finishSession(partial) {
         <div><div class="eyebrow">${esc(S2.title)}${partial ? " · dừng giữa chừng" : " · hoàn thành"}</div>
           <div class="verdict-big ${pct >= 80 ? "ok" : "ng"}" style="font-size:1.1rem;margin:4px 0">${pct >= 90 ? "Rất tốt!" : pct >= 80 ? "Tốt — giữ nhịp mỗi ngày nhé." : "Các thẻ sai sẽ quay lại từ ngày mai."}</div>
           <div class="small muted">${Math.floor(secs / 60)} phút ${secs % 60} giây · ${S2.again} lần học lại trong buổi</div>
-          <div class="small muted">Ngày mai: <b>${fc[1].n}</b> thẻ đến hạn${P.freshTotal ? ` + tối đa ${settings().newPerDay} thẻ mới` : ""}</div></div>
+          <div class="small muted">Ngày mai: <b>${fc[1].n}</b> thẻ đến hạn${P.freshTotal ? ` + tối đa ${settings(lv).newPerDay} thẻ mới` : ""}</div></div>
       </div>
       <div class="actions" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
         ${P.due.length + P.newIds.length ? `<a class="btn pri" href="#review/${lv}/study">Còn ${P.due.length + P.newIds.length} thẻ — học tiếp</a>` : ""}
@@ -435,7 +448,7 @@ function finishSession(partial) {
       </div>
     </div>
     ${wrong.length ? `<div class="sect-title eyebrow">Thẻ trả lời sai — đọc lại</div><div class="wrong-list">${wrong.map(it => `<div class="card wl">
-      <div class="stem" style="font-size:1rem">${isGrammar(it) ? fillStem(it) : it.stem}</div>
+      <div class="stem" style="font-size:1rem">${hasBlank(it) ? fillStem(it) : it.stem}</div>
       <div class="wl-ans"><span class="chip ok">Đáp án: ${esc(it.opts[it.ans - 1].replace(/<[^>]+>/g, ""))}</span></div>
       <div class="exp ng"><span class="eyebrow">Ghi nhớ</span>${it.exp}</div></div>`).join("")}</div>` : ""}
     ${FOOTER}
@@ -474,7 +487,7 @@ async function renderStats(level) {
         <span class="wk-tag">${esc(it.tag || "")}</span><span class="wk-q small muted">${esc(it.quest.title)}${st ? ` · quên ${st.lapses} lần` : ""}</span>
         <span class="wk-r">${s.ok}/${s.n}</span>
         <span class="wk-h">${s.hist.slice(-5).map(c => `<i class="${c ? "o" : "x"}" title="${c ? "đúng" : "sai"}"></i>`).join("")}</span>
-      </summary><div class="wk-body"><div class="stem" style="font-size:.98rem">${isGrammar(it) ? fillStem(it) : it.stem}</div>
+      </summary><div class="wk-body"><div class="stem" style="font-size:.98rem">${hasBlank(it) ? fillStem(it) : it.stem}</div>
         <div class="wl-ans"><span class="chip ok">Đáp án: ${esc(it.opts[it.ans - 1].replace(/<[^>]+>/g, ""))}</span></div>
         <div class="exp ng"><span class="eyebrow">Ghi nhớ</span>${it.exp}</div></div></details>`;
   }).join("");
