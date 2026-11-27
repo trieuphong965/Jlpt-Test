@@ -582,4 +582,6 @@ document.addEventListener("keydown", e => {
 });
 
 window.addEventListener("hashchange", route);
-loadIndex().then(route).catch(() => { $("#app").innerHTML = '<div class="page"><p>Không tải được dữ liệu đề.</p></div>'; });
+// Tải dữ liệu ngay, nhưng chỉ vẽ trang khi mọi script (app.js + quest.js) đã chạy xong
+const scriptsReady = new Promise(r => document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", r) : r());
+Promise.all([loadIndex(), scriptsReady]).then(route).catch(e => { console.error("init", e); $("#app").innerHTML = '<div class="page"><p>Không tải được dữ liệu đề.</p></div>'; });

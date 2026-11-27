@@ -43,21 +43,39 @@ async function loadQuests(level) {
   return d;
 }
 const logKey = lv => "jlpt-qlog-" + lv, srsKey = lv => "jlpt-srs-" + lv;
-async function loadLog(level, force) {
-  if (QLOG[level] && !force) return QLOG[level];
-  const remote = await api("quest/log?level=" + level);
-  QLOG[level] = remote || store.get(logKey(level), { attempts: [], answers: [] });
-  QLOG[level].remote = !!remote;
-  return QLOG[level];
+// Dữ liệu người dùng (nhật ký + lịch ôn): hiện ngay từ bộ nhớ máy, đồng bộ D1 chạy ngầm.
+// Lần đầu trên thiết bị mới (chưa có cache) thì chờ D1. Hai request D1 chạy song song.
+async function fetchRemote(level) {
+  const [log, srs] = await Promise.all([api("quest/log?level=" + level), api("srs?level=" + level)]);
+  if (log) { QLOG[level] = { ...log, remote: true }; store.set(logKey(level), log); }
+  else if (!QLOG[level]) QLOG[level] = { ...store.get(logKey(level), { attempts: [], answers: [] }), remote: false };
+  const map = { ...(SRS[level] || store.get(srsKey(level), {})) };
+  if (srs) srs.forEach(r => { if (!map[r.card_id] || r.updated_at >= (map[r.card_id].updated_at || 0)) map[r.card_id] = r; });
+  SRS[level] = map; store.set(srsKey(level), map);
 }
-async function loadSRS(level, force) {
-  if (SRS[level] && !force) return SRS[level];
-  const local = store.get(srsKey(level), {});
-  const remote = await api("srs?level=" + level);
-  const map = { ...local };
-  if (remote) remote.forEach(r => { if (!map[r.card_id] || r.updated_at >= (map[r.card_id].updated_at || 0)) map[r.card_id] = r; });
-  SRS[level] = map;
-  return map;
+const lastSync = {};
+async function loadUser(level) {
+  if (!QLOG[level]) { const l = store.get(logKey(level), null); if (l) QLOG[level] = l; }
+  if (!SRS[level]) { const s = store.get(srsKey(level), null); if (s) SRS[level] = s; }
+  if (QLOG[level] && SRS[level]) { bgSync(level); return; }
+  lastSync[level] = Date.now();
+  await fetchRemote(level);
+}
+function bgSync(level) {
+  if (Date.now() - (lastSync[level] || 0) < 15000) return;
+  lastSync[level] = Date.now();
+  const sig = () => JSON.stringify([QLOG[level]?.answers?.length, QLOG[level]?.attempts?.length, Object.keys(SRS[level] || {}).length,
+    Object.values(SRS[level] || {}).reduce((m, s) => Math.max(m, s.updated_at || 0), 0)]);
+  const before = sig();
+  fetchRemote(level).then(() => { if (sig() !== before) softRerender(); });
+}
+// Vẽ lại trang hiện tại khi dữ liệu D1 khác bản cache (không làm gián đoạn buổi ôn đang làm)
+function softRerender() {
+  if (SES && !SES.finished) return;
+  const parts = location.hash.slice(1).split("/"), y = scrollY, back = () => scrollTo(0, y);
+  if (!parts[0]) renderDashboard().then(back);
+  else if (parts[0] === "review" && !parts[2]) { renderReviewHome(LEVELS.includes(parts[1]) ? parts[1] : "N2"); back(); }
+  else if (parts[0] === "stats") renderStats(parts[1] || "N2").then(back);
 }
 function saveCard(level, id, st) {
   st.updated_at = Date.now();
@@ -153,8 +171,8 @@ const kpi = (k, v, unit) => `<div class="kpi"><div class="eyebrow">${k}</div><di
 
 // ---------- Tổng quan ----------
 async function renderDashboard() {
-  const data = await loadQuests("N2");
-  const log = await loadLog("N2", true); await loadSRS("N2", true);
+  const [data] = await Promise.all([loadQuests("N2"), loadUser("N2")]);
+  const log = QLOG.N2;
   const A = data ? analyze("N2") : null, P = data ? plan("N2") : null;
   const todayN = A ? A.days[13].n : 0, pct = A && A.total ? Math.round(A.totalOk / A.total * 100) : null;
   const todo = P ? P.due.length + P.newIds.length : 0;
@@ -190,8 +208,7 @@ function srsMini(A) {
 // ---------- Trang Ôn tập (kế hoạch hôm nay + bộ thẻ + cài đặt) ----------
 async function routeReview(parts) {
   const level = LEVELS.includes(parts[1]) ? parts[1] : "N2";
-  const data = await loadQuests(level);
-  await loadLog(level); await loadSRS(level);
+  const [data] = await Promise.all([loadQuests(level), loadUser(level)]);
   if (data && parts[2] === "study") return startDaily(level);
   if (data && parts[2] === "weak") return startCustom(level, analyze(level).weak.slice(0, 20), "Ôn thẻ yếu");
   if (data && parts[2] === "deck" && data.questMap[parts[3]]) return startDeck(level, data.questMap[parts[3]]);
@@ -460,8 +477,8 @@ window.addEventListener("hashchange", () => { if (!location.hash.startsWith("#re
 // ---------- Thống kê ----------
 async function renderStats(level) {
   if (!LEVELS.includes(level)) level = "N2";
-  const data = await loadQuests(level);
-  const log = await loadLog(level, true); await loadSRS(level, true);
+  const [data] = await Promise.all([loadQuests(level), loadUser(level)]);
+  const log = QLOG[level];
   const levelSeg = `<div class="seg" style="max-width:160px">${LEVELS.map(l => `<button data-lv="${l}" class="${l === level ? "on" : ""}">${l}</button>`).join("")}</div>`;
   if (!data) {
     $("#app").innerHTML = `${appBar("stats", log.remote)}<div class="page wide"><div class="qmap-head"><div><div class="eyebrow">Thống kê</div><h2 class="intro-h">${level}</h2></div>${levelSeg}</div>
