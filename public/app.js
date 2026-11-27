@@ -33,8 +33,34 @@ async function api(path, opt = {}) {
     });
     if (!r.ok || !(r.headers.get("content-type") || "").includes("json")) { if ([401, 404, 405].includes(r.status)) API_OK = false; return null; }
     return r.json();
-  } catch { API_OK = false; return null; }
+  } catch { return null; }   // lỗi mạng (mất sóng, phiên Access hết hạn…) → coi là tạm thời, không tắt API
 }
+
+// ---------- Hàng đợi đồng bộ: ghi lên D1 thất bại (mất mạng) thì giữ lại, có mạng tự gửi lại ----------
+// Mỗi mục có khoá riêng; ghi mới cùng khoá thay bản cũ. Server upsert theo updated_at / id nên gửi lại an toàn.
+const PENDING = "jlpt-pending";
+const pendingCount = () => Object.keys(store.get(PENDING, {})).length;
+async function send(key, path, method, body) {
+  const r = await api(path, { method, body });
+  if (r) { flushQueue(); return r; }
+  if (API_OK) { const q = store.get(PENDING, {}); q[key] = { path, method, body, at: Date.now() }; store.set(PENDING, q); }
+  return null;
+}
+let flushing = null;
+function flushQueue() {
+  if (flushing || !API_OK) return flushing || Promise.resolve();
+  flushing = (async () => {
+    const entries = Object.entries(store.get(PENDING, {})).sort((a, b) => a[1].at - b[1].at);
+    for (const [key, it] of entries) {
+      const r = await api(it.path, { method: it.method, body: it.body });
+      if (!r) break;                                  // vẫn chưa có mạng → thử lại lần sau
+      const q = store.get(PENDING, {}); if (q[key] && q[key].at === it.at) { delete q[key]; store.set(PENDING, q); }
+    }
+  })().finally(() => { flushing = null; });
+  return flushing;
+}
+window.addEventListener("online", () => flushQueue());
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") flushQueue(); });
 const uid = () => (crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2));
 
 // ---------- Dữ liệu đề ----------
@@ -60,7 +86,7 @@ function buildPages(scope) {
   });
   return out;
 }
-async function loadIndex() { INDEX = await (await fetch("exams/index.json")).json(); }
+async function loadIndex() { INDEX = await (await fetch("exams/index.json")).json(); window.SPLASH && SPLASH.step("index"); }
 async function loadExam(id) {
   const meta = INDEX.find(e => e.id === id); if (!meta) return null;
   return (await fetch(meta.file)).json();
@@ -145,9 +171,9 @@ function persist(remoteNow) {
   store.set("jlpt-progress-" + EXAM.id, S);
   if (S.phase !== "test") return;
   clearTimeout(saveT);
-  const send = () => api("attempt/" + EXAM.id, { method: "PUT", body: {
-    id: S.id, answers: S.answers, left: Math.round(limitFor(S.scope) * 60 - S.elapsed), started_at: S.started_at } });
-  if (remoteNow) send(); else saveT = setTimeout(send, 3000);
+  const ex = EXAM.id, sendNow = () => send("exam-progress:" + ex, "attempt/" + ex, "PUT", {
+    id: S.id, answers: S.answers, left: Math.round(limitFor(S.scope) * 60 - S.elapsed), started_at: S.started_at });
+  if (remoteNow) sendNow(); else saveT = setTimeout(sendNow, 3000);
 }
 function render() {
   stopAudio(); clearInterval(timerId); closeSheet();
@@ -450,9 +476,9 @@ async function finish() {
   const r = computeScore();
   S.phase = "result"; S.result = r; S.finished_at = Date.now(); persist();
   const h = store.get("jlpt-history", {}); h[EXAM.id] = { correct: r.correct, total: r.total, at: Date.now() }; store.set("jlpt-history", h);
-  api(`attempt/${EXAM.id}/finish`, { method: "POST", body: {
+  send("exam-finish:" + S.id, `attempt/${EXAM.id}/finish`, "POST", {
     id: S.id, answers: S.answers, left: Math.round(limitFor(S.scope) * 60 - S.elapsed),
-    score: { ...r.s, scope: S.scope, mode: S.mode }, correct: r.correct, total: r.total, started_at: S.started_at } });
+    score: { ...r.s, scope: S.scope, mode: S.mode }, correct: r.correct, total: r.total, started_at: S.started_at });
   render(); scrollTo(0, 0);
 }
 
@@ -584,4 +610,4 @@ document.addEventListener("keydown", e => {
 window.addEventListener("hashchange", route);
 // Tải dữ liệu ngay, nhưng chỉ vẽ trang khi mọi script (app.js + quest.js) đã chạy xong
 const scriptsReady = new Promise(r => document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", r) : r());
-Promise.all([loadIndex(), scriptsReady]).then(route).catch(e => { console.error("init", e); $("#app").innerHTML = '<div class="page"><p>Không tải được dữ liệu đề.</p></div>'; });
+Promise.all([loadIndex(), scriptsReady, flushQueue()]).then(route).then(() => window.SPLASH && SPLASH.done()).catch(e => { console.error("init", e); window.SPLASH && SPLASH.done(); $("#app").innerHTML = '<div class="page"><p>Không tải được dữ liệu đề.</p></div>'; });

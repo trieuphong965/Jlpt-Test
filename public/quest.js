@@ -24,7 +24,7 @@ function appBar(active, remote) {
   return `<div class="topbar"><div class="in">
       <a href="#" style="text-decoration:none;color:inherit">${LOGO}</a>
       <nav class="navtabs">${tabs}</nav>
-      ${remote === false ? `<span class="chip warn">offline</span>` : ""}
+      ${remote === false ? `<span class="chip warn">offline</span>` : ""}${pendingCount() ? `<span class="chip warn" title="Kết quả làm lúc mất mạng, sẽ tự gửi lên khi có mạng">${pendingCount()} chưa đồng bộ</span>` : ""}
     </div></div><nav class="navtabs-m">${tabs}</nav>`;
 }
 
@@ -32,6 +32,7 @@ function appBar(active, remote) {
 async function loadQuests(level) {
   if (level in QDATA) return QDATA[level];
   try { const r = await fetch(`quests/${level}.json`); QDATA[level] = r.ok ? await r.json() : null; } catch { QDATA[level] = null; }
+  window.SPLASH && SPLASH.step("quests");
   const d = QDATA[level];
   if (d) {
     d.itemMap = {}; d.questMap = {};
@@ -43,45 +44,25 @@ async function loadQuests(level) {
   return d;
 }
 const logKey = lv => "jlpt-qlog-" + lv, srsKey = lv => "jlpt-srs-" + lv;
-// Dữ liệu người dùng (nhật ký + lịch ôn): hiện ngay từ bộ nhớ máy, đồng bộ D1 chạy ngầm.
-// Lần đầu trên thiết bị mới (chưa có cache) thì chờ D1. Hai request D1 chạy song song.
+// Dữ liệu người dùng (nhật ký + lịch ôn): luôn chờ D1 như trước (không hiện số liệu cũ).
+// Trước khi đọc: gửi hết các ghi đang chờ trong hàng đợi offline để D1 là bản mới nhất.
+// Mất mạng → dùng bản lưu trên máy (gồm cả các lượt ôn chưa gửi được).
 async function fetchRemote(level) {
+  await flushQueue();
   const [log, srs] = await Promise.all([api("quest/log?level=" + level), api("srs?level=" + level)]);
   if (log) { QLOG[level] = { ...log, remote: true }; store.set(logKey(level), log); }
-  else if (!QLOG[level]) QLOG[level] = { ...store.get(logKey(level), { attempts: [], answers: [] }), remote: false };
+  else QLOG[level] = { ...store.get(logKey(level), { attempts: [], answers: [] }), remote: false };
   const map = { ...(SRS[level] || store.get(srsKey(level), {})) };
   if (srs) srs.forEach(r => { if (!map[r.card_id] || r.updated_at >= (map[r.card_id].updated_at || 0)) map[r.card_id] = r; });
   SRS[level] = map; store.set(srsKey(level), map);
+  window.SPLASH && SPLASH.step("sync");
 }
-const lastSync = {};
-async function loadUser(level) {
-  if (!QLOG[level]) { const l = store.get(logKey(level), null); if (l) QLOG[level] = l; }
-  if (!SRS[level]) { const s = store.get(srsKey(level), null); if (s) SRS[level] = s; }
-  if (QLOG[level] && SRS[level]) { bgSync(level); return; }
-  lastSync[level] = Date.now();
-  await fetchRemote(level);
-}
-function bgSync(level) {
-  if (Date.now() - (lastSync[level] || 0) < 15000) return;
-  lastSync[level] = Date.now();
-  const sig = () => JSON.stringify([QLOG[level]?.answers?.length, QLOG[level]?.attempts?.length, Object.keys(SRS[level] || {}).length,
-    Object.values(SRS[level] || {}).reduce((m, s) => Math.max(m, s.updated_at || 0), 0)]);
-  const before = sig();
-  fetchRemote(level).then(() => { if (sig() !== before) softRerender(); });
-}
-// Vẽ lại trang hiện tại khi dữ liệu D1 khác bản cache (không làm gián đoạn buổi ôn đang làm)
-function softRerender() {
-  if (SES && !SES.finished) return;
-  const parts = location.hash.slice(1).split("/"), y = scrollY, back = () => scrollTo(0, y);
-  if (!parts[0]) renderDashboard().then(back);
-  else if (parts[0] === "review" && !parts[2]) { renderReviewHome(LEVELS.includes(parts[1]) ? parts[1] : "N2"); back(); }
-  else if (parts[0] === "stats") renderStats(parts[1] || "N2").then(back);
-}
+const loadUser = level => fetchRemote(level);
 function saveCard(level, id, st) {
   st.updated_at = Date.now();
   SRS[level][id] = st;
   store.set(srsKey(level), SRS[level]);
-  api("srs", { method: "POST", body: { level, cards: [{ id, ...st }] } });
+  send(`srs:${level}:${id}`, "srs", "POST", { level, cards: [{ id, ...st }] });
 }
 
 // ---------- SM-2 (biến thể Anki, đơn vị ngày) ----------
@@ -426,7 +407,7 @@ function logAttempt() {
     const L = QLOG[SES.level]; L.attempts = L.attempts.filter(a => a.id !== att.id).concat(att);
     L.answers = L.answers.filter(a => a[0] !== att.id).concat(ans.map(a => [att.id, a.item_id, a.correct ? 1 : 0, a.ms, a.at]));
   }
-  api("quest/attempt", { method: "POST", body: { id: att.id, level: SES.level, quest_id: "daily", started_at: SES.started, answers: ans } });
+  send("qa:" + att.id, "quest/attempt", "POST", { id: att.id, level: SES.level, quest_id: "daily", started_at: SES.started, answers: ans });
 }
 function finishSession(partial) {
   const S2 = SES, lv = S2.level, ans = S2.answers;
