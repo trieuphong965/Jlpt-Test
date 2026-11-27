@@ -6,6 +6,8 @@
   "compatibility_date": "2026-11-01",
   "workers_dev": true,
   "preview_urls": false,
+  // Tên miền chính. workers.dev giữ lại làm đường dự phòng (cũng nằm sau Cloudflare Access).
+  "routes": [{ "pattern": "jlpt.phonglab.uk", "custom_domain": true }],
 
   // Static SPA + đề JSON. Chỉ /api/* và /audio/* đi qua Worker.
   "assets": {

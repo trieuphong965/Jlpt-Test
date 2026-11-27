@@ -1,6 +1,6 @@
 # JLPT 模擬試験 (cá nhân)
 
-Web làm đề thi thử JLPT N2/N1. Một Cloudflare Worker duy nhất:
+Web làm đề thi thử JLPT N2/N1 — **https://jlpt.phonglab.uk** (dự phòng: jlpt-test.trieuphong965.workers.dev). Một Cloudflare Worker duy nhất:
 static assets (`public/`) + API (`/api/*`) + audio R2 (`/audio/*`) + cron sinh audio 聴解 bằng ElevenLabs.
 
 ```
